@@ -1,0 +1,44 @@
+{
+  "schema_version": "0.1",
+  "slides": [
+    {
+      "slide_id": "OUT-S001",
+      "order": 1,
+      "role": "comparison",
+      "primary_message": "主要機能の比較",
+      "content_units": [
+        "CU-004"
+      ],
+      "importance": "primary",
+      "optional": false,
+      "status": "APPROVED",
+      "origin": "poc_manual"
+    },
+    {
+      "slide_id": "OUT-S002",
+      "order": 2,
+      "role": "process",
+      "primary_message": "公開準備から抽選までを一元管理",
+      "content_units": [
+        "CU-007"
+      ],
+      "importance": "primary",
+      "optional": false,
+      "status": "APPROVED",
+      "origin": "poc_manual"
+    },
+    {
+      "slide_id": "OUT-S003",
+      "order": 3,
+      "role": "four_items",
+      "primary_message": "公開後も担当者が主要設定を変更可能",
+      "content_units": [
+        "CU-008"
+      ],
+      "importance": "primary",
+      "optional": false,
+      "status": "APPROVED",
+      "origin": "poc_manual"
+    }
+  ]
+}

@@ -1,0 +1,855 @@
+{
+  "schema_version": "0.10",
+  "generated_at": "2026-08-17T21:38:10.477477+00:00",
+  "status": "APPROVED",
+  "model_call_contract": {
+    "normal_generation_calls": 2,
+    "repair_call_limit_per_slide": 1,
+    "ai_authored_documents": [
+      "deck_plan.json",
+      "slide_plans.json"
+    ]
+  },
+  "slides": [
+    {
+      "slide_id": "OUT-S001",
+      "message": "レシートキャンペーンを、公開準備から抽選までひとつに",
+      "semantic_chunks": [
+        "レシートキャンペーンを、",
+        "公開準備から抽選までひとつに"
+      ],
+      "semantic_relation": "statement",
+      "visual": {
+        "type": "conceptual_image",
+        "purpose": "statement"
+      },
+      "source": {
+        "slide_id": "SRC-S001",
+        "mode": "RECOMPOSE"
+      },
+      "layout": {
+        "family": "full_bleed",
+        "density": "medium_low",
+        "fill_policy": "full_bleed",
+        "request": {
+          "family": "full_bleed",
+          "density": "medium_low",
+          "title": "レシートキャンペーンを、\n公開準備から抽選までひとつに",
+          "body": "Aha! レシート Lite\n必要十分な機能を、導入しやすい価格で。",
+          "title_font_pt": 66,
+          "body_font_pt": 22,
+          "image_recipe_id": "IMG-OUT-S001-01",
+          "bleed_to_slide": true,
+          "reuse_source_image_frame": false,
+          "overlay_position": "left",
+          "overlay_panel": "solid",
+          "overlay_color": "FFFFFF",
+          "overlay_opacity": 0.91,
+          "overlay_width_ratio": 0.6,
+          "overlay_height_ratio": 0.62,
+          "clear_region_object_ids": [
+            "SRC-S001-O002",
+            "SRC-S001-O003",
+            "SRC-S001-O004",
+            "SRC-S001-O005",
+            "SRC-S001-O006",
+            "SRC-S001-O007",
+            "SRC-S001-O008",
+            "SRC-S001-O009",
+            "SRC-S001-O010",
+            "SRC-S001-O011",
+            "SRC-S001-O012",
+            "SRC-S001-O013",
+            "SRC-S001-O014"
+          ],
+          "style_source_object_ids": {
+            "title": "SRC-S001-O004",
+            "item_body": "SRC-S001-O010"
+          }
+        }
+      },
+      "content": {},
+      "image": {
+        "recipe_id": "IMG-OUT-S001-01",
+        "reuse_source_frame": false
+      },
+      "runtime": {
+        "content_blocks": [
+          {
+            "id": "CB-OUT-S001-TITLE",
+            "role": "title",
+            "source_text": "レシートキャンペーンを、公開準備から抽選までひとつに",
+            "semantic_text": "レシートキャンペーンを、公開準備から抽選までひとつに",
+            "render_text": "レシートキャンペーンを、\n公開準備から抽選までひとつに"
+          }
+        ],
+        "source_object_mutations": [],
+        "composer_support": "layout_engine"
+      },
+      "status": "APPROVED",
+      "origin": "human_calibrated_golden_sample"
+    },
+    {
+      "slide_id": "OUT-S002",
+      "message": "必要な機能を標準化するから、導入しやすい",
+      "semantic_chunks": [
+        "必要な機能を標準化するから、",
+        "導入しやすい"
+      ],
+      "semantic_relation": "evidence",
+      "visual": {
+        "type": "screenshot",
+        "purpose": "evidence"
+      },
+      "source": {
+        "slide_id": "SRC-S004",
+        "mode": "RECOMPOSE"
+      },
+      "layout": {
+        "family": "photo_text",
+        "density": "medium_low",
+        "fill_policy": "balanced",
+        "request": {
+          "family": "photo_text",
+          "density": "medium_low",
+          "title": "必要な機能を標準化するから、\n導入しやすい",
+          "subtitle": "キャンペーン運用に必要な機能を、使いやすい形で標準搭載。",
+          "body": "過剰な個別開発を抑え、\n導入コストと開始までの時間を減らします。",
+          "title_font_pt": 48,
+          "subtitle_font_pt": 21,
+          "body_font_pt": 21,
+          "image_recipe_id": "IMG-OUT-S002-01",
+          "image_source_object_id": "SRC-S004-O004",
+          "image_position": "right",
+          "text_side": "left",
+          "image_ratio": 0.5,
+          "reuse_source_image_frame": true,
+          "clear_region_object_ids": [
+            "SRC-S004-O002",
+            "SRC-S004-O003",
+            "SRC-S004-O004",
+            "SRC-S004-O005",
+            "SRC-S004-O006",
+            "SRC-S004-O007",
+            "SRC-S004-O008",
+            "SRC-S004-O009",
+            "SRC-S004-O010",
+            "SRC-S004-O011",
+            "SRC-S004-O012"
+          ],
+          "style_source_object_ids": {
+            "title": "SRC-S004-O006",
+            "subtitle": "SRC-S004-O007",
+            "item_body": "SRC-S004-O011",
+            "image": "SRC-S004-O004"
+          }
+        }
+      },
+      "content": {},
+      "image": {
+        "recipe_id": "IMG-OUT-S002-01",
+        "position": "right",
+        "text_side": "left",
+        "ratio": 0.5,
+        "source_object_id": "SRC-S004-O004",
+        "reuse_source_frame": true
+      },
+      "runtime": {
+        "content_blocks": [
+          {
+            "id": "CB-OUT-S002-TITLE",
+            "role": "title",
+            "source_text": "必要な機能を標準化するから、導入しやすい",
+            "semantic_text": "必要な機能を標準化するから、導入しやすい",
+            "render_text": "必要な機能を標準化するから、\n導入しやすい"
+          }
+        ],
+        "source_object_mutations": [],
+        "composer_support": "layout_engine"
+      },
+      "status": "APPROVED",
+      "origin": "human_calibrated_golden_sample"
+    },
+    {
+      "slide_id": "OUT-S003",
+      "message": "Googleフォーム・Lite・フル版の違い",
+      "semantic_chunks": [],
+      "semantic_relation": "comparison",
+      "visual": {
+        "type": "table",
+        "purpose": "comparison"
+      },
+      "source": {
+        "slide_id": "SRC-S011",
+        "mode": "RECOMPOSE"
+      },
+      "layout": {
+        "family": "comparison_matrix",
+        "density": "medium_low",
+        "fill_policy": "content_filled",
+        "request": {
+          "family": "comparison_matrix",
+          "density": "medium_low",
+          "title": "Googleフォーム・Lite・フル版の違い",
+          "subtitle": "○：標準対応　△：別作業が必要　×：標準では非対応",
+          "title_font_pt": 42,
+          "subtitle_font_pt": 18,
+          "matrix": {
+            "row_labels": [
+              "フォーム項目",
+              "レシート応募",
+              "デザイン変更",
+              "応募検索",
+              "データ出力",
+              "抽選",
+              "OCR"
+            ],
+            "columns": [
+              {
+                "title": "Googleフォーム",
+                "values": [
+                  "○",
+                  "△",
+                  "×",
+                  "△",
+                  "○",
+                  "△",
+                  "×"
+                ]
+              },
+              {
+                "title": "Lite",
+                "values": [
+                  "○",
+                  "○",
+                  "○",
+                  "○",
+                  "○",
+                  "○",
+                  "×"
+                ]
+              },
+              {
+                "title": "フル版",
+                "values": [
+                  "○",
+                  "○",
+                  "○",
+                  "○",
+                  "○",
+                  "○",
+                  "○"
+                ]
+              }
+            ],
+            "highlight_column": 1
+          },
+          "clear_region_object_ids": [
+            "SRC-S011-O002",
+            "SRC-S011-O003",
+            "SRC-S011-O004",
+            "SRC-S011-O005",
+            "SRC-S011-O006",
+            "SRC-S011-O007",
+            "SRC-S011-O008",
+            "SRC-S011-O009",
+            "SRC-S011-O010",
+            "SRC-S011-O011",
+            "SRC-S011-O012",
+            "SRC-S011-O013",
+            "SRC-S011-O014"
+          ],
+          "style_source_object_ids": {
+            "title": "SRC-S011-O005",
+            "subtitle": "SRC-S011-O006",
+            "item_title": "SRC-S011-O012",
+            "item_body": "SRC-S011-O011",
+            "table": "SRC-S011-O010"
+          }
+        }
+      },
+      "content": {},
+      "image": {},
+      "runtime": {
+        "content_blocks": [
+          {
+            "id": "CB-OUT-S003-TITLE",
+            "role": "title",
+            "source_text": "Googleフォーム・Lite・フル版の違い",
+            "semantic_text": "Googleフォーム・Lite・フル版の違い",
+            "render_text": "Googleフォーム・Lite・フル版の違い"
+          }
+        ],
+        "source_object_mutations": [],
+        "composer_support": "layout_engine"
+      },
+      "status": "APPROVED",
+      "origin": "human_calibrated_golden_sample"
+    },
+    {
+      "slide_id": "OUT-S004",
+      "message": "20年間の知見を、導入しやすい標準機能へ",
+      "semantic_chunks": [],
+      "semantic_relation": "cause_effect",
+      "visual": {
+        "type": "flow",
+        "purpose": "cause_effect"
+      },
+      "source": {
+        "slide_id": "SRC-S014",
+        "mode": "RECOMPOSE"
+      },
+      "layout": {
+        "family": "process",
+        "density": "medium_low",
+        "fill_policy": "content_filled",
+        "request": {
+          "family": "process",
+          "density": "medium_low",
+          "title": "20年間の知見を、導入しやすい標準機能へ",
+          "subtitle": "毎回ゼロから開発せず、よく使う運用をLiteに集約します。",
+          "title_font_pt": 42,
+          "subtitle_font_pt": 19,
+          "items": [
+            {
+              "number": "01",
+              "title": "20年の知見",
+              "body": "実例を蓄積"
+            },
+            {
+              "number": "02",
+              "title": "機能を抽出",
+              "body": "要件を整理"
+            },
+            {
+              "number": "03",
+              "title": "Liteに標準化",
+              "body": "標準機能に集約"
+            },
+            {
+              "number": "04",
+              "title": "導入しやすく",
+              "body": "価格と時間を抑える"
+            }
+          ],
+          "clear_region_object_ids": [
+            "SRC-S014-O002",
+            "SRC-S014-O003",
+            "SRC-S014-O004",
+            "SRC-S014-O005",
+            "SRC-S014-O006",
+            "SRC-S014-O007",
+            "SRC-S014-O008",
+            "SRC-S014-O009",
+            "SRC-S014-O010",
+            "SRC-S014-O011",
+            "SRC-S014-O012",
+            "SRC-S014-O013",
+            "SRC-S014-O014",
+            "SRC-S014-O015",
+            "SRC-S014-O016",
+            "SRC-S014-O017",
+            "SRC-S014-O018",
+            "SRC-S014-O019",
+            "SRC-S014-O020",
+            "SRC-S014-O021",
+            "SRC-S014-O022",
+            "SRC-S014-O023",
+            "SRC-S014-O024",
+            "SRC-S014-O025",
+            "SRC-S014-O026",
+            "SRC-S014-O027",
+            "SRC-S014-O028",
+            "SRC-S014-O029",
+            "SRC-S014-O030",
+            "SRC-S014-O031",
+            "SRC-S014-O032",
+            "SRC-S014-O033",
+            "SRC-S014-O034",
+            "SRC-S014-O035",
+            "SRC-S014-O036",
+            "SRC-S014-O037",
+            "SRC-S014-O038",
+            "SRC-S014-O039",
+            "SRC-S014-O040",
+            "SRC-S014-O041"
+          ],
+          "style_source_object_ids": {
+            "title": "SRC-S014-O004",
+            "subtitle": "SRC-S014-O005",
+            "item_title": "SRC-S014-O015",
+            "item_body": "SRC-S014-O012",
+            "number": "SRC-S014-O015"
+          }
+        }
+      },
+      "content": {},
+      "image": {},
+      "runtime": {
+        "content_blocks": [
+          {
+            "id": "CB-OUT-S004-TITLE",
+            "role": "title",
+            "source_text": "20年間の知見を、導入しやすい標準機能へ",
+            "semantic_text": "20年間の知見を、導入しやすい標準機能へ",
+            "render_text": "20年間の知見を、導入しやすい標準機能へ"
+          }
+        ],
+        "source_object_mutations": [],
+        "composer_support": "layout_engine"
+      },
+      "status": "APPROVED",
+      "origin": "human_calibrated_golden_sample"
+    },
+    {
+      "slide_id": "OUT-S005",
+      "message": "素材が揃えば、最短即日で公開可能",
+      "semantic_chunks": [
+        "素材が揃えば、",
+        "最短即日で公開可能"
+      ],
+      "semantic_relation": "statement",
+      "visual": {
+        "type": "no_visual",
+        "purpose": "statement"
+      },
+      "source": {
+        "slide_id": "SRC-S002",
+        "mode": "RECOMPOSE"
+      },
+      "layout": {
+        "family": "statement",
+        "density": "airy",
+        "fill_policy": "intentional_whitespace",
+        "request": {
+          "family": "statement",
+          "density": "airy",
+          "title": "素材が揃えば、\n最短即日で公開可能",
+          "subtitle": "素材・規約・実施条件の確定が前提。\n開始日は確認状況により異なります。",
+          "title_font_pt": 62,
+          "subtitle_font_pt": 22,
+          "clear_region_object_ids": [
+            "SRC-S002-O002",
+            "SRC-S002-O003",
+            "SRC-S002-O004",
+            "SRC-S002-O005",
+            "SRC-S002-O006"
+          ],
+          "style_source_object_ids": {
+            "title": "SRC-S002-O005",
+            "subtitle": "SRC-S002-O006"
+          }
+        }
+      },
+      "content": {},
+      "image": {},
+      "runtime": {
+        "content_blocks": [
+          {
+            "id": "CB-OUT-S005-TITLE",
+            "role": "title",
+            "source_text": "素材が揃えば、最短即日で公開可能",
+            "semantic_text": "素材が揃えば、最短即日で公開可能",
+            "render_text": "素材が揃えば、\n最短即日で公開可能"
+          }
+        ],
+        "source_object_mutations": [],
+        "composer_support": "layout_engine"
+      },
+      "status": "APPROVED",
+      "origin": "human_calibrated_golden_sample"
+    },
+    {
+      "slide_id": "OUT-S006",
+      "message": "公開・受付・確認・抽選を、一つの管理画面で",
+      "semantic_chunks": [],
+      "semantic_relation": "sequence",
+      "visual": {
+        "type": "flow",
+        "purpose": "sequence"
+      },
+      "source": {
+        "slide_id": "SRC-S014",
+        "mode": "RECOMPOSE"
+      },
+      "layout": {
+        "family": "process",
+        "density": "medium_low",
+        "fill_policy": "content_filled",
+        "request": {
+          "family": "process",
+          "density": "medium_low",
+          "title": "公開・受付・確認・抽選を、一つの管理画面で",
+          "subtitle": "準備から終了後まで、同じ流れの中で進められます。",
+          "title_font_pt": 42,
+          "subtitle_font_pt": 19,
+          "items": [
+            {
+              "number": "01",
+              "title": "公開する",
+              "body": "LP・期間・規約を設定"
+            },
+            {
+              "number": "02",
+              "title": "受け付ける",
+              "body": "フォームと画像を受付"
+            },
+            {
+              "number": "03",
+              "title": "確認する",
+              "body": "応募状況と重複を確認"
+            },
+            {
+              "number": "04",
+              "title": "抽選する",
+              "body": "CSV出力と簡易抽選"
+            }
+          ],
+          "clear_region_object_ids": [
+            "SRC-S014-O002",
+            "SRC-S014-O003",
+            "SRC-S014-O004",
+            "SRC-S014-O005",
+            "SRC-S014-O006",
+            "SRC-S014-O007",
+            "SRC-S014-O008",
+            "SRC-S014-O009",
+            "SRC-S014-O010",
+            "SRC-S014-O011",
+            "SRC-S014-O012",
+            "SRC-S014-O013",
+            "SRC-S014-O014",
+            "SRC-S014-O015",
+            "SRC-S014-O016",
+            "SRC-S014-O017",
+            "SRC-S014-O018",
+            "SRC-S014-O019",
+            "SRC-S014-O020",
+            "SRC-S014-O021",
+            "SRC-S014-O022",
+            "SRC-S014-O023",
+            "SRC-S014-O024",
+            "SRC-S014-O025",
+            "SRC-S014-O026",
+            "SRC-S014-O027",
+            "SRC-S014-O028",
+            "SRC-S014-O029",
+            "SRC-S014-O030",
+            "SRC-S014-O031",
+            "SRC-S014-O032",
+            "SRC-S014-O033",
+            "SRC-S014-O034",
+            "SRC-S014-O035",
+            "SRC-S014-O036",
+            "SRC-S014-O037",
+            "SRC-S014-O038",
+            "SRC-S014-O039",
+            "SRC-S014-O040",
+            "SRC-S014-O041"
+          ],
+          "style_source_object_ids": {
+            "title": "SRC-S014-O004",
+            "subtitle": "SRC-S014-O005",
+            "item_title": "SRC-S014-O015",
+            "item_body": "SRC-S014-O012",
+            "number": "SRC-S014-O015"
+          }
+        }
+      },
+      "content": {},
+      "image": {},
+      "runtime": {
+        "content_blocks": [
+          {
+            "id": "CB-OUT-S006-TITLE",
+            "role": "title",
+            "source_text": "公開・受付・確認・抽選を、一つの管理画面で",
+            "semantic_text": "公開・受付・確認・抽選を、一つの管理画面で",
+            "render_text": "公開・受付・確認・抽選を、一つの管理画面で"
+          }
+        ],
+        "source_object_mutations": [],
+        "composer_support": "layout_engine"
+      },
+      "status": "APPROVED",
+      "origin": "human_calibrated_golden_sample"
+    },
+    {
+      "slide_id": "OUT-S007",
+      "message": "公開後も、担当者が主要設定を変更できる",
+      "semantic_chunks": [
+        "公開後も、担当者が",
+        "主要設定を変更できる"
+      ],
+      "semantic_relation": "evidence",
+      "visual": {
+        "type": "screenshot",
+        "purpose": "evidence"
+      },
+      "source": {
+        "slide_id": "SRC-S015",
+        "mode": "RECOMPOSE"
+      },
+      "layout": {
+        "family": "photo_text",
+        "density": "medium_low",
+        "fill_policy": "balanced",
+        "request": {
+          "family": "photo_text",
+          "density": "medium_low",
+          "title": "公開後も、担当者が\n主要設定を変更できる",
+          "subtitle": "管理画面から、運用に必要な4領域を更新。",
+          "body": "キャンペーン　商品・期間・規約\nフォーム　　　質問・必須設定\nビジュアル　　配色・画像・OGP\nメール・計測　自動返信・GA4・GTM",
+          "title_font_pt": 44,
+          "subtitle_font_pt": 20,
+          "body_font_pt": 19,
+          "image_recipe_id": "IMG-OUT-S007-01",
+          "image_source_object_id": "SRC-S015-O008",
+          "image_position": "left",
+          "text_side": "right",
+          "image_ratio": 0.46,
+          "reuse_source_image_frame": true,
+          "clear_region_object_ids": [
+            "SRC-S015-O002",
+            "SRC-S015-O003",
+            "SRC-S015-O004",
+            "SRC-S015-O005",
+            "SRC-S015-O006",
+            "SRC-S015-O007",
+            "SRC-S015-O008",
+            "SRC-S015-O009",
+            "SRC-S015-O010",
+            "SRC-S015-O011",
+            "SRC-S015-O012",
+            "SRC-S015-O013",
+            "SRC-S015-O014",
+            "SRC-S015-O015",
+            "SRC-S015-O016",
+            "SRC-S015-O017",
+            "SRC-S015-O018",
+            "SRC-S015-O019",
+            "SRC-S015-O020",
+            "SRC-S015-O021",
+            "SRC-S015-O022",
+            "SRC-S015-O023",
+            "SRC-S015-O024",
+            "SRC-S015-O025",
+            "SRC-S015-O026",
+            "SRC-S015-O027",
+            "SRC-S015-O028",
+            "SRC-S015-O029",
+            "SRC-S015-O030",
+            "SRC-S015-O031",
+            "SRC-S015-O032",
+            "SRC-S015-O033"
+          ],
+          "style_source_object_ids": {
+            "title": "SRC-S015-O014",
+            "subtitle": "SRC-S015-O015",
+            "item_body": "SRC-S015-O020",
+            "image": "SRC-S015-O008"
+          }
+        }
+      },
+      "content": {},
+      "image": {
+        "recipe_id": "IMG-OUT-S007-01",
+        "position": "left",
+        "text_side": "right",
+        "ratio": 0.46,
+        "source_object_id": "SRC-S015-O008",
+        "reuse_source_frame": true
+      },
+      "runtime": {
+        "content_blocks": [
+          {
+            "id": "CB-OUT-S007-TITLE",
+            "role": "title",
+            "source_text": "公開後も、担当者が主要設定を変更できる",
+            "semantic_text": "公開後も、担当者が主要設定を変更できる",
+            "render_text": "公開後も、担当者が\n主要設定を変更できる"
+          }
+        ],
+        "source_object_mutations": [],
+        "composer_support": "layout_engine"
+      },
+      "status": "APPROVED",
+      "origin": "human_calibrated_golden_sample"
+    },
+    {
+      "slide_id": "OUT-S008",
+      "message": "Liteから始め、必要な要件だけ拡張できる",
+      "semantic_chunks": [
+        "Liteから始め、",
+        "必要な要件だけ拡張できる"
+      ],
+      "semantic_relation": "containment",
+      "visual": {
+        "type": "flow",
+        "purpose": "containment"
+      },
+      "source": {
+        "slide_id": "SRC-S013",
+        "mode": "RECOMPOSE"
+      },
+      "layout": {
+        "family": "process",
+        "density": "medium_low",
+        "fill_policy": "content_filled",
+        "request": {
+          "family": "process",
+          "density": "medium_low",
+          "title": "Liteから始め、必要な要件だけ拡張できる",
+          "subtitle": "基本運用はLite。OCRや複雑な条件はフル版・個別対応へ。",
+          "title_font_pt": 42,
+          "subtitle_font_pt": 19,
+          "items": [
+            {
+              "number": "01",
+              "title": "Lite 標準範囲",
+              "body": "フォーム・画像受付\n検索・CSV・簡易抽選"
+            },
+            {
+              "number": "02",
+              "title": "必要に応じて拡張",
+              "body": "OCR・高度な条件\n外部連携・運用支援"
+            }
+          ],
+          "clear_region_object_ids": [
+            "SRC-S013-O002",
+            "SRC-S013-O003",
+            "SRC-S013-O004",
+            "SRC-S013-O005",
+            "SRC-S013-O006",
+            "SRC-S013-O007",
+            "SRC-S013-O008",
+            "SRC-S013-O009",
+            "SRC-S013-O010",
+            "SRC-S013-O011",
+            "SRC-S013-O012",
+            "SRC-S013-O013",
+            "SRC-S013-O014",
+            "SRC-S013-O015",
+            "SRC-S013-O016",
+            "SRC-S013-O017",
+            "SRC-S013-O018",
+            "SRC-S013-O019",
+            "SRC-S013-O020",
+            "SRC-S013-O021",
+            "SRC-S013-O022"
+          ],
+          "style_source_object_ids": {
+            "title": "SRC-S013-O005",
+            "subtitle": "SRC-S013-O006",
+            "item_title": "SRC-S013-O018",
+            "item_body": "SRC-S013-O019",
+            "number": "SRC-S013-O018"
+          }
+        }
+      },
+      "content": {},
+      "image": {},
+      "runtime": {
+        "content_blocks": [
+          {
+            "id": "CB-OUT-S008-TITLE",
+            "role": "title",
+            "source_text": "Liteから始め、必要な要件だけ拡張できる",
+            "semantic_text": "Liteから始め、必要な要件だけ拡張できる",
+            "render_text": "Liteから始め、\n必要な要件だけ拡張できる"
+          }
+        ],
+        "source_object_mutations": [],
+        "composer_support": "layout_engine"
+      },
+      "status": "APPROVED",
+      "origin": "human_calibrated_golden_sample"
+    },
+    {
+      "slide_id": "OUT-S009",
+      "message": "デモ・見積・導入相談へ",
+      "semantic_chunks": [],
+      "semantic_relation": "statement",
+      "visual": {
+        "type": "no_visual",
+        "purpose": "statement"
+      },
+      "source": {
+        "slide_id": "SRC-S017",
+        "mode": "RECOMPOSE"
+      },
+      "layout": {
+        "family": "closing",
+        "density": "airy",
+        "fill_policy": "intentional_whitespace",
+        "request": {
+          "family": "closing",
+          "density": "airy",
+          "title": "デモ・見積・導入相談へ",
+          "subtitle": "キャンペーン内容と開始希望日をお知らせください。",
+          "body": "必要な準備と標準範囲を整理し、開始までの流れをご案内します。",
+          "title_font_pt": 52,
+          "subtitle_font_pt": 21,
+          "body_font_pt": 17,
+          "items": [
+            {
+              "number": "01",
+              "title": "30分デモ",
+              "body": "実際の画面と流れを確認"
+            },
+            {
+              "number": "02",
+              "title": "見積依頼",
+              "body": "条件に合わせて費用を整理"
+            },
+            {
+              "number": "03",
+              "title": "導入相談",
+              "body": "Lite／フル版を一緒に選定"
+            }
+          ],
+          "clear_region_object_ids": [
+            "SRC-S017-O002",
+            "SRC-S017-O003",
+            "SRC-S017-O004",
+            "SRC-S017-O005",
+            "SRC-S017-O006",
+            "SRC-S017-O007",
+            "SRC-S017-O008",
+            "SRC-S017-O009",
+            "SRC-S017-O010",
+            "SRC-S017-O011",
+            "SRC-S017-O012",
+            "SRC-S017-O013",
+            "SRC-S017-O014",
+            "SRC-S017-O015"
+          ],
+          "style_source_object_ids": {
+            "title": "SRC-S017-O002",
+            "subtitle": "SRC-S017-O010",
+            "item_title": "SRC-S017-O002",
+            "item_body": "SRC-S017-O010",
+            "number": "SRC-S017-O002"
+          }
+        }
+      },
+      "content": {},
+      "image": {},
+      "runtime": {
+        "content_blocks": [
+          {
+            "id": "CB-OUT-S009-TITLE",
+            "role": "title",
+            "source_text": "デモ・見積・導入相談へ",
+            "semantic_text": "デモ・見積・導入相談へ",
+            "render_text": "デモ・見積・導入相談へ"
+          }
+        ],
+        "source_object_mutations": [],
+        "composer_support": "layout_engine"
+      },
+      "status": "APPROVED",
+      "origin": "human_calibrated_golden_sample"
+    }
+  ]
+}

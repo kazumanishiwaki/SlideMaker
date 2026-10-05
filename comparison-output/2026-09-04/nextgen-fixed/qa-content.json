@@ -1,0 +1,12 @@
+{
+  "schema_version": "0.11-mvp.2",
+  "status": "PASS",
+  "summary": {
+    "error_count": 0,
+    "required_unit_coverage": 1.0,
+    "all_unit_coverage": 1.0,
+    "missing_exact_fact_count": 0,
+    "unsupported_fact_count": 0
+  },
+  "findings": []
+}

@@ -1,0 +1,85 @@
+{
+  "schema_version": "0.11-mvp.2",
+  "all_unit_ids": [
+    "U-01-0001",
+    "U-01-0002",
+    "U-01-0003",
+    "U-01-0004",
+    "U-01-0005",
+    "U-01-0006",
+    "U-01-0007",
+    "U-01-0008",
+    "U-01-0009",
+    "U-01-0010",
+    "U-01-0011",
+    "U-01-0012",
+    "U-01-0013",
+    "U-01-0014",
+    "U-01-0015",
+    "U-01-0016",
+    "U-01-0017",
+    "U-01-0018",
+    "U-01-0019",
+    "U-01-0020",
+    "U-01-0021",
+    "U-01-0022",
+    "U-01-0023",
+    "U-01-0024",
+    "U-01-0025",
+    "U-01-0026"
+  ],
+  "required_unit_ids": [
+    "U-01-0005",
+    "U-01-0009",
+    "U-01-0015",
+    "U-01-0017",
+    "U-01-0018",
+    "U-01-0019",
+    "U-01-0020",
+    "U-01-0021",
+    "U-01-0025"
+  ],
+  "required_facts": [
+    {
+      "unit_id": "U-01-0005",
+      "value": "1ページ",
+      "match": "exact"
+    },
+    {
+      "unit_id": "U-01-0015",
+      "value": "3ページ",
+      "match": "exact"
+    },
+    {
+      "unit_id": "U-01-0018",
+      "value": "55〜85%",
+      "match": "exact"
+    },
+    {
+      "unit_id": "U-01-0018",
+      "value": "85%",
+      "match": "exact"
+    },
+    {
+      "unit_id": "U-01-0019",
+      "value": "35%",
+      "match": "exact"
+    },
+    {
+      "unit_id": "U-01-0020",
+      "value": "9.5pt",
+      "match": "exact"
+    },
+    {
+      "unit_id": "U-01-0025",
+      "value": "3ページ",
+      "match": "exact"
+    }
+  ],
+  "rules": {
+    "required_unit_coverage": 1.0,
+    "exact_fact_coverage": 1.0,
+    "unsupported_fact_count": 0,
+    "every_unit_requires_disposition": true
+  }
+}

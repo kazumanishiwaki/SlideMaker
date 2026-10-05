@@ -1,0 +1,247 @@
+{
+  "schema_version": "0.3",
+  "generated_at": "2026-08-17T21:38:11.667402+00:00",
+  "slide_id": "OUT-S001",
+  "source_slide_id": "SRC-S001",
+  "family": "full_bleed",
+  "renderer_group": "media",
+  "semantic_relation": "statement",
+  "semantic_layout_issues": [],
+  "density": "medium_low",
+  "fill_policy": {
+    "mode": "full_bleed",
+    "source": "slide_plan",
+    "reason": [],
+    "preserve_empty_zones": false,
+    "role": "cover",
+    "forbid_filler_content": true
+  },
+  "planned_only": false,
+  "content_canvas": {
+    "x": 1.2,
+    "y": 10.1105,
+    "w": 7.67,
+    "h": 4.2145
+  },
+  "removed_source_object_ids": [
+    "SRC-S001-O003",
+    "SRC-S001-O004",
+    "SRC-S001-O005",
+    "SRC-S001-O006",
+    "SRC-S001-O007",
+    "SRC-S001-O008",
+    "SRC-S001-O009",
+    "SRC-S001-O010",
+    "SRC-S001-O011",
+    "SRC-S001-O012",
+    "SRC-S001-O013",
+    "SRC-S001-O014"
+  ],
+  "allowed_regions": [
+    {
+      "x": 0.0,
+      "y": 0.0,
+      "w": 26.6667,
+      "h": 15.0
+    }
+  ],
+  "generated_objects": [
+    {
+      "role": "background_visual",
+      "recipe_id": "IMG-OUT-S001-01",
+      "asset_id": "GAST-IMG-OUT-S001-01-V001",
+      "source_object_id": null,
+      "output_shape_id": 3,
+      "bbox": {
+        "x": 0.0,
+        "y": 0.0,
+        "w": 26.6667,
+        "h": 15.0
+      },
+      "source_picture_reused": false,
+      "fit_mode": "cover",
+      "resolved_text_side": "left"
+    },
+    {
+      "role": "overlay_panel",
+      "output_shape_id": 4,
+      "bbox": {
+        "x": 1.2,
+        "y": 3.594,
+        "w": 14.56,
+        "h": 7.812
+      },
+      "opacity": 0.91
+    },
+    {
+      "role": "title",
+      "output_shape_id": 5,
+      "bbox": {
+        "x": 1.7078,
+        "y": 4.1018,
+        "w": 13.5444,
+        "h": 1.5632
+      },
+      "render_text": "レシートキャンペーンを、\n公開準備から抽選までひとつに"
+    },
+    {
+      "role": "body",
+      "output_shape_id": 6,
+      "bbox": {
+        "x": 1.7078,
+        "y": 5.821,
+        "w": 13.5444,
+        "h": 5.0773
+      },
+      "render_text": "Aha! レシート Lite\n必要十分な機能を、導入しやすい価格で。"
+    }
+  ],
+  "image_slots": [
+    {
+      "slot_id": "OUT-S001:primary_visual",
+      "recipe_id": "IMG-OUT-S001-01",
+      "bbox": {
+        "x": 0.0,
+        "y": 0.0,
+        "w": 26.6667,
+        "h": 15.0
+      },
+      "aspect_ratio": 1.77778,
+      "role": "background_visual",
+      "position": "left",
+      "resolved_text_side": "left",
+      "source_object_id": null,
+      "reuse_source_image_frame": false
+    }
+  ],
+  "image_lineage": {
+    "recipe_id": "IMG-OUT-S001-01",
+    "asset_id": "GAST-IMG-OUT-S001-01-V001",
+    "source_object_id": null,
+    "negative_space": "left",
+    "resolved_text_side": "left",
+    "source_frame_reused": false
+  },
+  "layout_intent": {
+    "family": "full_bleed",
+    "fill_policy": "full_bleed",
+    "resolved_text_side": "left",
+    "image_position": null,
+    "overlay_position": "left"
+  },
+  "quality": {
+    "check": "LAYOUT_FIT_TO_INTENT",
+    "status": "pass",
+    "assessment": "適正",
+    "score": 1.0,
+    "fill_policy": {
+      "mode": "full_bleed",
+      "source": "slide_plan",
+      "reason": [],
+      "preserve_empty_zones": false,
+      "role": "cover",
+      "forbid_filler_content": true
+    },
+    "intentional_whitespace": false,
+    "preserve_source_whitespace": false,
+    "accidental_dead_space": false,
+    "content_extent_width_ratio": 1.0,
+    "content_extent_height_ratio": 1.0,
+    "occupied_area_ratio": 1.0,
+    "left_void_ratio": 0.0,
+    "right_void_ratio": 0.0,
+    "top_void_ratio": 0.0,
+    "bottom_void_ratio": 0.0,
+    "center_offset_x_ratio": 0.0,
+    "center_offset_y_ratio": 0.0,
+    "expected_item_count": 0,
+    "rendered_item_count": 0,
+    "expected_image_count": 1,
+    "rendered_image_count": 1,
+    "image_area_ratio": 1.0,
+    "thresholds": {
+      "w": 0.94,
+      "h": 0.78,
+      "area": 0.62,
+      "max_edge_void": 0.12,
+      "max_center_x": 0.18,
+      "max_center_y": 0.18
+    },
+    "content_bbox": {
+      "x": 0.0,
+      "y": 0.0,
+      "w": 26.6667,
+      "h": 15.0
+    },
+    "reason_codes": [
+      "FIT_TO_INTENT"
+    ]
+  },
+  "geometry": {
+    "title_box": {
+      "x": 1.7078,
+      "y": 4.1018,
+      "w": 13.5444,
+      "h": 1.5632
+    },
+    "subtitle_box": null,
+    "body_box": {
+      "x": 1.7078,
+      "y": 5.821,
+      "w": 13.5444,
+      "h": 5.0773
+    },
+    "body": {
+      "x": 1.7078,
+      "y": 4.1018,
+      "w": 13.5444,
+      "h": 6.7964
+    },
+    "text_box": {
+      "x": 1.7078,
+      "y": 4.1018,
+      "w": 13.5444,
+      "h": 6.7964
+    },
+    "image_box": {
+      "x": 0.0,
+      "y": 0.0,
+      "w": 26.6667,
+      "h": 15.0
+    },
+    "overlay_box": {
+      "x": 1.2,
+      "y": 3.594,
+      "w": 14.56,
+      "h": 7.812
+    },
+    "matrix_box": null,
+    "relationship_box": null,
+    "timeline_box": null,
+    "timeline_line_box": null,
+    "kpi_box": null,
+    "chart_box": null,
+    "note_box": null,
+    "kicker_box": null,
+    "item_boxes": [],
+    "node_boxes": {},
+    "columns": null,
+    "rows": null,
+    "divider_x": null,
+    "image_position": null,
+    "resolved_text_side": "left",
+    "overlay_position": "left",
+    "hub_id": null,
+    "card_mode": null,
+    "orientation": null,
+    "timeline_markers": [],
+    "note_text": null,
+    "kicker_text": null
+  },
+  "notes": [
+    "Layout geometry is deterministic. The model selects family, hierarchy, and priorities; coordinates are engine-generated.",
+    "Photo-aware families plan image slots before image selection so crop, resolution, and negative-space QA use the actual target geometry.",
+    "Existing picture relationships and source frames are reused when available; template chrome remains outside the mutation mask.",
+    "LAYOUT_FIT_TO_INTENT distinguishes deliberate whitespace from accidental dead space. Filler content is never added merely to raise occupancy."
+  ]
+}

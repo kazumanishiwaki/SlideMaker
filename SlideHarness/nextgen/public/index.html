@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SlideHarness Next</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <main>
+    <header>
+      <div>
+        <p class="eyebrow">CODEX APP SERVER</p>
+        <h1>SlideHarness Next</h1>
+        <p>任意のテンプレートと原稿から、編集可能なPowerPointを生成します。</p>
+      </div>
+      <span id="serverStatus" class="badge">確認中</span>
+    </header>
+
+    <section class="panel">
+      <div class="grid">
+        <label>案件名<input id="name" value="slide-deck" /></label>
+        <label>合成モード
+          <select id="compositionMode">
+            <option value="auto">自動選択</option>
+            <option value="source-slides">完成スライド適応</option>
+            <option value="reconstruct">再構築</option>
+          </select>
+        </label>
+      </div>
+      <label>グラフ・フロー図の表現方式
+        <select id="structuredVisualMode">
+          <option value="auto">自動選択</option>
+          <option value="native" selected>PowerPointネイティブ（編集可能）</option>
+          <option value="generated-image">画像生成（リッチな表現）</option>
+        </select>
+      </label>
+      <div class="grid">
+        <label>スライドの情報量（3段階）
+          <select id="informationDensity">
+            <option value="low">少なめ</option>
+            <option value="medium" selected>標準</option>
+            <option value="high">多め</option>
+          </select>
+        </label>
+        <label>装飾性（3段階）
+          <select id="decorativeness">
+            <option value="low">シンプル</option>
+            <option value="medium" selected>標準</option>
+            <option value="high">リッチ</option>
+          </select>
+        </label>
+      </div>
+      <label>テンプレート（PPTX / POTX、50MBまで）<input id="template" type="file" accept=".pptx,.potx" /></label>
+      <label>原稿（Markdown / TXT / DOCX / PDF / PPTX、複数可）<input id="sources" type="file" multiple accept=".md,.txt,.docx,.pdf,.pptx" /></label>
+      <label>デザイン・画像生成の指示書（任意）<input id="designGuide" type="file" accept=".md,.txt,.docx,.pdf,.pptx" /></label>
+      <label>追加指示<textarea id="instructions" rows="4" placeholder="資料の目的、想定読者、必須トピックなど"></textarea></label>
+      <label class="check"><input id="allowShadows" type="checkbox" /> ドロップシャドウを明示的に許可する</label>
+      <p class="note">影は未指定時に使用しません。APIキーは不要です。</p>
+      <button id="start" class="primary">Codexで構成・生成</button>
+    </section>
+
+    <section class="panel status-panel">
+      <div class="status-head">
+        <div><p class="eyebrow">RUN STATUS</p><h2 id="runTitle">未開始</h2></div>
+        <span id="runStatus" class="badge">IDLE</span>
+      </div>
+      <ol id="stages">
+        <li data-stage="upload">ファイル登録</li>
+        <li data-stage="prepare">原稿・テンプレート解析</li>
+        <li data-stage="codex_planning">Codex構成・ページ再生成</li>
+        <li data-stage="compose_and_qa">PPTX生成・QA</li>
+        <li data-stage="completed">完成</li>
+      </ol>
+      <pre id="log"></pre>
+      <div id="approval" hidden>
+        <p>Codexがローカル操作の承認を求めています。</p>
+        <button data-decision="accept">許可</button>
+        <button data-decision="decline" class="secondary">拒否</button>
+      </div>
+      <div id="images"></div>
+      <div id="result" hidden>
+        <a id="download" class="primary link-button">PowerPointをダウンロード</a>
+        <img id="montage" alt="生成スライドのモンタージュ" />
+        <section id="regeneration" class="regeneration" hidden>
+          <div class="status-head">
+            <div><p class="eyebrow">ISOLATED PAGE REGENERATION</p><h3>1ページだけ再生成</h3></div>
+            <span id="revision" class="badge"></span>
+          </div>
+          <p class="note">選択したページだけを差し替えます。指定外ページはOOXMLハッシュで不変を検証します。</p>
+          <label>対象ページ<select id="slideSelect"></select></label>
+          <div class="grid">
+            <label>対象ページの情報量
+              <select id="regenInformationDensity">
+                <option value="low">少なめ</option><option value="medium">標準</option><option value="high">多め</option>
+              </select>
+            </label>
+            <label>対象ページの装飾性
+              <select id="regenDecorativeness">
+                <option value="low">シンプル</option><option value="medium">標準</option><option value="high">リッチ</option>
+              </select>
+            </label>
+          </div>
+          <label>対象ページのグラフ・フロー図
+            <select id="regenStructuredVisualMode">
+              <option value="auto">自動選択</option>
+              <option value="native">PowerPointネイティブ（編集可能）</option>
+              <option value="generated-image">画像生成（リッチな表現）</option>
+            </select>
+          </label>
+          <label>このページへの修正指示<textarea id="regenFeedback" rows="3" placeholder="例：結論を先に出し、3項目の比較表にする"></textarea></label>
+          <button id="regenerate" class="primary">この1ページだけ再生成</button>
+          <p id="regenerationProof" class="proof" hidden></p>
+        </section>
+      </div>
+    </section>
+  </main>
+  <script type="module" src="/app.js"></script>
+</body>
+</html>

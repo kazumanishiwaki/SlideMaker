@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1448" height="1086" viewBox="0 0 1448 1086" role="img" aria-label="Skill package diagram">
+  <defs>
+    <style>
+      .bg { fill: #FCFCFC; }
+      .line { fill: none; stroke: #111111; stroke-width: 12; stroke-linecap: round; stroke-linejoin: round; }
+      .line-thin { fill: none; stroke: #111111; stroke-width: 8; stroke-linecap: round; stroke-linejoin: round; }
+      .line-yellow { fill: none; stroke: #E8E800; stroke-width: 12; stroke-linecap: round; stroke-linejoin: round; }
+      .fill-white { fill: #FCFCFC; stroke: #111111; stroke-width: 12; stroke-linecap: round; stroke-linejoin: round; }
+      .fill-gray { fill: #E6EBED; }
+      .fill-mid { fill: #D7DEE2; }
+    </style>
+    <marker id="arrow" viewBox="0 0 18 18" refX="15" refY="9" markerWidth="18" markerHeight="18" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M3 3 L15 9 L3 15" fill="none" stroke="#111111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <marker id="arrow-yellow" viewBox="0 0 18 18" refX="15" refY="9" markerWidth="18" markerHeight="18" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M3 3 L15 9 L3 15" fill="none" stroke="#E8E800" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+
+  <rect class="bg" width="1448" height="1086"/>
+
+  <!-- incoming rule cards -->
+  <g>
+    <rect class="fill-white" x="112" y="300" width="224" height="88" rx="14"/>
+    <rect class="fill-gray" x="140" y="326" width="44" height="36" rx="4"/>
+    <line class="line-thin" x1="204" y1="332" x2="292" y2="332"/>
+    <line class="line-thin" x1="204" y1="356" x2="272" y2="356"/>
+
+    <rect class="fill-white" x="112" y="498" width="224" height="88" rx="14"/>
+    <rect class="fill-gray" x="140" y="524" width="44" height="36" rx="4"/>
+    <line class="line-thin" x1="204" y1="530" x2="292" y2="530"/>
+    <line class="line-thin" x1="204" y1="554" x2="272" y2="554"/>
+
+    <rect class="fill-white" x="112" y="696" width="224" height="88" rx="14"/>
+    <rect class="fill-gray" x="140" y="722" width="44" height="36" rx="4"/>
+    <line class="line-thin" x1="204" y1="728" x2="292" y2="728"/>
+    <line class="line-thin" x1="204" y1="752" x2="272" y2="752"/>
+  </g>
+
+  <line class="line" x1="380" y1="344" x2="510" y2="450" marker-end="url(#arrow)"/>
+  <line class="line" x1="380" y1="542" x2="510" y2="542" marker-end="url(#arrow)"/>
+  <line class="line" x1="380" y1="740" x2="510" y2="634" marker-end="url(#arrow)"/>
+
+  <!-- skill package -->
+  <path class="fill-mid" stroke="#111111" stroke-width="12" stroke-linejoin="round" d="M548 400 H698 L746 456 H920 Q956 456 956 492 V708 Q956 744 920 744 H548 Q512 744 512 708 V436 Q512 400 548 400 Z"/>
+  <path class="fill-white" d="M544 516 H932 Q956 516 956 540 L928 744 H560 L512 540 Q512 516 544 516 Z"/>
+  <line class="line-thin" x1="606" y1="584" x2="858" y2="584"/>
+  <line class="line-thin" x1="606" y1="628" x2="820" y2="628"/>
+
+  <line class="line-yellow" x1="1008" y1="542" x2="1110" y2="542" marker-end="url(#arrow-yellow)"/>
+
+  <!-- output workspace -->
+  <rect class="fill-white" x="1144" y="450" width="216" height="156" rx="18"/>
+  <rect class="fill-gray" x="1174" y="484" width="72" height="72" rx="4"/>
+  <line class="line-thin" x1="1272" y1="500" x2="1320" y2="500"/>
+  <line class="line-thin" x1="1272" y1="532" x2="1320" y2="532"/>
+  <line class="line-thin" x1="1272" y1="564" x2="1320" y2="564"/>
+  <line class="line" x1="1252" y1="606" x2="1252" y2="652"/>
+  <line class="line" x1="1206" y1="652" x2="1298" y2="652"/>
+</svg>

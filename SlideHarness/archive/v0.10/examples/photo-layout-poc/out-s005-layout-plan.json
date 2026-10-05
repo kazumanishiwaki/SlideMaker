@@ -1,0 +1,467 @@
+{
+  "schema_version": "0.3",
+  "generated_at": "2026-08-17T05:08:18.808846+00:00",
+  "slide_id": "OUT-S005",
+  "source_slide_id": "SRC-S013",
+  "family": "relationship",
+  "density": "medium_low",
+  "fill_policy": {
+    "mode": "content_filled",
+    "source": "system",
+    "reason": [
+      "中心機能と周辺工程の関係を一目で示す"
+    ],
+    "preserve_empty_zones": false,
+    "role": "relationship",
+    "forbid_filler_content": true
+  },
+  "planned_only": false,
+  "content_canvas": {
+    "x": 1.2,
+    "y": 2.2217,
+    "w": 24.2667,
+    "h": 12.1033
+  },
+  "removed_source_object_ids": [
+    "SRC-S013-O003",
+    "SRC-S013-O004",
+    "SRC-S013-O005",
+    "SRC-S013-O006",
+    "SRC-S013-O010",
+    "SRC-S013-O011",
+    "SRC-S013-O012",
+    "SRC-S013-O013",
+    "SRC-S013-O014",
+    "SRC-S013-O015",
+    "SRC-S013-O016",
+    "SRC-S013-O017",
+    "SRC-S013-O018",
+    "SRC-S013-O019",
+    "SRC-S013-O020",
+    "SRC-S013-O021",
+    "SRC-S013-O022"
+  ],
+  "allowed_regions": [
+    {
+      "x": 1.2,
+      "y": 2.2217,
+      "w": 24.2667,
+      "h": 12.1033
+    }
+  ],
+  "generated_objects": [
+    {
+      "role": "title",
+      "output_shape_id": 10,
+      "bbox": {
+        "x": 1.2,
+        "y": 2.2217,
+        "w": 24.2667,
+        "h": 1.0288
+      },
+      "render_text": "管理画面を中心に、運用全体がつながる"
+    },
+    {
+      "role": "subtitle",
+      "output_shape_id": 11,
+      "bbox": {
+        "x": 1.2,
+        "y": 3.3935,
+        "w": 24.2667,
+        "h": 0.5446
+      },
+      "render_text": "公開・受付・確認・抽選を一元管理。"
+    },
+    {
+      "role": "relationship_edge",
+      "from": "CENTER",
+      "to": "LP",
+      "output_shape_id": 12,
+      "bbox": {
+        "x": 13.3333,
+        "y": 6.0095,
+        "w": 0.0,
+        "h": 3.2196
+      }
+    },
+    {
+      "role": "relationship_edge",
+      "from": "CENTER",
+      "to": "ENTRY",
+      "output_shape_id": 13,
+      "bbox": {
+        "x": 13.3333,
+        "y": 9.2291,
+        "w": 7.5829,
+        "h": 0.0
+      }
+    },
+    {
+      "role": "relationship_edge",
+      "from": "CENTER",
+      "to": "CHECK",
+      "output_shape_id": 14,
+      "bbox": {
+        "x": 13.3333,
+        "y": 9.2291,
+        "w": 0.0,
+        "h": 3.2196
+      }
+    },
+    {
+      "role": "relationship_edge",
+      "from": "CENTER",
+      "to": "DRAW",
+      "output_shape_id": 15,
+      "bbox": {
+        "x": 5.7504,
+        "y": 9.2291,
+        "w": 7.5829,
+        "h": 0.0
+      }
+    },
+    {
+      "role": "relationship_node_title",
+      "node_id": "CENTER",
+      "output_shape_id": 17,
+      "bbox": {
+        "x": 11.1154,
+        "y": 8.4545,
+        "w": 4.436,
+        "h": 0.639
+      },
+      "render_text": "管理画面"
+    },
+    {
+      "role": "relationship_node_body",
+      "node_id": "CENTER",
+      "output_shape_id": 18,
+      "bbox": {
+        "x": 11.1154,
+        "y": 9.1435,
+        "w": 4.436,
+        "h": 0.8601
+      },
+      "render_text": "一元管理"
+    },
+    {
+      "role": "relationship_node",
+      "node_id": "CENTER",
+      "output_shape_id": 16,
+      "bbox": {
+        "x": 10.9217,
+        "y": 8.2608,
+        "w": 4.8233,
+        "h": 1.9365
+      }
+    },
+    {
+      "role": "relationship_node_title",
+      "node_id": "LP",
+      "output_shape_id": 20,
+      "bbox": {
+        "x": 11.1154,
+        "y": 5.2349,
+        "w": 4.436,
+        "h": 0.639
+      },
+      "render_text": "公開"
+    },
+    {
+      "role": "relationship_node_body",
+      "node_id": "LP",
+      "output_shape_id": 21,
+      "bbox": {
+        "x": 11.1154,
+        "y": 5.9239,
+        "w": 4.436,
+        "h": 0.8601
+      },
+      "render_text": "LP・期間・規約"
+    },
+    {
+      "role": "relationship_node",
+      "node_id": "LP",
+      "output_shape_id": 19,
+      "bbox": {
+        "x": 10.9217,
+        "y": 5.0412,
+        "w": 4.8233,
+        "h": 1.9365
+      }
+    },
+    {
+      "role": "relationship_node_title",
+      "node_id": "ENTRY",
+      "output_shape_id": 23,
+      "bbox": {
+        "x": 18.6983,
+        "y": 8.4545,
+        "w": 4.436,
+        "h": 0.639
+      },
+      "render_text": "受付"
+    },
+    {
+      "role": "relationship_node_body",
+      "node_id": "ENTRY",
+      "output_shape_id": 24,
+      "bbox": {
+        "x": 18.6983,
+        "y": 9.1435,
+        "w": 4.436,
+        "h": 0.8601
+      },
+      "render_text": "フォーム・画像"
+    },
+    {
+      "role": "relationship_node",
+      "node_id": "ENTRY",
+      "output_shape_id": 22,
+      "bbox": {
+        "x": 18.5046,
+        "y": 8.2608,
+        "w": 4.8233,
+        "h": 1.9365
+      }
+    },
+    {
+      "role": "relationship_node_title",
+      "node_id": "CHECK",
+      "output_shape_id": 26,
+      "bbox": {
+        "x": 11.1154,
+        "y": 11.6741,
+        "w": 4.436,
+        "h": 0.639
+      },
+      "render_text": "確認"
+    },
+    {
+      "role": "relationship_node_body",
+      "node_id": "CHECK",
+      "output_shape_id": 27,
+      "bbox": {
+        "x": 11.1154,
+        "y": 12.3631,
+        "w": 4.436,
+        "h": 0.8601
+      },
+      "render_text": "応募・重複候補"
+    },
+    {
+      "role": "relationship_node",
+      "node_id": "CHECK",
+      "output_shape_id": 25,
+      "bbox": {
+        "x": 10.9217,
+        "y": 11.4804,
+        "w": 4.8233,
+        "h": 1.9365
+      }
+    },
+    {
+      "role": "relationship_node_title",
+      "node_id": "DRAW",
+      "output_shape_id": 29,
+      "bbox": {
+        "x": 3.5324,
+        "y": 8.4545,
+        "w": 4.436,
+        "h": 0.639
+      },
+      "render_text": "抽選"
+    },
+    {
+      "role": "relationship_node_body",
+      "node_id": "DRAW",
+      "output_shape_id": 30,
+      "bbox": {
+        "x": 3.5324,
+        "y": 9.1435,
+        "w": 4.436,
+        "h": 0.8601
+      },
+      "render_text": "CSV・簡易抽選"
+    },
+    {
+      "role": "relationship_node",
+      "node_id": "DRAW",
+      "output_shape_id": 28,
+      "bbox": {
+        "x": 3.3388,
+        "y": 8.2608,
+        "w": 4.8233,
+        "h": 1.9365
+      }
+    }
+  ],
+  "image_slots": [],
+  "image_lineage": null,
+  "layout_intent": {
+    "family": "relationship",
+    "fill_policy": "content_filled",
+    "resolved_text_side": null,
+    "image_position": null,
+    "overlay_position": null
+  },
+  "quality": {
+    "check": "LAYOUT_FIT_TO_INTENT",
+    "status": "pass",
+    "assessment": "適正",
+    "score": 1.0,
+    "fill_policy": {
+      "mode": "content_filled",
+      "source": "system",
+      "reason": [
+        "中心機能と周辺工程の関係を一目で示す"
+      ],
+      "preserve_empty_zones": false,
+      "role": "relationship",
+      "forbid_filler_content": true
+    },
+    "intentional_whitespace": false,
+    "preserve_source_whitespace": false,
+    "accidental_dead_space": false,
+    "content_extent_width_ratio": 1.0,
+    "content_extent_height_ratio": 1.0,
+    "occupied_area_ratio": 1.0,
+    "left_void_ratio": 0.0,
+    "right_void_ratio": 0.0,
+    "top_void_ratio": 0.0,
+    "bottom_void_ratio": 0.0,
+    "center_offset_x_ratio": 0.0,
+    "center_offset_y_ratio": 0.0,
+    "expected_item_count": 5,
+    "rendered_item_count": 5,
+    "expected_image_count": 0,
+    "rendered_image_count": 0,
+    "image_area_ratio": 0.0,
+    "thresholds": {
+      "w": 0.72,
+      "h": 0.5,
+      "area": 0.12,
+      "max_edge_void": 0.38,
+      "max_center_x": 0.38,
+      "max_center_y": 0.38
+    },
+    "content_bbox": {
+      "x": 1.2,
+      "y": 2.2217,
+      "w": 24.2667,
+      "h": 12.1033
+    },
+    "reason_codes": [
+      "FIT_TO_INTENT"
+    ]
+  },
+  "geometry": {
+    "title_box": {
+      "x": 1.2,
+      "y": 2.2217,
+      "w": 24.2667,
+      "h": 1.0288
+    },
+    "subtitle_box": {
+      "x": 1.2,
+      "y": 3.3935,
+      "w": 24.2667,
+      "h": 0.5446
+    },
+    "body_box": null,
+    "body": {
+      "x": 1.2,
+      "y": 4.1331,
+      "w": 24.2667,
+      "h": 10.1919
+    },
+    "text_box": null,
+    "image_box": null,
+    "overlay_box": null,
+    "matrix_box": null,
+    "relationship_box": {
+      "x": 1.2,
+      "y": 4.1331,
+      "w": 24.2667,
+      "h": 10.1919
+    },
+    "item_boxes": [
+      {
+        "x": 10.9217,
+        "y": 8.2608,
+        "w": 4.8233,
+        "h": 1.9365
+      },
+      {
+        "x": 10.9217,
+        "y": 5.0412,
+        "w": 4.8233,
+        "h": 1.9365
+      },
+      {
+        "x": 18.5046,
+        "y": 8.2608,
+        "w": 4.8233,
+        "h": 1.9365
+      },
+      {
+        "x": 10.9217,
+        "y": 11.4804,
+        "w": 4.8233,
+        "h": 1.9365
+      },
+      {
+        "x": 3.3388,
+        "y": 8.2608,
+        "w": 4.8233,
+        "h": 1.9365
+      }
+    ],
+    "node_boxes": {
+      "CENTER": {
+        "x": 10.9217,
+        "y": 8.2608,
+        "w": 4.8233,
+        "h": 1.9365
+      },
+      "LP": {
+        "x": 10.9217,
+        "y": 5.0412,
+        "w": 4.8233,
+        "h": 1.9365
+      },
+      "ENTRY": {
+        "x": 18.5046,
+        "y": 8.2608,
+        "w": 4.8233,
+        "h": 1.9365
+      },
+      "CHECK": {
+        "x": 10.9217,
+        "y": 11.4804,
+        "w": 4.8233,
+        "h": 1.9365
+      },
+      "DRAW": {
+        "x": 3.3388,
+        "y": 8.2608,
+        "w": 4.8233,
+        "h": 1.9365
+      }
+    },
+    "columns": null,
+    "rows": null,
+    "divider_x": null,
+    "image_position": null,
+    "resolved_text_side": null,
+    "overlay_position": null,
+    "hub_id": "CENTER",
+    "card_mode": null
+  },
+  "notes": [
+    "Layout geometry is deterministic. The model selects family, hierarchy, and priorities; coordinates are engine-generated.",
+    "Photo-aware families plan image slots before image selection so crop, resolution, and negative-space QA use the actual target geometry.",
+    "Existing picture relationships and source frames are reused when available; template chrome remains outside the mutation mask.",
+    "LAYOUT_FIT_TO_INTENT distinguishes deliberate whitespace from accidental dead space. Filler content is never added merely to raise occupancy."
+  ]
+}

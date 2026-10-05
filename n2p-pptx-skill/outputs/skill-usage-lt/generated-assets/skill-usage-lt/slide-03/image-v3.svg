@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1672" height="941" viewBox="0 0 1672 941" role="img" aria-label="Simple retry loop illustration">
+  <defs>
+    <marker id="arrow-black" viewBox="0 0 16 16" refX="14" refY="8" markerWidth="12" markerHeight="12" orient="auto-start-reverse">
+      <path d="M2 2 L14 8 L2 14" fill="none" stroke="#111111" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+  <rect width="1672" height="941" fill="#FCFCFC"/>
+
+  <path d="M96 348 Q96 286 158 286 H394 Q456 286 456 348 V482 Q456 544 394 544 H222 L154 612 V544 H158 Q96 544 96 482 Z" fill="#FCFCFC" stroke="#111111" stroke-width="16" stroke-linejoin="round"/>
+  <circle cx="222" cy="416" r="25" fill="#E6EBED" stroke="#111111" stroke-width="10"/>
+  <circle cx="306" cy="416" r="25" fill="#E6EBED" stroke="#111111" stroke-width="10"/>
+  <circle cx="390" cy="416" r="25" fill="#E6EBED" stroke="#111111" stroke-width="10"/>
+
+  <line x1="520" y1="446" x2="638" y2="446" stroke="#111111" stroke-width="14" stroke-linecap="round" marker-end="url(#arrow-black)"/>
+
+  <path d="M760 325 H882 L958 401 V624 H760 Z" fill="#FCFCFC" stroke="#111111" stroke-width="16" stroke-linejoin="round"/>
+  <path d="M882 325 V401 H958" fill="#E6EBED" stroke="#111111" stroke-width="16" stroke-linejoin="round"/>
+  <path d="M668 480 C668 326 786 228 922 260 C1010 281 1070 342 1094 421" fill="none" stroke="#111111" stroke-width="14" stroke-linecap="round" marker-end="url(#arrow-black)"/>
+  <path d="M1080 478 C1080 632 962 730 826 698 C738 677 678 616 654 537" fill="none" stroke="#111111" stroke-width="14" stroke-linecap="round" marker-end="url(#arrow-black)"/>
+
+  <line x1="1152" y1="446" x2="1272" y2="446" stroke="#111111" stroke-width="14" stroke-linecap="round" marker-end="url(#arrow-black)"/>
+
+  <rect x="1306" y="402" width="294" height="88" rx="32" fill="#FCFCFC" stroke="#111111" stroke-width="14"/>
+  <rect x="1306" y="402" width="98" height="88" rx="32" fill="#E6EBED"/>
+  <rect x="1404" y="402" width="98" height="88" fill="#E6EBED"/>
+  <rect x="1502" y="402" width="98" height="88" rx="32" fill="#F4F400"/>
+  <line x1="1404" y1="402" x2="1404" y2="490" stroke="#111111" stroke-width="10"/>
+  <line x1="1502" y1="402" x2="1502" y2="490" stroke="#111111" stroke-width="10"/>
+</svg>

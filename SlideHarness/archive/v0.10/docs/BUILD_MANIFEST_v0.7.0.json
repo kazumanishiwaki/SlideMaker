@@ -1,0 +1,161 @@
+{
+  "version": "0.7.0",
+  "artifact": "SlideHarness v2 complete rewrite prototype",
+  "scope": [
+    "1 repository structure",
+    "3 Aha full deck",
+    "4 Layout/QA tuning",
+    "5 generic template smoke"
+  ],
+  "aha_full_deck": {
+    "version": "0.7.0",
+    "deck": "Aha! レシート Lite 全9ページ",
+    "pptx": "examples/aha-receipt-full-deck/aha-receipt-lite-full-deck-v0.7.0.pptx",
+    "montage": "examples/aha-receipt-full-deck/aha-receipt-lite-full-deck-v0.7.0-montage.png",
+    "blocking_count": 0,
+    "warning_count": 0,
+    "deck_harmony_warning_count": 0,
+    "image_blocking_count": 0,
+    "image_warning_count": 0,
+    "slides": [
+      {
+        "slide_id": "OUT-S001",
+        "family": "statement",
+        "fill_policy": "intentional_whitespace",
+        "fit_score": 0.907,
+        "quality": "pass"
+      },
+      {
+        "slide_id": "OUT-S002",
+        "family": "photo_text",
+        "fill_policy": "balanced",
+        "fit_score": 0.983,
+        "quality": "pass"
+      },
+      {
+        "slide_id": "OUT-S003",
+        "family": "comparison_matrix",
+        "fill_policy": "content_filled",
+        "fit_score": 1.0,
+        "quality": "pass"
+      },
+      {
+        "slide_id": "OUT-S004",
+        "family": "relationship",
+        "fill_policy": "content_filled",
+        "fit_score": 1.0,
+        "quality": "pass"
+      },
+      {
+        "slide_id": "OUT-S005",
+        "family": "statement",
+        "fill_policy": "intentional_whitespace",
+        "fit_score": 0.907,
+        "quality": "pass"
+      },
+      {
+        "slide_id": "OUT-S006",
+        "family": "process",
+        "fill_policy": "content_filled",
+        "fit_score": 0.918,
+        "quality": "pass"
+      },
+      {
+        "slide_id": "OUT-S007",
+        "family": "grid",
+        "fill_policy": "content_filled",
+        "fit_score": 0.964,
+        "quality": "pass"
+      },
+      {
+        "slide_id": "OUT-S008",
+        "family": "two_column",
+        "fill_policy": "content_filled",
+        "fit_score": 0.892,
+        "quality": "pass"
+      },
+      {
+        "slide_id": "OUT-S009",
+        "family": "statement",
+        "fill_policy": "intentional_whitespace",
+        "fit_score": 0.907,
+        "quality": "pass"
+      }
+    ]
+  },
+  "generic_template_smoke": {
+    "version": "0.7.0",
+    "purpose": "generic_template_smoke",
+    "template_count": 3,
+    "pass_count": 3,
+    "fail_count": 0,
+    "templates": [
+      {
+        "template": "golden-sample-v06.pptx",
+        "status": "PASS",
+        "blocking": [],
+        "slide_count": 5,
+        "render_count": 5,
+        "roles": {
+          "cover": 1,
+          "statement": 3,
+          "overview": 1
+        },
+        "asset_classes": {
+          "template_chrome": 10,
+          "content_visual": 2
+        },
+        "title_axis_x_in": 22.931,
+        "source_chrome_count": 10
+      },
+      {
+        "template": "image-harmony-v05.pptx",
+        "status": "PASS",
+        "blocking": [],
+        "slide_count": 1,
+        "render_count": 1,
+        "roles": {
+          "cover": 1
+        },
+        "asset_classes": {
+          "content_visual": 5,
+          "unknown": 9
+        },
+        "title_axis_x_in": 2.833,
+        "source_chrome_count": 0
+      },
+      {
+        "template": "miri-template.pptx",
+        "status": "PASS",
+        "blocking": [],
+        "slide_count": 17,
+        "render_count": 17,
+        "roles": {
+          "cover": 1,
+          "statement": 1,
+          "overview": 1,
+          "long_text": 1,
+          "photo_grid": 3,
+          "three_items": 2,
+          "organization": 1,
+          "table": 1,
+          "kpi": 1,
+          "comparison": 1,
+          "timeline": 1,
+          "four_items": 1,
+          "qna": 1,
+          "closing": 1
+        },
+        "asset_classes": {
+          "content_visual": 43,
+          "unknown": 119,
+          "template_chrome": 20
+        },
+        "title_axis_x_in": 2.833,
+        "source_chrome_count": 20
+      }
+    ]
+  },
+  "codex_live_e2e": "deferred",
+  "openai_image_api_live": "deferred"
+}

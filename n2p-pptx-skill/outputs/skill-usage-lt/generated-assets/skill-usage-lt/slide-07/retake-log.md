@@ -1,0 +1,36 @@
+# Retake Log
+
+## v1 - 2026-05-12
+
+Status: generated
+Initial intent: Skillが手順・判断基準・素材・スクリプトをまとめてAIに渡す作業環境であることを示す
+Prompt file: prompt-v1.md
+Generated file: image-v1.png
+Adopted in PPTX: no
+
+## v5 - 2026-05-14
+
+Status: generated
+Human instruction: 線幅を12pxに統一。フォルダ形状を直し、より記号的で統一感がある調和を描く。
+Change: Rebuilt with one shared 12px stroke style, a regular symbolic folder, manual arrowheads, and aligned card/monitor primitives.
+Prompt file: none - hand-authored SVG
+Generated file: image-v5.svg
+Adopted in PPTX: no
+
+## v2 - 2026-05-14
+
+Status: generated
+Human instruction: イラストをもう１段階シンプルにしたい
+Change: Removed secondary icons and kept one package, three cards, and one monitor.
+Prompt file: prompt-v2.md
+Generated file: image-v2.png
+Adopted in PPTX: yes
+
+## v4 - 2026-05-14
+
+Status: generated
+Human instruction: SVGとして書き直すので精度をあげる。イラスト要素は維持し、SVG再生成用に再設計する。
+Change: Rebuilt as a deterministic SVG diagram with fixed line widths, explicit n2p colors, simplified primitives, and renderer-stable arrow markers.
+Prompt file: none - hand-authored SVG
+Generated file: image-v4.svg
+Adopted in PPTX: no

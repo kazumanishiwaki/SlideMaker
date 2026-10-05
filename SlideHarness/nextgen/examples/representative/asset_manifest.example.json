@@ -1,0 +1,9 @@
+{
+  "assets": [
+    {
+      "asset_id": "hero-template-system",
+      "path": "/absolute/path/to/generated-image.png",
+      "provider": "host-image-generation"
+    }
+  ]
+}

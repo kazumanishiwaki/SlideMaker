@@ -1,0 +1,245 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ImageRecipeDocument",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "recipes"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string"
+    },
+    "generated_at": {
+      "type": "string"
+    },
+    "recipes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "recipe_id",
+          "slide_id",
+          "medium",
+          "target",
+          "composition",
+          "treatment",
+          "status"
+        ],
+        "properties": {
+          "recipe_id": {
+            "type": "string"
+          },
+          "slide_id": {
+            "type": "string",
+            "pattern": "^OUT-S[0-9]{3}$"
+          },
+          "purpose": {
+            "type": "string"
+          },
+          "message": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "medium": {
+            "enum": [
+              "photo",
+              "photo_grid",
+              "illustration",
+              "screenshot",
+              "conceptual_image"
+            ]
+          },
+          "provider": {
+            "enum": [
+              "auto",
+              "local",
+              "manual",
+              "openai",
+              "mock"
+            ]
+          },
+          "prompt_seed": {
+            "type": "string"
+          },
+          "target": {
+            "type": "object",
+            "properties": {
+              "source_slide_id": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "source_object_id": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "source_asset_id": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "bbox": {
+                "type": [
+                  "object",
+                  "null"
+                ]
+              },
+              "aspect_ratio": {
+                "type": [
+                  "number",
+                  "string",
+                  "null"
+                ]
+              },
+              "frame_asset_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "source_media_path": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "source_visual_metrics": {
+                "type": [
+                  "object",
+                  "null"
+                ]
+              },
+              "source_display": {
+                "type": [
+                  "object",
+                  "null"
+                ]
+              },
+              "layout_slot_id": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            },
+            "additionalProperties": false
+          },
+          "composition": {
+            "type": "object",
+            "properties": {
+              "focal_point": {
+                "oneOf": [
+                  {
+                    "type": "array",
+                    "items": {
+                      "type": "number",
+                      "minimum": 0,
+                      "maximum": 1
+                    },
+                    "minItems": 2,
+                    "maxItems": 2
+                  },
+                  {
+                    "const": "auto"
+                  }
+                ]
+              },
+              "negative_space": {
+                "enum": [
+                  "none",
+                  "left",
+                  "right",
+                  "top",
+                  "bottom"
+                ]
+              },
+              "background_complexity": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": true
+          },
+          "treatment": {
+            "type": "object"
+          },
+          "palette": {
+            "type": [
+              "string",
+              "object",
+              "array"
+            ]
+          },
+          "quality": {
+            "enum": [
+              "low",
+              "medium",
+              "high"
+            ]
+          },
+          "status": {
+            "enum": [
+              "NEEDS_ASSET",
+              "READY",
+              "REVIEW_REQUIRED",
+              "ERROR"
+            ]
+          },
+          "review_reason": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "selected_asset_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "manual_asset_path": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "composition_origin": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "prompt_origin": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "origin": {
+            "type": "string"
+          },
+          "candidate_ranking": {
+            "type": "array",
+            "items": {
+              "type": "object"
+            }
+          },
+          "style_reference": {
+            "type": [
+              "object",
+              "null"
+            ]
+          }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": false
+}

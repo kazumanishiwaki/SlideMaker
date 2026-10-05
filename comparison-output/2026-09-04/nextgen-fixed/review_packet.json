@@ -1,0 +1,65 @@
+{
+  "schema_version": "0.11-mvp.4",
+  "state": "FINAL_REVIEW",
+  "automated_qa_status": "PASS",
+  "template_risk": {
+    "schema_version": "0.11-mvp.2",
+    "risk_level": "high",
+    "template_mode": "completed_slide_heavy",
+    "composition_mode": "tokens_chrome_reconstruction",
+    "extracted": [
+      "theme colors",
+      "observed fonts",
+      "layout canvas candidates",
+      "exact repeated edge/background chrome"
+    ],
+    "fallback": [
+      "deterministic component styles",
+      "recipe geometry",
+      "human review for non-repeated slide-local ornament"
+    ],
+    "lower_fidelity_page_types": [
+      "cover",
+      "section",
+      "full_visual",
+      "photo_grid",
+      "organization"
+    ],
+    "findings": [
+      {
+        "code": "completed_slide_heavy_template",
+        "severity": "review_required",
+        "message": "Most design detail lives on completed slides rather than masters/layouts; token-and-chrome reconstruction cannot preserve every interior ornament automatically.",
+        "evidence": {
+          "mean_slide_local_shape_count": 24.41,
+          "mean_slide_local_picture_count": 10.71,
+          "mean_layout_non_placeholder_shape_count": 0.0,
+          "repeated_chrome_count": 2
+        }
+      }
+    ]
+  },
+  "composition_mode": "source-slides",
+  "shadow_policy": "disabled_by_default",
+  "information_density": "medium",
+  "decorativeness": "medium",
+  "structured_visual_mode": "native",
+  "source_slide_map": "/Users/kazuma/Documents/SlideMaker/comparison-output/2026-09-04/nextgen-fixed/source_slide_map.json",
+  "deck": "/Users/kazuma/Documents/SlideMaker/comparison-output/2026-09-04/nextgen-fixed/deck.pptx",
+  "montage": "/Users/kazuma/Documents/SlideMaker/comparison-output/2026-09-04/nextgen-fixed/render/montage.png",
+  "checklist": [
+    "template likeness and missing completed-slide ornament",
+    "information density and unexplained whitespace",
+    "font size and line breaks",
+    "visual-QA review findings for rendered whitespace and borderline text size",
+    "package integrity, relationships, and content-type registration",
+    "speaker-note [Sources] coverage for every referenced source unit",
+    "selected native/generated-image policy for charts and flows; native editability of tables",
+    "image tone and crop when image requests exist"
+  ],
+  "approval": {
+    "status": "PENDING",
+    "reviewer": null,
+    "comment": null
+  }
+}

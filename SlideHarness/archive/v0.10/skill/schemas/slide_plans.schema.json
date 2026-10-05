@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CompactSlidePlanBundle",
+  "type": "object",
+  "required": ["schema_version", "slides", "status"],
+  "properties": {
+    "schema_version": {"type": "string"},
+    "generated_at": {"type": "string"},
+    "status": {"type": "string"},
+    "model_call_contract": {"type": "object"},
+    "slides": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["slide_id", "message", "semantic_relation", "visual", "source", "layout", "content", "image", "status"],
+        "properties": {
+          "slide_id": {"type": "string", "pattern": "^OUT-S[0-9]{3}$"},
+          "message": {"type": "string", "minLength": 1},
+          "semantic_chunks": {"type": "array", "items": {"type": "string"}},
+          "semantic_relation": {"enum": ["statement", "sequence", "cause_effect", "comparison", "containment", "parallel_categories", "hierarchy", "evidence", "transformation", "data"]},
+          "visual": {"type": "object"},
+          "source": {
+            "type": "object",
+            "required": ["slide_id", "mode"],
+            "properties": {
+              "slide_id": {"type": "string", "pattern": "^SRC-S[0-9]{3}$"},
+              "mode": {"enum": ["DIRECT", "ADAPT", "RECOMPOSE", "NEW"]}
+            },
+            "additionalProperties": true
+          },
+          "layout": {
+            "type": "object",
+            "required": ["family"],
+            "properties": {
+              "family": {"type": "string"},
+              "variant": {"type": ["string", "null"]},
+              "density": {"type": ["string", "null"]},
+              "fill_policy": {"type": ["string", "object", "null"]},
+              "request": {"type": "object"}
+            },
+            "additionalProperties": true
+          },
+          "content": {"type": "object"},
+          "image": {"type": "object"},
+          "runtime": {"type": "object"},
+          "status": {"type": "string"},
+          "origin": {"type": "string"}
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

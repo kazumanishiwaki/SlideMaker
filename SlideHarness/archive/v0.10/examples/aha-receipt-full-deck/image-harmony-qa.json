@@ -1,0 +1,452 @@
+{
+  "schema_version": "0.1",
+  "generated_at": "2026-08-17T21:38:26.508345+00:00",
+  "status": "pass",
+  "blocking_count": 0,
+  "warning_count": 0,
+  "checks": [
+    {
+      "check_id": "IMAGE_ASSET_READY",
+      "result": "pass",
+      "severity": "info",
+      "recipe_id": "IMG-OUT-S001-01",
+      "slide_id": "OUT-S001",
+      "asset_id": "GAST-IMG-OUT-S001-01-V001"
+    },
+    {
+      "check_id": "IMAGE_SOURCE_LINEAGE",
+      "result": "pass",
+      "severity": "info",
+      "recipe_id": "IMG-OUT-S001-01",
+      "slide_id": "OUT-S001",
+      "source_slide_id": "SRC-S001",
+      "source_object_id": null,
+      "source_asset_id": null,
+      "layout_slot_id": "OUT-S001:primary_visual",
+      "lineage_mode": "layout_slot"
+    },
+    {
+      "check_id": "IMAGE_TREATMENT_APPLIED",
+      "result": "pass",
+      "severity": "info",
+      "recipe_id": "IMG-OUT-S001-01",
+      "slide_id": "OUT-S001",
+      "preset": "match_source_slot_and_deck_art_direction",
+      "grading": {
+        "brightness": 1.0294,
+        "warmth_delta": 0.22,
+        "saturation": 1.72,
+        "contrast": 0.62,
+        "detail_action": "none",
+        "detail_amount": 0.0,
+        "palette_treatment": {
+          "mode": "metric_grade_only"
+        }
+      }
+    },
+    {
+      "check_id": "IMAGE_SLOT_ASPECT",
+      "result": "pass",
+      "severity": "info",
+      "recipe_id": "IMG-OUT-S001-01",
+      "slide_id": "OUT-S001",
+      "expected": 1.77778,
+      "actual": 1.77778,
+      "relative_difference": 0.0
+    },
+    {
+      "check_id": "IMAGE_EFFECTIVE_RESOLUTION",
+      "result": "pass",
+      "severity": "info",
+      "recipe_id": "IMG-OUT-S001-01",
+      "slide_id": "OUT-S001",
+      "effective_ppi": 124.8,
+      "minimum_ppi": 120.0
+    },
+    {
+      "check_id": "IMAGE_TEMPLATE_HARMONY",
+      "result": "pass",
+      "severity": "info",
+      "recipe_id": "IMG-OUT-S001-01",
+      "slide_id": "OUT-S001",
+      "score": 0.8212,
+      "metrics": {
+        "width_px": 3328,
+        "height_px": 1872,
+        "aspect_ratio": 1.77778,
+        "brightness": 0.8675,
+        "saturation": 0.1222,
+        "contrast": 0.3648,
+        "edge_density": 0.0716,
+        "warmth": 0.1158,
+        "mean_rgb": [
+          0.899,
+          0.8688,
+          0.7831
+        ],
+        "transparent_ratio": 0.0,
+        "dominant_colors": [
+          {
+            "hex": "#F2ECD5",
+            "ratio": 0.6009
+          },
+          {
+            "hex": "#C6B8A4",
+            "ratio": 0.1545
+          },
+          {
+            "hex": "#F4F3DD",
+            "ratio": 0.1265
+          },
+          {
+            "hex": "#EFECD6",
+            "ratio": 0.0911
+          },
+          {
+            "hex": "#F6ECD4",
+            "ratio": 0.0269
+          }
+        ],
+        "average_hash": "f0f0f0f6f6f4f0f0"
+      },
+      "target_metrics": {
+        "brightness": 0.8751,
+        "saturation": 0.2902,
+        "contrast": 0.3324,
+        "edge_density": 0.0512,
+        "warmth": 0.2874
+      },
+      "distances": {
+        "brightness": 0.0076,
+        "saturation": 0.168,
+        "contrast": 0.0324,
+        "edge_density": 0.0204,
+        "warmth": 0.1716
+      },
+      "components": {
+        "brightness": 0.981,
+        "saturation": 0.65,
+        "contrast": 0.9264,
+        "edge_density": 0.9363,
+        "warmth": 0.5233
+      }
+    },
+    {
+      "check_id": "IMAGE_NEGATIVE_SPACE",
+      "result": "pass",
+      "severity": "info",
+      "recipe_id": "IMG-OUT-S001-01",
+      "slide_id": "OUT-S001",
+      "requested_side": "left",
+      "side_edge_density": 0.0132,
+      "opposite_edge_density": 0.0752
+    },
+    {
+      "check_id": "IMAGE_FRAME_APPLICATION",
+      "result": "pass",
+      "severity": "info",
+      "recipe_id": "IMG-OUT-S001-01",
+      "slide_id": "OUT-S001",
+      "source_object_id": null,
+      "layout_slot_id": "OUT-S001:primary_visual",
+      "frame_asset_ids": [],
+      "application_mode": "layout_generated_slot"
+    },
+    {
+      "check_id": "IMAGE_ASSET_READY",
+      "result": "pass",
+      "severity": "info",
+      "recipe_id": "IMG-OUT-S002-01",
+      "slide_id": "OUT-S002",
+      "asset_id": "GAST-IMG-OUT-S002-01-V001"
+    },
+    {
+      "check_id": "IMAGE_SOURCE_LINEAGE",
+      "result": "pass",
+      "severity": "info",
+      "recipe_id": "IMG-OUT-S002-01",
+      "slide_id": "OUT-S002",
+      "source_slide_id": "SRC-S004",
+      "source_object_id": "SRC-S004-O004",
+      "source_asset_id": null,
+      "layout_slot_id": "OUT-S002:primary_visual",
+      "lineage_mode": "source_object"
+    },
+    {
+      "check_id": "IMAGE_TREATMENT_APPLIED",
+      "result": "pass",
+      "severity": "info",
+      "recipe_id": "IMG-OUT-S002-01",
+      "slide_id": "OUT-S002",
+      "preset": "match_source_slot_and_deck_art_direction",
+      "grading": {
+        "brightness": 1.1739,
+        "warmth_delta": 0.0083,
+        "saturation": 0.5533,
+        "contrast": 0.62,
+        "detail_action": "none",
+        "detail_amount": 0.0,
+        "palette_treatment": {
+          "mode": "restrained_monochrome",
+          "source_color_share": 0.05
+        }
+      }
+    },
+    {
+      "check_id": "IMAGE_SLOT_ASPECT",
+      "result": "pass",
+      "severity": "info",
+      "recipe_id": "IMG-OUT-S002-01",
+      "slide_id": "OUT-S002",
+      "expected": 1.03584,
+      "actual": 1.03567,
+      "relative_difference": 0.00016
+    },
+    {
+      "check_id": "IMAGE_EFFECTIVE_RESOLUTION",
+      "result": "pass",
+      "severity": "info",
+      "recipe_id": "IMG-OUT-S002-01",
+      "slide_id": "OUT-S002",
+      "effective_ppi": 150.0,
+      "minimum_ppi": 120.0
+    },
+    {
+      "check_id": "IMAGE_TEMPLATE_HARMONY",
+      "result": "pass",
+      "severity": "info",
+      "recipe_id": "IMG-OUT-S002-01",
+      "slide_id": "OUT-S002",
+      "score": 0.8328,
+      "metrics": {
+        "width_px": 1655,
+        "height_px": 1598,
+        "aspect_ratio": 1.03567,
+        "brightness": 0.9099,
+        "saturation": 0.001,
+        "contrast": 0.3391,
+        "edge_density": 0.0461,
+        "warmth": 0.0009,
+        "mean_rgb": [
+          0.9104,
+          0.9097,
+          0.9095
+        ],
+        "transparent_ratio": 0.0,
+        "dominant_colors": [
+          {
+            "hex": "#F6F6F6",
+            "ratio": 0.6641
+          },
+          {
+            "hex": "#C3C3C2",
+            "ratio": 0.1769
+          },
+          {
+            "hex": "#F5F6F6",
+            "ratio": 0.0982
+          },
+          {
+            "hex": "#FAFAFA",
+            "ratio": 0.0318
+          },
+          {
+            "hex": "#F7F6F6",
+            "ratio": 0.029
+          }
+        ],
+        "average_hash": "f0e0e7e7e7e5e0f0"
+      },
+      "target_metrics": {
+        "brightness": 0.9922,
+        "saturation": 0.0166,
+        "contrast": 0.1073,
+        "edge_density": 0.0427,
+        "warmth": 0.0139
+      },
+      "distances": {
+        "brightness": 0.0823,
+        "saturation": 0.0156,
+        "contrast": 0.2318,
+        "edge_density": 0.0034,
+        "warmth": 0.013
+      },
+      "components": {
+        "brightness": 0.7943,
+        "saturation": 0.9675,
+        "contrast": 0.4732,
+        "edge_density": 0.9894,
+        "warmth": 0.9639
+      }
+    },
+    {
+      "check_id": "IMAGE_NEGATIVE_SPACE",
+      "result": "pass",
+      "severity": "info",
+      "recipe_id": "IMG-OUT-S002-01",
+      "slide_id": "OUT-S002",
+      "requested_side": "left",
+      "side_edge_density": 0.0277,
+      "opposite_edge_density": 0.0718
+    },
+    {
+      "check_id": "IMAGE_FRAME_APPLICATION",
+      "result": "pass",
+      "severity": "info",
+      "recipe_id": "IMG-OUT-S002-01",
+      "slide_id": "OUT-S002",
+      "source_object_id": "SRC-S004-O004",
+      "layout_slot_id": "OUT-S002:primary_visual",
+      "frame_asset_ids": [],
+      "application_mode": "layout_generated_slot"
+    },
+    {
+      "check_id": "IMAGE_ASSET_READY",
+      "result": "pass",
+      "severity": "info",
+      "recipe_id": "IMG-OUT-S007-01",
+      "slide_id": "OUT-S007",
+      "asset_id": "GAST-IMG-OUT-S007-01-V001"
+    },
+    {
+      "check_id": "IMAGE_SOURCE_LINEAGE",
+      "result": "pass",
+      "severity": "info",
+      "recipe_id": "IMG-OUT-S007-01",
+      "slide_id": "OUT-S007",
+      "source_slide_id": "SRC-S015",
+      "source_object_id": "SRC-S015-O008",
+      "source_asset_id": null,
+      "layout_slot_id": "OUT-S007:primary_visual",
+      "lineage_mode": "source_object"
+    },
+    {
+      "check_id": "IMAGE_TREATMENT_APPLIED",
+      "result": "pass",
+      "severity": "info",
+      "recipe_id": "IMG-OUT-S007-01",
+      "slide_id": "OUT-S007",
+      "preset": "match_source_slot_and_deck_art_direction",
+      "grading": {
+        "brightness": 1.1307,
+        "warmth_delta": 0.0169,
+        "saturation": 0.7767,
+        "contrast": 0.62,
+        "detail_action": "none",
+        "detail_amount": 0.0,
+        "palette_treatment": {
+          "mode": "restrained_monochrome",
+          "source_color_share": 0.05
+        }
+      }
+    },
+    {
+      "check_id": "IMAGE_SLOT_ASPECT",
+      "result": "pass",
+      "severity": "info",
+      "recipe_id": "IMG-OUT-S007-01",
+      "slide_id": "OUT-S007",
+      "expected": 0.95298,
+      "actual": 0.95307,
+      "relative_difference": 9e-05
+    },
+    {
+      "check_id": "IMAGE_EFFECTIVE_RESOLUTION",
+      "result": "pass",
+      "severity": "info",
+      "recipe_id": "IMG-OUT-S007-01",
+      "slide_id": "OUT-S007",
+      "effective_ppi": 150.0,
+      "minimum_ppi": 120.0
+    },
+    {
+      "check_id": "IMAGE_TEMPLATE_HARMONY",
+      "result": "pass",
+      "severity": "info",
+      "recipe_id": "IMG-OUT-S007-01",
+      "slide_id": "OUT-S007",
+      "score": 0.8411,
+      "metrics": {
+        "width_px": 1523,
+        "height_px": 1598,
+        "aspect_ratio": 0.95307,
+        "brightness": 0.9187,
+        "saturation": 0.0043,
+        "contrast": 0.3603,
+        "edge_density": 0.0351,
+        "warmth": 0.0041,
+        "mean_rgb": [
+          0.919,
+          0.9187,
+          0.9149
+        ],
+        "transparent_ratio": 0.0,
+        "dominant_colors": [
+          {
+            "hex": "#F7F7F6",
+            "ratio": 0.7179
+          },
+          {
+            "hex": "#C2C1C0",
+            "ratio": 0.128
+          },
+          {
+            "hex": "#F6F7F6",
+            "ratio": 0.1108
+          },
+          {
+            "hex": "#F9FAF9",
+            "ratio": 0.0287
+          },
+          {
+            "hex": "#F8F7F7",
+            "ratio": 0.0146
+          }
+        ],
+        "average_hash": "0f07e7e7e7e7070f"
+      },
+      "target_metrics": {
+        "brightness": 0.9894,
+        "saturation": 0.0233,
+        "contrast": 0.1355,
+        "edge_density": 0.0364,
+        "warmth": 0.0206
+      },
+      "distances": {
+        "brightness": 0.0707,
+        "saturation": 0.019,
+        "contrast": 0.2248,
+        "edge_density": 0.0013,
+        "warmth": 0.0165
+      },
+      "components": {
+        "brightness": 0.8233,
+        "saturation": 0.9604,
+        "contrast": 0.4891,
+        "edge_density": 0.9959,
+        "warmth": 0.9542
+      }
+    },
+    {
+      "check_id": "IMAGE_NEGATIVE_SPACE",
+      "result": "pass",
+      "severity": "info",
+      "recipe_id": "IMG-OUT-S007-01",
+      "slide_id": "OUT-S007",
+      "requested_side": "right",
+      "side_edge_density": 0.0253,
+      "opposite_edge_density": 0.0567
+    },
+    {
+      "check_id": "IMAGE_FRAME_APPLICATION",
+      "result": "pass",
+      "severity": "info",
+      "recipe_id": "IMG-OUT-S007-01",
+      "slide_id": "OUT-S007",
+      "source_object_id": "SRC-S015-O008",
+      "layout_slot_id": "OUT-S007:primary_visual",
+      "frame_asset_ids": [],
+      "application_mode": "layout_generated_slot"
+    }
+  ]
+}

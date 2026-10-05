@@ -1,0 +1,4 @@
+interface:
+  display_name: "n2p HTML Illustration"
+  short_description: "Generate n2p-style HTML illustrations"
+  default_prompt: "Use $n2p-html-illustration to add consistent n2p-style illustrations to this HTML/frontend project."

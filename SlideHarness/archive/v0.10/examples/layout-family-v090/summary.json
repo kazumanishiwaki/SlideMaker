@@ -1,0 +1,52 @@
+{
+  "version": "0.9.0",
+  "slides": 6,
+  "blocking": 0,
+  "warning": 0,
+  "pptx": "examples/layout-family-v090/layout-family-v0.9.0.pptx",
+  "montage": "examples/layout-family-v090/layout-family-v0.9.0-montage.png",
+  "families": [
+    {
+      "slide_id": "OUT-S001",
+      "family": "cover",
+      "fit_score": 0.931,
+      "fill_policy": "intentional_whitespace",
+      "status": "pass"
+    },
+    {
+      "slide_id": "OUT-S002",
+      "family": "section",
+      "fit_score": 0.907,
+      "fill_policy": "intentional_whitespace",
+      "status": "pass"
+    },
+    {
+      "slide_id": "OUT-S003",
+      "family": "timeline",
+      "fit_score": 1.0,
+      "fill_policy": "content_filled",
+      "status": "pass"
+    },
+    {
+      "slide_id": "OUT-S004",
+      "family": "kpi",
+      "fit_score": 1.0,
+      "fill_policy": "content_filled",
+      "status": "pass"
+    },
+    {
+      "slide_id": "OUT-S005",
+      "family": "chart",
+      "fit_score": 1.0,
+      "fill_policy": "content_filled",
+      "status": "pass"
+    },
+    {
+      "slide_id": "OUT-S006",
+      "family": "closing",
+      "fit_score": 0.904,
+      "fill_policy": "intentional_whitespace",
+      "status": "pass"
+    }
+  ]
+}

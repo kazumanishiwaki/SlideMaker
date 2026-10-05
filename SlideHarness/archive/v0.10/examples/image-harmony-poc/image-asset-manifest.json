@@ -1,0 +1,2500 @@
+{
+  "schema_version": "0.1",
+  "generated_at": "2026-08-17T03:46:24.560848+00:00",
+  "assets": [
+    {
+      "asset_id": "GAST-IMG-OUT-S001-01-V001",
+      "recipe_id": "IMG-OUT-S001-01",
+      "slide_id": "OUT-S001",
+      "version": 1,
+      "provider": "local",
+      "provider_meta": {
+        "source_path": "inputs/assets/キャンペーン管理.jpg",
+        "candidate_ranking": [
+          {
+            "path": "inputs/assets/キャンペーン管理.jpg",
+            "filename": "キャンペーン管理.jpg",
+            "metrics": {
+              "width_px": 1500,
+              "height_px": 1000,
+              "aspect_ratio": 1.5,
+              "brightness": 0.8198,
+              "saturation": 0.1003,
+              "contrast": 0.5779,
+              "edge_density": 0.0641,
+              "warmth": 0.0836,
+              "mean_rgb": [
+                0.8513,
+                0.8134,
+                0.7677
+              ],
+              "transparent_ratio": 0.0,
+              "dominant_colors": [
+                {
+                  "hex": "#EAE2D5",
+                  "ratio": 0.6149
+                },
+                {
+                  "hex": "#F9F7F3",
+                  "ratio": 0.1514
+                },
+                {
+                  "hex": "#937E71",
+                  "ratio": 0.1402
+                },
+                {
+                  "hex": "#EAE2D4",
+                  "ratio": 0.081
+                },
+                {
+                  "hex": "#FFE2D8",
+                  "ratio": 0.0126
+                }
+              ],
+              "average_hash": "f1e0e6e6e4e4e0f1"
+            },
+            "score": {
+              "total": 0.743,
+              "aspect": 0.7737,
+              "resolution": 1.0,
+              "harmony": 0.809,
+              "semantic": 0.1667,
+              "negative_space": 0.75,
+              "effective_ppi": 346.2,
+              "harmony_detail": {
+                "distances": {
+                  "brightness": 0.1085,
+                  "saturation": 0.0416,
+                  "contrast": 0.1131,
+                  "edge_density": 0.0619,
+                  "warmth": 0.0434
+                },
+                "components": {
+                  "brightness": 0.7288,
+                  "saturation": 0.9133,
+                  "contrast": 0.743,
+                  "edge_density": 0.8066,
+                  "warmth": 0.8794
+                }
+              },
+              "reuse_penalty": 0.0
+            }
+          },
+          {
+            "path": "inputs/assets/ビジュアル設定.jpg",
+            "filename": "ビジュアル設定.jpg",
+            "metrics": {
+              "width_px": 1500,
+              "height_px": 1000,
+              "aspect_ratio": 1.5,
+              "brightness": 0.8176,
+              "saturation": 0.0989,
+              "contrast": 0.5943,
+              "edge_density": 0.0684,
+              "warmth": 0.0804,
+              "mean_rgb": [
+                0.8533,
+                0.8077,
+                0.7729
+              ],
+              "transparent_ratio": 0.0,
+              "dominant_colors": [
+                {
+                  "hex": "#EFE5DC",
+                  "ratio": 0.6086
+                },
+                {
+                  "hex": "#968177",
+                  "ratio": 0.1616
+                },
+                {
+                  "hex": "#F9F6F0",
+                  "ratio": 0.1237
+                },
+                {
+                  "hex": "#EFE5DB",
+                  "ratio": 0.089
+                },
+                {
+                  "hex": "#F0E5DC",
+                  "ratio": 0.0171
+                }
+              ],
+              "average_hash": "fbe0e0e4e6e6e0f1"
+            },
+            "score": {
+              "total": 0.7264,
+              "aspect": 0.7737,
+              "resolution": 1.0,
+              "harmony": 0.8213,
+              "semantic": 0.0,
+              "negative_space": 0.75,
+              "effective_ppi": 346.2,
+              "harmony_detail": {
+                "distances": {
+                  "brightness": 0.1063,
+                  "saturation": 0.043,
+                  "contrast": 0.0967,
+                  "edge_density": 0.0576,
+                  "warmth": 0.0402
+                },
+                "components": {
+                  "brightness": 0.7343,
+                  "saturation": 0.9104,
+                  "contrast": 0.7802,
+                  "edge_density": 0.82,
+                  "warmth": 0.8883
+                }
+              },
+              "reuse_penalty": 0.0
+            }
+          },
+          {
+            "path": "inputs/assets/メール計測.jpg",
+            "filename": "メール計測.jpg",
+            "metrics": {
+              "width_px": 1500,
+              "height_px": 1000,
+              "aspect_ratio": 1.5,
+              "brightness": 0.822,
+              "saturation": 0.0688,
+              "contrast": 0.5861,
+              "edge_density": 0.0745,
+              "warmth": 0.0133,
+              "mean_rgb": [
+                0.8278,
+                0.821,
+                0.8144
+              ],
+              "transparent_ratio": 0.0,
+              "dominant_colors": [
+                {
+                  "hex": "#E4E8EB",
+                  "ratio": 0.6101
+                },
+                {
+                  "hex": "#99897E",
+                  "ratio": 0.1647
+                },
+                {
+                  "hex": "#F8F8F6",
+                  "ratio": 0.1205
+                },
+                {
+                  "hex": "#E4E8EA",
+                  "ratio": 0.0648
+                },
+                {
+                  "hex": "#E6E8EA",
+                  "ratio": 0.0399
+                }
+              ],
+              "average_hash": "fbe0ece4e0e4e0f1"
+            },
+            "score": {
+              "total": 0.724,
+              "aspect": 0.7737,
+              "resolution": 1.0,
+              "harmony": 0.8125,
+              "semantic": 0.0,
+              "negative_space": 0.75,
+              "effective_ppi": 346.2,
+              "harmony_detail": {
+                "distances": {
+                  "brightness": 0.1107,
+                  "saturation": 0.0731,
+                  "contrast": 0.1049,
+                  "edge_density": 0.0515,
+                  "warmth": 0.0269
+                },
+                "components": {
+                  "brightness": 0.7232,
+                  "saturation": 0.8477,
+                  "contrast": 0.7616,
+                  "edge_density": 0.8391,
+                  "warmth": 0.9253
+                }
+              },
+              "reuse_penalty": 0.0
+            }
+          },
+          {
+            "path": "inputs/assets/フォーム設定.jpg",
+            "filename": "フォーム設定.jpg",
+            "metrics": {
+              "width_px": 1500,
+              "height_px": 1000,
+              "aspect_ratio": 1.5,
+              "brightness": 0.8407,
+              "saturation": 0.0393,
+              "contrast": 0.5786,
+              "edge_density": 0.0751,
+              "warmth": 0.0087,
+              "mean_rgb": [
+                0.8362,
+                0.8456,
+                0.8275
+              ],
+              "transparent_ratio": 0.0,
+              "dominant_colors": [
+                {
+                  "hex": "#E5EAE6",
+                  "ratio": 0.6104
+                },
+                {
+                  "hex": "#F8F8F4",
+                  "ratio": 0.1534
+                },
+                {
+                  "hex": "#8D8B84",
+                  "ratio": 0.123
+                },
+                {
+                  "hex": "#E5EAE5",
+                  "ratio": 0.0826
+                },
+                {
+                  "hex": "#EBEAE6",
+                  "ratio": 0.0306
+                }
+              ],
+              "average_hash": "f1e0eee4e4e6e0f1"
+            },
+            "score": {
+              "total": 0.7164,
+              "aspect": 0.7737,
+              "resolution": 1.0,
+              "harmony": 0.7844,
+              "semantic": 0.0,
+              "negative_space": 0.75,
+              "effective_ppi": 346.2,
+              "harmony_detail": {
+                "distances": {
+                  "brightness": 0.1294,
+                  "saturation": 0.1026,
+                  "contrast": 0.1124,
+                  "edge_density": 0.0509,
+                  "warmth": 0.0315
+                },
+                "components": {
+                  "brightness": 0.6765,
+                  "saturation": 0.7863,
+                  "contrast": 0.7445,
+                  "edge_density": 0.8409,
+                  "warmth": 0.9125
+                }
+              },
+              "reuse_penalty": 0.0
+            }
+          }
+        ],
+        "selected_score": 0.743,
+        "selection_rule": "aspect_resolution_harmony_semantics_negative_space"
+      },
+      "model": null,
+      "quality": "medium",
+      "prompt": "Create a photo_grid for a professional presentation slide.\nCore idea: キャンペーンの基本情報・期間・規約を管理する抽象的な編集画面\nMatch this source-deck photographic character: high-key and bright, restrained color, crisp contrast, neutral color temperature, moderate visual detail.\nVisual tone: brightness match_source; saturation restrained; contrast soft_to_medium.\nComposition: low-to-medium background complexity, medium subject scale, negative space on none when applicable.\nKeep the primary subject clearly readable after a presentation-slot crop.\nNo embedded words, labels, logos, watermarks, UI text, charts, or typography.\nThe image must feel editorial and specific rather than generic stock photography.\nAvoid: generic_stock_photo, busy_background, random_style_switch, image_with_embedded_text, filler_visual.",
+      "raw_path": "render/generated_assets/IMG-OUT-S001-01/v001/raw.png",
+      "processed_path": "render/generated_assets/IMG-OUT-S001-01/v001/processed.png",
+      "target": {
+        "source_slide_id": "SRC-S008",
+        "source_object_id": "SRC-S008-O010",
+        "source_asset_id": "AST-00082",
+        "source_media_path": "analysis/source_media/4ae2f015763132fce209bd9870402281a21c8b31b6dd5ed38f4a0b56ec871308.png",
+        "source_visual_metrics": {
+          "width_px": 312,
+          "height_px": 172,
+          "aspect_ratio": 1.81395,
+          "brightness": 0.652,
+          "saturation": 0.1729,
+          "contrast": 0.8203,
+          "edge_density": 0.1499,
+          "warmth": 0.0542,
+          "mean_rgb": [
+            0.6755,
+            0.6459,
+            0.6213
+          ],
+          "transparent_ratio": 0.0243,
+          "dominant_colors": [
+            {
+              "hex": "#383E42",
+              "ratio": 0.3006
+            },
+            {
+              "hex": "#FFFFFF",
+              "ratio": 0.2309
+            },
+            {
+              "hex": "#E5D0BE",
+              "ratio": 0.22
+            },
+            {
+              "hex": "#908075",
+              "ratio": 0.1662
+            },
+            {
+              "hex": "#FCFEFD",
+              "ratio": 0.0824
+            }
+          ],
+          "average_hash": "f0f8f8f0e0ecc4e4"
+        },
+        "source_display": {
+          "rotation": 0.0,
+          "crop_left": 0.0,
+          "crop_top": 0.0,
+          "crop_right": 0.0,
+          "crop_bottom": 0.0,
+          "slot_aspect_ratio": 1.81395
+        },
+        "bbox": {
+          "x": 18.125,
+          "y": 3.1389,
+          "w": 4.3333,
+          "h": 2.3889
+        },
+        "aspect_ratio": 1.81393,
+        "frame_asset_ids": []
+      },
+      "composition": {
+        "focal_point": "auto",
+        "negative_space": "none",
+        "background_complexity": "low_to_medium"
+      },
+      "lineage": {
+        "source_slide_id": "SRC-S008",
+        "source_object_id": "SRC-S008-O010",
+        "source_asset_id": "AST-00082",
+        "source_media_path": "analysis/source_media/4ae2f015763132fce209bd9870402281a21c8b31b6dd5ed38f4a0b56ec871308.png",
+        "style_reference": {
+          "primary_source_asset_id": "AST-00082",
+          "deck_reference_asset_ids": [
+            "AST-00001",
+            "AST-00008",
+            "AST-00174",
+            "AST-00181",
+            "AST-00028",
+            "AST-00038"
+          ],
+          "lineage": "source_slot_plus_deck_median"
+        },
+        "treatment_preset": "match_source_slot_and_deck_art_direction"
+      },
+      "raw_metrics": {
+        "width_px": 1500,
+        "height_px": 1000,
+        "aspect_ratio": 1.5,
+        "brightness": 0.8198,
+        "saturation": 0.1003,
+        "contrast": 0.5779,
+        "edge_density": 0.0641,
+        "warmth": 0.0836,
+        "mean_rgb": [
+          0.8513,
+          0.8134,
+          0.7677
+        ],
+        "transparent_ratio": 0.0,
+        "dominant_colors": [
+          {
+            "hex": "#EAE2D5",
+            "ratio": 0.6149
+          },
+          {
+            "hex": "#F9F7F3",
+            "ratio": 0.1514
+          },
+          {
+            "hex": "#937E71",
+            "ratio": 0.1402
+          },
+          {
+            "hex": "#EAE2D4",
+            "ratio": 0.081
+          },
+          {
+            "hex": "#FFE2D8",
+            "ratio": 0.0126
+          }
+        ],
+        "average_hash": "f1e0e6e6e4e4e0f1"
+      },
+      "process": {
+        "crop": {
+          "source_size": [
+            1500,
+            1000
+          ],
+          "source_aspect": 1.5,
+          "target_aspect": 1.81393,
+          "focal_point": [
+            0.6219,
+            0.4929
+          ],
+          "crop_box": [
+            0,
+            79,
+            1500,
+            906
+          ],
+          "negative_space": {
+            "requested": "none",
+            "strategy": "focal_only"
+          }
+        },
+        "target_size": [
+          780,
+          430
+        ],
+        "target_metrics": {
+          "brightness": 0.7113,
+          "saturation": 0.1419,
+          "contrast": 0.691,
+          "edge_density": 0.126,
+          "warmth": 0.0402
+        },
+        "grading": {
+          "before": {
+            "width_px": 780,
+            "height_px": 430,
+            "aspect_ratio": 1.81395,
+            "brightness": 0.805,
+            "saturation": 0.1032,
+            "contrast": 0.6289,
+            "edge_density": 0.0744,
+            "warmth": 0.0838,
+            "mean_rgb": [
+              0.8373,
+              0.7981,
+              0.7536
+            ],
+            "transparent_ratio": 0.0,
+            "dominant_colors": [
+              {
+                "hex": "#EAE2D5",
+                "ratio": 0.5656
+              },
+              {
+                "hex": "#F9F7F2",
+                "ratio": 0.1837
+              },
+              {
+                "hex": "#907C6F",
+                "ratio": 0.1804
+              },
+              {
+                "hex": "#F1E2D7",
+                "ratio": 0.0429
+              },
+              {
+                "hex": "#E9E2D5",
+                "ratio": 0.0275
+              }
+            ],
+            "average_hash": "f1e4e6e6e6ece4f0"
+          },
+          "factors": {
+            "brightness": 0.8836,
+            "warmth_delta": -0.0436,
+            "saturation": 1.375,
+            "contrast": 1.0987,
+            "detail_action": "sharpen",
+            "detail_amount": 20.0
+          },
+          "after": {
+            "width_px": 780,
+            "height_px": 430,
+            "aspect_ratio": 1.81395,
+            "brightness": 0.703,
+            "saturation": 0.1323,
+            "contrast": 0.6101,
+            "edge_density": 0.0764,
+            "warmth": 0.0778,
+            "mean_rgb": [
+              0.7331,
+              0.698,
+              0.6553
+            ],
+            "transparent_ratio": 0.0,
+            "dominant_colors": [
+              {
+                "hex": "#CEC8BC",
+                "ratio": 0.5306
+              },
+              {
+                "hex": "#DBDEDC",
+                "ratio": 0.1843
+              },
+              {
+                "hex": "#7C6354",
+                "ratio": 0.1746
+              },
+              {
+                "hex": "#CFC8BC",
+                "ratio": 0.0826
+              },
+              {
+                "hex": "#CDC8BC",
+                "ratio": 0.028
+              }
+            ],
+            "average_hash": "f1e4e6e6e6ece4f0"
+          }
+        },
+        "metrics": {
+          "width_px": 780,
+          "height_px": 430,
+          "aspect_ratio": 1.81395,
+          "brightness": 0.703,
+          "saturation": 0.1323,
+          "contrast": 0.6101,
+          "edge_density": 0.0764,
+          "warmth": 0.0778,
+          "mean_rgb": [
+            0.7331,
+            0.698,
+            0.6553
+          ],
+          "transparent_ratio": 0.0,
+          "dominant_colors": [
+            {
+              "hex": "#CEC8BC",
+              "ratio": 0.5306
+            },
+            {
+              "hex": "#DBDEDC",
+              "ratio": 0.1843
+            },
+            {
+              "hex": "#7C6354",
+              "ratio": 0.1746
+            },
+            {
+              "hex": "#CFC8BC",
+              "ratio": 0.0826
+            },
+            {
+              "hex": "#CDC8BC",
+              "ratio": 0.028
+            }
+          ],
+          "average_hash": "f1e4e6e6e6ece4f0"
+        }
+      },
+      "metrics": {
+        "width_px": 780,
+        "height_px": 430,
+        "aspect_ratio": 1.81395,
+        "brightness": 0.703,
+        "saturation": 0.1323,
+        "contrast": 0.6101,
+        "edge_density": 0.0764,
+        "warmth": 0.0778,
+        "mean_rgb": [
+          0.7331,
+          0.698,
+          0.6553
+        ],
+        "transparent_ratio": 0.0,
+        "dominant_colors": [
+          {
+            "hex": "#CEC8BC",
+            "ratio": 0.5306
+          },
+          {
+            "hex": "#DBDEDC",
+            "ratio": 0.1843
+          },
+          {
+            "hex": "#7C6354",
+            "ratio": 0.1746
+          },
+          {
+            "hex": "#CFC8BC",
+            "ratio": 0.0826
+          },
+          {
+            "hex": "#CDC8BC",
+            "ratio": 0.028
+          }
+        ],
+        "average_hash": "f1e4e6e6e6ece4f0"
+      },
+      "status": "READY",
+      "created_at": "2026-08-17T03:46:23.578609+00:00"
+    },
+    {
+      "asset_id": "GAST-IMG-OUT-S001-02-V001",
+      "recipe_id": "IMG-OUT-S001-02",
+      "slide_id": "OUT-S001",
+      "version": 1,
+      "provider": "local",
+      "provider_meta": {
+        "source_path": "inputs/assets/フォーム設定.jpg",
+        "candidate_ranking": [
+          {
+            "path": "inputs/assets/フォーム設定.jpg",
+            "filename": "フォーム設定.jpg",
+            "metrics": {
+              "width_px": 1500,
+              "height_px": 1000,
+              "aspect_ratio": 1.5,
+              "brightness": 0.8407,
+              "saturation": 0.0393,
+              "contrast": 0.5786,
+              "edge_density": 0.0751,
+              "warmth": 0.0087,
+              "mean_rgb": [
+                0.8362,
+                0.8456,
+                0.8275
+              ],
+              "transparent_ratio": 0.0,
+              "dominant_colors": [
+                {
+                  "hex": "#E5EAE6",
+                  "ratio": 0.6104
+                },
+                {
+                  "hex": "#F8F8F4",
+                  "ratio": 0.1534
+                },
+                {
+                  "hex": "#8D8B84",
+                  "ratio": 0.123
+                },
+                {
+                  "hex": "#E5EAE5",
+                  "ratio": 0.0826
+                },
+                {
+                  "hex": "#EBEAE6",
+                  "ratio": 0.0306
+                }
+              ],
+              "average_hash": "f1e0eee4e4e6e0f1"
+            },
+            "score": {
+              "total": 0.7099,
+              "aspect": 0.7737,
+              "resolution": 1.0,
+              "harmony": 0.6862,
+              "semantic": 0.1667,
+              "negative_space": 0.75,
+              "effective_ppi": 346.2,
+              "harmony_detail": {
+                "distances": {
+                  "brightness": 0.1159,
+                  "saturation": 0.1893,
+                  "contrast": 0.0666,
+                  "edge_density": 0.1051,
+                  "warmth": 0.1553
+                },
+                "components": {
+                  "brightness": 0.7103,
+                  "saturation": 0.6056,
+                  "contrast": 0.8486,
+                  "edge_density": 0.6716,
+                  "warmth": 0.5686
+                }
+              },
+              "reuse_penalty": 0.0
+            }
+          },
+          {
+            "path": "inputs/assets/メール計測.jpg",
+            "filename": "メール計測.jpg",
+            "metrics": {
+              "width_px": 1500,
+              "height_px": 1000,
+              "aspect_ratio": 1.5,
+              "brightness": 0.822,
+              "saturation": 0.0688,
+              "contrast": 0.5861,
+              "edge_density": 0.0745,
+              "warmth": 0.0133,
+              "mean_rgb": [
+                0.8278,
+                0.821,
+                0.8144
+              ],
+              "transparent_ratio": 0.0,
+              "dominant_colors": [
+                {
+                  "hex": "#E4E8EB",
+                  "ratio": 0.6101
+                },
+                {
+                  "hex": "#99897E",
+                  "ratio": 0.1647
+                },
+                {
+                  "hex": "#F8F8F6",
+                  "ratio": 0.1205
+                },
+                {
+                  "hex": "#E4E8EA",
+                  "ratio": 0.0648
+                },
+                {
+                  "hex": "#E6E8EA",
+                  "ratio": 0.0399
+                }
+              ],
+              "average_hash": "fbe0ece4e0e4e0f1"
+            },
+            "score": {
+              "total": 0.6945,
+              "aspect": 0.7737,
+              "resolution": 1.0,
+              "harmony": 0.7034,
+              "semantic": 0.0,
+              "negative_space": 0.75,
+              "effective_ppi": 346.2,
+              "harmony_detail": {
+                "distances": {
+                  "brightness": 0.0972,
+                  "saturation": 0.1598,
+                  "contrast": 0.0741,
+                  "edge_density": 0.1057,
+                  "warmth": 0.1599
+                },
+                "components": {
+                  "brightness": 0.757,
+                  "saturation": 0.6671,
+                  "contrast": 0.8316,
+                  "edge_density": 0.6697,
+                  "warmth": 0.5558
+                }
+              },
+              "reuse_penalty": 0.0
+            }
+          },
+          {
+            "path": "inputs/assets/ビジュアル設定.jpg",
+            "filename": "ビジュアル設定.jpg",
+            "metrics": {
+              "width_px": 1500,
+              "height_px": 1000,
+              "aspect_ratio": 1.5,
+              "brightness": 0.8176,
+              "saturation": 0.0989,
+              "contrast": 0.5943,
+              "edge_density": 0.0684,
+              "warmth": 0.0804,
+              "mean_rgb": [
+                0.8533,
+                0.8077,
+                0.7729
+              ],
+              "transparent_ratio": 0.0,
+              "dominant_colors": [
+                {
+                  "hex": "#EFE5DC",
+                  "ratio": 0.6086
+                },
+                {
+                  "hex": "#968177",
+                  "ratio": 0.1616
+                },
+                {
+                  "hex": "#F9F6F0",
+                  "ratio": 0.1237
+                },
+                {
+                  "hex": "#EFE5DB",
+                  "ratio": 0.089
+                },
+                {
+                  "hex": "#F0E5DC",
+                  "ratio": 0.0171
+                }
+              ],
+              "average_hash": "fbe0e0e4e6e6e0f1"
+            },
+            "score": {
+              "total": 0.6885,
+              "aspect": 0.7737,
+              "resolution": 1.0,
+              "harmony": 0.6809,
+              "semantic": 0.0,
+              "negative_space": 0.75,
+              "effective_ppi": 346.2,
+              "harmony_detail": {
+                "distances": {
+                  "brightness": 0.0928,
+                  "saturation": 0.1297,
+                  "contrast": 0.0823,
+                  "edge_density": 0.1118,
+                  "warmth": 0.227
+                },
+                "components": {
+                  "brightness": 0.768,
+                  "saturation": 0.7298,
+                  "contrast": 0.813,
+                  "edge_density": 0.6506,
+                  "warmth": 0.3694
+                }
+              },
+              "reuse_penalty": 0.0
+            }
+          },
+          {
+            "path": "inputs/assets/キャンペーン管理.jpg",
+            "filename": "キャンペーン管理.jpg",
+            "metrics": {
+              "width_px": 1500,
+              "height_px": 1000,
+              "aspect_ratio": 1.5,
+              "brightness": 0.8198,
+              "saturation": 0.1003,
+              "contrast": 0.5779,
+              "edge_density": 0.0641,
+              "warmth": 0.0836,
+              "mean_rgb": [
+                0.8513,
+                0.8134,
+                0.7677
+              ],
+              "transparent_ratio": 0.0,
+              "dominant_colors": [
+                {
+                  "hex": "#EAE2D5",
+                  "ratio": 0.6149
+                },
+                {
+                  "hex": "#F9F7F3",
+                  "ratio": 0.1514
+                },
+                {
+                  "hex": "#937E71",
+                  "ratio": 0.1402
+                },
+                {
+                  "hex": "#EAE2D4",
+                  "ratio": 0.081
+                },
+                {
+                  "hex": "#FFE2D8",
+                  "ratio": 0.0126
+                }
+              ],
+              "average_hash": "f1e0e6e6e4e4e0f1"
+            },
+            "score": {
+              "total": 0.4692,
+              "aspect": 0.7737,
+              "resolution": 1.0,
+              "harmony": 0.6835,
+              "semantic": 0.0,
+              "negative_space": 0.75,
+              "effective_ppi": 346.2,
+              "harmony_detail": {
+                "distances": {
+                  "brightness": 0.095,
+                  "saturation": 0.1283,
+                  "contrast": 0.0659,
+                  "edge_density": 0.1161,
+                  "warmth": 0.2302
+                },
+                "components": {
+                  "brightness": 0.7625,
+                  "saturation": 0.7327,
+                  "contrast": 0.8502,
+                  "edge_density": 0.6372,
+                  "warmth": 0.3606
+                }
+              },
+              "reuse_penalty": 0.22
+            }
+          }
+        ],
+        "selected_score": 0.7099,
+        "selection_rule": "aspect_resolution_harmony_semantics_negative_space"
+      },
+      "model": null,
+      "quality": "medium",
+      "prompt": "Create a photo_grid for a professional presentation slide.\nCore idea: 入力項目・必須設定・回答形式を編集するフォーム画面\nMatch this source-deck photographic character: high-key and bright, restrained color, moderate contrast, cool-neutral color temperature, moderate visual detail.\nVisual tone: brightness match_source; saturation restrained; contrast soft_to_medium.\nComposition: low-to-medium background complexity, medium subject scale, negative space on none when applicable.\nKeep the primary subject clearly readable after a presentation-slot crop.\nNo embedded words, labels, logos, watermarks, UI text, charts, or typography.\nThe image must feel editorial and specific rather than generic stock photography.\nAvoid: generic_stock_photo, busy_background, random_style_switch, image_with_embedded_text, filler_visual.",
+      "raw_path": "render/generated_assets/IMG-OUT-S001-02/v001/raw.png",
+      "processed_path": "render/generated_assets/IMG-OUT-S001-02/v001/processed.png",
+      "target": {
+        "source_slide_id": "SRC-S008",
+        "source_object_id": "SRC-S008-O016",
+        "source_asset_id": "AST-00083",
+        "source_media_path": "analysis/source_media/da5ab6f3a22fe430a2f6fb73c7632547a07ad95ee9f406800ee13f4d7364c38a.png",
+        "source_visual_metrics": {
+          "width_px": 312,
+          "height_px": 172,
+          "aspect_ratio": 1.81395,
+          "brightness": 0.6719,
+          "saturation": 0.3004,
+          "contrast": 0.5571,
+          "edge_density": 0.2296,
+          "warmth": -0.2204,
+          "mean_rgb": [
+            0.5778,
+            0.6954,
+            0.7981
+          ],
+          "transparent_ratio": 0.0243,
+          "dominant_colors": [
+            {
+              "hex": "#9CC0DF",
+              "ratio": 0.2934
+            },
+            {
+              "hex": "#7EAED7",
+              "ratio": 0.258
+            },
+            {
+              "hex": "#4B6886",
+              "ratio": 0.2005
+            },
+            {
+              "hex": "#F9F9F6",
+              "ratio": 0.1417
+            },
+            {
+              "hex": "#C9DAE6",
+              "ratio": 0.1064
+            }
+          ],
+          "average_hash": "f8fcec6cecececec"
+        },
+        "source_display": {
+          "rotation": 0.0,
+          "crop_left": 0.0,
+          "crop_top": 0.0,
+          "crop_right": 0.0,
+          "crop_bottom": 0.0,
+          "slot_aspect_ratio": 1.81395
+        },
+        "bbox": {
+          "x": 18.125,
+          "y": 5.9306,
+          "w": 4.3333,
+          "h": 2.3889
+        },
+        "aspect_ratio": 1.81393,
+        "frame_asset_ids": []
+      },
+      "composition": {
+        "focal_point": "auto",
+        "negative_space": "none",
+        "background_complexity": "low_to_medium"
+      },
+      "lineage": {
+        "source_slide_id": "SRC-S008",
+        "source_object_id": "SRC-S008-O016",
+        "source_asset_id": "AST-00083",
+        "source_media_path": "analysis/source_media/da5ab6f3a22fe430a2f6fb73c7632547a07ad95ee9f406800ee13f4d7364c38a.png",
+        "style_reference": {
+          "primary_source_asset_id": "AST-00083",
+          "deck_reference_asset_ids": [
+            "AST-00001",
+            "AST-00008",
+            "AST-00174",
+            "AST-00181",
+            "AST-00028",
+            "AST-00038"
+          ],
+          "lineage": "source_slot_plus_deck_median"
+        },
+        "treatment_preset": "match_source_slot_and_deck_art_direction"
+      },
+      "raw_metrics": {
+        "width_px": 1500,
+        "height_px": 1000,
+        "aspect_ratio": 1.5,
+        "brightness": 0.8407,
+        "saturation": 0.0393,
+        "contrast": 0.5786,
+        "edge_density": 0.0751,
+        "warmth": 0.0087,
+        "mean_rgb": [
+          0.8362,
+          0.8456,
+          0.8275
+        ],
+        "transparent_ratio": 0.0,
+        "dominant_colors": [
+          {
+            "hex": "#E5EAE6",
+            "ratio": 0.6104
+          },
+          {
+            "hex": "#F8F8F4",
+            "ratio": 0.1534
+          },
+          {
+            "hex": "#8D8B84",
+            "ratio": 0.123
+          },
+          {
+            "hex": "#E5EAE5",
+            "ratio": 0.0826
+          },
+          {
+            "hex": "#EBEAE6",
+            "ratio": 0.0306
+          }
+        ],
+        "average_hash": "f1e0eee4e4e6e0f1"
+      },
+      "process": {
+        "crop": {
+          "source_size": [
+            1500,
+            1000
+          ],
+          "source_aspect": 1.5,
+          "target_aspect": 1.81393,
+          "focal_point": [
+            0.6286,
+            0.4941
+          ],
+          "crop_box": [
+            0,
+            81,
+            1500,
+            908
+          ],
+          "negative_space": {
+            "requested": "none",
+            "strategy": "focal_only"
+          }
+        },
+        "target_size": [
+          780,
+          430
+        ],
+        "target_metrics": {
+          "brightness": 0.7248,
+          "saturation": 0.2286,
+          "contrast": 0.512,
+          "edge_density": 0.1802,
+          "warmth": -0.1466
+        },
+        "grading": {
+          "before": {
+            "width_px": 780,
+            "height_px": 430,
+            "aspect_ratio": 1.81395,
+            "brightness": 0.8263,
+            "saturation": 0.0434,
+            "contrast": 0.6299,
+            "edge_density": 0.0863,
+            "warmth": 0.0113,
+            "mean_rgb": [
+              0.8233,
+              0.8306,
+              0.8119
+            ],
+            "transparent_ratio": 0.0,
+            "dominant_colors": [
+              {
+                "hex": "#E5EAE6",
+                "ratio": 0.5331
+              },
+              {
+                "hex": "#F8F8F4",
+                "ratio": 0.1912
+              },
+              {
+                "hex": "#8B8881",
+                "ratio": 0.1492
+              },
+              {
+                "hex": "#ECEAE3",
+                "ratio": 0.0699
+              },
+              {
+                "hex": "#E5EAE5",
+                "ratio": 0.0566
+              }
+            ],
+            "average_hash": "f1e4eee6e6eee0f0"
+          },
+          "factors": {
+            "brightness": 0.8772,
+            "warmth_delta": -0.1579,
+            "saturation": 1.4,
+            "contrast": 0.8128,
+            "detail_action": "sharpen",
+            "detail_amount": 26.182
+          },
+          "after": {
+            "width_px": 780,
+            "height_px": 430,
+            "aspect_ratio": 1.81395,
+            "brightness": 0.7124,
+            "saturation": 0.11,
+            "contrast": 0.4483,
+            "edge_density": 0.0843,
+            "warmth": -0.0706,
+            "mean_rgb": [
+              0.6749,
+              0.7243,
+              0.7455
+            ],
+            "transparent_ratio": 0.0,
+            "dominant_colors": [
+              {
+                "hex": "#B8C9D0",
+                "ratio": 0.534
+              },
+              {
+                "hex": "#C6D2DA",
+                "ratio": 0.1914
+              },
+              {
+                "hex": "#7E8282",
+                "ratio": 0.1493
+              },
+              {
+                "hex": "#B8C9CF",
+                "ratio": 0.0876
+              },
+              {
+                "hex": "#BEC9CF",
+                "ratio": 0.0376
+              }
+            ],
+            "average_hash": "f1e4eee6e6eee4f0"
+          }
+        },
+        "metrics": {
+          "width_px": 780,
+          "height_px": 430,
+          "aspect_ratio": 1.81395,
+          "brightness": 0.7124,
+          "saturation": 0.11,
+          "contrast": 0.4483,
+          "edge_density": 0.0843,
+          "warmth": -0.0706,
+          "mean_rgb": [
+            0.6749,
+            0.7243,
+            0.7455
+          ],
+          "transparent_ratio": 0.0,
+          "dominant_colors": [
+            {
+              "hex": "#B8C9D0",
+              "ratio": 0.534
+            },
+            {
+              "hex": "#C6D2DA",
+              "ratio": 0.1914
+            },
+            {
+              "hex": "#7E8282",
+              "ratio": 0.1493
+            },
+            {
+              "hex": "#B8C9CF",
+              "ratio": 0.0876
+            },
+            {
+              "hex": "#BEC9CF",
+              "ratio": 0.0376
+            }
+          ],
+          "average_hash": "f1e4eee6e6eee4f0"
+        }
+      },
+      "metrics": {
+        "width_px": 780,
+        "height_px": 430,
+        "aspect_ratio": 1.81395,
+        "brightness": 0.7124,
+        "saturation": 0.11,
+        "contrast": 0.4483,
+        "edge_density": 0.0843,
+        "warmth": -0.0706,
+        "mean_rgb": [
+          0.6749,
+          0.7243,
+          0.7455
+        ],
+        "transparent_ratio": 0.0,
+        "dominant_colors": [
+          {
+            "hex": "#B8C9D0",
+            "ratio": 0.534
+          },
+          {
+            "hex": "#C6D2DA",
+            "ratio": 0.1914
+          },
+          {
+            "hex": "#7E8282",
+            "ratio": 0.1493
+          },
+          {
+            "hex": "#B8C9CF",
+            "ratio": 0.0876
+          },
+          {
+            "hex": "#BEC9CF",
+            "ratio": 0.0376
+          }
+        ],
+        "average_hash": "f1e4eee6e6eee4f0"
+      },
+      "status": "READY",
+      "created_at": "2026-08-17T03:46:23.856810+00:00"
+    },
+    {
+      "asset_id": "GAST-IMG-OUT-S001-03-V001",
+      "recipe_id": "IMG-OUT-S001-03",
+      "slide_id": "OUT-S001",
+      "version": 1,
+      "provider": "local",
+      "provider_meta": {
+        "source_path": "inputs/assets/ビジュアル設定.jpg",
+        "candidate_ranking": [
+          {
+            "path": "inputs/assets/ビジュアル設定.jpg",
+            "filename": "ビジュアル設定.jpg",
+            "metrics": {
+              "width_px": 1500,
+              "height_px": 1000,
+              "aspect_ratio": 1.5,
+              "brightness": 0.8176,
+              "saturation": 0.0989,
+              "contrast": 0.5943,
+              "edge_density": 0.0684,
+              "warmth": 0.0804,
+              "mean_rgb": [
+                0.8533,
+                0.8077,
+                0.7729
+              ],
+              "transparent_ratio": 0.0,
+              "dominant_colors": [
+                {
+                  "hex": "#EFE5DC",
+                  "ratio": 0.6086
+                },
+                {
+                  "hex": "#968177",
+                  "ratio": 0.1616
+                },
+                {
+                  "hex": "#F9F6F0",
+                  "ratio": 0.1237
+                },
+                {
+                  "hex": "#EFE5DB",
+                  "ratio": 0.089
+                },
+                {
+                  "hex": "#F0E5DC",
+                  "ratio": 0.0171
+                }
+              ],
+              "average_hash": "fbe0e0e4e6e6e0f1"
+            },
+            "score": {
+              "total": 0.7493,
+              "aspect": 0.7737,
+              "resolution": 1.0,
+              "harmony": 0.8322,
+              "semantic": 0.1667,
+              "negative_space": 0.75,
+              "effective_ppi": 346.2,
+              "harmony_detail": {
+                "distances": {
+                  "brightness": 0.1166,
+                  "saturation": 0.0291,
+                  "contrast": 0.029,
+                  "edge_density": 0.0618,
+                  "warmth": 0.0785
+                },
+                "components": {
+                  "brightness": 0.7085,
+                  "saturation": 0.9394,
+                  "contrast": 0.9341,
+                  "edge_density": 0.8069,
+                  "warmth": 0.7819
+                }
+              },
+              "reuse_penalty": 0.0
+            }
+          },
+          {
+            "path": "inputs/assets/メール計測.jpg",
+            "filename": "メール計測.jpg",
+            "metrics": {
+              "width_px": 1500,
+              "height_px": 1000,
+              "aspect_ratio": 1.5,
+              "brightness": 0.822,
+              "saturation": 0.0688,
+              "contrast": 0.5861,
+              "edge_density": 0.0745,
+              "warmth": 0.0133,
+              "mean_rgb": [
+                0.8278,
+                0.821,
+                0.8144
+              ],
+              "transparent_ratio": 0.0,
+              "dominant_colors": [
+                {
+                  "hex": "#E4E8EB",
+                  "ratio": 0.6101
+                },
+                {
+                  "hex": "#99897E",
+                  "ratio": 0.1647
+                },
+                {
+                  "hex": "#F8F8F6",
+                  "ratio": 0.1205
+                },
+                {
+                  "hex": "#E4E8EA",
+                  "ratio": 0.0648
+                },
+                {
+                  "hex": "#E6E8EA",
+                  "ratio": 0.0399
+                }
+              ],
+              "average_hash": "fbe0ece4e0e4e0f1"
+            },
+            "score": {
+              "total": 0.7399,
+              "aspect": 0.7737,
+              "resolution": 1.0,
+              "harmony": 0.8715,
+              "semantic": 0.0,
+              "negative_space": 0.75,
+              "effective_ppi": 346.2,
+              "harmony_detail": {
+                "distances": {
+                  "brightness": 0.121,
+                  "saturation": 0.001,
+                  "contrast": 0.0372,
+                  "edge_density": 0.0557,
+                  "warmth": 0.0114
+                },
+                "components": {
+                  "brightness": 0.6975,
+                  "saturation": 0.9979,
+                  "contrast": 0.9155,
+                  "edge_density": 0.8259,
+                  "warmth": 0.9683
+                }
+              },
+              "reuse_penalty": 0.0
+            }
+          },
+          {
+            "path": "inputs/assets/フォーム設定.jpg",
+            "filename": "フォーム設定.jpg",
+            "metrics": {
+              "width_px": 1500,
+              "height_px": 1000,
+              "aspect_ratio": 1.5,
+              "brightness": 0.8407,
+              "saturation": 0.0393,
+              "contrast": 0.5786,
+              "edge_density": 0.0751,
+              "warmth": 0.0087,
+              "mean_rgb": [
+                0.8362,
+                0.8456,
+                0.8275
+              ],
+              "transparent_ratio": 0.0,
+              "dominant_colors": [
+                {
+                  "hex": "#E5EAE6",
+                  "ratio": 0.6104
+                },
+                {
+                  "hex": "#F8F8F4",
+                  "ratio": 0.1534
+                },
+                {
+                  "hex": "#8D8B84",
+                  "ratio": 0.123
+                },
+                {
+                  "hex": "#E5EAE5",
+                  "ratio": 0.0826
+                },
+                {
+                  "hex": "#EBEAE6",
+                  "ratio": 0.0306
+                }
+              ],
+              "average_hash": "f1e0eee4e4e6e0f1"
+            },
+            "score": {
+              "total": 0.5134,
+              "aspect": 0.7737,
+              "resolution": 1.0,
+              "harmony": 0.8475,
+              "semantic": 0.0,
+              "negative_space": 0.75,
+              "effective_ppi": 346.2,
+              "harmony_detail": {
+                "distances": {
+                  "brightness": 0.1397,
+                  "saturation": 0.0305,
+                  "contrast": 0.0447,
+                  "edge_density": 0.0551,
+                  "warmth": 0.0068
+                },
+                "components": {
+                  "brightness": 0.6508,
+                  "saturation": 0.9365,
+                  "contrast": 0.8984,
+                  "edge_density": 0.8278,
+                  "warmth": 0.9811
+                }
+              },
+              "reuse_penalty": 0.22
+            }
+          },
+          {
+            "path": "inputs/assets/キャンペーン管理.jpg",
+            "filename": "キャンペーン管理.jpg",
+            "metrics": {
+              "width_px": 1500,
+              "height_px": 1000,
+              "aspect_ratio": 1.5,
+              "brightness": 0.8198,
+              "saturation": 0.1003,
+              "contrast": 0.5779,
+              "edge_density": 0.0641,
+              "warmth": 0.0836,
+              "mean_rgb": [
+                0.8513,
+                0.8134,
+                0.7677
+              ],
+              "transparent_ratio": 0.0,
+              "dominant_colors": [
+                {
+                  "hex": "#EAE2D5",
+                  "ratio": 0.6149
+                },
+                {
+                  "hex": "#F9F7F3",
+                  "ratio": 0.1514
+                },
+                {
+                  "hex": "#937E71",
+                  "ratio": 0.1402
+                },
+                {
+                  "hex": "#EAE2D4",
+                  "ratio": 0.081
+                },
+                {
+                  "hex": "#FFE2D8",
+                  "ratio": 0.0126
+                }
+              ],
+              "average_hash": "f1e0e6e6e4e4e0f1"
+            },
+            "score": {
+              "total": 0.5057,
+              "aspect": 0.7737,
+              "resolution": 1.0,
+              "harmony": 0.8187,
+              "semantic": 0.0,
+              "negative_space": 0.75,
+              "effective_ppi": 346.2,
+              "harmony_detail": {
+                "distances": {
+                  "brightness": 0.1188,
+                  "saturation": 0.0305,
+                  "contrast": 0.0454,
+                  "edge_density": 0.0661,
+                  "warmth": 0.0817
+                },
+                "components": {
+                  "brightness": 0.703,
+                  "saturation": 0.9365,
+                  "contrast": 0.8968,
+                  "edge_density": 0.7934,
+                  "warmth": 0.7731
+                }
+              },
+              "reuse_penalty": 0.22
+            }
+          }
+        ],
+        "selected_score": 0.7493,
+        "selection_rule": "aspect_resolution_harmony_semantics_negative_space"
+      },
+      "model": null,
+      "quality": "medium",
+      "prompt": "Create a photo_grid for a professional presentation slide.\nCore idea: 配色・画像・フォントを調整するビジュアル設定画面\nMatch this source-deck photographic character: high-key and bright, restrained color, moderate contrast, neutral color temperature, moderate visual detail.\nVisual tone: brightness match_source; saturation restrained; contrast soft_to_medium.\nComposition: low-to-medium background complexity, medium subject scale, negative space on none when applicable.\nKeep the primary subject clearly readable after a presentation-slot crop.\nNo embedded words, labels, logos, watermarks, UI text, charts, or typography.\nThe image must feel editorial and specific rather than generic stock photography.\nAvoid: generic_stock_photo, busy_background, random_style_switch, image_with_embedded_text, filler_visual.",
+      "raw_path": "render/generated_assets/IMG-OUT-S001-03/v001/raw.png",
+      "processed_path": "render/generated_assets/IMG-OUT-S001-03/v001/processed.png",
+      "target": {
+        "source_slide_id": "SRC-S008",
+        "source_object_id": "SRC-S008-O022",
+        "source_asset_id": "AST-00084",
+        "source_media_path": "analysis/source_media/f33c3c3ff258bf008e1e0f50d38e596d4ead5ecc69f8d1261fab8a35b3f15314.png",
+        "source_visual_metrics": {
+          "width_px": 312,
+          "height_px": 172,
+          "aspect_ratio": 1.81395,
+          "brightness": 0.6369,
+          "saturation": 0.0668,
+          "contrast": 0.7207,
+          "edge_density": 0.1561,
+          "warmth": -0.002,
+          "mean_rgb": [
+            0.6356,
+            0.6375,
+            0.6376
+          ],
+          "transparent_ratio": 0.0243,
+          "dominant_colors": [
+            {
+              "hex": "#F8F9F8",
+              "ratio": 0.252
+            },
+            {
+              "hex": "#C0C0C0",
+              "ratio": 0.2272
+            },
+            {
+              "hex": "#46494B",
+              "ratio": 0.2007
+            },
+            {
+              "hex": "#74797B",
+              "ratio": 0.1823
+            },
+            {
+              "hex": "#97908B",
+              "ratio": 0.1378
+            }
+          ],
+          "average_hash": "cdff7d7830303038"
+        },
+        "source_display": {
+          "rotation": 0.0,
+          "crop_left": 0.0,
+          "crop_top": 0.0,
+          "crop_right": 0.0,
+          "crop_bottom": 0.0,
+          "slot_aspect_ratio": 1.81395
+        },
+        "bbox": {
+          "x": 18.125,
+          "y": 8.7222,
+          "w": 4.3333,
+          "h": 2.3889
+        },
+        "aspect_ratio": 1.81393,
+        "frame_asset_ids": []
+      },
+      "composition": {
+        "focal_point": "auto",
+        "negative_space": "none",
+        "background_complexity": "low_to_medium"
+      },
+      "lineage": {
+        "source_slide_id": "SRC-S008",
+        "source_object_id": "SRC-S008-O022",
+        "source_asset_id": "AST-00084",
+        "source_media_path": "analysis/source_media/f33c3c3ff258bf008e1e0f50d38e596d4ead5ecc69f8d1261fab8a35b3f15314.png",
+        "style_reference": {
+          "primary_source_asset_id": "AST-00084",
+          "deck_reference_asset_ids": [
+            "AST-00001",
+            "AST-00008",
+            "AST-00174",
+            "AST-00181",
+            "AST-00028",
+            "AST-00038"
+          ],
+          "lineage": "source_slot_plus_deck_median"
+        },
+        "treatment_preset": "match_source_slot_and_deck_art_direction"
+      },
+      "raw_metrics": {
+        "width_px": 1500,
+        "height_px": 1000,
+        "aspect_ratio": 1.5,
+        "brightness": 0.8176,
+        "saturation": 0.0989,
+        "contrast": 0.5943,
+        "edge_density": 0.0684,
+        "warmth": 0.0804,
+        "mean_rgb": [
+          0.8533,
+          0.8077,
+          0.7729
+        ],
+        "transparent_ratio": 0.0,
+        "dominant_colors": [
+          {
+            "hex": "#EFE5DC",
+            "ratio": 0.6086
+          },
+          {
+            "hex": "#968177",
+            "ratio": 0.1616
+          },
+          {
+            "hex": "#F9F6F0",
+            "ratio": 0.1237
+          },
+          {
+            "hex": "#EFE5DB",
+            "ratio": 0.089
+          },
+          {
+            "hex": "#F0E5DC",
+            "ratio": 0.0171
+          }
+        ],
+        "average_hash": "fbe0e0e4e6e6e0f1"
+      },
+      "process": {
+        "crop": {
+          "source_size": [
+            1500,
+            1000
+          ],
+          "source_aspect": 1.5,
+          "target_aspect": 1.81393,
+          "focal_point": [
+            0.6202,
+            0.4922
+          ],
+          "crop_box": [
+            0,
+            79,
+            1500,
+            906
+          ],
+          "negative_space": {
+            "requested": "none",
+            "strategy": "focal_only"
+          }
+        },
+        "target_size": [
+          780,
+          430
+        ],
+        "target_metrics": {
+          "brightness": 0.701,
+          "saturation": 0.0698,
+          "contrast": 0.6233,
+          "edge_density": 0.1302,
+          "warmth": 0.0019
+        },
+        "grading": {
+          "before": {
+            "width_px": 780,
+            "height_px": 430,
+            "aspect_ratio": 1.81395,
+            "brightness": 0.7991,
+            "saturation": 0.103,
+            "contrast": 0.6431,
+            "edge_density": 0.0811,
+            "warmth": 0.0815,
+            "mean_rgb": [
+              0.8357,
+              0.7888,
+              0.7542
+            ],
+            "transparent_ratio": 0.0,
+            "dominant_colors": [
+              {
+                "hex": "#EFE5DC",
+                "ratio": 0.5849
+              },
+              {
+                "hex": "#947F75",
+                "ratio": 0.1996
+              },
+              {
+                "hex": "#F9F6F0",
+                "ratio": 0.156
+              },
+              {
+                "hex": "#F0E5DC",
+                "ratio": 0.0413
+              },
+              {
+                "hex": "#ECE5DD",
+                "ratio": 0.0182
+              }
+            ],
+            "average_hash": "f1e4e2e6e6e6e0f1"
+          },
+          "factors": {
+            "brightness": 0.8772,
+            "warmth_delta": -0.0796,
+            "saturation": 0.6777,
+            "contrast": 0.9692,
+            "detail_action": "sharpen",
+            "detail_amount": 20.0
+          },
+          "after": {
+            "width_px": 780,
+            "height_px": 430,
+            "aspect_ratio": 1.81395,
+            "brightness": 0.6929,
+            "saturation": 0.053,
+            "contrast": 0.5463,
+            "edge_density": 0.0776,
+            "warmth": 0.0257,
+            "mean_rgb": [
+              0.705,
+              0.6884,
+              0.6793
+            ],
+            "transparent_ratio": 0.0,
+            "dominant_colors": [
+              {
+                "hex": "#CAC7C5",
+                "ratio": 0.5527
+              },
+              {
+                "hex": "#7A706C",
+                "ratio": 0.193
+              },
+              {
+                "hex": "#D3D5D5",
+                "ratio": 0.157
+              },
+              {
+                "hex": "#C8C7C5",
+                "ratio": 0.0941
+              },
+              {
+                "hex": "#D5C7C5",
+                "ratio": 0.0032
+              }
+            ],
+            "average_hash": "f1e4e2e6e6e6e0f1"
+          }
+        },
+        "metrics": {
+          "width_px": 780,
+          "height_px": 430,
+          "aspect_ratio": 1.81395,
+          "brightness": 0.6929,
+          "saturation": 0.053,
+          "contrast": 0.5463,
+          "edge_density": 0.0776,
+          "warmth": 0.0257,
+          "mean_rgb": [
+            0.705,
+            0.6884,
+            0.6793
+          ],
+          "transparent_ratio": 0.0,
+          "dominant_colors": [
+            {
+              "hex": "#CAC7C5",
+              "ratio": 0.5527
+            },
+            {
+              "hex": "#7A706C",
+              "ratio": 0.193
+            },
+            {
+              "hex": "#D3D5D5",
+              "ratio": 0.157
+            },
+            {
+              "hex": "#C8C7C5",
+              "ratio": 0.0941
+            },
+            {
+              "hex": "#D5C7C5",
+              "ratio": 0.0032
+            }
+          ],
+          "average_hash": "f1e4e2e6e6e6e0f1"
+        }
+      },
+      "metrics": {
+        "width_px": 780,
+        "height_px": 430,
+        "aspect_ratio": 1.81395,
+        "brightness": 0.6929,
+        "saturation": 0.053,
+        "contrast": 0.5463,
+        "edge_density": 0.0776,
+        "warmth": 0.0257,
+        "mean_rgb": [
+          0.705,
+          0.6884,
+          0.6793
+        ],
+        "transparent_ratio": 0.0,
+        "dominant_colors": [
+          {
+            "hex": "#CAC7C5",
+            "ratio": 0.5527
+          },
+          {
+            "hex": "#7A706C",
+            "ratio": 0.193
+          },
+          {
+            "hex": "#D3D5D5",
+            "ratio": 0.157
+          },
+          {
+            "hex": "#C8C7C5",
+            "ratio": 0.0941
+          },
+          {
+            "hex": "#D5C7C5",
+            "ratio": 0.0032
+          }
+        ],
+        "average_hash": "f1e4e2e6e6e6e0f1"
+      },
+      "status": "READY",
+      "created_at": "2026-08-17T03:46:24.262821+00:00"
+    },
+    {
+      "asset_id": "GAST-IMG-OUT-S001-04-V001",
+      "recipe_id": "IMG-OUT-S001-04",
+      "slide_id": "OUT-S001",
+      "version": 1,
+      "provider": "local",
+      "provider_meta": {
+        "source_path": "inputs/assets/メール計測.jpg",
+        "candidate_ranking": [
+          {
+            "path": "inputs/assets/メール計測.jpg",
+            "filename": "メール計測.jpg",
+            "metrics": {
+              "width_px": 1500,
+              "height_px": 1000,
+              "aspect_ratio": 1.5,
+              "brightness": 0.822,
+              "saturation": 0.0688,
+              "contrast": 0.5861,
+              "edge_density": 0.0745,
+              "warmth": 0.0133,
+              "mean_rgb": [
+                0.8278,
+                0.821,
+                0.8144
+              ],
+              "transparent_ratio": 0.0,
+              "dominant_colors": [
+                {
+                  "hex": "#E4E8EB",
+                  "ratio": 0.6101
+                },
+                {
+                  "hex": "#99897E",
+                  "ratio": 0.1647
+                },
+                {
+                  "hex": "#F8F8F6",
+                  "ratio": 0.1205
+                },
+                {
+                  "hex": "#E4E8EA",
+                  "ratio": 0.0648
+                },
+                {
+                  "hex": "#E6E8EA",
+                  "ratio": 0.0399
+                }
+              ],
+              "average_hash": "fbe0ece4e0e4e0f1"
+            },
+            "score": {
+              "total": 0.7512,
+              "aspect": 0.7737,
+              "resolution": 1.0,
+              "harmony": 0.8021,
+              "semantic": 0.25,
+              "negative_space": 0.75,
+              "effective_ppi": 346.2,
+              "harmony_detail": {
+                "distances": {
+                  "brightness": 0.1438,
+                  "saturation": 0.0928,
+                  "contrast": 0.0577,
+                  "edge_density": 0.0292,
+                  "warmth": 0.0701
+                },
+                "components": {
+                  "brightness": 0.6405,
+                  "saturation": 0.8067,
+                  "contrast": 0.8689,
+                  "edge_density": 0.9087,
+                  "warmth": 0.8053
+                }
+              },
+              "reuse_penalty": 0.0
+            }
+          },
+          {
+            "path": "inputs/assets/ビジュアル設定.jpg",
+            "filename": "ビジュアル設定.jpg",
+            "metrics": {
+              "width_px": 1500,
+              "height_px": 1000,
+              "aspect_ratio": 1.5,
+              "brightness": 0.8176,
+              "saturation": 0.0989,
+              "contrast": 0.5943,
+              "edge_density": 0.0684,
+              "warmth": 0.0804,
+              "mean_rgb": [
+                0.8533,
+                0.8077,
+                0.7729
+              ],
+              "transparent_ratio": 0.0,
+              "dominant_colors": [
+                {
+                  "hex": "#EFE5DC",
+                  "ratio": 0.6086
+                },
+                {
+                  "hex": "#968177",
+                  "ratio": 0.1616
+                },
+                {
+                  "hex": "#F9F6F0",
+                  "ratio": 0.1237
+                },
+                {
+                  "hex": "#EFE5DB",
+                  "ratio": 0.089
+                },
+                {
+                  "hex": "#F0E5DC",
+                  "ratio": 0.0171
+                }
+              ],
+              "average_hash": "fbe0e0e4e6e6e0f1"
+            },
+            "score": {
+              "total": 0.4971,
+              "aspect": 0.7737,
+              "resolution": 1.0,
+              "harmony": 0.7871,
+              "semantic": 0.0,
+              "negative_space": 0.75,
+              "effective_ppi": 346.2,
+              "harmony_detail": {
+                "distances": {
+                  "brightness": 0.1394,
+                  "saturation": 0.0627,
+                  "contrast": 0.0495,
+                  "edge_density": 0.0353,
+                  "warmth": 0.1372
+                },
+                "components": {
+                  "brightness": 0.6515,
+                  "saturation": 0.8694,
+                  "contrast": 0.8875,
+                  "edge_density": 0.8897,
+                  "warmth": 0.6189
+                }
+              },
+              "reuse_penalty": 0.22
+            }
+          },
+          {
+            "path": "inputs/assets/フォーム設定.jpg",
+            "filename": "フォーム設定.jpg",
+            "metrics": {
+              "width_px": 1500,
+              "height_px": 1000,
+              "aspect_ratio": 1.5,
+              "brightness": 0.8407,
+              "saturation": 0.0393,
+              "contrast": 0.5786,
+              "edge_density": 0.0751,
+              "warmth": 0.0087,
+              "mean_rgb": [
+                0.8362,
+                0.8456,
+                0.8275
+              ],
+              "transparent_ratio": 0.0,
+              "dominant_colors": [
+                {
+                  "hex": "#E5EAE6",
+                  "ratio": 0.6104
+                },
+                {
+                  "hex": "#F8F8F4",
+                  "ratio": 0.1534
+                },
+                {
+                  "hex": "#8D8B84",
+                  "ratio": 0.123
+                },
+                {
+                  "hex": "#E5EAE5",
+                  "ratio": 0.0826
+                },
+                {
+                  "hex": "#EBEAE6",
+                  "ratio": 0.0306
+                }
+              ],
+              "average_hash": "f1e0eee4e4e6e0f1"
+            },
+            "score": {
+              "total": 0.4947,
+              "aspect": 0.7737,
+              "resolution": 1.0,
+              "harmony": 0.7781,
+              "semantic": 0.0,
+              "negative_space": 0.75,
+              "effective_ppi": 346.2,
+              "harmony_detail": {
+                "distances": {
+                  "brightness": 0.1625,
+                  "saturation": 0.1223,
+                  "contrast": 0.0652,
+                  "edge_density": 0.0286,
+                  "warmth": 0.0655
+                },
+                "components": {
+                  "brightness": 0.5938,
+                  "saturation": 0.7452,
+                  "contrast": 0.8518,
+                  "edge_density": 0.9106,
+                  "warmth": 0.8181
+                }
+              },
+              "reuse_penalty": 0.22
+            }
+          },
+          {
+            "path": "inputs/assets/キャンペーン管理.jpg",
+            "filename": "キャンペーン管理.jpg",
+            "metrics": {
+              "width_px": 1500,
+              "height_px": 1000,
+              "aspect_ratio": 1.5,
+              "brightness": 0.8198,
+              "saturation": 0.1003,
+              "contrast": 0.5779,
+              "edge_density": 0.0641,
+              "warmth": 0.0836,
+              "mean_rgb": [
+                0.8513,
+                0.8134,
+                0.7677
+              ],
+              "transparent_ratio": 0.0,
+              "dominant_colors": [
+                {
+                  "hex": "#EAE2D5",
+                  "ratio": 0.6149
+                },
+                {
+                  "hex": "#F9F7F3",
+                  "ratio": 0.1514
+                },
+                {
+                  "hex": "#937E71",
+                  "ratio": 0.1402
+                },
+                {
+                  "hex": "#EAE2D4",
+                  "ratio": 0.081
+                },
+                {
+                  "hex": "#FFE2D8",
+                  "ratio": 0.0126
+                }
+              ],
+              "average_hash": "f1e0e6e6e4e4e0f1"
+            },
+            "score": {
+              "total": 0.4938,
+              "aspect": 0.7737,
+              "resolution": 1.0,
+              "harmony": 0.7747,
+              "semantic": 0.0,
+              "negative_space": 0.75,
+              "effective_ppi": 346.2,
+              "harmony_detail": {
+                "distances": {
+                  "brightness": 0.1416,
+                  "saturation": 0.0613,
+                  "contrast": 0.0659,
+                  "edge_density": 0.0396,
+                  "warmth": 0.1404
+                },
+                "components": {
+                  "brightness": 0.646,
+                  "saturation": 0.8723,
+                  "contrast": 0.8502,
+                  "edge_density": 0.8762,
+                  "warmth": 0.61
+                }
+              },
+              "reuse_penalty": 0.22
+            }
+          }
+        ],
+        "selected_score": 0.7512,
+        "selection_rule": "aspect_resolution_harmony_semantics_negative_space"
+      },
+      "model": null,
+      "quality": "medium",
+      "prompt": "Create a photo_grid for a professional presentation slide.\nCore idea: 自動返信メールとアクセス計測を確認する分析画面\nMatch this source-deck photographic character: high-key and bright, restrained color, moderate contrast, cool-neutral color temperature, moderate visual detail.\nVisual tone: brightness match_source; saturation restrained; contrast soft_to_medium.\nComposition: low-to-medium background complexity, medium subject scale, negative space on none when applicable.\nKeep the primary subject clearly readable after a presentation-slot crop.\nNo embedded words, labels, logos, watermarks, UI text, charts, or typography.\nThe image must feel editorial and specific rather than generic stock photography.\nAvoid: generic_stock_photo, busy_background, random_style_switch, image_with_embedded_text, filler_visual.",
+      "raw_path": "render/generated_assets/IMG-OUT-S001-04/v001/raw.png",
+      "processed_path": "render/generated_assets/IMG-OUT-S001-04/v001/processed.png",
+      "target": {
+        "source_slide_id": "SRC-S008",
+        "source_object_id": "SRC-S008-O028",
+        "source_asset_id": "AST-00085",
+        "source_media_path": "analysis/source_media/eb1319a80945f29db06f64f7340ccfc6564ca2da28bc74831fee1d6afa7b82fc.png",
+        "source_visual_metrics": {
+          "width_px": 312,
+          "height_px": 172,
+          "aspect_ratio": 1.81395,
+          "brightness": 0.6034,
+          "saturation": 0.2018,
+          "contrast": 0.7508,
+          "edge_density": 0.1171,
+          "warmth": -0.0884,
+          "mean_rgb": [
+            0.5782,
+            0.604,
+            0.6666
+          ],
+          "transparent_ratio": 0.0243,
+          "dominant_colors": [
+            {
+              "hex": "#364157",
+              "ratio": 0.2599
+            },
+            {
+              "hex": "#6A7287",
+              "ratio": 0.248
+            },
+            {
+              "hex": "#BBBECC",
+              "ratio": 0.1889
+            },
+            {
+              "hex": "#F7F9FF",
+              "ratio": 0.1535
+            },
+            {
+              "hex": "#E9EEF9",
+              "ratio": 0.1496
+            }
+          ],
+          "average_hash": "e1c0c030b8fcf9f1"
+        },
+        "source_display": {
+          "rotation": 0.0,
+          "crop_left": 0.0,
+          "crop_top": 0.0,
+          "crop_right": 0.0,
+          "crop_bottom": 0.0,
+          "slot_aspect_ratio": 1.81395
+        },
+        "bbox": {
+          "x": 18.125,
+          "y": 11.5278,
+          "w": 4.3333,
+          "h": 2.3889
+        },
+        "aspect_ratio": 1.81393,
+        "frame_asset_ids": []
+      },
+      "composition": {
+        "focal_point": "auto",
+        "negative_space": "none",
+        "background_complexity": "low_to_medium"
+      },
+      "lineage": {
+        "source_slide_id": "SRC-S008",
+        "source_object_id": "SRC-S008-O028",
+        "source_asset_id": "AST-00085",
+        "source_media_path": "analysis/source_media/eb1319a80945f29db06f64f7340ccfc6564ca2da28bc74831fee1d6afa7b82fc.png",
+        "style_reference": {
+          "primary_source_asset_id": "AST-00085",
+          "deck_reference_asset_ids": [
+            "AST-00001",
+            "AST-00008",
+            "AST-00174",
+            "AST-00181",
+            "AST-00028",
+            "AST-00038"
+          ],
+          "lineage": "source_slot_plus_deck_median"
+        },
+        "treatment_preset": "match_source_slot_and_deck_art_direction"
+      },
+      "raw_metrics": {
+        "width_px": 1500,
+        "height_px": 1000,
+        "aspect_ratio": 1.5,
+        "brightness": 0.822,
+        "saturation": 0.0688,
+        "contrast": 0.5861,
+        "edge_density": 0.0745,
+        "warmth": 0.0133,
+        "mean_rgb": [
+          0.8278,
+          0.821,
+          0.8144
+        ],
+        "transparent_ratio": 0.0,
+        "dominant_colors": [
+          {
+            "hex": "#E4E8EB",
+            "ratio": 0.6101
+          },
+          {
+            "hex": "#99897E",
+            "ratio": 0.1647
+          },
+          {
+            "hex": "#F8F8F6",
+            "ratio": 0.1205
+          },
+          {
+            "hex": "#E4E8EA",
+            "ratio": 0.0648
+          },
+          {
+            "hex": "#E6E8EA",
+            "ratio": 0.0399
+          }
+        ],
+        "average_hash": "fbe0ece4e0e4e0f1"
+      },
+      "process": {
+        "crop": {
+          "source_size": [
+            1500,
+            1000
+          ],
+          "source_aspect": 1.5,
+          "target_aspect": 1.81393,
+          "focal_point": [
+            0.6363,
+            0.5028
+          ],
+          "crop_box": [
+            0,
+            89,
+            1500,
+            916
+          ],
+          "negative_space": {
+            "requested": "none",
+            "strategy": "focal_only"
+          }
+        },
+        "target_size": [
+          780,
+          430
+        ],
+        "target_metrics": {
+          "brightness": 0.6782,
+          "saturation": 0.1616,
+          "contrast": 0.6438,
+          "edge_density": 0.1037,
+          "warmth": -0.0568
+        },
+        "grading": {
+          "before": {
+            "width_px": 780,
+            "height_px": 430,
+            "aspect_ratio": 1.81395,
+            "brightness": 0.8043,
+            "saturation": 0.0774,
+            "contrast": 0.6349,
+            "edge_density": 0.0875,
+            "warmth": 0.0218,
+            "mean_rgb": [
+              0.8138,
+              0.8024,
+              0.792
+            ],
+            "transparent_ratio": 0.0,
+            "dominant_colors": [
+              {
+                "hex": "#E4E8EB",
+                "ratio": 0.5127
+              },
+              {
+                "hex": "#998A7E",
+                "ratio": 0.2038
+              },
+              {
+                "hex": "#F8F8F6",
+                "ratio": 0.1526
+              },
+              {
+                "hex": "#E4E8EA",
+                "ratio": 0.1195
+              },
+              {
+                "hex": "#E5E8EC",
+                "ratio": 0.0114
+              }
+            ],
+            "average_hash": "f1e4ecece4e0e0f1"
+          },
+          "factors": {
+            "brightness": 0.8432,
+            "warmth_delta": -0.0786,
+            "saturation": 1.4,
+            "contrast": 1.014,
+            "detail_action": "none",
+            "detail_amount": 0.0
+          },
+          "after": {
+            "width_px": 780,
+            "height_px": 430,
+            "aspect_ratio": 1.81395,
+            "brightness": 0.6702,
+            "saturation": 0.144,
+            "contrast": 0.541,
+            "edge_density": 0.0841,
+            "warmth": -0.0205,
+            "mean_rgb": [
+              0.6626,
+              0.6712,
+              0.6831
+            ],
+            "transparent_ratio": 0.0,
+            "dominant_colors": [
+              {
+                "hex": "#B8C3CE",
+                "ratio": 0.526
+              },
+              {
+                "hex": "#807166",
+                "ratio": 0.2039
+              },
+              {
+                "hex": "#CAD1D6",
+                "ratio": 0.1506
+              },
+              {
+                "hex": "#C8C3C0",
+                "ratio": 0.0842
+              },
+              {
+                "hex": "#B7C3CD",
+                "ratio": 0.0354
+              }
+            ],
+            "average_hash": "f1e4ecece4e0e0f1"
+          }
+        },
+        "metrics": {
+          "width_px": 780,
+          "height_px": 430,
+          "aspect_ratio": 1.81395,
+          "brightness": 0.6702,
+          "saturation": 0.144,
+          "contrast": 0.541,
+          "edge_density": 0.0841,
+          "warmth": -0.0205,
+          "mean_rgb": [
+            0.6626,
+            0.6712,
+            0.6831
+          ],
+          "transparent_ratio": 0.0,
+          "dominant_colors": [
+            {
+              "hex": "#B8C3CE",
+              "ratio": 0.526
+            },
+            {
+              "hex": "#807166",
+              "ratio": 0.2039
+            },
+            {
+              "hex": "#CAD1D6",
+              "ratio": 0.1506
+            },
+            {
+              "hex": "#C8C3C0",
+              "ratio": 0.0842
+            },
+            {
+              "hex": "#B7C3CD",
+              "ratio": 0.0354
+            }
+          ],
+          "average_hash": "f1e4ecece4e0e0f1"
+        }
+      },
+      "metrics": {
+        "width_px": 780,
+        "height_px": 430,
+        "aspect_ratio": 1.81395,
+        "brightness": 0.6702,
+        "saturation": 0.144,
+        "contrast": 0.541,
+        "edge_density": 0.0841,
+        "warmth": -0.0205,
+        "mean_rgb": [
+          0.6626,
+          0.6712,
+          0.6831
+        ],
+        "transparent_ratio": 0.0,
+        "dominant_colors": [
+          {
+            "hex": "#B8C3CE",
+            "ratio": 0.526
+          },
+          {
+            "hex": "#807166",
+            "ratio": 0.2039
+          },
+          {
+            "hex": "#CAD1D6",
+            "ratio": 0.1506
+          },
+          {
+            "hex": "#C8C3C0",
+            "ratio": 0.0842
+          },
+          {
+            "hex": "#B7C3CD",
+            "ratio": 0.0354
+          }
+        ],
+        "average_hash": "f1e4ecece4e0e0f1"
+      },
+      "status": "READY",
+      "created_at": "2026-08-17T03:46:24.559675+00:00"
+    }
+  ],
+  "selected_by_recipe": {
+    "IMG-OUT-S001-01": "GAST-IMG-OUT-S001-01-V001",
+    "IMG-OUT-S001-02": "GAST-IMG-OUT-S001-02-V001",
+    "IMG-OUT-S001-03": "GAST-IMG-OUT-S001-03-V001",
+    "IMG-OUT-S001-04": "GAST-IMG-OUT-S001-04-V001"
+  }
+}

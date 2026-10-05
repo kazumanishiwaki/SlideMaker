@@ -1,0 +1,95 @@
+{
+  "version": "0.9.0",
+  "source": "examples/test-case/inputs/source.pptx",
+  "total_picture_assets": 182,
+  "classification_counts": {
+    "template_chrome": 48,
+    "content_visual": 92,
+    "unknown": 42
+  },
+  "content_role_counts": {
+    "background_visual": 4,
+    "decorative_visual": 36,
+    "unknown": 44,
+    "icon": 42,
+    "screenshot": 13,
+    "photo": 43
+  },
+  "unknown_rate": 0.2308,
+  "review_required_count": 61,
+  "geometry_repeated_count": 28,
+  "top_reason_codes": [
+    [
+      "TRANSPARENT_SMALL_GRAPHIC",
+      78
+    ],
+    [
+      "ADJACENT_TO_TEXT",
+      46
+    ],
+    [
+      "PAGE_CONTENT_VISUAL",
+      44
+    ],
+    [
+      "AMBIGUOUS",
+      32
+    ],
+    [
+      "PAGE_SPECIFIC",
+      31
+    ],
+    [
+      "THIN_DECORATIVE_RASTER",
+      26
+    ],
+    [
+      "SEMANTIC_ICON_ADJACENT_TO_TEXT",
+      20
+    ],
+    [
+      "CONTENT_AREA_CANDIDATE",
+      19
+    ],
+    [
+      "POSITION_STABLE",
+      19
+    ],
+    [
+      "REPEATED_ACROSS_SLIDES",
+      19
+    ],
+    [
+      "HIGH_EDGE_LOW_SATURATION",
+      13
+    ],
+    [
+      "SLIDE_ROLE_PHOTO_LED",
+      12
+    ],
+    [
+      "SMALL_AMBIGUOUS_VISUAL",
+      10
+    ],
+    [
+      "SMALL_SEMANTIC_ICON",
+      7
+    ],
+    [
+      "LARGE_BACK_LAYER",
+      4
+    ],
+    [
+      "BACKGROUND_LAYER_CANDIDATE",
+      3
+    ],
+    [
+      "VISUALLY_SIGNIFICANT",
+      2
+    ]
+  ],
+  "acceptance": {
+    "unknown_rate_max": 0.3,
+    "pass": true
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "schema_version": "0.11-mvp.4",
+  "status": "PASS",
+  "summary": {
+    "slide_count": 8,
+    "blocking_count": 0,
+    "finding_count": 0
+  },
+  "slides": [
+    {
+      "slide_id": "S001",
+      "has_sources_block": true,
+      "expected_source_unit_count": 1,
+      "missing_source_unit_ids": [],
+      "unknown_source_unit_ids": [],
+      "expected_source_urls": [],
+      "missing_source_urls": [],
+      "expected_external_asset_ids": [],
+      "missing_external_asset_ids": []
+    },
+    {
+      "slide_id": "S002",
+      "has_sources_block": true,
+      "expected_source_unit_count": 1,
+      "missing_source_unit_ids": [],
+      "unknown_source_unit_ids": [],
+      "expected_source_urls": [],
+      "missing_source_urls": [],
+      "expected_external_asset_ids": [],
+      "missing_external_asset_ids": []
+    },
+    {
+      "slide_id": "S003",
+      "has_sources_block": true,
+      "expected_source_unit_count": 4,
+      "missing_source_unit_ids": [],
+      "unknown_source_unit_ids": [],
+      "expected_source_urls": [],
+      "missing_source_urls": [],
+      "expected_external_asset_ids": [],
+      "missing_external_asset_ids": []
+    },
+    {
+      "slide_id": "S004",
+      "has_sources_block": true,
+      "expected_source_unit_count": 5,
+      "missing_source_unit_ids": [],
+      "unknown_source_unit_ids": [],
+      "expected_source_urls": [],
+      "missing_source_urls": [],
+      "expected_external_asset_ids": [],
+      "missing_external_asset_ids": []
+    },
+    {
+      "slide_id": "S005",
+      "has_sources_block": true,
+      "expected_source_unit_count": 5,
+      "missing_source_unit_ids": [],
+      "unknown_source_unit_ids": [],
+      "expected_source_urls": [],
+      "missing_source_urls": [],
+      "expected_external_asset_ids": [],
+      "missing_external_asset_ids": []
+    },
+    {
+      "slide_id": "S006",
+      "has_sources_block": true,
+      "expected_source_unit_count": 5,
+      "missing_source_unit_ids": [],
+      "unknown_source_unit_ids": [],
+      "expected_source_urls": [],
+      "missing_source_urls": [],
+      "expected_external_asset_ids": [],
+      "missing_external_asset_ids": []
+    },
+    {
+      "slide_id": "S007",
+      "has_sources_block": true,
+      "expected_source_unit_count": 2,
+      "missing_source_unit_ids": [],
+      "unknown_source_unit_ids": [],
+      "expected_source_urls": [],
+      "missing_source_urls": [],
+      "expected_external_asset_ids": [],
+      "missing_external_asset_ids": []
+    },
+    {
+      "slide_id": "S008",
+      "has_sources_block": true,
+      "expected_source_unit_count": 3,
+      "missing_source_unit_ids": [],
+      "unknown_source_unit_ids": [],
+      "expected_source_urls": [],
+      "missing_source_urls": [],
+      "expected_external_asset_ids": [],
+      "missing_external_asset_ids": []
+    }
+  ],
+  "findings": []
+}

@@ -1,0 +1,138 @@
+{
+  "schema_version": "0.1",
+  "generated_at": "2026-08-16T14:34:00.534475+00:00",
+  "slide_id": "OUT-S001",
+  "source_slide_id": "SRC-S002",
+  "family": "statement",
+  "density": "airy",
+  "fill_policy": {
+    "mode": "intentional_whitespace",
+    "source": "system",
+    "reason": [
+      "一つの強い訴求を印象づけるページ",
+      "補足は条件注記のみで、情報を追加すると主張が弱くなる"
+    ],
+    "preserve_empty_zones": true,
+    "role": "statement",
+    "forbid_filler_content": true
+  },
+  "content_canvas": {
+    "x": 1.2,
+    "y": 0.675,
+    "w": 24.2667,
+    "h": 13.65
+  },
+  "removed_source_object_ids": [
+    "SRC-S002-O004",
+    "SRC-S002-O005",
+    "SRC-S002-O006"
+  ],
+  "allowed_regions": [
+    {
+      "x": 1.2,
+      "y": 4.224,
+      "w": 16.5014,
+      "h": 6.552
+    }
+  ],
+  "generated_objects": [
+    {
+      "role": "title",
+      "output_shape_id": 4,
+      "bbox": {
+        "x": 1.2,
+        "y": 4.224,
+        "w": 16.5014,
+        "h": 3.6036
+      },
+      "render_text": "素材が揃えば、最短即日で公開可能。"
+    },
+    {
+      "role": "subtitle",
+      "output_shape_id": 5,
+      "bbox": {
+        "x": 1.2,
+        "y": 8.0076,
+        "w": 14.5212,
+        "h": 2.7684
+      },
+      "render_text": "キャンペーン素材・規約・実施条件が確定している場合。"
+    }
+  ],
+  "quality": {
+    "check": "LAYOUT_FIT_TO_INTENT",
+    "status": "pass",
+    "assessment": "適正",
+    "score": 0.907,
+    "fill_policy": {
+      "mode": "intentional_whitespace",
+      "source": "system",
+      "reason": [
+        "一つの強い訴求を印象づけるページ",
+        "補足は条件注記のみで、情報を追加すると主張が弱くなる"
+      ],
+      "preserve_empty_zones": true,
+      "role": "statement",
+      "forbid_filler_content": true
+    },
+    "intentional_whitespace": true,
+    "preserve_source_whitespace": false,
+    "accidental_dead_space": false,
+    "content_extent_width_ratio": 0.68,
+    "content_extent_height_ratio": 0.48,
+    "occupied_area_ratio": 0.301,
+    "left_void_ratio": 0.0,
+    "right_void_ratio": 0.32,
+    "top_void_ratio": 0.26,
+    "bottom_void_ratio": 0.26,
+    "center_offset_x_ratio": 0.16,
+    "center_offset_y_ratio": 0.0,
+    "expected_item_count": 0,
+    "rendered_item_count": 0,
+    "thresholds": {
+      "w": 0.52,
+      "h": 0.2,
+      "area": 0.07,
+      "max_edge_void": 0.72,
+      "max_center_x": 0.38,
+      "max_center_y": 0.42
+    },
+    "content_bbox": {
+      "x": 1.2,
+      "y": 4.224,
+      "w": 16.5014,
+      "h": 6.552
+    },
+    "reason_codes": [
+      "FIT_TO_INTENT"
+    ]
+  },
+  "geometry": {
+    "title_box": {
+      "x": 1.2,
+      "y": 4.224,
+      "w": 16.5014,
+      "h": 3.6036
+    },
+    "subtitle_box": {
+      "x": 1.2,
+      "y": 8.0076,
+      "w": 14.5212,
+      "h": 2.7684
+    },
+    "body": {
+      "x": 1.2,
+      "y": 4.224,
+      "w": 16.5014,
+      "h": 6.552
+    },
+    "item_boxes": [],
+    "columns": null,
+    "rows": null
+  },
+  "notes": [
+    "Layout geometry is deterministic. The model chooses semantic family/priority/fill policy; coordinates are engine-generated.",
+    "LAYOUT_FIT_TO_INTENT distinguishes deliberate whitespace from accidental dead space. Filler content is never added merely to raise occupancy.",
+    "Failed layout attempts are persisted for review but remain blocking and cannot pass the Final Export Gate."
+  ]
+}

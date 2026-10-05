@@ -1,0 +1,26 @@
+{
+  "schema_version": "0.4.0",
+  "status": "PASS",
+  "assets": [
+    {
+      "asset_id": "LIVE-QUALITY-TEST",
+      "slide_id": "QUALITY-TEST",
+      "visual_kind": "editorial",
+      "resolved_path": "/Users/kazuma/Documents/SlideMaker/SlideHarness/nextgen/examples/image-quality-test/generated-slide-visual-2026-09-01T00-25-51-120Z.png",
+      "required_text": [],
+      "dimensions": [1672, 941],
+      "aspect_ratio": 1.7768331562167907,
+      "aspect_ratio_error": 0.0005313496280551638,
+      "missing_text": [],
+      "dynamic_range": 255,
+      "entropy": 6.839463179996985,
+      "luminance_stddev": 40.9325394711253
+    }
+  ],
+  "findings": [],
+  "summary": {
+    "asset_count": 1,
+    "blocking_count": 0,
+    "review_count": 0
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DeckArtDirection",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "primary_medium",
+    "tone",
+    "composition",
+    "target_metrics",
+    "harmony_tolerance",
+    "avoid"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string"
+    },
+    "generated_at": {
+      "type": "string"
+    },
+    "primary_medium": {
+      "type": "string"
+    },
+    "tone": {
+      "type": "object"
+    },
+    "composition": {
+      "type": "object"
+    },
+    "palette": {
+      "type": "object"
+    },
+    "target_metrics": {
+      "type": "object"
+    },
+    "reference_asset_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "harmony_tolerance": {
+      "type": "object"
+    },
+    "native_visuals": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "image_postprocess": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "avoid": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "candidate_selection": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,35 @@
+{
+  "schema_version": "0.1",
+  "slides": [
+    {
+      "slide_id": "OUT-S001",
+      "selected": {
+        "source_slide_id": "SRC-S011",
+        "page_number": 11,
+        "total_score": 0.88,
+        "recommended_mode": "ADAPT"
+      },
+      "candidates": []
+    },
+    {
+      "slide_id": "OUT-S002",
+      "selected": {
+        "source_slide_id": "SRC-S014",
+        "page_number": 14,
+        "total_score": 0.95,
+        "recommended_mode": "ADAPT"
+      },
+      "candidates": []
+    },
+    {
+      "slide_id": "OUT-S003",
+      "selected": {
+        "source_slide_id": "SRC-S015",
+        "page_number": 15,
+        "total_score": 0.94,
+        "recommended_mode": "ADAPT"
+      },
+      "candidates": []
+    }
+  ]
+}

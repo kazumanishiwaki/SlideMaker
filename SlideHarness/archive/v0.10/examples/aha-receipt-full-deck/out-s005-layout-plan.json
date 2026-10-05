@@ -1,0 +1,173 @@
+{
+  "schema_version": "0.3",
+  "generated_at": "2026-08-17T21:38:11.784750+00:00",
+  "slide_id": "OUT-S005",
+  "source_slide_id": "SRC-S002",
+  "family": "statement",
+  "renderer_group": "statement",
+  "semantic_relation": "statement",
+  "semantic_layout_issues": [],
+  "density": "airy",
+  "fill_policy": {
+    "mode": "intentional_whitespace",
+    "source": "slide_plan",
+    "reason": [],
+    "preserve_empty_zones": true,
+    "role": "statement",
+    "forbid_filler_content": true
+  },
+  "planned_only": false,
+  "content_canvas": {
+    "x": 1.2,
+    "y": 8.18,
+    "w": 11.5589,
+    "h": 6.145
+  },
+  "removed_source_object_ids": [
+    "SRC-S002-O003",
+    "SRC-S002-O004",
+    "SRC-S002-O005",
+    "SRC-S002-O006"
+  ],
+  "allowed_regions": [
+    {
+      "x": 1.2,
+      "y": 9.7777,
+      "w": 7.86,
+      "h": 2.9496
+    }
+  ],
+  "generated_objects": [
+    {
+      "role": "title",
+      "output_shape_id": 3,
+      "bbox": {
+        "x": 1.2,
+        "y": 9.7777,
+        "w": 7.86,
+        "h": 1.6223
+      },
+      "render_text": "素材が揃えば、\n最短即日で公開可能"
+    },
+    {
+      "role": "subtitle",
+      "output_shape_id": 4,
+      "bbox": {
+        "x": 1.2,
+        "y": 11.58,
+        "w": 6.9168,
+        "h": 1.1473
+      },
+      "render_text": "素材・規約・実施条件の確定が前提。\n開始日は確認状況により異なります。"
+    }
+  ],
+  "image_slots": [],
+  "image_lineage": null,
+  "layout_intent": {
+    "family": "statement",
+    "fill_policy": "intentional_whitespace",
+    "resolved_text_side": null,
+    "image_position": null,
+    "overlay_position": null
+  },
+  "quality": {
+    "check": "LAYOUT_FIT_TO_INTENT",
+    "status": "pass",
+    "assessment": "適正",
+    "score": 0.907,
+    "fill_policy": {
+      "mode": "intentional_whitespace",
+      "source": "slide_plan",
+      "reason": [],
+      "preserve_empty_zones": true,
+      "role": "statement",
+      "forbid_filler_content": true
+    },
+    "intentional_whitespace": true,
+    "preserve_source_whitespace": false,
+    "accidental_dead_space": false,
+    "content_extent_width_ratio": 0.68,
+    "content_extent_height_ratio": 0.48,
+    "occupied_area_ratio": 0.291,
+    "left_void_ratio": 0.0,
+    "right_void_ratio": 0.32,
+    "top_void_ratio": 0.26,
+    "bottom_void_ratio": 0.26,
+    "center_offset_x_ratio": 0.16,
+    "center_offset_y_ratio": 0.0,
+    "expected_item_count": 0,
+    "rendered_item_count": 0,
+    "expected_image_count": 0,
+    "rendered_image_count": 0,
+    "image_area_ratio": 0.0,
+    "thresholds": {
+      "w": 0.52,
+      "h": 0.2,
+      "area": 0.07,
+      "max_edge_void": 0.72,
+      "max_center_x": 0.38,
+      "max_center_y": 0.42
+    },
+    "content_bbox": {
+      "x": 1.2,
+      "y": 9.7777,
+      "w": 7.86,
+      "h": 2.9496
+    },
+    "reason_codes": [
+      "FIT_TO_INTENT"
+    ]
+  },
+  "geometry": {
+    "title_box": {
+      "x": 1.2,
+      "y": 9.7777,
+      "w": 7.86,
+      "h": 1.6223
+    },
+    "subtitle_box": {
+      "x": 1.2,
+      "y": 11.58,
+      "w": 6.9168,
+      "h": 1.1473
+    },
+    "body_box": null,
+    "body": {
+      "x": 1.2,
+      "y": 9.7777,
+      "w": 7.86,
+      "h": 2.9496
+    },
+    "text_box": null,
+    "image_box": null,
+    "overlay_box": null,
+    "matrix_box": null,
+    "relationship_box": null,
+    "timeline_box": null,
+    "timeline_line_box": null,
+    "kpi_box": null,
+    "chart_box": null,
+    "note_box": null,
+    "kicker_box": null,
+    "item_boxes": [],
+    "node_boxes": {},
+    "columns": null,
+    "rows": null,
+    "divider_x": null,
+    "image_position": null,
+    "resolved_text_side": null,
+    "overlay_position": null,
+    "hub_id": null,
+    "card_mode": null,
+    "orientation": null,
+    "timeline_markers": [],
+    "note_text": null,
+    "kicker_text": null
+  },
+  "notes": [
+    "Layout geometry is deterministic. The model selects family, hierarchy, and priorities; coordinates are engine-generated.",
+    "Photo-aware families plan image slots before image selection so crop, resolution, and negative-space QA use the actual target geometry.",
+    "Existing picture relationships and source frames are reused when available; template chrome remains outside the mutation mask.",
+    "LAYOUT_FIT_TO_INTENT distinguishes deliberate whitespace from accidental dead space. Filler content is never added merely to raise occupancy."
+  ]
+}

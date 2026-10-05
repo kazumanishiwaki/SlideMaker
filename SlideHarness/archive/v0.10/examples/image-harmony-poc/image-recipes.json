@@ -1,0 +1,470 @@
+{
+  "schema_version": "0.2",
+  "generated_at": "2026-08-17T03:46:22.245421+00:00",
+  "recipes": [
+    {
+      "recipe_id": "IMG-OUT-S001-01",
+      "slide_id": "OUT-S001",
+      "slot_index": 1,
+      "purpose": "photo_grid",
+      "message": "キャンペーン管理",
+      "medium": "photo_grid",
+      "provider": "auto",
+      "prompt_seed": "キャンペーンの基本情報・期間・規約を管理する抽象的な編集画面",
+      "target": {
+        "source_slide_id": "SRC-S008",
+        "source_object_id": "SRC-S008-O010",
+        "source_asset_id": "AST-00082",
+        "source_media_path": "analysis/source_media/4ae2f015763132fce209bd9870402281a21c8b31b6dd5ed38f4a0b56ec871308.png",
+        "source_visual_metrics": {
+          "width_px": 312,
+          "height_px": 172,
+          "aspect_ratio": 1.81395,
+          "brightness": 0.652,
+          "saturation": 0.1729,
+          "contrast": 0.8203,
+          "edge_density": 0.1499,
+          "warmth": 0.0542,
+          "mean_rgb": [
+            0.6755,
+            0.6459,
+            0.6213
+          ],
+          "transparent_ratio": 0.0243,
+          "dominant_colors": [
+            {
+              "hex": "#383E42",
+              "ratio": 0.3006
+            },
+            {
+              "hex": "#FFFFFF",
+              "ratio": 0.2309
+            },
+            {
+              "hex": "#E5D0BE",
+              "ratio": 0.22
+            },
+            {
+              "hex": "#908075",
+              "ratio": 0.1662
+            },
+            {
+              "hex": "#FCFEFD",
+              "ratio": 0.0824
+            }
+          ],
+          "average_hash": "f0f8f8f0e0ecc4e4"
+        },
+        "source_display": {
+          "rotation": 0.0,
+          "crop_left": 0.0,
+          "crop_top": 0.0,
+          "crop_right": 0.0,
+          "crop_bottom": 0.0,
+          "slot_aspect_ratio": 1.81395
+        },
+        "bbox": {
+          "x": 18.125,
+          "y": 3.1389,
+          "w": 4.3333,
+          "h": 2.3889
+        },
+        "aspect_ratio": 1.81393,
+        "frame_asset_ids": []
+      },
+      "composition": {
+        "focal_point": "auto",
+        "negative_space": "none",
+        "background_complexity": "low_to_medium"
+      },
+      "treatment": {
+        "preset": "match_source_slot_and_deck_art_direction",
+        "fit": "cover",
+        "frame": "preserve_source_picture_format",
+        "target_metrics": {
+          "brightness": 0.7113,
+          "saturation": 0.1419,
+          "contrast": 0.691,
+          "edge_density": 0.126,
+          "warmth": 0.0402
+        },
+        "deck_target_metrics": {
+          "brightness": 0.8372,
+          "saturation": 0.0761,
+          "contrast": 0.4163,
+          "edge_density": 0.0751,
+          "warmth": 0.0103
+        }
+      },
+      "style_reference": {
+        "primary_source_asset_id": "AST-00082",
+        "deck_reference_asset_ids": [
+          "AST-00001",
+          "AST-00008",
+          "AST-00174",
+          "AST-00181",
+          "AST-00028",
+          "AST-00038"
+        ],
+        "lineage": "source_slot_plus_deck_median"
+      },
+      "palette": "derive_from_deck_art_direction",
+      "quality": "medium",
+      "status": "READY",
+      "review_reason": null,
+      "selected_asset_id": "GAST-IMG-OUT-S001-01-V001",
+      "manual_asset_path": null,
+      "composition_origin": null,
+      "prompt_origin": null,
+      "origin": "deterministic_recipe_seed"
+    },
+    {
+      "recipe_id": "IMG-OUT-S001-02",
+      "slide_id": "OUT-S001",
+      "slot_index": 2,
+      "purpose": "photo_grid",
+      "message": "フォーム設定",
+      "medium": "photo_grid",
+      "provider": "auto",
+      "prompt_seed": "入力項目・必須設定・回答形式を編集するフォーム画面",
+      "target": {
+        "source_slide_id": "SRC-S008",
+        "source_object_id": "SRC-S008-O016",
+        "source_asset_id": "AST-00083",
+        "source_media_path": "analysis/source_media/da5ab6f3a22fe430a2f6fb73c7632547a07ad95ee9f406800ee13f4d7364c38a.png",
+        "source_visual_metrics": {
+          "width_px": 312,
+          "height_px": 172,
+          "aspect_ratio": 1.81395,
+          "brightness": 0.6719,
+          "saturation": 0.3004,
+          "contrast": 0.5571,
+          "edge_density": 0.2296,
+          "warmth": -0.2204,
+          "mean_rgb": [
+            0.5778,
+            0.6954,
+            0.7981
+          ],
+          "transparent_ratio": 0.0243,
+          "dominant_colors": [
+            {
+              "hex": "#9CC0DF",
+              "ratio": 0.2934
+            },
+            {
+              "hex": "#7EAED7",
+              "ratio": 0.258
+            },
+            {
+              "hex": "#4B6886",
+              "ratio": 0.2005
+            },
+            {
+              "hex": "#F9F9F6",
+              "ratio": 0.1417
+            },
+            {
+              "hex": "#C9DAE6",
+              "ratio": 0.1064
+            }
+          ],
+          "average_hash": "f8fcec6cecececec"
+        },
+        "source_display": {
+          "rotation": 0.0,
+          "crop_left": 0.0,
+          "crop_top": 0.0,
+          "crop_right": 0.0,
+          "crop_bottom": 0.0,
+          "slot_aspect_ratio": 1.81395
+        },
+        "bbox": {
+          "x": 18.125,
+          "y": 5.9306,
+          "w": 4.3333,
+          "h": 2.3889
+        },
+        "aspect_ratio": 1.81393,
+        "frame_asset_ids": []
+      },
+      "composition": {
+        "focal_point": "auto",
+        "negative_space": "none",
+        "background_complexity": "low_to_medium"
+      },
+      "treatment": {
+        "preset": "match_source_slot_and_deck_art_direction",
+        "fit": "cover",
+        "frame": "preserve_source_picture_format",
+        "target_metrics": {
+          "brightness": 0.7248,
+          "saturation": 0.2286,
+          "contrast": 0.512,
+          "edge_density": 0.1802,
+          "warmth": -0.1466
+        },
+        "deck_target_metrics": {
+          "brightness": 0.8372,
+          "saturation": 0.0761,
+          "contrast": 0.4163,
+          "edge_density": 0.0751,
+          "warmth": 0.0103
+        }
+      },
+      "style_reference": {
+        "primary_source_asset_id": "AST-00083",
+        "deck_reference_asset_ids": [
+          "AST-00001",
+          "AST-00008",
+          "AST-00174",
+          "AST-00181",
+          "AST-00028",
+          "AST-00038"
+        ],
+        "lineage": "source_slot_plus_deck_median"
+      },
+      "palette": "derive_from_deck_art_direction",
+      "quality": "medium",
+      "status": "READY",
+      "review_reason": null,
+      "selected_asset_id": "GAST-IMG-OUT-S001-02-V001",
+      "manual_asset_path": null,
+      "composition_origin": null,
+      "prompt_origin": null,
+      "origin": "deterministic_recipe_seed"
+    },
+    {
+      "recipe_id": "IMG-OUT-S001-03",
+      "slide_id": "OUT-S001",
+      "slot_index": 3,
+      "purpose": "photo_grid",
+      "message": "ビジュアル設定",
+      "medium": "photo_grid",
+      "provider": "auto",
+      "prompt_seed": "配色・画像・フォントを調整するビジュアル設定画面",
+      "target": {
+        "source_slide_id": "SRC-S008",
+        "source_object_id": "SRC-S008-O022",
+        "source_asset_id": "AST-00084",
+        "source_media_path": "analysis/source_media/f33c3c3ff258bf008e1e0f50d38e596d4ead5ecc69f8d1261fab8a35b3f15314.png",
+        "source_visual_metrics": {
+          "width_px": 312,
+          "height_px": 172,
+          "aspect_ratio": 1.81395,
+          "brightness": 0.6369,
+          "saturation": 0.0668,
+          "contrast": 0.7207,
+          "edge_density": 0.1561,
+          "warmth": -0.002,
+          "mean_rgb": [
+            0.6356,
+            0.6375,
+            0.6376
+          ],
+          "transparent_ratio": 0.0243,
+          "dominant_colors": [
+            {
+              "hex": "#F8F9F8",
+              "ratio": 0.252
+            },
+            {
+              "hex": "#C0C0C0",
+              "ratio": 0.2272
+            },
+            {
+              "hex": "#46494B",
+              "ratio": 0.2007
+            },
+            {
+              "hex": "#74797B",
+              "ratio": 0.1823
+            },
+            {
+              "hex": "#97908B",
+              "ratio": 0.1378
+            }
+          ],
+          "average_hash": "cdff7d7830303038"
+        },
+        "source_display": {
+          "rotation": 0.0,
+          "crop_left": 0.0,
+          "crop_top": 0.0,
+          "crop_right": 0.0,
+          "crop_bottom": 0.0,
+          "slot_aspect_ratio": 1.81395
+        },
+        "bbox": {
+          "x": 18.125,
+          "y": 8.7222,
+          "w": 4.3333,
+          "h": 2.3889
+        },
+        "aspect_ratio": 1.81393,
+        "frame_asset_ids": []
+      },
+      "composition": {
+        "focal_point": "auto",
+        "negative_space": "none",
+        "background_complexity": "low_to_medium"
+      },
+      "treatment": {
+        "preset": "match_source_slot_and_deck_art_direction",
+        "fit": "cover",
+        "frame": "preserve_source_picture_format",
+        "target_metrics": {
+          "brightness": 0.701,
+          "saturation": 0.0698,
+          "contrast": 0.6233,
+          "edge_density": 0.1302,
+          "warmth": 0.0019
+        },
+        "deck_target_metrics": {
+          "brightness": 0.8372,
+          "saturation": 0.0761,
+          "contrast": 0.4163,
+          "edge_density": 0.0751,
+          "warmth": 0.0103
+        }
+      },
+      "style_reference": {
+        "primary_source_asset_id": "AST-00084",
+        "deck_reference_asset_ids": [
+          "AST-00001",
+          "AST-00008",
+          "AST-00174",
+          "AST-00181",
+          "AST-00028",
+          "AST-00038"
+        ],
+        "lineage": "source_slot_plus_deck_median"
+      },
+      "palette": "derive_from_deck_art_direction",
+      "quality": "medium",
+      "status": "READY",
+      "review_reason": null,
+      "selected_asset_id": "GAST-IMG-OUT-S001-03-V001",
+      "manual_asset_path": null,
+      "composition_origin": null,
+      "prompt_origin": null,
+      "origin": "deterministic_recipe_seed"
+    },
+    {
+      "recipe_id": "IMG-OUT-S001-04",
+      "slide_id": "OUT-S001",
+      "slot_index": 4,
+      "purpose": "photo_grid",
+      "message": "メール計測",
+      "medium": "photo_grid",
+      "provider": "auto",
+      "prompt_seed": "自動返信メールとアクセス計測を確認する分析画面",
+      "target": {
+        "source_slide_id": "SRC-S008",
+        "source_object_id": "SRC-S008-O028",
+        "source_asset_id": "AST-00085",
+        "source_media_path": "analysis/source_media/eb1319a80945f29db06f64f7340ccfc6564ca2da28bc74831fee1d6afa7b82fc.png",
+        "source_visual_metrics": {
+          "width_px": 312,
+          "height_px": 172,
+          "aspect_ratio": 1.81395,
+          "brightness": 0.6034,
+          "saturation": 0.2018,
+          "contrast": 0.7508,
+          "edge_density": 0.1171,
+          "warmth": -0.0884,
+          "mean_rgb": [
+            0.5782,
+            0.604,
+            0.6666
+          ],
+          "transparent_ratio": 0.0243,
+          "dominant_colors": [
+            {
+              "hex": "#364157",
+              "ratio": 0.2599
+            },
+            {
+              "hex": "#6A7287",
+              "ratio": 0.248
+            },
+            {
+              "hex": "#BBBECC",
+              "ratio": 0.1889
+            },
+            {
+              "hex": "#F7F9FF",
+              "ratio": 0.1535
+            },
+            {
+              "hex": "#E9EEF9",
+              "ratio": 0.1496
+            }
+          ],
+          "average_hash": "e1c0c030b8fcf9f1"
+        },
+        "source_display": {
+          "rotation": 0.0,
+          "crop_left": 0.0,
+          "crop_top": 0.0,
+          "crop_right": 0.0,
+          "crop_bottom": 0.0,
+          "slot_aspect_ratio": 1.81395
+        },
+        "bbox": {
+          "x": 18.125,
+          "y": 11.5278,
+          "w": 4.3333,
+          "h": 2.3889
+        },
+        "aspect_ratio": 1.81393,
+        "frame_asset_ids": []
+      },
+      "composition": {
+        "focal_point": "auto",
+        "negative_space": "none",
+        "background_complexity": "low_to_medium"
+      },
+      "treatment": {
+        "preset": "match_source_slot_and_deck_art_direction",
+        "fit": "cover",
+        "frame": "preserve_source_picture_format",
+        "target_metrics": {
+          "brightness": 0.6782,
+          "saturation": 0.1616,
+          "contrast": 0.6438,
+          "edge_density": 0.1037,
+          "warmth": -0.0568
+        },
+        "deck_target_metrics": {
+          "brightness": 0.8372,
+          "saturation": 0.0761,
+          "contrast": 0.4163,
+          "edge_density": 0.0751,
+          "warmth": 0.0103
+        }
+      },
+      "style_reference": {
+        "primary_source_asset_id": "AST-00085",
+        "deck_reference_asset_ids": [
+          "AST-00001",
+          "AST-00008",
+          "AST-00174",
+          "AST-00181",
+          "AST-00028",
+          "AST-00038"
+        ],
+        "lineage": "source_slot_plus_deck_median"
+      },
+      "palette": "derive_from_deck_art_direction",
+      "quality": "medium",
+      "status": "READY",
+      "review_reason": null,
+      "selected_asset_id": "GAST-IMG-OUT-S001-04-V001",
+      "manual_asset_path": null,
+      "composition_origin": null,
+      "prompt_origin": null,
+      "origin": "deterministic_recipe_seed"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "schema_version": "0.4.0",
+  "request": {
+    "asset_id": "LIVE-QUALITY-TEST",
+    "purpose": "PowerPoint proposal slide hero visual",
+    "visual_kind": "editorial modular presentation system",
+    "aspect_ratio": "16:9",
+    "required_text": [],
+    "prompt": "A refined editorial visual of a modular presentation-production system transforming a raw manuscript into structured layouts, editable native charts, and a polished slide deck. Show one clear left-to-right transformation with a strong focal hierarchy, premium restrained materials, and crop-safe open margins. No people and no interface screenshot."
+  },
+  "provider": "signed-in-codex-app-server-imagegen",
+  "model": "gpt-5.6-sol",
+  "cache_hit": false,
+  "cache_key": "c7abaad3e9f9caa5b6b8f7055ff855485efbc5e9091e103ff152afc0c7ed4e24",
+  "attempts": 2,
+  "quality_review": {
+    "status": "PASS",
+    "attempt": 2,
+    "scores": {
+      "prompt_alignment": 5,
+      "composition": 5,
+      "visual_coherence": 5,
+      "slide_usability": 4,
+      "artifact_freedom": 5
+    },
+    "minimum_score": 4,
+    "blocking_issues": [],
+    "review_notes": [
+      "左の原稿束から中央の構造化要素、右の完成スライド群へ進む変換が明瞭。",
+      "人物、UIスクリーンショット、文字、疑似文字、ロゴ、透かしは見当たらない。",
+      "抑制された配色と紙素材の表現に統一感があり、提案資料向けの上質さがある。",
+      "主要要素の破綻や端切れはなく、16:9のヒーロービジュアルとして十分に使用可能。"
+    ],
+    "rejected_attempts": [
+      {
+        "attempt": 1,
+        "scores": {
+          "prompt_alignment": 4,
+          "composition": 4,
+          "visual_coherence": 5,
+          "slide_usability": 4,
+          "artifact_freedom": 2
+        },
+        "blocking_issues": [
+          "左側の原稿と右側のスライドに、文字を模した判読不能な線状の疑似文字が複数見えるため、必須文字列なしの条件に違反している。",
+          "中央の制作装置が抽象的で、原稿から構造化レイアウト、編集可能なネイティブチャート、完成スライドへ変換される段階差がやや曖昧。"
+        ],
+        "improvement_instruction": "左右の紙面から文字や文字に見える線を完全に除去し、左は無地の原稿ブロック、中央は明確に分節されたレイアウト部品とチャート部品、右は文字なしの完成スライド群として、左から右への三段階変換が一目で分かる16:9の構図に再生成してください。"
+      }
+    ]
+  },
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "image_path": "/Users/kazuma/Documents/SlideMaker/SlideHarness/nextgen/examples/image-quality-test/generated-slide-visual-2026-09-01T00-25-51-120Z.png"
+}

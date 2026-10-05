@@ -1,0 +1,110 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GeneratedImageAssetManifest",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "assets",
+    "selected_by_recipe"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string"
+    },
+    "generated_at": {
+      "type": "string"
+    },
+    "assets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "asset_id",
+          "recipe_id",
+          "slide_id",
+          "provider",
+          "raw_path",
+          "processed_path",
+          "metrics",
+          "status"
+        ],
+        "properties": {
+          "asset_id": {
+            "type": "string"
+          },
+          "recipe_id": {
+            "type": "string"
+          },
+          "slide_id": {
+            "type": "string"
+          },
+          "version": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "provider": {
+            "enum": [
+              "mock",
+              "local",
+              "manual",
+              "openai"
+            ]
+          },
+          "provider_meta": {
+            "type": "object"
+          },
+          "model": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "quality": {
+            "type": "string"
+          },
+          "prompt": {
+            "type": "string"
+          },
+          "raw_path": {
+            "type": "string"
+          },
+          "processed_path": {
+            "type": "string"
+          },
+          "target": {
+            "type": "object"
+          },
+          "composition": {
+            "type": "object"
+          },
+          "process": {
+            "type": "object"
+          },
+          "metrics": {
+            "type": "object"
+          },
+          "status": {
+            "type": "string"
+          },
+          "created_at": {
+            "type": "string"
+          },
+          "raw_metrics": {
+            "type": "object"
+          },
+          "lineage": {
+            "type": "object"
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "selected_by_recipe": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": false
+}

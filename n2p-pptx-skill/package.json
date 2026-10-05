@@ -1,0 +1,16 @@
+{
+  "name": "n2p-pptx-skill",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:agent-skills-promotion": "node examples/agent-skills-promotion/generate.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "pptxgenjs": "^4.0.1"
+  }
+}

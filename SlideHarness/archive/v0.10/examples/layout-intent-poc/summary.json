@@ -1,0 +1,102 @@
+{
+  "pptx": "/mnt/data/ppt-codex-appserver-prototype/examples/layout-intent-poc/layout-intent-poc.pptx",
+  "qa": "/mnt/data/ppt-codex-appserver-prototype/examples/layout-intent-poc/qa.json",
+  "blocking_count": 0,
+  "warning_count": 0,
+  "statement": {
+    "check": "LAYOUT_FIT_TO_INTENT",
+    "status": "pass",
+    "assessment": "適正",
+    "score": 0.907,
+    "fill_policy": {
+      "mode": "intentional_whitespace",
+      "source": "system",
+      "reason": [
+        "一つの強い訴求を印象づけるページ",
+        "補足は条件注記のみで、情報を追加すると主張が弱くなる"
+      ],
+      "preserve_empty_zones": true,
+      "role": "statement",
+      "forbid_filler_content": true
+    },
+    "intentional_whitespace": true,
+    "preserve_source_whitespace": false,
+    "accidental_dead_space": false,
+    "content_extent_width_ratio": 0.68,
+    "content_extent_height_ratio": 0.48,
+    "occupied_area_ratio": 0.301,
+    "left_void_ratio": 0.0,
+    "right_void_ratio": 0.32,
+    "top_void_ratio": 0.26,
+    "bottom_void_ratio": 0.26,
+    "center_offset_x_ratio": 0.16,
+    "center_offset_y_ratio": 0.0,
+    "expected_item_count": 0,
+    "rendered_item_count": 0,
+    "thresholds": {
+      "w": 0.52,
+      "h": 0.2,
+      "area": 0.07,
+      "max_edge_void": 0.72,
+      "max_center_x": 0.38,
+      "max_center_y": 0.42
+    },
+    "content_bbox": {
+      "x": 1.2,
+      "y": 4.224,
+      "w": 16.5014,
+      "h": 6.552
+    },
+    "reason_codes": [
+      "FIT_TO_INTENT"
+    ]
+  },
+  "grid": {
+    "check": "LAYOUT_FIT_TO_INTENT",
+    "status": "pass",
+    "assessment": "適正",
+    "score": 0.964,
+    "fill_policy": {
+      "mode": "content_filled",
+      "source": "system",
+      "reason": [
+        "4領域を同時に比較・把握するページ",
+        "一覧性を優先し、意味のない空白象限を残さない"
+      ],
+      "preserve_empty_zones": false,
+      "role": "four_items",
+      "forbid_filler_content": true
+    },
+    "intentional_whitespace": false,
+    "preserve_source_whitespace": false,
+    "accidental_dead_space": false,
+    "content_extent_width_ratio": 1.0,
+    "content_extent_height_ratio": 0.941,
+    "occupied_area_ratio": 0.825,
+    "left_void_ratio": 0.0,
+    "right_void_ratio": 0.0,
+    "top_void_ratio": 0.0,
+    "bottom_void_ratio": 0.059,
+    "center_offset_x_ratio": 0.0,
+    "center_offset_y_ratio": 0.029,
+    "expected_item_count": 4,
+    "rendered_item_count": 4,
+    "thresholds": {
+      "w": 0.88,
+      "h": 0.62,
+      "area": 0.389,
+      "max_edge_void": 0.3,
+      "max_center_x": 0.38,
+      "max_center_y": 0.38
+    },
+    "content_bbox": {
+      "x": 1.2,
+      "y": 2.2217,
+      "w": 24.2667,
+      "h": 11.3899
+    },
+    "reason_codes": [
+      "FIT_TO_INTENT"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "pdf": "/Users/kazuma/Documents/SlideMaker/comparison-output/2026-09-04/nextgen/render/deck.pdf",
+  "images": [
+    "/Users/kazuma/Documents/SlideMaker/comparison-output/2026-09-04/nextgen/render/slide-1.png",
+    "/Users/kazuma/Documents/SlideMaker/comparison-output/2026-09-04/nextgen/render/slide-2.png",
+    "/Users/kazuma/Documents/SlideMaker/comparison-output/2026-09-04/nextgen/render/slide-3.png",
+    "/Users/kazuma/Documents/SlideMaker/comparison-output/2026-09-04/nextgen/render/slide-4.png",
+    "/Users/kazuma/Documents/SlideMaker/comparison-output/2026-09-04/nextgen/render/slide-5.png",
+    "/Users/kazuma/Documents/SlideMaker/comparison-output/2026-09-04/nextgen/render/slide-6.png",
+    "/Users/kazuma/Documents/SlideMaker/comparison-output/2026-09-04/nextgen/render/slide-7.png",
+    "/Users/kazuma/Documents/SlideMaker/comparison-output/2026-09-04/nextgen/render/slide-8.png"
+  ],
+  "montage": "/Users/kazuma/Documents/SlideMaker/comparison-output/2026-09-04/nextgen/render/montage.png",
+  "findings": []
+}

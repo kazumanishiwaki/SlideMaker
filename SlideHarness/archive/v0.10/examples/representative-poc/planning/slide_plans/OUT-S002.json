@@ -1,0 +1,174 @@
+{
+  "schema_version": "0.1",
+  "slide_id": "OUT-S002",
+  "source_slide_id": "SRC-S014",
+  "adaptation_mode": "ADAPT",
+  "composer_support": "supported",
+  "content_units": [
+    "CU-007"
+  ],
+  "content_blocks": [
+    {
+      "id": "CB-01",
+      "role": "title",
+      "source_text": "時間の経過",
+      "semantic_text": "公開準備から抽選までを一元管理",
+      "render_text": "公開準備から抽選までを一元管理",
+      "priority": 1
+    }
+  ],
+  "source_object_mutations": [
+    {
+      "source_object_id": "SRC-S014-O004",
+      "action": "replace_text",
+      "content_block_id": null,
+      "render_text": "公開準備から抽選までを一元管理",
+      "reason": "title"
+    },
+    {
+      "source_object_id": "SRC-S014-O005",
+      "action": "replace_text",
+      "content_block_id": null,
+      "render_text": "準備から終了後まで、同じ管理画面で進めます",
+      "reason": "subtitle"
+    },
+    {
+      "source_object_id": "SRC-S014-O012",
+      "action": "replace_text",
+      "content_block_id": null,
+      "render_text": "公開する",
+      "reason": "step title"
+    },
+    {
+      "source_object_id": "SRC-S014-O013",
+      "action": "replace_text",
+      "content_block_id": null,
+      "render_text": "LP文言・期間\nデザインを設定",
+      "reason": "step desc; intentional line break for Japanese/Latin wrap QA"
+    },
+    {
+      "source_object_id": "SRC-S014-O014",
+      "action": "replace_text",
+      "content_block_id": null,
+      "render_text": "",
+      "reason": "clear"
+    },
+    {
+      "source_object_id": "SRC-S014-O015",
+      "action": "replace_text",
+      "content_block_id": null,
+      "render_text": "01",
+      "reason": "step no"
+    },
+    {
+      "source_object_id": "SRC-S014-O020",
+      "action": "replace_text",
+      "content_block_id": null,
+      "render_text": "受け付ける",
+      "reason": "step title"
+    },
+    {
+      "source_object_id": "SRC-S014-O021",
+      "action": "replace_text",
+      "content_block_id": null,
+      "render_text": "応募フォーム\nレシート画像を受付",
+      "reason": "step desc; intentional line break for Japanese/Latin wrap QA"
+    },
+    {
+      "source_object_id": "SRC-S014-O022",
+      "action": "replace_text",
+      "content_block_id": null,
+      "render_text": "",
+      "reason": "clear"
+    },
+    {
+      "source_object_id": "SRC-S014-O023",
+      "action": "replace_text",
+      "content_block_id": null,
+      "render_text": "02",
+      "reason": "step no"
+    },
+    {
+      "source_object_id": "SRC-S014-O028",
+      "action": "replace_text",
+      "content_block_id": null,
+      "render_text": "見届ける",
+      "reason": "step title"
+    },
+    {
+      "source_object_id": "SRC-S014-O029",
+      "action": "replace_text",
+      "content_block_id": null,
+      "render_text": "応募状況・回答\n重複候補を確認",
+      "reason": "step desc; intentional line break for Japanese/Latin wrap QA"
+    },
+    {
+      "source_object_id": "SRC-S014-O030",
+      "action": "replace_text",
+      "content_block_id": null,
+      "render_text": "",
+      "reason": "clear"
+    },
+    {
+      "source_object_id": "SRC-S014-O031",
+      "action": "replace_text",
+      "content_block_id": null,
+      "render_text": "03",
+      "reason": "step no"
+    },
+    {
+      "source_object_id": "SRC-S014-O037",
+      "action": "replace_text",
+      "content_block_id": null,
+      "render_text": "抽選する",
+      "reason": "step title"
+    },
+    {
+      "source_object_id": "SRC-S014-O038",
+      "action": "replace_text",
+      "content_block_id": null,
+      "render_text": "CSV出力\n指定人数を簡易抽選",
+      "reason": "step desc; intentional line break for Japanese/Latin wrap QA"
+    },
+    {
+      "source_object_id": "SRC-S014-O039",
+      "action": "replace_text",
+      "content_block_id": null,
+      "render_text": "",
+      "reason": "clear"
+    },
+    {
+      "source_object_id": "SRC-S014-O040",
+      "action": "replace_text",
+      "content_block_id": null,
+      "render_text": "04",
+      "reason": "step no"
+    },
+    {
+      "source_object_id": "SRC-S014-O009",
+      "action": "remove",
+      "reason": "old content visual"
+    },
+    {
+      "source_object_id": "SRC-S014-O017",
+      "action": "remove",
+      "reason": "old content visual"
+    },
+    {
+      "source_object_id": "SRC-S014-O025",
+      "action": "remove",
+      "reason": "old content visual"
+    },
+    {
+      "source_object_id": "SRC-S014-O033",
+      "action": "remove",
+      "reason": "old content visual"
+    },
+    {
+      "source_object_id": "SRC-S014-O035",
+      "action": "remove",
+      "reason": "old content visual"
+    }
+  ],
+  "status": "APPROVED"
+}

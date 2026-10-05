@@ -1,0 +1,329 @@
+{
+  "schema_version": "0.1",
+  "generated_at": "2026-08-16T14:13:38.726702+00:00",
+  "slide_id": "OUT-S001",
+  "source_slide_id": "SRC-S015",
+  "family": "grid",
+  "density": "medium_low",
+  "fill_policy": {
+    "mode": "content_filled",
+    "source": "system",
+    "reason": [
+      "4項目を一覧で比較するページ"
+    ],
+    "preserve_empty_zones": false,
+    "role": "four_items",
+    "forbid_filler_content": true
+  },
+  "content_canvas": {
+    "x": 1.2,
+    "y": 2.2217,
+    "w": 24.2667,
+    "h": 12.1033
+  },
+  "removed_source_object_ids": [
+    "SRC-S015-O003",
+    "SRC-S015-O004",
+    "SRC-S015-O005",
+    "SRC-S015-O006",
+    "SRC-S015-O007",
+    "SRC-S015-O008",
+    "SRC-S015-O009",
+    "SRC-S015-O010",
+    "SRC-S015-O011",
+    "SRC-S015-O012",
+    "SRC-S015-O013",
+    "SRC-S015-O014",
+    "SRC-S015-O015",
+    "SRC-S015-O019",
+    "SRC-S015-O020",
+    "SRC-S015-O021",
+    "SRC-S015-O022",
+    "SRC-S015-O023",
+    "SRC-S015-O024",
+    "SRC-S015-O025",
+    "SRC-S015-O026",
+    "SRC-S015-O027",
+    "SRC-S015-O028",
+    "SRC-S015-O029",
+    "SRC-S015-O030",
+    "SRC-S015-O031",
+    "SRC-S015-O032",
+    "SRC-S015-O033"
+  ],
+  "allowed_regions": [
+    {
+      "x": 1.2,
+      "y": 2.2217,
+      "w": 24.2667,
+      "h": 11.3899
+    }
+  ],
+  "generated_objects": [
+    {
+      "role": "title",
+      "output_shape_id": 19,
+      "bbox": {
+        "x": 1.2,
+        "y": 2.2217,
+        "w": 24.2667,
+        "h": 1.0288
+      },
+      "render_text": "管理画面から主要設定を変更"
+    },
+    {
+      "role": "subtitle",
+      "output_shape_id": 20,
+      "bbox": {
+        "x": 1.2,
+        "y": 3.3935,
+        "w": 24.2667,
+        "h": 0.5446
+      },
+      "render_text": "公開後も担当者が更新できます"
+    },
+    {
+      "role": "number",
+      "item_index": 0,
+      "output_shape_id": 22,
+      "bbox": {
+        "x": 1.44,
+        "y": 5.0866,
+        "w": 0.4678,
+        "h": 0.4678
+      },
+      "render_text": "01"
+    },
+    {
+      "role": "item_title",
+      "item_index": 0,
+      "output_shape_id": 23,
+      "bbox": {
+        "x": 1.44,
+        "y": 5.6983,
+        "w": 11.5233,
+        "h": 0.6804
+      },
+      "render_text": "キャンペーン"
+    },
+    {
+      "role": "item_body",
+      "item_index": 0,
+      "output_shape_id": 24,
+      "bbox": {
+        "x": 1.44,
+        "y": 6.4867,
+        "w": 11.5233,
+        "h": 2.3723
+      },
+      "render_text": "商品・店舗・応募方法\n期間・規約・問い合わせ先"
+    },
+    {
+      "role": "number",
+      "item_index": 1,
+      "output_shape_id": 27,
+      "bbox": {
+        "x": 13.7033,
+        "y": 5.0866,
+        "w": 0.4678,
+        "h": 0.4678
+      },
+      "render_text": "02"
+    },
+    {
+      "role": "item_title",
+      "item_index": 1,
+      "output_shape_id": 28,
+      "bbox": {
+        "x": 13.7033,
+        "y": 5.6983,
+        "w": 11.5233,
+        "h": 0.6804
+      },
+      "render_text": "フォーム"
+    },
+    {
+      "role": "item_body",
+      "item_index": 1,
+      "output_shape_id": 29,
+      "bbox": {
+        "x": 13.7033,
+        "y": 6.4867,
+        "w": 11.5233,
+        "h": 2.3723
+      },
+      "render_text": "追加質問・回答形式\n必須設定・レシート枚数"
+    },
+    {
+      "role": "number",
+      "item_index": 2,
+      "output_shape_id": 32,
+      "bbox": {
+        "x": 1.44,
+        "y": 9.5991,
+        "w": 0.4678,
+        "h": 0.4678
+      },
+      "render_text": "03"
+    },
+    {
+      "role": "item_title",
+      "item_index": 2,
+      "output_shape_id": 33,
+      "bbox": {
+        "x": 1.44,
+        "y": 10.2108,
+        "w": 11.5233,
+        "h": 0.6804
+      },
+      "render_text": "ビジュアル"
+    },
+    {
+      "role": "item_body",
+      "item_index": 2,
+      "output_shape_id": 34,
+      "bbox": {
+        "x": 1.44,
+        "y": 10.9992,
+        "w": 11.5233,
+        "h": 2.3723
+      },
+      "render_text": "テンプレート・フォント・配色\n画像・OGP・favicon"
+    },
+    {
+      "role": "number",
+      "item_index": 3,
+      "output_shape_id": 37,
+      "bbox": {
+        "x": 13.7033,
+        "y": 9.5991,
+        "w": 0.4678,
+        "h": 0.4678
+      },
+      "render_text": "04"
+    },
+    {
+      "role": "item_title",
+      "item_index": 3,
+      "output_shape_id": 38,
+      "bbox": {
+        "x": 13.7033,
+        "y": 10.2108,
+        "w": 11.5233,
+        "h": 0.6804
+      },
+      "render_text": "メール・計測"
+    },
+    {
+      "role": "item_body",
+      "item_index": 3,
+      "output_shape_id": 39,
+      "bbox": {
+        "x": 13.7033,
+        "y": 10.9992,
+        "w": 11.5233,
+        "h": 2.3723
+      },
+      "render_text": "自動返信メール・GA4\nGoogle Tag Manager"
+    }
+  ],
+  "quality": {
+    "check": "LAYOUT_FIT_TO_INTENT",
+    "status": "pass",
+    "assessment": "適正",
+    "score": 0.964,
+    "fill_policy": {
+      "mode": "content_filled",
+      "source": "system",
+      "reason": [
+        "4項目を一覧で比較するページ"
+      ],
+      "preserve_empty_zones": false,
+      "role": "four_items",
+      "forbid_filler_content": true
+    },
+    "intentional_whitespace": false,
+    "preserve_source_whitespace": false,
+    "accidental_dead_space": false,
+    "content_extent_width_ratio": 1.0,
+    "content_extent_height_ratio": 0.941,
+    "occupied_area_ratio": 0.825,
+    "left_void_ratio": 0.0,
+    "right_void_ratio": 0.0,
+    "top_void_ratio": 0.0,
+    "bottom_void_ratio": 0.059,
+    "center_offset_x_ratio": 0.0,
+    "center_offset_y_ratio": 0.029,
+    "expected_item_count": 4,
+    "rendered_item_count": 4,
+    "thresholds": {
+      "w": 0.88,
+      "h": 0.62,
+      "area": 0.389,
+      "max_edge_void": 0.3,
+      "max_center_x": 0.38,
+      "max_center_y": 0.38
+    },
+    "content_bbox": {
+      "x": 1.2,
+      "y": 2.2217,
+      "w": 24.2667,
+      "h": 11.3899
+    },
+    "reason_codes": [
+      "FIT_TO_INTENT"
+    ]
+  },
+  "geometry": {
+    "title_box": {
+      "x": 1.2,
+      "y": 2.2217,
+      "w": 24.2667,
+      "h": 1.0288
+    },
+    "subtitle_box": {
+      "x": 1.2,
+      "y": 3.3935,
+      "w": 24.2667,
+      "h": 0.5446
+    },
+    "body": {
+      "x": 1.2,
+      "y": 4.1331,
+      "w": 24.2667,
+      "h": 10.1919
+    },
+    "item_boxes": [
+      {
+        "x": 1.2,
+        "y": 4.8466,
+        "w": 12.0033,
+        "h": 4.2525
+      },
+      {
+        "x": 13.4633,
+        "y": 4.8466,
+        "w": 12.0033,
+        "h": 4.2525
+      },
+      {
+        "x": 1.2,
+        "y": 9.3591,
+        "w": 12.0033,
+        "h": 4.2525
+      },
+      {
+        "x": 13.4633,
+        "y": 9.3591,
+        "w": 12.0033,
+        "h": 4.2525
+      }
+    ],
+    "columns": null,
+    "rows": null
+  },
+  "notes": [
+    "Layout geometry is deterministic. The model chooses semantic family/priority/fill policy; coordinates are engine-generated.",
+    "LAYOUT_FIT_TO_INTENT distinguishes deliberate whitespace from accidental dead space. Filler content is never added merely to raise occupancy."
+  ]
+}

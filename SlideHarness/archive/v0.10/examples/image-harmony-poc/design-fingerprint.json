@@ -1,0 +1,107 @@
+{
+  "schema_version": "0.2",
+  "generated_at": "2026-08-17T03:46:07.640629+00:00",
+  "composition": {
+    "title_axis_x_in": 2.833,
+    "title_axis_y_in": 0.986,
+    "common_left_axes_in": [
+      2.8,
+      6.3,
+      1.0,
+      22.9,
+      10.6,
+      10.9,
+      3.4,
+      8.9
+    ],
+    "slide_aspect_ratio": 1.778,
+    "whitespace_character": "generous"
+  },
+  "typography": {
+    "preferred_fonts": [
+      "Pretendard JP Medium",
+      "Pretendard JP Bold",
+      "Pretendard JP SemiBold",
+      "Pretendard JP Regular"
+    ],
+    "common_sizes_pt": [
+      18.7,
+      23.6,
+      21.3,
+      22.1,
+      19.9,
+      19.4,
+      22.7,
+      23.1
+    ],
+    "hierarchy_source": "observed_runs"
+  },
+  "color_roles": {
+    "observed_text_colors": [
+      "000000",
+      "FFFFFF",
+      "FF9A42"
+    ],
+    "accent_policy": "derive_from_template_not_generated_visual"
+  },
+  "components": {
+    "template_chrome_count": 20,
+    "frame_count": 0,
+    "content_visual_count": 43
+  },
+  "image_treatment": {
+    "preserve_existing_frames": true,
+    "replacement_rule": "crop_to_target_slot_then_grade_toward_source_visuals",
+    "avoid_unstyled_raster_dropin": true,
+    "target_metrics": {
+      "brightness": 0.8372,
+      "saturation": 0.0761,
+      "contrast": 0.4163,
+      "edge_density": 0.0751,
+      "warmth": 0.0103
+    },
+    "observed_aspect_ratios": [
+      0.434,
+      0.564,
+      0.58,
+      1.0,
+      1.027,
+      1.227,
+      1.326,
+      1.427,
+      1.465,
+      1.682,
+      1.755,
+      1.77,
+      1.788,
+      1.814,
+      2.273,
+      2.289,
+      2.322,
+      13.426,
+      21.518
+    ],
+    "reference_asset_ids": [
+      "AST-00001",
+      "AST-00008",
+      "AST-00174",
+      "AST-00181",
+      "AST-00028",
+      "AST-00038"
+    ],
+    "minimum_effective_ppi": 120,
+    "harmony_tolerance": {
+      "brightness": 0.2,
+      "saturation": 0.24,
+      "contrast": 0.22,
+      "edge_density": 0.16,
+      "warmth": 0.18
+    }
+  },
+  "continuity_rules": [
+    "inherit at least one macro, one middle, and one micro cue for RECOMPOSE when available",
+    "template chrome is deck-wide continuity and must not be used as replacement content",
+    "new images must be judged in rendered slide context, not as isolated assets",
+    "generated images must be cropped for the actual target slot and graded before slide placement"
+  ]
+}

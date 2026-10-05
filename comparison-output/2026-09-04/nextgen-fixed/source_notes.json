@@ -1,0 +1,379 @@
+{
+  "schema_version": "0.11-mvp.4",
+  "slides": [
+    {
+      "slide_id": "S001",
+      "source_unit_ids": [
+        "U-01-0001"
+      ],
+      "records": [
+        {
+          "unit_id": "U-01-0001",
+          "source_id": "SRC-01-00bf2d92",
+          "filename": "brief.md",
+          "section_path": [
+            "SlideHarness Next"
+          ],
+          "urls": [],
+          "status": "resolved"
+        }
+      ],
+      "asset_records": []
+    },
+    {
+      "slide_id": "S002",
+      "source_unit_ids": [
+        "U-01-0002"
+      ],
+      "records": [
+        {
+          "unit_id": "U-01-0002",
+          "source_id": "SRC-01-00bf2d92",
+          "filename": "brief.md",
+          "section_path": [
+            "SlideHarness Next"
+          ],
+          "urls": [],
+          "status": "resolved"
+        }
+      ],
+      "asset_records": []
+    },
+    {
+      "slide_id": "S003",
+      "source_unit_ids": [
+        "U-01-0003",
+        "U-01-0004",
+        "U-01-0005",
+        "U-01-0006"
+      ],
+      "records": [
+        {
+          "unit_id": "U-01-0003",
+          "source_id": "SRC-01-00bf2d92",
+          "filename": "brief.md",
+          "section_path": [
+            "SlideHarness Next",
+            "現状の課題"
+          ],
+          "urls": [],
+          "status": "resolved"
+        },
+        {
+          "unit_id": "U-01-0004",
+          "source_id": "SRC-01-00bf2d92",
+          "filename": "brief.md",
+          "section_path": [
+            "SlideHarness Next",
+            "現状の課題"
+          ],
+          "urls": [],
+          "status": "resolved"
+        },
+        {
+          "unit_id": "U-01-0005",
+          "source_id": "SRC-01-00bf2d92",
+          "filename": "brief.md",
+          "section_path": [
+            "SlideHarness Next",
+            "現状の課題"
+          ],
+          "urls": [],
+          "status": "resolved"
+        },
+        {
+          "unit_id": "U-01-0006",
+          "source_id": "SRC-01-00bf2d92",
+          "filename": "brief.md",
+          "section_path": [
+            "SlideHarness Next",
+            "現状の課題"
+          ],
+          "urls": [],
+          "status": "resolved"
+        }
+      ],
+      "asset_records": []
+    },
+    {
+      "slide_id": "S004",
+      "source_unit_ids": [
+        "U-01-0007",
+        "U-01-0008",
+        "U-01-0009",
+        "U-01-0010",
+        "U-01-0011"
+      ],
+      "records": [
+        {
+          "unit_id": "U-01-0007",
+          "source_id": "SRC-01-00bf2d92",
+          "filename": "brief.md",
+          "section_path": [
+            "SlideHarness Next",
+            "提案する仕組み"
+          ],
+          "urls": [],
+          "status": "resolved"
+        },
+        {
+          "unit_id": "U-01-0008",
+          "source_id": "SRC-01-00bf2d92",
+          "filename": "brief.md",
+          "section_path": [
+            "SlideHarness Next",
+            "提案する仕組み"
+          ],
+          "urls": [],
+          "status": "resolved"
+        },
+        {
+          "unit_id": "U-01-0009",
+          "source_id": "SRC-01-00bf2d92",
+          "filename": "brief.md",
+          "section_path": [
+            "SlideHarness Next",
+            "提案する仕組み"
+          ],
+          "urls": [],
+          "status": "resolved"
+        },
+        {
+          "unit_id": "U-01-0010",
+          "source_id": "SRC-01-00bf2d92",
+          "filename": "brief.md",
+          "section_path": [
+            "SlideHarness Next",
+            "提案する仕組み"
+          ],
+          "urls": [],
+          "status": "resolved"
+        },
+        {
+          "unit_id": "U-01-0011",
+          "source_id": "SRC-01-00bf2d92",
+          "filename": "brief.md",
+          "section_path": [
+            "SlideHarness Next",
+            "提案する仕組み"
+          ],
+          "urls": [],
+          "status": "resolved"
+        }
+      ],
+      "asset_records": []
+    },
+    {
+      "slide_id": "S005",
+      "source_unit_ids": [
+        "U-01-0012",
+        "U-01-0013",
+        "U-01-0014",
+        "U-01-0015",
+        "U-01-0016"
+      ],
+      "records": [
+        {
+          "unit_id": "U-01-0012",
+          "source_id": "SRC-01-00bf2d92",
+          "filename": "brief.md",
+          "section_path": [
+            "SlideHarness Next",
+            "生成フロー"
+          ],
+          "urls": [],
+          "status": "resolved"
+        },
+        {
+          "unit_id": "U-01-0013",
+          "source_id": "SRC-01-00bf2d92",
+          "filename": "brief.md",
+          "section_path": [
+            "SlideHarness Next",
+            "生成フロー"
+          ],
+          "urls": [],
+          "status": "resolved"
+        },
+        {
+          "unit_id": "U-01-0014",
+          "source_id": "SRC-01-00bf2d92",
+          "filename": "brief.md",
+          "section_path": [
+            "SlideHarness Next",
+            "生成フロー"
+          ],
+          "urls": [],
+          "status": "resolved"
+        },
+        {
+          "unit_id": "U-01-0015",
+          "source_id": "SRC-01-00bf2d92",
+          "filename": "brief.md",
+          "section_path": [
+            "SlideHarness Next",
+            "生成フロー"
+          ],
+          "urls": [],
+          "status": "resolved"
+        },
+        {
+          "unit_id": "U-01-0016",
+          "source_id": "SRC-01-00bf2d92",
+          "filename": "brief.md",
+          "section_path": [
+            "SlideHarness Next",
+            "生成フロー"
+          ],
+          "urls": [],
+          "status": "resolved"
+        }
+      ],
+      "asset_records": []
+    },
+    {
+      "slide_id": "S006",
+      "source_unit_ids": [
+        "U-01-0017",
+        "U-01-0018",
+        "U-01-0019",
+        "U-01-0020",
+        "U-01-0021"
+      ],
+      "records": [
+        {
+          "unit_id": "U-01-0017",
+          "source_id": "SRC-01-00bf2d92",
+          "filename": "brief.md",
+          "section_path": [
+            "SlideHarness Next",
+            "品質条件"
+          ],
+          "urls": [],
+          "status": "resolved"
+        },
+        {
+          "unit_id": "U-01-0018",
+          "source_id": "SRC-01-00bf2d92",
+          "filename": "brief.md",
+          "section_path": [
+            "SlideHarness Next",
+            "品質条件"
+          ],
+          "urls": [],
+          "status": "resolved"
+        },
+        {
+          "unit_id": "U-01-0019",
+          "source_id": "SRC-01-00bf2d92",
+          "filename": "brief.md",
+          "section_path": [
+            "SlideHarness Next",
+            "品質条件"
+          ],
+          "urls": [],
+          "status": "resolved"
+        },
+        {
+          "unit_id": "U-01-0020",
+          "source_id": "SRC-01-00bf2d92",
+          "filename": "brief.md",
+          "section_path": [
+            "SlideHarness Next",
+            "品質条件"
+          ],
+          "urls": [],
+          "status": "resolved"
+        },
+        {
+          "unit_id": "U-01-0021",
+          "source_id": "SRC-01-00bf2d92",
+          "filename": "brief.md",
+          "section_path": [
+            "SlideHarness Next",
+            "品質条件"
+          ],
+          "urls": [],
+          "status": "resolved"
+        }
+      ],
+      "asset_records": []
+    },
+    {
+      "slide_id": "S007",
+      "source_unit_ids": [
+        "U-01-0022",
+        "U-01-0023"
+      ],
+      "records": [
+        {
+          "unit_id": "U-01-0022",
+          "source_id": "SRC-01-00bf2d92",
+          "filename": "brief.md",
+          "section_path": [
+            "SlideHarness Next",
+            "対応する入力形式"
+          ],
+          "urls": [],
+          "status": "resolved"
+        },
+        {
+          "unit_id": "U-01-0023",
+          "source_id": "SRC-01-00bf2d92",
+          "filename": "brief.md",
+          "section_path": [
+            "SlideHarness Next",
+            "対応する入力形式"
+          ],
+          "urls": [],
+          "status": "resolved"
+        }
+      ],
+      "asset_records": []
+    },
+    {
+      "slide_id": "S008",
+      "source_unit_ids": [
+        "U-01-0024",
+        "U-01-0025",
+        "U-01-0026"
+      ],
+      "records": [
+        {
+          "unit_id": "U-01-0024",
+          "source_id": "SRC-01-00bf2d92",
+          "filename": "brief.md",
+          "section_path": [
+            "SlideHarness Next",
+            "次のステップ"
+          ],
+          "urls": [],
+          "status": "resolved"
+        },
+        {
+          "unit_id": "U-01-0025",
+          "source_id": "SRC-01-00bf2d92",
+          "filename": "brief.md",
+          "section_path": [
+            "SlideHarness Next",
+            "次のステップ"
+          ],
+          "urls": [],
+          "status": "resolved"
+        },
+        {
+          "unit_id": "U-01-0026",
+          "source_id": "SRC-01-00bf2d92",
+          "filename": "brief.md",
+          "section_path": [
+            "SlideHarness Next",
+            "次のステップ"
+          ],
+          "urls": [],
+          "status": "resolved"
+        }
+      ],
+      "asset_records": []
+    }
+  ]
+}

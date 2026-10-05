@@ -1,0 +1,60 @@
+{
+  "title": "提案資料生成を、テンプレートから完成品質まで一気通貫に",
+  "metadata": {
+    "purpose": "SlideHarness Next greenfield vertical slice",
+    "language": "ja-JP"
+  },
+  "slides": [
+    {
+      "slide_id": "REP-S001",
+      "recipe": "card_grid_2x2",
+      "title": "任意テンプレートを、再利用可能なデザインシステムへ",
+      "message": "見た目の模倣ではなく、トークン・クローム・部品・パターンを抽出します。",
+      "source_unit_ids": ["SRC-template", "SRC-density", "SRC-editability"],
+      "content": {
+        "cards": [
+          {"eyebrow": "01", "heading": "Tokens", "body": "配色・書体・余白・線の強弱を再利用可能な値へ。"},
+          {"eyebrow": "02", "heading": "Chrome", "body": "ロゴやフッターなど、反復する外枠要素を保持。"},
+          {"eyebrow": "03", "heading": "Recipes", "body": "内容の意味に合う具体的な完成レイアウトを選択。"},
+          {"eyebrow": "04", "heading": "QA", "body": "実レンダリングで密度・空白・可読性まで検査。"}
+        ]
+      }
+    },
+    {
+      "slide_id": "REP-S002",
+      "recipe": "native_bar_chart",
+      "title": "編集可能なグラフを、主張と同じ画面で成立させる",
+      "message": "数値は画像化せず、PowerPoint上で再編集できるネイティブチャートとして出力します。",
+      "source_unit_ids": ["SRC-chart", "SRC-claim"],
+      "content": {
+        "chart": {
+          "categories": ["従来", "テンプレート適応", "Next"],
+          "series": [
+            {"name": "完成度", "values": [46, 68, 88]},
+            {"name": "編集性", "values": [35, 74, 92]}
+          ]
+        },
+        "insight": {
+          "eyebrow": "KEY POINT",
+          "heading": "画像化しない",
+          "body": "チャート、表、フローは意味構造を保ったまま、PowerPointの編集可能要素として生成します。"
+        }
+      }
+    },
+    {
+      "slide_id": "REP-S003",
+      "recipe": "image_text",
+      "title": "画像生成は、空白埋めではなく情報設計の一部に",
+      "message": "先に画像スロットと役割を決め、テンプレートのリズムに沿った画像を要求します。",
+      "source_unit_ids": ["SRC-imagegen", "SRC-art-direction"],
+      "content": {
+        "image": {
+          "asset_id": "hero-template-system",
+          "prompt": "Editorial presentation visual: modular presentation template transforming into structured tokens, native charts, and image slots; clean Japanese business design; no text; template-aware palette"
+        },
+        "heading": "Slot-first image generation",
+        "body": "用途・比率・構図・色調を先に固定。生成画像はPPTXに配置し、要求と解決済みアセットをマニフェストで追跡します。"
+      }
+    }
+  ]
+}

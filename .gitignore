@@ -1,0 +1,18 @@
+
+# Local dependencies, build outputs and credentials
+.DS_Store
+node_modules/
+.wrangler/
+.astro/
+dist/
+build/
+target/
+.env
+.env.*
+!.env.example
+!.env.sample
+.dev.vars
+.admin-token
+*.log
+.codex-vendor/
+.codex-worktrees/

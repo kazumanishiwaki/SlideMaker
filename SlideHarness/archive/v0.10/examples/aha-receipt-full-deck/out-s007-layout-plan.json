@@ -1,0 +1,276 @@
+{
+  "schema_version": "0.3",
+  "generated_at": "2026-08-17T21:38:11.861966+00:00",
+  "slide_id": "OUT-S007",
+  "source_slide_id": "SRC-S015",
+  "family": "photo_text",
+  "renderer_group": "media",
+  "semantic_relation": "evidence",
+  "semantic_layout_issues": [],
+  "density": "medium_low",
+  "fill_policy": {
+    "mode": "balanced",
+    "source": "slide_plan",
+    "reason": [],
+    "preserve_empty_zones": false,
+    "role": "evidence",
+    "forbid_filler_content": true
+  },
+  "planned_only": false,
+  "content_canvas": {
+    "x": 1.2,
+    "y": 2.2217,
+    "w": 24.2667,
+    "h": 12.1033
+  },
+  "removed_source_object_ids": [
+    "SRC-S015-O003",
+    "SRC-S015-O004",
+    "SRC-S015-O005",
+    "SRC-S015-O006",
+    "SRC-S015-O007",
+    "SRC-S015-O009",
+    "SRC-S015-O010",
+    "SRC-S015-O011",
+    "SRC-S015-O012",
+    "SRC-S015-O013",
+    "SRC-S015-O014",
+    "SRC-S015-O015",
+    "SRC-S015-O016",
+    "SRC-S015-O018",
+    "SRC-S015-O019",
+    "SRC-S015-O020",
+    "SRC-S015-O021",
+    "SRC-S015-O022",
+    "SRC-S015-O023",
+    "SRC-S015-O024",
+    "SRC-S015-O025",
+    "SRC-S015-O026",
+    "SRC-S015-O027",
+    "SRC-S015-O028",
+    "SRC-S015-O029",
+    "SRC-S015-O030",
+    "SRC-S015-O031",
+    "SRC-S015-O032",
+    "SRC-S015-O033"
+  ],
+  "allowed_regions": [
+    {
+      "x": 2.1707,
+      "y": 2.9479,
+      "w": 22.3254,
+      "h": 10.6509
+    },
+    {
+      "x": 2.1707,
+      "y": 2.9479,
+      "w": 10.1501,
+      "h": 10.6509
+    },
+    {
+      "x": 13.375,
+      "y": 8.4583,
+      "w": 4.375,
+      "h": 4.375
+    }
+  ],
+  "generated_objects": [
+    {
+      "role": "primary_visual",
+      "recipe_id": "IMG-OUT-S007-01",
+      "asset_id": "GAST-IMG-OUT-S007-01-V001",
+      "source_object_id": "SRC-S015-O008",
+      "output_shape_id": 8,
+      "bbox": {
+        "x": 2.1707,
+        "y": 2.9479,
+        "w": 10.1501,
+        "h": 10.6509
+      },
+      "source_picture_reused": true,
+      "fit_mode": "cover",
+      "resolved_text_side": "right"
+    },
+    {
+      "role": "title",
+      "output_shape_id": 18,
+      "bbox": {
+        "x": 12.5807,
+        "y": 2.9479,
+        "w": 11.9153,
+        "h": 2.4497
+      },
+      "render_text": "公開後も、担当者が\n主要設定を変更できる"
+    },
+    {
+      "role": "subtitle",
+      "output_shape_id": 19,
+      "bbox": {
+        "x": 12.5807,
+        "y": 5.5536,
+        "w": 11.9153,
+        "h": 1.1183
+      },
+      "render_text": "管理画面から、運用に必要な4領域を更新。"
+    },
+    {
+      "role": "body",
+      "output_shape_id": 20,
+      "bbox": {
+        "x": 12.5807,
+        "y": 6.867,
+        "w": 11.9153,
+        "h": 6.7319
+      },
+      "render_text": "キャンペーン　商品・期間・規約\nフォーム　　　質問・必須設定\nビジュアル　　配色・画像・OGP\nメール・計測　自動返信・GA4・GTM"
+    }
+  ],
+  "image_slots": [
+    {
+      "slot_id": "OUT-S007:primary_visual",
+      "recipe_id": "IMG-OUT-S007-01",
+      "bbox": {
+        "x": 2.1707,
+        "y": 2.9479,
+        "w": 10.1501,
+        "h": 10.6509
+      },
+      "aspect_ratio": 0.95298,
+      "role": "primary_visual",
+      "position": "left",
+      "resolved_text_side": "right",
+      "source_object_id": "SRC-S015-O008",
+      "reuse_source_image_frame": true
+    }
+  ],
+  "image_lineage": {
+    "recipe_id": "IMG-OUT-S007-01",
+    "asset_id": "GAST-IMG-OUT-S007-01-V001",
+    "source_object_id": "SRC-S015-O008",
+    "negative_space": "right",
+    "resolved_text_side": "right",
+    "source_frame_reused": true
+  },
+  "layout_intent": {
+    "family": "photo_text",
+    "fill_policy": "balanced",
+    "resolved_text_side": "right",
+    "image_position": "left",
+    "overlay_position": null
+  },
+  "quality": {
+    "check": "LAYOUT_FIT_TO_INTENT",
+    "status": "pass",
+    "assessment": "適正",
+    "score": 0.983,
+    "fill_policy": {
+      "mode": "balanced",
+      "source": "slide_plan",
+      "reason": [],
+      "preserve_empty_zones": false,
+      "role": "evidence",
+      "forbid_filler_content": true
+    },
+    "intentional_whitespace": false,
+    "preserve_source_whitespace": false,
+    "accidental_dead_space": false,
+    "content_extent_width_ratio": 0.92,
+    "content_extent_height_ratio": 0.88,
+    "occupied_area_ratio": 0.786,
+    "left_void_ratio": 0.04,
+    "right_void_ratio": 0.04,
+    "top_void_ratio": 0.06,
+    "bottom_void_ratio": 0.06,
+    "center_offset_x_ratio": 0.0,
+    "center_offset_y_ratio": 0.0,
+    "expected_item_count": 0,
+    "rendered_item_count": 0,
+    "expected_image_count": 1,
+    "rendered_image_count": 1,
+    "image_area_ratio": 0.368,
+    "thresholds": {
+      "w": 0.7,
+      "h": 0.44,
+      "area": 0.238,
+      "max_edge_void": 0.43,
+      "max_center_x": 0.42,
+      "max_center_y": 0.42
+    },
+    "content_bbox": {
+      "x": 2.1707,
+      "y": 2.9479,
+      "w": 22.3254,
+      "h": 10.6509
+    },
+    "reason_codes": [
+      "FIT_TO_INTENT"
+    ]
+  },
+  "geometry": {
+    "title_box": {
+      "x": 12.5807,
+      "y": 2.9479,
+      "w": 11.9153,
+      "h": 2.4497
+    },
+    "subtitle_box": {
+      "x": 12.5807,
+      "y": 5.5536,
+      "w": 11.9153,
+      "h": 1.1183
+    },
+    "body_box": {
+      "x": 12.5807,
+      "y": 6.867,
+      "w": 11.9153,
+      "h": 6.7319
+    },
+    "body": {
+      "x": 12.5807,
+      "y": 2.9479,
+      "w": 11.9153,
+      "h": 10.6509
+    },
+    "text_box": {
+      "x": 12.5807,
+      "y": 2.9479,
+      "w": 11.9153,
+      "h": 10.6509
+    },
+    "image_box": {
+      "x": 2.1707,
+      "y": 2.9479,
+      "w": 10.1501,
+      "h": 10.6509
+    },
+    "overlay_box": null,
+    "matrix_box": null,
+    "relationship_box": null,
+    "timeline_box": null,
+    "timeline_line_box": null,
+    "kpi_box": null,
+    "chart_box": null,
+    "note_box": null,
+    "kicker_box": null,
+    "item_boxes": [],
+    "node_boxes": {},
+    "columns": null,
+    "rows": null,
+    "divider_x": null,
+    "image_position": "left",
+    "resolved_text_side": "right",
+    "overlay_position": null,
+    "hub_id": null,
+    "card_mode": null,
+    "orientation": null,
+    "timeline_markers": [],
+    "note_text": null,
+    "kicker_text": null
+  },
+  "notes": [
+    "Layout geometry is deterministic. The model selects family, hierarchy, and priorities; coordinates are engine-generated.",
+    "Photo-aware families plan image slots before image selection so crop, resolution, and negative-space QA use the actual target geometry.",
+    "Existing picture relationships and source frames are reused when available; template chrome remains outside the mutation mask.",
+    "LAYOUT_FIT_TO_INTENT distinguishes deliberate whitespace from accidental dead space. Filler content is never added merely to raise occupancy."
+  ]
+}

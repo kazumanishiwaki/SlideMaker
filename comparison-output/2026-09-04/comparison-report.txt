@@ -1,0 +1,43 @@
+SlideHarness Next vs consulting-pptx-skill 比較
+作成日: 2026-09-04
+
+比較条件
+- 原稿: SlideHarness/nextgen/examples/source-pipeline/brief.md
+- ページ数: 両方とも8枚
+- SlideHarness Next: local main a978954、source-slidesモード、MIRIテンプレート適応
+- consulting-pptx-skill: upstream main 57858c4ceee063fa0062abf5b2e2f88b14bb6645、SlideSpecパイプライン
+- 比較軸: 内容被覆、ストーリー、視認性、情報密度、テンプレート適応、編集性、QA
+
+結論
+この原稿では、見た目の完成感とテンプレートらしさはSlideHarness Nextが上。
+タイトルの主張性とストーリーの通し読みはconsulting-pptx-skillが上。
+理想形は、consulting-pptx-skillのメッセージライン規律をSlideHarness Nextのテンプレート適応・部品再利用へ取り込む構成。
+
+SlideHarness Next
+- 強み: MIRIテンプレートの装飾、ロゴ、色、部品を保持。本文は18.66pt以上で、投影時の視認性が高い。
+- 強み: 画像・ネイティブ表を含むため、画面の完成感と情報密度が高い。
+- 弱み: 「概要」「現状の課題」など見出しが章ラベルに留まり、タイトルだけでは結論が伝わりにくい。
+- 弱み: 生成フローで短縮見出しと本文が重複し、同じ内容を二度読ませる。
+- QA: 内部QAは全項目PASS。独立overflow検査は1・2・8枚目の全幅装飾がスライド外へ伸びていると判定。表示上の欠けはないが、内部QAとの判定差が残る。
+
+consulting-pptx-skill
+- 強み: 全ページを主張タイトルへ書き換え、タイトルだけで論理の流れを追える。
+- 強み: 純粋なテキスト・図形中心で199KBと軽量。HTML QA、layout QA、PPTX規約チェックは合格。
+- 弱み: MIRIテンプレートを使わないため、ブランド固有の見た目は失われる。
+- 弱み: 余白が大きく、原稿量に対して画面が薄いページが複数ある。
+- 弱み: PPTXの入力形式表は10.5ptで、同リポジトリの規約本文11.5pt以上を下回るが、check_deck.pyは検出しない。
+- QA: 最初の表紙重なりは自動検査が見逃した。タイトル短縮後は全ページ目視、overflow検査、0 FAIL / 0 WARNを確認。
+
+主な定量差
+- ファイルサイズ: SlideHarness Next 13MB / consulting-pptx-skill 199KB
+- 図形数: SlideHarness Next 171 / consulting-pptx-skill 172
+- 画像数: SlideHarness Next 74 / consulting-pptx-skill 0
+- ネイティブ表: SlideHarness Next 1 / consulting-pptx-skill 0（後者は編集可能な個別図形で表現）
+- コンテンツ文字サイズ最小値: SlideHarness Next 18.66pt / consulting-pptx-skill 8pt（表本文は10.5pt）
+
+次に取り込む価値が高い設計
+1. 原稿処理の前段に「タイトルだけを通し読みするStory Gate」を追加する。
+2. 章名タイトルを主張タイトルへ変換し、40字・1行・体言止めをQAする。
+3. 表本文、図中本文、出典の文字サイズ下限を要素別に検査する。
+4. 内部QAに全shape対象のcanvas overflow検査を追加する。
+5. テンプレート内の見出しスロットと本文スロットで同文が重複しないかを検査する。

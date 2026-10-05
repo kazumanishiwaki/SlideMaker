@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1672" height="941" viewBox="0 0 1672 941" role="img" aria-label="Skill improvement loop diagram">
+  <defs>
+    <style>
+      .bg { fill: #FCFCFC; }
+      .line { fill: none; stroke: #111111; stroke-width: 12; stroke-linecap: round; stroke-linejoin: round; }
+      .line-thin { fill: none; stroke: #111111; stroke-width: 8; stroke-linecap: round; stroke-linejoin: round; }
+      .line-yellow { fill: none; stroke: #E8E800; stroke-width: 12; stroke-linecap: round; stroke-linejoin: round; }
+      .fill-white { fill: #FCFCFC; stroke: #111111; stroke-width: 12; stroke-linecap: round; stroke-linejoin: round; }
+      .fill-gray { fill: #E6EBED; }
+      .fill-mid { fill: #D7DEE2; }
+      .fill-yellow { fill: #F4F400; }
+    </style>
+    <marker id="arrow" viewBox="0 0 18 18" refX="15" refY="9" markerWidth="18" markerHeight="18" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M3 3 L15 9 L3 15" fill="none" stroke="#111111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <marker id="arrow-yellow" viewBox="0 0 18 18" refX="15" refY="9" markerWidth="18" markerHeight="18" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M3 3 L15 9 L3 15" fill="none" stroke="#E8E800" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+
+  <rect class="bg" width="1672" height="941"/>
+
+  <!-- use -->
+  <path class="fill-mid" stroke="#111111" stroke-width="12" stroke-linejoin="round" d="M720 128 H844 L884 174 H984 Q1012 174 1012 202 V324 Q1012 352 984 352 H688 Q660 352 660 324 V156 Q660 128 688 128 Z"/>
+  <path class="fill-white" d="M690 214 H982 Q1012 214 1012 244 L988 352 H684 L660 244 Q660 214 690 214 Z"/>
+
+  <path class="line" d="M1060 270 C1210 332 1280 464 1238 596" marker-end="url(#arrow)"/>
+
+  <!-- return to skill -->
+  <rect class="fill-white" x="1008" y="542" width="260" height="196" rx="26"/>
+  <path class="line-yellow" d="M1062 606 L1096 638 L1152 576"/>
+  <circle class="fill-gray" cx="1086" cy="674" r="20"/>
+  <circle class="fill-gray" cx="1086" cy="720" r="20"/>
+  <line class="line-thin" x1="1144" y1="626" x2="1226" y2="626"/>
+  <line class="line-thin" x1="1144" y1="674" x2="1226" y2="674"/>
+  <line class="line-thin" x1="1144" y1="720" x2="1226" y2="720"/>
+
+  <path class="line-yellow" d="M934 746 C800 808 650 782 556 682" marker-end="url(#arrow-yellow)"/>
+
+  <!-- review -->
+  <path class="fill-white" d="M410 520 H548 L624 596 V746 H410 Z"/>
+  <path class="fill-gray" d="M548 520 V596 H624 Z"/>
+  <line class="line-thin" x1="458" y1="606" x2="538" y2="606"/>
+  <line class="line-thin" x1="458" y1="652" x2="556" y2="652"/>
+  <line class="line-thin" x1="458" y1="698" x2="520" y2="698"/>
+  <circle class="fill-white" cx="590" cy="704" r="54"/>
+  <line class="line" x1="628" y1="742" x2="684" y2="798"/>
+
+  <path class="line" d="M492 500 C470 368 536 254 666 204" marker-end="url(#arrow)"/>
+</svg>

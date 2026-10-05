@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1448" height="1086" viewBox="0 0 1448 1086" role="img" aria-label="Simple skill package illustration">
+  <defs>
+    <marker id="arrow-black" viewBox="0 0 16 16" refX="14" refY="8" markerWidth="11" markerHeight="11" orient="auto-start-reverse">
+      <path d="M2 2 L14 8 L2 14" fill="none" stroke="#111111" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <marker id="arrow-yellow" viewBox="0 0 16 16" refX="14" refY="8" markerWidth="11" markerHeight="11" orient="auto-start-reverse">
+      <path d="M2 2 L14 8 L2 14" fill="none" stroke="#E8E800" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+  <rect width="1448" height="1086" fill="#FCFCFC"/>
+
+  <rect x="118" y="286" width="210" height="94" rx="12" fill="#FCFCFC" stroke="#111111" stroke-width="12"/>
+  <rect x="142" y="314" width="46" height="38" rx="4" fill="#E6EBED"/>
+  <rect x="118" y="496" width="210" height="94" rx="12" fill="#FCFCFC" stroke="#111111" stroke-width="12"/>
+  <rect x="142" y="524" width="46" height="38" rx="4" fill="#E6EBED"/>
+  <rect x="118" y="706" width="210" height="94" rx="12" fill="#FCFCFC" stroke="#111111" stroke-width="12"/>
+  <rect x="142" y="734" width="46" height="38" rx="4" fill="#E6EBED"/>
+
+  <line x1="360" y1="344" x2="502" y2="444" stroke="#111111" stroke-width="12" stroke-linecap="round" marker-end="url(#arrow-black)"/>
+  <line x1="360" y1="543" x2="502" y2="543" stroke="#111111" stroke-width="12" stroke-linecap="round" marker-end="url(#arrow-black)"/>
+  <line x1="360" y1="742" x2="502" y2="642" stroke="#111111" stroke-width="12" stroke-linecap="round" marker-end="url(#arrow-black)"/>
+
+  <path d="M540 398 H686 L730 454 H926 Q962 454 962 490 V716 Q962 752 926 752 H548 Q512 752 512 716 V434 Q512 398 540 398 Z" fill="#D7DEE2" stroke="#111111" stroke-width="14" stroke-linejoin="round"/>
+  <path d="M540 510 H910 Q938 510 938 538 L904 754 H564 L512 538 Q512 510 540 510 Z" fill="#FCFCFC" stroke="#111111" stroke-width="14" stroke-linejoin="round"/>
+
+  <line x1="996" y1="542" x2="1098" y2="542" stroke="#E8E800" stroke-width="12" stroke-linecap="round" marker-end="url(#arrow-yellow)"/>
+
+  <rect x="1134" y="452" width="220" height="152" rx="16" fill="#FCFCFC" stroke="#111111" stroke-width="12"/>
+  <rect x="1162" y="484" width="72" height="72" rx="4" fill="#E6EBED"/>
+  <line x1="1262" y1="498" x2="1322" y2="498" stroke="#111111" stroke-width="8" stroke-linecap="round"/>
+  <line x1="1262" y1="532" x2="1322" y2="532" stroke="#111111" stroke-width="8" stroke-linecap="round"/>
+  <line x1="1262" y1="566" x2="1322" y2="566" stroke="#111111" stroke-width="8" stroke-linecap="round"/>
+  <line x1="1230" y1="604" x2="1230" y2="650" stroke="#111111" stroke-width="10" stroke-linecap="round"/>
+  <line x1="1188" y1="650" x2="1272" y2="650" stroke="#111111" stroke-width="10" stroke-linecap="round"/>
+</svg>

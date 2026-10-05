@@ -1,0 +1,23 @@
+{
+  "name": "slideharness",
+  "version": "0.4.0",
+  "private": true,
+  "type": "module",
+  "description": "Arbitrary-template PowerPoint generation with Codex App Server, image generation, and isolated page regeneration",
+  "scripts": {
+    "start": "node nextgen/app-server.mjs",
+    "dev": "node --watch nextgen/app-server.mjs",
+    "check:next-app": "node nextgen/app-server.mjs --check",
+    "test": "npm run test:next",
+    "test:next": "cd nextgen && /Users/kazuma/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 -m unittest discover -s tests -p 'test_*.py' && node --test tests/*.test.mjs",
+    "test:next-app": "node --test nextgen/tests/*.test.mjs",
+    "demo:next": "cd nextgen && /Users/kazuma/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 -m slideharness_next.cli build --template examples/test-case/inputs/source.pptx --spec examples/representative/deck_spec.json --image examples/representative/assets/generated-template-system.png --out-dir examples/representative/output",
+    "demo:next-source": "cd nextgen && /Users/kazuma/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 -m slideharness_next.cli build-source --template examples/test-case/inputs/source.pptx --source examples/source-pipeline/brief.md --out-dir examples/source-pipeline/output",
+    "demo:next-source-reconstruct": "cd nextgen && /Users/kazuma/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 -m slideharness_next.cli build-source --template examples/test-case/inputs/source.pptx --source examples/source-pipeline/brief.md --out-dir examples/source-pipeline/output-reconstruct --composition-mode reconstruct",
+    "demo:next-source-adaptive": "cd nextgen && /Users/kazuma/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 -m slideharness_next.cli build-source --template examples/test-case/inputs/source.pptx --source examples/source-pipeline/brief.md --out-dir examples/source-pipeline/output-source-slides --composition-mode source-slides"
+  },
+  "engines": {
+    "node": ">=20",
+    "python": ">=3.10"
+  }
+}

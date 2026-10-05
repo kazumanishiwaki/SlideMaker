@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1672" height="941" viewBox="0 0 1672 941" role="img" aria-label="AI retry loop diagram">
+  <defs>
+    <style>
+      .bg { fill: #FCFCFC; }
+      .line { fill: none; stroke: #111111; stroke-width: 12; stroke-linecap: round; stroke-linejoin: round; }
+      .line-thin { fill: none; stroke: #111111; stroke-width: 8; stroke-linecap: round; stroke-linejoin: round; }
+      .fill-white { fill: #FCFCFC; stroke: #111111; stroke-width: 12; stroke-linecap: round; stroke-linejoin: round; }
+      .fill-gray { fill: #E6EBED; }
+      .fill-yellow { fill: #F4F400; }
+    </style>
+    <marker id="arrow" viewBox="0 0 18 18" refX="15" refY="9" markerWidth="18" markerHeight="18" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M3 3 L15 9 L3 15" fill="none" stroke="#111111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+
+  <rect class="bg" width="1672" height="941"/>
+
+  <!-- vague request -->
+  <path class="fill-white" d="M120 332 H420 Q456 332 456 368 V492 Q456 528 420 528 H252 L172 608 V528 H120 Q84 528 84 492 V368 Q84 332 120 332 Z"/>
+  <circle class="fill-gray" cx="222" cy="430" r="22"/>
+  <circle class="fill-gray" cx="270" cy="430" r="22"/>
+  <circle class="fill-gray" cx="318" cy="430" r="22"/>
+
+  <line class="line" x1="528" y1="470" x2="652" y2="470" marker-end="url(#arrow)"/>
+
+  <!-- retry loop -->
+  <rect class="fill-white" x="778" y="312" width="144" height="224" rx="18"/>
+  <path class="fill-gray" d="M872 312 H922 V362 Z"/>
+  <path class="line" d="M724 476 C724 360 812 272 930 284 C994 290 1046 326 1078 376" marker-end="url(#arrow)"/>
+  <path class="line" d="M1072 468 C1072 584 984 672 866 660 C802 654 750 618 718 568" marker-end="url(#arrow)"/>
+
+  <line class="line" x1="1152" y1="470" x2="1276" y2="470" marker-end="url(#arrow)"/>
+
+  <!-- token loss -->
+  <rect class="fill-white" x="1320" y="406" width="280" height="92" rx="28"/>
+  <path class="fill-gray" d="M1348 426 H1418 V478 H1348 Z"/>
+  <path class="fill-gray" d="M1436 426 H1506 V478 H1436 Z"/>
+  <path class="fill-yellow" d="M1524 426 H1572 Q1580 426 1580 434 V470 Q1580 478 1572 478 H1524 Z"/>
+  <line class="line-thin" x1="1430" y1="414" x2="1430" y2="490"/>
+  <line class="line-thin" x1="1518" y1="414" x2="1518" y2="490"/>
+</svg>

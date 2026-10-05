@@ -1,0 +1,232 @@
+{
+  "schema_version": "0.3",
+  "generated_at": "2026-08-17T05:08:18.755472+00:00",
+  "slide_id": "OUT-S003",
+  "source_slide_id": "SRC-S004",
+  "family": "full_bleed",
+  "density": "medium_low",
+  "fill_policy": {
+    "mode": "full_bleed",
+    "source": "system",
+    "reason": [
+      "統合された運用体験を一枚の主役ビジュアルで示す"
+    ],
+    "preserve_empty_zones": false,
+    "role": "full_bleed",
+    "forbid_filler_content": true
+  },
+  "planned_only": false,
+  "content_canvas": {
+    "x": 1.2,
+    "y": 2.2217,
+    "w": 24.2667,
+    "h": 12.1033
+  },
+  "removed_source_object_ids": [
+    "SRC-S004-O003",
+    "SRC-S004-O005",
+    "SRC-S004-O006",
+    "SRC-S004-O007",
+    "SRC-S004-O011",
+    "SRC-S004-O012"
+  ],
+  "allowed_regions": [
+    {
+      "x": 0.0,
+      "y": 0.0,
+      "w": 26.6667,
+      "h": 15.0
+    }
+  ],
+  "generated_objects": [
+    {
+      "role": "background_visual",
+      "recipe_id": "IMG-OUT-S003-01",
+      "asset_id": "GAST-IMG-OUT-S003-01-V001",
+      "source_object_id": "SRC-S004-O004",
+      "output_shape_id": 4,
+      "bbox": {
+        "x": 0.0,
+        "y": 0.0,
+        "w": 26.6667,
+        "h": 15.0
+      },
+      "source_picture_reused": true,
+      "fit_mode": "cover",
+      "resolved_text_side": "left"
+    },
+    {
+      "role": "overlay_panel",
+      "output_shape_id": 11,
+      "bbox": {
+        "x": 1.2,
+        "y": 4.7634,
+        "w": 10.6773,
+        "h": 7.0199
+      },
+      "opacity": 0.88
+    },
+    {
+      "role": "title",
+      "output_shape_id": 12,
+      "bbox": {
+        "x": 1.6563,
+        "y": 5.2197,
+        "w": 9.7648,
+        "h": 1.4047
+      },
+      "render_text": "公開から抽選までを\nひとつの管理画面で"
+    },
+    {
+      "role": "body",
+      "output_shape_id": 13,
+      "bbox": {
+        "x": 1.6563,
+        "y": 6.7804,
+        "w": 9.7648,
+        "h": 4.5466
+      },
+      "render_text": "準備から終了後まで、同じ場所で流れを見失わずに進めます。"
+    }
+  ],
+  "image_slots": [
+    {
+      "slot_id": "OUT-S003:primary_visual",
+      "recipe_id": "IMG-OUT-S003-01",
+      "bbox": {
+        "x": 0.0,
+        "y": 0.0,
+        "w": 26.6667,
+        "h": 15.0
+      },
+      "aspect_ratio": 1.77778,
+      "role": "background_visual",
+      "position": "left",
+      "resolved_text_side": "left",
+      "source_object_id": "SRC-S004-O004",
+      "reuse_source_image_frame": true
+    }
+  ],
+  "image_lineage": {
+    "recipe_id": "IMG-OUT-S003-01",
+    "asset_id": "GAST-IMG-OUT-S003-01-V001",
+    "source_object_id": "SRC-S004-O004",
+    "negative_space": "left",
+    "resolved_text_side": "left",
+    "source_frame_reused": true
+  },
+  "layout_intent": {
+    "family": "full_bleed",
+    "fill_policy": "full_bleed",
+    "resolved_text_side": "left",
+    "image_position": null,
+    "overlay_position": "left"
+  },
+  "quality": {
+    "check": "LAYOUT_FIT_TO_INTENT",
+    "status": "pass",
+    "assessment": "適正",
+    "score": 1.0,
+    "fill_policy": {
+      "mode": "full_bleed",
+      "source": "system",
+      "reason": [
+        "統合された運用体験を一枚の主役ビジュアルで示す"
+      ],
+      "preserve_empty_zones": false,
+      "role": "full_bleed",
+      "forbid_filler_content": true
+    },
+    "intentional_whitespace": false,
+    "preserve_source_whitespace": false,
+    "accidental_dead_space": false,
+    "content_extent_width_ratio": 1.0,
+    "content_extent_height_ratio": 1.0,
+    "occupied_area_ratio": 1.0,
+    "left_void_ratio": 0.0,
+    "right_void_ratio": 0.0,
+    "top_void_ratio": 0.0,
+    "bottom_void_ratio": 0.0,
+    "center_offset_x_ratio": 0.0,
+    "center_offset_y_ratio": 0.0,
+    "expected_item_count": 0,
+    "rendered_item_count": 0,
+    "expected_image_count": 1,
+    "rendered_image_count": 1,
+    "image_area_ratio": 1.0,
+    "thresholds": {
+      "w": 0.94,
+      "h": 0.78,
+      "area": 0.62,
+      "max_edge_void": 0.12,
+      "max_center_x": 0.18,
+      "max_center_y": 0.18
+    },
+    "content_bbox": {
+      "x": 0.0,
+      "y": 0.0,
+      "w": 26.6667,
+      "h": 15.0
+    },
+    "reason_codes": [
+      "FIT_TO_INTENT"
+    ]
+  },
+  "geometry": {
+    "title_box": {
+      "x": 1.6563,
+      "y": 5.2197,
+      "w": 9.7648,
+      "h": 1.4047
+    },
+    "subtitle_box": null,
+    "body_box": {
+      "x": 1.6563,
+      "y": 6.7804,
+      "w": 9.7648,
+      "h": 4.5466
+    },
+    "body": {
+      "x": 1.6563,
+      "y": 5.2197,
+      "w": 9.7648,
+      "h": 6.1073
+    },
+    "text_box": {
+      "x": 1.6563,
+      "y": 5.2197,
+      "w": 9.7648,
+      "h": 6.1073
+    },
+    "image_box": {
+      "x": 0.0,
+      "y": 0.0,
+      "w": 26.6667,
+      "h": 15.0
+    },
+    "overlay_box": {
+      "x": 1.2,
+      "y": 4.7634,
+      "w": 10.6773,
+      "h": 7.0199
+    },
+    "matrix_box": null,
+    "relationship_box": null,
+    "item_boxes": [],
+    "node_boxes": {},
+    "columns": null,
+    "rows": null,
+    "divider_x": null,
+    "image_position": null,
+    "resolved_text_side": "left",
+    "overlay_position": "left",
+    "hub_id": null,
+    "card_mode": null
+  },
+  "notes": [
+    "Layout geometry is deterministic. The model selects family, hierarchy, and priorities; coordinates are engine-generated.",
+    "Photo-aware families plan image slots before image selection so crop, resolution, and negative-space QA use the actual target geometry.",
+    "Existing picture relationships and source frames are reused when available; template chrome remains outside the mutation mask.",
+    "LAYOUT_FIT_TO_INTENT distinguishes deliberate whitespace from accidental dead space. Filler content is never added merely to raise occupancy."
+  ]
+}

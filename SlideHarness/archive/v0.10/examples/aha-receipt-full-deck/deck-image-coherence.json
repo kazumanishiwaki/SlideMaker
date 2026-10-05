@@ -1,0 +1,26 @@
+{
+  "schema_version": "0.1",
+  "generated_at": "2026-08-17T21:38:26.509208+00:00",
+  "status": "pass",
+  "blocking_count": 0,
+  "warning_count": 0,
+  "checks": [
+    {
+      "check_id": "DECK_IMAGE_COHERENCE",
+      "result": "pass",
+      "severity": "info",
+      "image_count": 3,
+      "score": 0.8792,
+      "metric_ranges": {
+        "brightness": 0.0512,
+        "saturation": 0.1212,
+        "contrast": 0.0257,
+        "edge_density": 0.0365,
+        "warmth": 0.1149
+      }
+    }
+  ],
+  "notes": [
+    "Deck image coherence is diagnostic; it never regenerates the deck automatically."
+  ]
+}

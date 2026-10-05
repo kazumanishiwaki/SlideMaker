@@ -1,0 +1,248 @@
+{
+  "schema_version": "0.3",
+  "generated_at": "2026-08-17T05:08:18.694642+00:00",
+  "slide_id": "OUT-S001",
+  "source_slide_id": "SRC-S013",
+  "family": "two_column",
+  "density": "medium_low",
+  "fill_policy": {
+    "mode": "content_filled",
+    "source": "system",
+    "reason": [
+      "二つの選択肢を同じ強さで比較する"
+    ],
+    "preserve_empty_zones": false,
+    "role": "two_column",
+    "forbid_filler_content": true
+  },
+  "planned_only": false,
+  "content_canvas": {
+    "x": 1.2,
+    "y": 2.2217,
+    "w": 24.2667,
+    "h": 12.1033
+  },
+  "removed_source_object_ids": [
+    "SRC-S013-O003",
+    "SRC-S013-O004",
+    "SRC-S013-O005",
+    "SRC-S013-O006",
+    "SRC-S013-O010",
+    "SRC-S013-O011",
+    "SRC-S013-O012",
+    "SRC-S013-O013",
+    "SRC-S013-O014",
+    "SRC-S013-O015",
+    "SRC-S013-O016",
+    "SRC-S013-O017",
+    "SRC-S013-O018",
+    "SRC-S013-O019",
+    "SRC-S013-O020",
+    "SRC-S013-O021",
+    "SRC-S013-O022"
+  ],
+  "allowed_regions": [
+    {
+      "x": 1.2,
+      "y": 2.2217,
+      "w": 24.2667,
+      "h": 9.963
+    }
+  ],
+  "generated_objects": [
+    {
+      "role": "title",
+      "output_shape_id": 10,
+      "bbox": {
+        "x": 1.2,
+        "y": 2.2217,
+        "w": 24.2667,
+        "h": 1.0288
+      },
+      "render_text": "必要な範囲に合わせて、Liteとフル版を選べる"
+    },
+    {
+      "role": "subtitle",
+      "output_shape_id": 11,
+      "bbox": {
+        "x": 1.2,
+        "y": 3.3935,
+        "w": 24.2667,
+        "h": 0.5446
+      },
+      "render_text": "標準機能で始めるか、高度な要件まで対応するか。"
+    },
+    {
+      "role": "column_text",
+      "item_index": 0,
+      "output_shape_id": 14,
+      "bbox": {
+        "x": 1.44,
+        "y": 8.2104,
+        "w": 11.5233,
+        "h": 0.7121
+      },
+      "render_text": "Aha! レシート Lite"
+    },
+    {
+      "role": "column_text",
+      "item_index": 0,
+      "output_shape_id": 15,
+      "bbox": {
+        "x": 1.44,
+        "y": 9.0425,
+        "w": 11.5233,
+        "h": 1.4052
+      },
+      "render_text": "標準機能ですぐに開始\nシンプルな運用に対応\n導入コストを抑えやすい"
+    },
+    {
+      "role": "column_text",
+      "item_index": 1,
+      "output_shape_id": 18,
+      "bbox": {
+        "x": 13.7033,
+        "y": 8.2104,
+        "w": 11.5233,
+        "h": 0.7121
+      },
+      "render_text": "Aha! レシート"
+    },
+    {
+      "role": "column_text",
+      "item_index": 1,
+      "output_shape_id": 19,
+      "bbox": {
+        "x": 13.7033,
+        "y": 9.0425,
+        "w": 11.5233,
+        "h": 1.4052
+      },
+      "render_text": "OCR・高度なカスタマイズ\n複雑な応募条件に対応\n外部連携や運用支援も相談可能"
+    },
+    {
+      "role": "column_divider",
+      "output_shape_id": 20,
+      "bbox": {
+        "x": 13.3334,
+        "y": 6.2734,
+        "w": 0.0,
+        "h": 5.9113
+      }
+    }
+  ],
+  "image_slots": [],
+  "image_lineage": null,
+  "layout_intent": {
+    "family": "two_column",
+    "fill_policy": "content_filled",
+    "resolved_text_side": null,
+    "image_position": null,
+    "overlay_position": null
+  },
+  "quality": {
+    "check": "LAYOUT_FIT_TO_INTENT",
+    "status": "pass",
+    "assessment": "適正",
+    "score": 0.892,
+    "fill_policy": {
+      "mode": "content_filled",
+      "source": "system",
+      "reason": [
+        "二つの選択肢を同じ強さで比較する"
+      ],
+      "preserve_empty_zones": false,
+      "role": "two_column",
+      "forbid_filler_content": true
+    },
+    "intentional_whitespace": false,
+    "preserve_source_whitespace": false,
+    "accidental_dead_space": false,
+    "content_extent_width_ratio": 1.0,
+    "content_extent_height_ratio": 0.823,
+    "occupied_area_ratio": 0.613,
+    "left_void_ratio": 0.0,
+    "right_void_ratio": 0.0,
+    "top_void_ratio": 0.0,
+    "bottom_void_ratio": 0.177,
+    "center_offset_x_ratio": 0.0,
+    "center_offset_y_ratio": 0.088,
+    "expected_item_count": 2,
+    "rendered_item_count": 2,
+    "expected_image_count": 0,
+    "rendered_image_count": 0,
+    "image_area_ratio": 0.0,
+    "thresholds": {
+      "w": 0.88,
+      "h": 0.62,
+      "area": 0.389,
+      "max_edge_void": 0.3,
+      "max_center_x": 0.38,
+      "max_center_y": 0.38
+    },
+    "content_bbox": {
+      "x": 1.2,
+      "y": 2.2217,
+      "w": 24.2667,
+      "h": 9.963
+    },
+    "reason_codes": [
+      "FIT_TO_INTENT"
+    ]
+  },
+  "geometry": {
+    "title_box": {
+      "x": 1.2,
+      "y": 2.2217,
+      "w": 24.2667,
+      "h": 1.0288
+    },
+    "subtitle_box": {
+      "x": 1.2,
+      "y": 3.3935,
+      "w": 24.2667,
+      "h": 0.5446
+    },
+    "body_box": null,
+    "body": {
+      "x": 1.2,
+      "y": 4.1331,
+      "w": 24.2667,
+      "h": 10.1919
+    },
+    "text_box": null,
+    "image_box": null,
+    "overlay_box": null,
+    "matrix_box": null,
+    "relationship_box": null,
+    "item_boxes": [
+      {
+        "x": 1.2,
+        "y": 6.2734,
+        "w": 12.0033,
+        "h": 5.9113
+      },
+      {
+        "x": 13.4634,
+        "y": 6.2734,
+        "w": 12.0033,
+        "h": 5.9113
+      }
+    ],
+    "node_boxes": {},
+    "columns": null,
+    "rows": null,
+    "divider_x": 13.3334,
+    "image_position": null,
+    "resolved_text_side": null,
+    "overlay_position": null,
+    "hub_id": null,
+    "card_mode": true
+  },
+  "notes": [
+    "Layout geometry is deterministic. The model selects family, hierarchy, and priorities; coordinates are engine-generated.",
+    "Photo-aware families plan image slots before image selection so crop, resolution, and negative-space QA use the actual target geometry.",
+    "Existing picture relationships and source frames are reused when available; template chrome remains outside the mutation mask.",
+    "LAYOUT_FIT_TO_INTENT distinguishes deliberate whitespace from accidental dead space. Filler content is never added merely to raise occupancy."
+  ]
+}

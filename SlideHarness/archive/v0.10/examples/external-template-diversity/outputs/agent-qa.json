@@ -1,0 +1,1743 @@
+{
+  "schema_version": "0.1",
+  "generated_at": "2026-08-17T12:34:12.969248+00:00",
+  "kind": "external-agent",
+  "pptx": "/mnt/data/slideharness_v090_final/examples/external-template-diversity/.work/agent/output/agent.pptx",
+  "status": "pass",
+  "blocking_count": 0,
+  "warning_count": 0,
+  "checks": [
+    {
+      "check_id": "SLIDE_COUNT_MAP",
+      "result": "pass",
+      "severity": "info",
+      "actual": 5
+    },
+    {
+      "check_id": "LAYOUT_FIT_TO_INTENT",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S001",
+      "family": "cover",
+      "score": 0.931,
+      "assessment": "適正",
+      "fill_policy": "intentional_whitespace",
+      "fill_policy_source": "system",
+      "intentional_whitespace": true,
+      "accidental_dead_space": false,
+      "reason_codes": [
+        "FIT_TO_INTENT"
+      ],
+      "content_extent_width_ratio": 0.76,
+      "content_extent_height_ratio": 0.58,
+      "occupied_area_ratio": 0.366,
+      "center_offset_x_ratio": 0.12,
+      "center_offset_y_ratio": 0.008,
+      "thresholds": {
+        "w": 0.52,
+        "h": 0.2,
+        "area": 0.07,
+        "max_edge_void": 0.72,
+        "max_center_x": 0.38,
+        "max_center_y": 0.42
+      }
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S001",
+      "shape_id": 5,
+      "role": "title"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S001",
+      "shape_id": 6,
+      "role": "subtitle"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S001",
+      "shape_id": 7,
+      "role": "body"
+    },
+    {
+      "check_id": "TEMPLATE_CHROME_GEOMETRY",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S002",
+      "source_object_id": "SRC-S002-O002"
+    },
+    {
+      "check_id": "LAYOUT_FIT_TO_INTENT",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S002",
+      "family": "timeline",
+      "score": 1.0,
+      "assessment": "適正",
+      "fill_policy": "content_filled",
+      "fill_policy_source": "system",
+      "intentional_whitespace": false,
+      "accidental_dead_space": false,
+      "reason_codes": [
+        "FIT_TO_INTENT"
+      ],
+      "content_extent_width_ratio": 1.0,
+      "content_extent_height_ratio": 1.0,
+      "occupied_area_ratio": 1.0,
+      "center_offset_x_ratio": 0.0,
+      "center_offset_y_ratio": 0.0,
+      "thresholds": {
+        "w": 0.88,
+        "h": 0.48,
+        "area": 0.16,
+        "max_edge_void": 0.3,
+        "max_center_x": 0.38,
+        "max_center_y": 0.38
+      }
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S002",
+      "shape_id": 22,
+      "role": "title"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S002",
+      "shape_id": 23,
+      "role": "subtitle"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S002",
+      "shape_id": 24,
+      "role": "timeline_axis"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S002",
+      "shape_id": 25,
+      "role": "timeline_marker"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S002",
+      "shape_id": 26,
+      "role": "timeline_connector"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S002",
+      "shape_id": 27,
+      "role": "timeline_item"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S002",
+      "shape_id": 28,
+      "role": "timeline_date"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S002",
+      "shape_id": 29,
+      "role": "timeline_title"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S002",
+      "shape_id": 30,
+      "role": "timeline_marker"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S002",
+      "shape_id": 31,
+      "role": "timeline_connector"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S002",
+      "shape_id": 32,
+      "role": "timeline_item"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S002",
+      "shape_id": 33,
+      "role": "timeline_date"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S002",
+      "shape_id": 34,
+      "role": "timeline_title"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S002",
+      "shape_id": 35,
+      "role": "timeline_marker"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S002",
+      "shape_id": 36,
+      "role": "timeline_connector"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S002",
+      "shape_id": 37,
+      "role": "timeline_item"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S002",
+      "shape_id": 38,
+      "role": "timeline_date"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S002",
+      "shape_id": 39,
+      "role": "timeline_title"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S002",
+      "shape_id": 40,
+      "role": "timeline_marker"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S002",
+      "shape_id": 41,
+      "role": "timeline_connector"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S002",
+      "shape_id": 42,
+      "role": "timeline_item"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S002",
+      "shape_id": 43,
+      "role": "timeline_date"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S002",
+      "shape_id": 44,
+      "role": "timeline_title"
+    },
+    {
+      "check_id": "TEMPLATE_CHROME_GEOMETRY",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S003",
+      "source_object_id": "SRC-S002-O002"
+    },
+    {
+      "check_id": "LAYOUT_FIT_TO_INTENT",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S003",
+      "family": "kpi",
+      "score": 1.0,
+      "assessment": "適正",
+      "fill_policy": "content_filled",
+      "fill_policy_source": "system",
+      "intentional_whitespace": false,
+      "accidental_dead_space": false,
+      "reason_codes": [
+        "FIT_TO_INTENT"
+      ],
+      "content_extent_width_ratio": 1.0,
+      "content_extent_height_ratio": 1.0,
+      "occupied_area_ratio": 1.0,
+      "center_offset_x_ratio": 0.0,
+      "center_offset_y_ratio": 0.0,
+      "thresholds": {
+        "w": 0.88,
+        "h": 0.62,
+        "area": 0.22,
+        "max_edge_void": 0.3,
+        "max_center_x": 0.38,
+        "max_center_y": 0.38
+      }
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S003",
+      "shape_id": 22,
+      "role": "title"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S003",
+      "shape_id": 23,
+      "role": "subtitle"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S003",
+      "shape_id": 24,
+      "role": "kpi_panel"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S003",
+      "shape_id": 25,
+      "role": "kpi_label"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S003",
+      "shape_id": 26,
+      "role": "kpi_value"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S003",
+      "shape_id": 27,
+      "role": "kpi_note"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S003",
+      "shape_id": 28,
+      "role": "kpi_panel"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S003",
+      "shape_id": 29,
+      "role": "kpi_label"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S003",
+      "shape_id": 30,
+      "role": "kpi_value"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S003",
+      "shape_id": 31,
+      "role": "kpi_note"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S003",
+      "shape_id": 32,
+      "role": "kpi_panel"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S003",
+      "shape_id": 33,
+      "role": "kpi_label"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S003",
+      "shape_id": 34,
+      "role": "kpi_value"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S003",
+      "shape_id": 35,
+      "role": "kpi_note"
+    },
+    {
+      "check_id": "TEMPLATE_CHROME_GEOMETRY",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S004",
+      "source_object_id": "SRC-S002-O002"
+    },
+    {
+      "check_id": "LAYOUT_FIT_TO_INTENT",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S004",
+      "family": "chart",
+      "score": 1.0,
+      "assessment": "適正",
+      "fill_policy": "content_filled",
+      "fill_policy_source": "system",
+      "intentional_whitespace": false,
+      "accidental_dead_space": false,
+      "reason_codes": [
+        "FIT_TO_INTENT"
+      ],
+      "content_extent_width_ratio": 1.0,
+      "content_extent_height_ratio": 1.0,
+      "occupied_area_ratio": 0.907,
+      "center_offset_x_ratio": 0.0,
+      "center_offset_y_ratio": 0.0,
+      "thresholds": {
+        "w": 0.88,
+        "h": 0.58,
+        "area": 0.3,
+        "max_edge_void": 0.3,
+        "max_center_x": 0.38,
+        "max_center_y": 0.38
+      }
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S004",
+      "shape_id": 22,
+      "role": "title"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S004",
+      "shape_id": 23,
+      "role": "subtitle"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S004",
+      "shape_id": 24,
+      "role": "native_chart"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S004",
+      "shape_id": 25,
+      "role": "chart_note"
+    },
+    {
+      "check_id": "LAYOUT_FIT_TO_INTENT",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S005",
+      "family": "closing",
+      "score": 0.948,
+      "assessment": "適正",
+      "fill_policy": "intentional_whitespace",
+      "fill_policy_source": "system",
+      "intentional_whitespace": true,
+      "accidental_dead_space": false,
+      "reason_codes": [
+        "FIT_TO_INTENT"
+      ],
+      "content_extent_width_ratio": 1.0,
+      "content_extent_height_ratio": 0.802,
+      "occupied_area_ratio": 0.497,
+      "center_offset_x_ratio": 0.0,
+      "center_offset_y_ratio": 0.099,
+      "thresholds": {
+        "w": 0.52,
+        "h": 0.2,
+        "area": 0.07,
+        "max_edge_void": 0.72,
+        "max_center_x": 0.38,
+        "max_center_y": 0.42
+      }
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S005",
+      "shape_id": 2,
+      "role": "title"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S005",
+      "shape_id": 3,
+      "role": "subtitle"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S005",
+      "shape_id": 5,
+      "role": "closing_item"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S005",
+      "shape_id": 6,
+      "role": "closing_item"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S005",
+      "shape_id": 9,
+      "role": "closing_item"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S005",
+      "shape_id": 10,
+      "role": "closing_item"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S005",
+      "shape_id": 13,
+      "role": "closing_item"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S005",
+      "shape_id": 14,
+      "role": "closing_item"
+    },
+    {
+      "check_id": "LIBREOFFICE_RENDER",
+      "result": "pass",
+      "severity": "blocking",
+      "rendered_pages": 5
+    },
+    {
+      "check_id": "UNEXPECTED_PIXEL_DIFF",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S001",
+      "source_slide_id": "SRC-S001",
+      "changed_pixels": 0,
+      "checked_pixels": 221483,
+      "changed_ratio": 0.0,
+      "mean_max_channel_delta": 0.0,
+      "max_channel_delta": 0,
+      "threshold": 16,
+      "mask_padding_px": 12,
+      "meaningful_area": false,
+      "coherent_delta": false,
+      "coherent_delta_thresholds": {
+        "mean_max_channel_delta": 0.2,
+        "max_channel_delta": 48
+      },
+      "debug": "/mnt/data/slideharness_v090_final/examples/external-template-diversity/.work/agent/render/output_validation/agent/diff/OUT-S001.png"
+    },
+    {
+      "check_id": "UNEXPECTED_PIXEL_DIFF",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S002",
+      "source_slide_id": "SRC-S002",
+      "changed_pixels": 0,
+      "checked_pixels": 49778,
+      "changed_ratio": 0.0,
+      "mean_max_channel_delta": 0.0,
+      "max_channel_delta": 0,
+      "threshold": 16,
+      "mask_padding_px": 12,
+      "meaningful_area": false,
+      "coherent_delta": false,
+      "coherent_delta_thresholds": {
+        "mean_max_channel_delta": 0.2,
+        "max_channel_delta": 48
+      },
+      "debug": "/mnt/data/slideharness_v090_final/examples/external-template-diversity/.work/agent/render/output_validation/agent/diff/OUT-S002.png"
+    },
+    {
+      "check_id": "UNEXPECTED_PIXEL_DIFF",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S003",
+      "source_slide_id": "SRC-S002",
+      "changed_pixels": 0,
+      "checked_pixels": 49778,
+      "changed_ratio": 0.0,
+      "mean_max_channel_delta": 0.0,
+      "max_channel_delta": 0,
+      "threshold": 16,
+      "mask_padding_px": 12,
+      "meaningful_area": false,
+      "coherent_delta": false,
+      "coherent_delta_thresholds": {
+        "mean_max_channel_delta": 0.2,
+        "max_channel_delta": 48
+      },
+      "debug": "/mnt/data/slideharness_v090_final/examples/external-template-diversity/.work/agent/render/output_validation/agent/diff/OUT-S003.png"
+    },
+    {
+      "check_id": "UNEXPECTED_PIXEL_DIFF",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S004",
+      "source_slide_id": "SRC-S002",
+      "changed_pixels": 0,
+      "checked_pixels": 49778,
+      "changed_ratio": 0.0,
+      "mean_max_channel_delta": 0.0,
+      "max_channel_delta": 0,
+      "threshold": 16,
+      "mask_padding_px": 12,
+      "meaningful_area": false,
+      "coherent_delta": false,
+      "coherent_delta_thresholds": {
+        "mean_max_channel_delta": 0.2,
+        "max_channel_delta": 48
+      },
+      "debug": "/mnt/data/slideharness_v090_final/examples/external-template-diversity/.work/agent/render/output_validation/agent/diff/OUT-S004.png"
+    },
+    {
+      "check_id": "UNEXPECTED_PIXEL_DIFF",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S005",
+      "source_slide_id": "SRC-S014",
+      "changed_pixels": 0,
+      "checked_pixels": 168960,
+      "changed_ratio": 0.0,
+      "mean_max_channel_delta": 0.0,
+      "max_channel_delta": 0,
+      "threshold": 16,
+      "mask_padding_px": 12,
+      "meaningful_area": false,
+      "coherent_delta": false,
+      "coherent_delta_thresholds": {
+        "mean_max_channel_delta": 0.2,
+        "max_channel_delta": 48
+      },
+      "debug": "/mnt/data/slideharness_v090_final/examples/external-template-diversity/.work/agent/render/output_validation/agent/diff/OUT-S005.png"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S001",
+      "shape_id": 5,
+      "role": "title",
+      "expected": "元PPTの個性を継承"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S001",
+      "shape_id": 5,
+      "role": "title",
+      "rendered_bbox": [
+        39.6,
+        99.78,
+        441.98,
+        162.55
+      ],
+      "shape_bbox": [
+        39.6,
+        106.7,
+        526.61,
+        213.26
+      ]
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S001",
+      "shape_id": 6,
+      "role": "subtitle",
+      "expected": "SlideHarness 外部PPT互換性テスト"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S001",
+      "shape_id": 6,
+      "role": "subtitle",
+      "rendered_bbox": [
+        39.6,
+        223.33,
+        342.76,
+        249.48
+      ],
+      "shape_bbox": [
+        39.6,
+        226.22,
+        468.17,
+        261.74
+      ]
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S001",
+      "shape_id": 7,
+      "role": "body",
+      "expected": "元PPTのデザイン文法で、内容に合わせて再構成。"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S001",
+      "shape_id": 7,
+      "role": "body",
+      "rendered_bbox": [
+        39.6,
+        268.12,
+        362.01,
+        288.3
+      ],
+      "shape_bbox": [
+        39.6,
+        270.38,
+        419.47,
+        304.03
+      ]
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S002",
+      "shape_id": 22,
+      "role": "title",
+      "expected": "原稿から完成までの流れ"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S002",
+      "shape_id": 22,
+      "role": "title",
+      "rendered_bbox": [
+        39.57,
+        27.41,
+        380.38,
+        72.31
+      ],
+      "shape_bbox": [
+        39.6,
+        32.4,
+        680.4,
+        82.8
+      ]
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S002",
+      "shape_id": 23,
+      "role": "subtitle",
+      "expected": "意味・表現・レイアウトを分離し、必要な範囲だけ更新"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S002",
+      "shape_id": 23,
+      "role": "subtitle",
+      "rendered_bbox": [
+        39.57,
+        90.21,
+        489.57,
+        116.27
+      ],
+      "shape_bbox": [
+        39.6,
+        93.1,
+        680.4,
+        120.46
+      ]
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S002",
+      "shape_id": 28,
+      "role": "timeline_date",
+      "expected": "STEP 1"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S002",
+      "shape_id": 28,
+      "role": "timeline_date",
+      "rendered_bbox": [
+        62.65,
+        163.48,
+        97.34,
+        178.46
+      ],
+      "shape_bbox": [
+        62.66,
+        161.52,
+        176.74,
+        180.24
+      ]
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S002",
+      "shape_id": 29,
+      "role": "timeline_title",
+      "expected": "原稿解析"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S002",
+      "shape_id": 29,
+      "role": "timeline_title",
+      "rendered_bbox": [
+        62.65,
+        180.85,
+        118.7,
+        201.13
+      ],
+      "shape_bbox": [
+        62.66,
+        183.12,
+        176.74,
+        207.6
+      ]
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S002",
+      "shape_id": 33,
+      "role": "timeline_date",
+      "expected": "STEP 2"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S002",
+      "shape_id": 33,
+      "role": "timeline_date",
+      "rendered_bbox": [
+        222.86,
+        293.39,
+        257.56,
+        308.37
+      ],
+      "shape_bbox": [
+        222.86,
+        291.44,
+        336.94,
+        310.16
+      ]
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S002",
+      "shape_id": 34,
+      "role": "timeline_title",
+      "expected": "表現設計"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S002",
+      "shape_id": 34,
+      "role": "timeline_title",
+      "rendered_bbox": [
+        222.86,
+        310.76,
+        278.91,
+        331.04
+      ],
+      "shape_bbox": [
+        222.86,
+        313.04,
+        336.94,
+        337.52
+      ]
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S002",
+      "shape_id": 38,
+      "role": "timeline_date",
+      "expected": "STEP 3"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S002",
+      "shape_id": 38,
+      "role": "timeline_date",
+      "rendered_bbox": [
+        383.05,
+        163.48,
+        417.74,
+        178.46
+      ],
+      "shape_bbox": [
+        383.06,
+        161.52,
+        497.14,
+        180.24
+      ]
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S002",
+      "shape_id": 39,
+      "role": "timeline_title",
+      "expected": "レイアウト"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S002",
+      "shape_id": 39,
+      "role": "timeline_title",
+      "rendered_bbox": [
+        383.05,
+        180.85,
+        453.15,
+        201.13
+      ],
+      "shape_bbox": [
+        383.06,
+        183.12,
+        497.14,
+        207.6
+      ]
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S002",
+      "shape_id": 43,
+      "role": "timeline_date",
+      "expected": "STEP 4"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S002",
+      "shape_id": 43,
+      "role": "timeline_date",
+      "rendered_bbox": [
+        543.26,
+        293.39,
+        577.96,
+        308.37
+      ],
+      "shape_bbox": [
+        543.26,
+        291.44,
+        657.34,
+        310.16
+      ]
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S002",
+      "shape_id": 44,
+      "role": "timeline_title",
+      "expected": "品質検査"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S002",
+      "shape_id": 44,
+      "role": "timeline_title",
+      "rendered_bbox": [
+        543.26,
+        310.76,
+        599.31,
+        331.04
+      ],
+      "shape_bbox": [
+        543.26,
+        313.04,
+        657.34,
+        337.52
+      ]
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S003",
+      "shape_id": 22,
+      "role": "title",
+      "expected": "品質を数値で確認"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S003",
+      "shape_id": 22,
+      "role": "title",
+      "rendered_bbox": [
+        39.57,
+        27.41,
+        287.44,
+        72.31
+      ],
+      "shape_bbox": [
+        39.6,
+        32.4,
+        680.4,
+        82.8
+      ]
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S003",
+      "shape_id": 23,
+      "role": "subtitle",
+      "expected": "編集可能性と見た目の両方を検査"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S003",
+      "shape_id": 23,
+      "role": "subtitle",
+      "rendered_bbox": [
+        39.57,
+        90.21,
+        309.57,
+        116.27
+      ],
+      "shape_bbox": [
+        39.6,
+        93.1,
+        680.4,
+        120.46
+      ]
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S003",
+      "shape_id": 25,
+      "role": "kpi_label",
+      "expected": "構造QA"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S003",
+      "shape_id": 25,
+      "role": "kpi_label",
+      "rendered_bbox": [
+        59.7,
+        152.22,
+        114.86,
+        173.88
+      ],
+      "shape_bbox": [
+        59.71,
+        154.61,
+        220.61,
+        189.17
+      ]
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S003",
+      "shape_id": 26,
+      "role": "kpi_value",
+      "expected": "0件"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S003",
+      "shape_id": 26,
+      "role": "kpi_value",
+      "rendered_bbox": [
+        59.7,
+        210.05,
+        127.98,
+        264.83
+      ],
+      "shape_bbox": [
+        59.71,
+        193.49,
+        220.61,
+        283.98
+      ]
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S003",
+      "shape_id": 27,
+      "role": "kpi_note",
+      "expected": "Blocking issue"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S003",
+      "shape_id": 27,
+      "role": "kpi_note",
+      "rendered_bbox": [
+        59.7,
+        286.86,
+        130.77,
+        300.48
+      ],
+      "shape_bbox": [
+        59.71,
+        287.58,
+        220.61,
+        352.5
+      ]
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S003",
+      "shape_id": 29,
+      "role": "kpi_label",
+      "expected": "画像比率"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S003",
+      "shape_id": 29,
+      "role": "kpi_label",
+      "rendered_bbox": [
+        279.52,
+        152.22,
+        339.09,
+        173.81
+      ],
+      "shape_bbox": [
+        279.55,
+        154.61,
+        440.45,
+        189.17
+      ]
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S003",
+      "shape_id": 30,
+      "role": "kpi_value",
+      "expected": "100%"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S003",
+      "shape_id": 30,
+      "role": "kpi_value",
+      "rendered_bbox": [
+        279.52,
+        213.48,
+        378.11,
+        264.83
+      ],
+      "shape_bbox": [
+        279.55,
+        193.49,
+        440.45,
+        283.98
+      ]
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S003",
+      "shape_id": 31,
+      "role": "kpi_note",
+      "expected": "縦横比を保持"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S003",
+      "shape_id": 31,
+      "role": "kpi_note",
+      "rendered_bbox": [
+        279.52,
+        285.95,
+        339.34,
+        300.43
+      ],
+      "shape_bbox": [
+        279.55,
+        287.58,
+        440.45,
+        352.5
+      ]
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S003",
+      "shape_id": 33,
+      "role": "kpi_label",
+      "expected": "部分修正"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S003",
+      "shape_id": 33,
+      "role": "kpi_label",
+      "rendered_bbox": [
+        499.35,
+        152.22,
+        558.92,
+        173.81
+      ],
+      "shape_bbox": [
+        499.39,
+        154.61,
+        660.29,
+        189.17
+      ]
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S003",
+      "shape_id": 34,
+      "role": "kpi_value",
+      "expected": "1頁"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S003",
+      "shape_id": 34,
+      "role": "kpi_value",
+      "rendered_bbox": [
+        499.35,
+        210.05,
+        567.64,
+        264.83
+      ],
+      "shape_bbox": [
+        499.39,
+        193.49,
+        660.29,
+        283.98
+      ]
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S003",
+      "shape_id": 35,
+      "role": "kpi_note",
+      "expected": "最小再実行範囲"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S003",
+      "shape_id": 35,
+      "role": "kpi_note",
+      "rendered_bbox": [
+        499.35,
+        285.95,
+        569.15,
+        300.43
+      ],
+      "shape_bbox": [
+        499.39,
+        287.58,
+        660.29,
+        352.5
+      ]
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S004",
+      "shape_id": 22,
+      "role": "title",
+      "expected": "反復改善で品質を安定化"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S004",
+      "shape_id": 22,
+      "role": "title",
+      "rendered_bbox": [
+        39.57,
+        27.41,
+        380.38,
+        72.31
+      ],
+      "shape_bbox": [
+        39.6,
+        32.4,
+        680.4,
+        82.8
+      ]
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S004",
+      "shape_id": 23,
+      "role": "subtitle",
+      "expected": "データがある場合だけ、編集可能なPowerPointグラフを生成"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S004",
+      "shape_id": 23,
+      "role": "subtitle",
+      "rendered_bbox": [
+        39.57,
+        90.21,
+        547.17,
+        116.36
+      ],
+      "shape_bbox": [
+        39.6,
+        93.1,
+        680.4,
+        120.46
+      ]
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S004",
+      "shape_id": 25,
+      "role": "chart_note",
+      "expected": "数値はレイアウトエンジン検証用のテストデータ"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S004",
+      "shape_id": 25,
+      "role": "chart_note",
+      "rendered_bbox": [
+        39.57,
+        352.86,
+        282.06,
+        368.78
+      ],
+      "shape_bbox": [
+        39.6,
+        354.61,
+        680.4,
+        372.61
+      ]
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S005",
+      "shape_id": 2,
+      "role": "title",
+      "expected": "必要なページだけ、安心して直せる"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S005",
+      "shape_id": 2,
+      "role": "title",
+      "rendered_bbox": [
+        39.57,
+        27.3,
+        543.24,
+        73.19
+      ],
+      "shape_bbox": [
+        39.6,
+        32.4,
+        680.4,
+        82.8
+      ]
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S005",
+      "shape_id": 3,
+      "role": "subtitle",
+      "expected": "元PPTらしさを保ち、完成後も他ページを不用意に変更しません。"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S005",
+      "shape_id": 3,
+      "role": "subtitle",
+      "rendered_bbox": [
+        39.57,
+        91.43,
+        583.07,
+        117.58
+      ],
+      "shape_bbox": [
+        39.6,
+        94.32,
+        680.4,
+        121.68
+      ]
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S005",
+      "shape_id": 5,
+      "role": "closing_item",
+      "expected": "別案"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S005",
+      "shape_id": 5,
+      "role": "closing_item",
+      "rendered_bbox": [
+        50.43,
+        214.79,
+        80.42,
+        236.5
+      ],
+      "shape_bbox": [
+        50.45,
+        217.24,
+        226.03,
+        250.36
+      ]
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S005",
+      "shape_id": 6,
+      "role": "closing_item",
+      "expected": "表現だけ変更"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S005",
+      "shape_id": 6,
+      "role": "closing_item",
+      "rendered_bbox": [
+        50.43,
+        255.64,
+        122.34,
+        273.0
+      ],
+      "shape_bbox": [
+        50.45,
+        257.56,
+        226.03,
+        294.34
+      ]
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S005",
+      "shape_id": 9,
+      "role": "closing_item",
+      "expected": "部分修正"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S005",
+      "shape_id": 9,
+      "role": "closing_item",
+      "rendered_bbox": [
+        272.18,
+        214.79,
+        332.16,
+        236.5
+      ],
+      "shape_bbox": [
+        272.21,
+        217.24,
+        447.79,
+        250.36
+      ]
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S005",
+      "shape_id": 10,
+      "role": "closing_item",
+      "expected": "変更範囲を限定"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S005",
+      "shape_id": 10,
+      "role": "closing_item",
+      "rendered_bbox": [
+        272.18,
+        255.64,
+        356.1,
+        273.0
+      ],
+      "shape_bbox": [
+        272.21,
+        257.56,
+        447.79,
+        294.34
+      ]
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S005",
+      "shape_id": 13,
+      "role": "closing_item",
+      "expected": "履歴"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S005",
+      "shape_id": 13,
+      "role": "closing_item",
+      "rendered_bbox": [
+        493.94,
+        214.79,
+        523.93,
+        236.5
+      ],
+      "shape_bbox": [
+        493.97,
+        217.24,
+        669.55,
+        250.36
+      ]
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S005",
+      "shape_id": 14,
+      "role": "closing_item",
+      "expected": "以前の案へ戻す"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S005",
+      "shape_id": 14,
+      "role": "closing_item",
+      "rendered_bbox": [
+        493.94,
+        255.64,
+        577.85,
+        273.0
+      ],
+      "shape_bbox": [
+        493.97,
+        257.56,
+        669.55,
+        294.34
+      ]
+    }
+  ],
+  "rendered_pages": [
+    "/mnt/data/slideharness_v090_final/examples/external-template-diversity/.work/agent/render/output_validation/agent/SRC-S001.png",
+    "/mnt/data/slideharness_v090_final/examples/external-template-diversity/.work/agent/render/output_validation/agent/SRC-S002.png",
+    "/mnt/data/slideharness_v090_final/examples/external-template-diversity/.work/agent/render/output_validation/agent/SRC-S003.png",
+    "/mnt/data/slideharness_v090_final/examples/external-template-diversity/.work/agent/render/output_validation/agent/SRC-S004.png",
+    "/mnt/data/slideharness_v090_final/examples/external-template-diversity/.work/agent/render/output_validation/agent/SRC-S005.png"
+  ],
+  "image_harmony": {
+    "schema_version": "0.1",
+    "generated_at": "2026-08-17T12:34:12.969016+00:00",
+    "status": "pass",
+    "blocking_count": 0,
+    "warning_count": 0,
+    "checks": []
+  },
+  "notes": [
+    "v0.6 QA covers package/render, template chrome geometry, mutation/layout-scoped pixel diff, source and layout-generated object bounds, fit-to-intent layout quality, photo-aware slot geometry and negative-space direction, full-bleed coverage/z-order, native comparison/relationship editability, rendered text presence/overflow/overlap, table/chart editability, image harmony, and first-pass Japanese/Latin wrap heuristics. Semantic line-break quality still benefits from Sol review."
+  ]
+}

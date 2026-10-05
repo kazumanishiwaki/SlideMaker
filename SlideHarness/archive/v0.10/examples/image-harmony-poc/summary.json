@@ -1,0 +1,21 @@
+{
+  "generated_assets": 4,
+  "selection_provider": "auto_local",
+  "image_harmony": {
+    "blocking": 0,
+    "warnings": 0
+  },
+  "deck_image_coherence": {
+    "warnings": 0
+  },
+  "output_qa": {
+    "blocking": 0,
+    "warnings": 0
+  },
+  "pptx": "image-harmony-poc.pptx",
+  "source_render": "source-page-8.png",
+  "render": "image-harmony-poc.png",
+  "recipes": "image-recipes.json",
+  "manifest": "image-asset-manifest.json",
+  "output_qa_file": "output-qa.json"
+}

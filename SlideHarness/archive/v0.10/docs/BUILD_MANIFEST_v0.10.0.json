@@ -1,0 +1,142 @@
+{
+  "schema_version": "1.0",
+  "version": "0.10.0",
+  "release_type": "simplification",
+  "generated_at": "2026-08-17T21:49:42.073467+00:00",
+  "pipeline": [
+    "input_analysis",
+    "deck_plan",
+    "slide_plan",
+    "compose",
+    "validate"
+  ],
+  "model_call_contract": {
+    "normal_generation_calls": 2,
+    "repair_call_limit_per_slide": 1
+  },
+  "renderer_groups": {
+    "statement": [
+      "cover",
+      "section",
+      "statement",
+      "closing"
+    ],
+    "grid": [
+      "grid",
+      "two_column",
+      "comparison_matrix"
+    ],
+    "media": [
+      "photo_text",
+      "full_bleed",
+      "photo_grid",
+      "screenshot"
+    ],
+    "flow": [
+      "process",
+      "timeline",
+      "relationship",
+      "cause_effect",
+      "containment"
+    ],
+    "data": [
+      "kpi",
+      "chart",
+      "table"
+    ]
+  },
+  "validation": {
+    "python_quick_regression_pass": 47,
+    "node_fake_app_server_pass": 1,
+    "aha_slides": 9,
+    "aha_output_blocking": 0,
+    "aha_output_warning": 0,
+    "aha_image_blocking": 0,
+    "aha_image_warning": 0,
+    "aha_deck_warning": 0,
+    "live_codex_tested": false,
+    "live_openai_image_tested": false
+  },
+  "key_artifacts": [
+    {
+      "path": "package.json",
+      "size_bytes": 1784,
+      "sha256": "2038929c674ddf45216a972026ab52f6ae0f2e90209cce990680e85af936be34"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 3496,
+      "sha256": "e6ab4558dd416f4bddae3804e33320b39e11ae006cbda673f8d1d5576d1f1297"
+    },
+    {
+      "path": "AGENTS.md",
+      "size_bytes": 2536,
+      "sha256": "06373cdac63f70aa90010aa065f0c561d5a12551f2d22722ba42a8695e5ca16b"
+    },
+    {
+      "path": "engine/planning.py",
+      "size_bytes": 14006,
+      "sha256": "26022aa7df14f672122bc5b102b94b98ae1ef2b7983d783cb8dd2fd7404a2415"
+    },
+    {
+      "path": "engine/state.py",
+      "size_bytes": 4291,
+      "sha256": "46f381bbfbd2a615352f6372b69c551d15bd3f44423927cbe71aa90766476423"
+    },
+    {
+      "path": "engine/feedback.py",
+      "size_bytes": 6421,
+      "sha256": "25fbcf91f1bff7ddf681b7e88ddf768b003545c54219c067c86e9a34c0c24d8e"
+    },
+    {
+      "path": "engine/layout_engine.py",
+      "size_bytes": 136658,
+      "sha256": "d62eea7af091c359e6e541e70ce4400cd2d206554cdc64f7248cf614a00ba38a"
+    },
+    {
+      "path": "engine/japanese_typography.py",
+      "size_bytes": 19893,
+      "sha256": "e4abc8943a8ac28755824314c916fb3631900c4278c2276afc737157f86134d2"
+    },
+    {
+      "path": "engine/validate_output.py",
+      "size_bytes": 45645,
+      "sha256": "d26a22ff31189a04a5646b35dc0d62c7a9c2f9958d3c8bf20b5afe71fb843e81"
+    },
+    {
+      "path": "engine/validate_deck.py",
+      "size_bytes": 5250,
+      "sha256": "3c25e7b1de25aac7a87f87a8d31a019b815a8d7f51c8b7af604634bde396fd2a"
+    },
+    {
+      "path": "skill/SKILL.md",
+      "size_bytes": 6384,
+      "sha256": "8f409295bf523bd33ffa50c0d7cfb211742dcb8996c1dbe53ca9010b8c1f77fe"
+    },
+    {
+      "path": "skill/schemas/slide_plans.schema.json",
+      "size_bytes": 2117,
+      "sha256": "6909db1a6ffae7e2a16d791c57d4431daca5c2dc6a45f00f9df6f3f59ba40b21"
+    },
+    {
+      "path": "examples/aha-receipt-full-deck/aha-receipt-lite-golden-v0.10.0.pptx",
+      "size_bytes": 15750657,
+      "sha256": "7a7e3ea25619165bae25c03ec54afcaec2fd2236d8b1e5111afd88e5e4cd0e2d"
+    },
+    {
+      "path": "examples/aha-receipt-full-deck/aha-receipt-lite-golden-v0.10.0-montage.png",
+      "size_bytes": 230122,
+      "sha256": "c31efeabf1b29d6c2c33c5b4bd4bfdc7c850693193ece371226440ccd82643fe"
+    },
+    {
+      "path": "examples/aha-receipt-full-deck/output-qa.json",
+      "size_bytes": 124376,
+      "sha256": "a6f96fbe508b2259e088208ba1322a12806e6816fc8dec70e71c8995a5ad3151"
+    },
+    {
+      "path": "examples/aha-receipt-full-deck/slide-plans.json",
+      "size_bytes": 27021,
+      "sha256": "ab408eade3bf1b1be7e9f9658fe73388c179b93acfe09c315e3e58f4fa14c1f0"
+    }
+  ]
+}

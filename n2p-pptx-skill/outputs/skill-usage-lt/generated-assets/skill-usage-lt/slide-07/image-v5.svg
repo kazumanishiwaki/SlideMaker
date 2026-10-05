@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1448" height="1086" viewBox="0 0 1448 1086" role="img" aria-label="Skill package diagram">
+  <defs>
+    <style>
+      .bg { fill: #FCFCFC; }
+      .s { fill: none; stroke: #111111; stroke-width: 12; stroke-linecap: round; stroke-linejoin: round; }
+      .sy { fill: none; stroke: #E8E800; stroke-width: 12; stroke-linecap: round; stroke-linejoin: round; }
+      .card { fill: #FCFCFC; stroke: #111111; stroke-width: 12; stroke-linecap: round; stroke-linejoin: round; }
+      .gray { fill: #E6EBED; }
+      .mid { fill: #D7DEE2; }
+    </style>
+  </defs>
+  <rect class="bg" width="1448" height="1086"/>
+
+  <!-- inputs -->
+  <g>
+    <rect class="card" x="112" y="306" width="224" height="84" rx="14"/>
+    <rect class="gray" x="140" y="332" width="44" height="32" rx="4"/>
+    <line class="s" x1="206" y1="338" x2="286" y2="338"/>
+    <line class="s" x1="206" y1="362" x2="260" y2="362"/>
+
+    <rect class="card" x="112" y="502" width="224" height="84" rx="14"/>
+    <rect class="gray" x="140" y="528" width="44" height="32" rx="4"/>
+    <line class="s" x1="206" y1="534" x2="286" y2="534"/>
+    <line class="s" x1="206" y1="558" x2="260" y2="558"/>
+
+    <rect class="card" x="112" y="698" width="224" height="84" rx="14"/>
+    <rect class="gray" x="140" y="724" width="44" height="32" rx="4"/>
+    <line class="s" x1="206" y1="730" x2="286" y2="730"/>
+    <line class="s" x1="206" y1="754" x2="260" y2="754"/>
+  </g>
+
+  <line class="s" x1="382" y1="348" x2="512" y2="456"/>
+  <path class="s" d="M476 450 L514 458 L502 420"/>
+  <line class="s" x1="382" y1="544" x2="512" y2="544"/>
+  <path class="s" d="M480 514 L514 544 L480 574"/>
+  <line class="s" x1="382" y1="740" x2="512" y2="632"/>
+  <path class="s" d="M502 668 L514 630 L476 638"/>
+
+  <!-- folder, symbolic and regular -->
+  <path class="card mid" d="M538 414 H690 L742 470 H930 Q966 470 966 506 V736 Q966 772 930 772 H538 Q502 772 502 736 V450 Q502 414 538 414 Z"/>
+  <path class="card" d="M502 522 H966 V736 Q966 772 930 772 H538 Q502 772 502 736 Z"/>
+  <line class="s" x1="606" y1="610" x2="862" y2="610"/>
+  <line class="s" x1="606" y1="660" x2="810" y2="660"/>
+
+  <line class="sy" x1="1030" y1="544" x2="1124" y2="544"/>
+  <path class="sy" d="M1094 514 L1126 544 L1094 574"/>
+
+  <!-- output -->
+  <rect class="card" x="1164" y="456" width="210" height="152" rx="18"/>
+  <rect class="gray" x="1194" y="492" width="70" height="64" rx="4"/>
+  <line class="s" x1="1292" y1="504" x2="1340" y2="504"/>
+  <line class="s" x1="1292" y1="532" x2="1340" y2="532"/>
+  <line class="s" x1="1292" y1="560" x2="1340" y2="560"/>
+  <line class="s" x1="1268" y1="608" x2="1268" y2="654"/>
+  <line class="s" x1="1222" y1="654" x2="1314" y2="654"/>
+</svg>

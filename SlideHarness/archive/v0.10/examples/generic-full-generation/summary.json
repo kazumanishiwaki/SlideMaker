@@ -1,0 +1,17 @@
+{
+  "version": "0.8",
+  "results": [
+    {
+      "name": "miri",
+      "error": "slide_plan.schema.json validation failed: fill_policy.source: 'compat-test' is not one of ['auto', 'user', 'design', 'slide_plan', 'layout_request', 'design_role', 'auto_role', 'design_default', 'design_guard', 'system']"
+    },
+    {
+      "name": "golden-v06",
+      "error": "slide_plan.schema.json validation failed: fill_policy.source: 'compat-test' is not one of ['auto', 'user', 'design', 'slide_plan', 'layout_request', 'design_role', 'auto_role', 'design_default', 'design_guard', 'system']"
+    },
+    {
+      "name": "image-harmony-v05",
+      "error": "slide_plan.schema.json validation failed: fill_policy.source: 'compat-test' is not one of ['auto', 'user', 'design', 'slide_plan', 'layout_request', 'design_role', 'auto_role', 'design_default', 'design_guard', 'system']"
+    }
+  ]
+}

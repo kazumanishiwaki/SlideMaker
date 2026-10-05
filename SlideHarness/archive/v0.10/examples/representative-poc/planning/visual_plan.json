@@ -1,0 +1,29 @@
+{
+  "schema_version": "0.1",
+  "slides": [
+    {
+      "slide_id": "OUT-S001",
+      "visual_intent": {
+        "selected_type": "comparison_table",
+        "variant": "native_table",
+        "priority": "primary"
+      }
+    },
+    {
+      "slide_id": "OUT-S002",
+      "visual_intent": {
+        "selected_type": "flow",
+        "variant": "four_step",
+        "priority": "primary"
+      }
+    },
+    {
+      "slide_id": "OUT-S003",
+      "visual_intent": {
+        "selected_type": "four_items",
+        "variant": "cards",
+        "priority": "primary"
+      }
+    }
+  ]
+}

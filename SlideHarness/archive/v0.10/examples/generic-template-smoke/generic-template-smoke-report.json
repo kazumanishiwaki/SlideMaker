@@ -1,0 +1,73 @@
+{
+  "version": "0.7.0",
+  "purpose": "generic_template_smoke",
+  "template_count": 3,
+  "pass_count": 3,
+  "fail_count": 0,
+  "templates": [
+    {
+      "template": "golden-sample-v06.pptx",
+      "status": "PASS",
+      "blocking": [],
+      "slide_count": 5,
+      "render_count": 5,
+      "roles": {
+        "cover": 1,
+        "statement": 3,
+        "overview": 1
+      },
+      "asset_classes": {
+        "template_chrome": 10,
+        "content_visual": 2
+      },
+      "title_axis_x_in": 22.931,
+      "source_chrome_count": 10
+    },
+    {
+      "template": "image-harmony-v05.pptx",
+      "status": "PASS",
+      "blocking": [],
+      "slide_count": 1,
+      "render_count": 1,
+      "roles": {
+        "cover": 1
+      },
+      "asset_classes": {
+        "content_visual": 5,
+        "unknown": 9
+      },
+      "title_axis_x_in": 2.833,
+      "source_chrome_count": 0
+    },
+    {
+      "template": "miri-template.pptx",
+      "status": "PASS",
+      "blocking": [],
+      "slide_count": 17,
+      "render_count": 17,
+      "roles": {
+        "cover": 1,
+        "statement": 1,
+        "overview": 1,
+        "long_text": 1,
+        "photo_grid": 3,
+        "three_items": 2,
+        "organization": 1,
+        "table": 1,
+        "kpi": 1,
+        "comparison": 1,
+        "timeline": 1,
+        "four_items": 1,
+        "qna": 1,
+        "closing": 1
+      },
+      "asset_classes": {
+        "content_visual": 43,
+        "unknown": 119,
+        "template_chrome": 20
+      },
+      "title_axis_x_in": 2.833,
+      "source_chrome_count": 20
+    }
+  ]
+}

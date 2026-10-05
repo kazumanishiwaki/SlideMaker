@@ -1,0 +1,37 @@
+{
+  "schema_version": "0.11-mvp.2",
+  "risk_level": "high",
+  "template_mode": "completed_slide_heavy",
+  "composition_mode": "tokens_chrome_reconstruction",
+  "extracted": [
+    "theme colors",
+    "observed fonts",
+    "layout canvas candidates",
+    "exact repeated edge/background chrome"
+  ],
+  "fallback": [
+    "deterministic component styles",
+    "recipe geometry",
+    "human review for non-repeated slide-local ornament"
+  ],
+  "lower_fidelity_page_types": [
+    "cover",
+    "section",
+    "full_visual",
+    "photo_grid",
+    "organization"
+  ],
+  "findings": [
+    {
+      "code": "completed_slide_heavy_template",
+      "severity": "review_required",
+      "message": "Most design detail lives on completed slides rather than masters/layouts; token-and-chrome reconstruction cannot preserve every interior ornament automatically.",
+      "evidence": {
+        "mean_slide_local_shape_count": 24.41,
+        "mean_slide_local_picture_count": 10.71,
+        "mean_layout_non_placeholder_shape_count": 0.0,
+        "repeated_chrome_count": 2
+      }
+    }
+  ]
+}

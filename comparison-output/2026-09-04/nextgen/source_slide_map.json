@@ -1,0 +1,2754 @@
+{
+  "schema_version": "0.11-mvp.5",
+  "mode": "source_slide_adaptive",
+  "selections": [
+    {
+      "slide_id": "S001",
+      "recipe": "cover",
+      "source_slide_index": 0,
+      "source_slide_number": 1,
+      "source_title": "使いやすくて映える\nプレゼンテーション",
+      "raw_score": 164.45,
+      "effective_score": 164.45,
+      "score_margin": 154.6,
+      "reuse_penalty": 0,
+      "reasons": [
+        "first_slide",
+        "large_title_available",
+        "cover_adapt_canvas"
+      ],
+      "selection_confidence": "high",
+      "adaptation_mode": "adapt"
+    },
+    {
+      "slide_id": "S002",
+      "recipe": "statement",
+      "source_slide_index": 1,
+      "source_slide_number": 2,
+      "source_title": "タイトルを入力してください。",
+      "raw_score": 174.05,
+      "effective_score": 174.05,
+      "score_margin": 100.0,
+      "reuse_penalty": 0,
+      "reasons": [
+        "section_like_second_slide",
+        "few_large_text_slots",
+        "section_title_evidence",
+        "statement_adapt_canvas"
+      ],
+      "selection_confidence": "high",
+      "adaptation_mode": "adapt"
+    },
+    {
+      "slide_id": "S003",
+      "recipe": "three_column",
+      "source_slide_index": 6,
+      "source_slide_number": 7,
+      "source_title": "3段レイアウト",
+      "raw_score": 134.35,
+      "effective_score": 134.35,
+      "score_margin": 84.5,
+      "reuse_penalty": 0,
+      "reasons": [
+        "three_horizontal_anchor_groups",
+        "three_column_title_evidence"
+      ],
+      "selection_confidence": "high",
+      "adaptation_mode": "adapt"
+    },
+    {
+      "slide_id": "S004",
+      "recipe": "card_grid_2x2",
+      "source_slide_index": 14,
+      "source_slide_number": 15,
+      "source_title": "4段レイアウト",
+      "raw_score": 164.6,
+      "effective_score": 164.6,
+      "score_margin": 84.9,
+      "reuse_penalty": 0,
+      "reasons": [
+        "two_by_two_anchor_grid",
+        "four_block_title_evidence"
+      ],
+      "selection_confidence": "high",
+      "adaptation_mode": "adapt"
+    },
+    {
+      "slide_id": "S005",
+      "recipe": "process",
+      "source_slide_index": 13,
+      "source_slide_number": 14,
+      "source_title": "時間の経過",
+      "raw_score": 149.2,
+      "effective_score": 149.2,
+      "score_margin": 70.85,
+      "reuse_penalty": 0,
+      "reasons": [
+        "horizontal_sequence_anchors",
+        "sequence_title_evidence"
+      ],
+      "selection_confidence": "high",
+      "adaptation_mode": "adapt"
+    },
+    {
+      "slide_id": "S006",
+      "recipe": "card_grid_2x2",
+      "source_slide_index": 14,
+      "source_slide_number": 15,
+      "source_title": "4段レイアウト",
+      "raw_score": 164.6,
+      "effective_score": 158.6,
+      "score_margin": 78.9,
+      "reuse_penalty": 6,
+      "reasons": [
+        "two_by_two_anchor_grid",
+        "four_block_title_evidence"
+      ],
+      "selection_confidence": "high",
+      "adaptation_mode": "adapt"
+    },
+    {
+      "slide_id": "S007",
+      "recipe": "table",
+      "source_slide_index": 10,
+      "source_slide_number": 11,
+      "source_title": "会社概要",
+      "raw_score": 139.45,
+      "effective_score": 139.45,
+      "score_margin": 139.6,
+      "reuse_penalty": 0,
+      "reasons": [
+        "native_table_frame",
+        "table_title_evidence"
+      ],
+      "selection_confidence": "high",
+      "adaptation_mode": "adapt"
+    },
+    {
+      "slide_id": "S008",
+      "recipe": "closing_cta",
+      "source_slide_index": 16,
+      "source_slide_number": 17,
+      "source_title": "Thank you",
+      "raw_score": 144.5,
+      "effective_score": 144.5,
+      "score_margin": 120.45,
+      "reuse_penalty": 0,
+      "reasons": [
+        "last_slide",
+        "closing_title_evidence"
+      ],
+      "selection_confidence": "high",
+      "adaptation_mode": "adapt"
+    }
+  ],
+  "source_evidence": [
+    {
+      "slide_index": 0,
+      "title": "使いやすくて映える\nプレゼンテーション",
+      "shape_count": 13,
+      "picture_count": 7,
+      "photo_like_picture_indices": [],
+      "table_shape_indices": [],
+      "chart_shape_indices": [],
+      "protected_text_indices": [
+        6
+      ],
+      "title_shape_index": 2,
+      "message_shape_index": 8,
+      "text_slots": [
+        {
+          "shape_index": 2,
+          "x": 0.0557,
+          "y": 0.6167,
+          "w": 0.4391,
+          "h": 0.213,
+          "max_font_pt": 84.1,
+          "text": "使いやすくて映える\nプレゼンテーション",
+          "normalized_text": "使いやすくて映える プレゼンテーション"
+        },
+        {
+          "shape_index": 4,
+          "x": 0.0578,
+          "y": 0.862,
+          "w": 0.0802,
+          "h": 0.0269,
+          "max_font_pt": 18.66,
+          "text": "20XX.XX.XX",
+          "normalized_text": "20xx.xx.xx"
+        },
+        {
+          "shape_index": 6,
+          "x": 0.087,
+          "y": 0.5565,
+          "w": 0.1276,
+          "h": 0.0398,
+          "max_font_pt": 29.27,
+          "text": "MIRI Company",
+          "normalized_text": "miri company"
+        },
+        {
+          "shape_index": 8,
+          "x": 0.1568,
+          "y": 0.862,
+          "w": 0.1141,
+          "h": 0.0269,
+          "max_font_pt": 18.66,
+          "text": "所属機関 : ミリカンパニー",
+          "normalized_text": "所属機関 : ミリカンパニー"
+        },
+        {
+          "shape_index": 10,
+          "x": 0.2891,
+          "y": 0.862,
+          "w": 0.0917,
+          "h": 0.0269,
+          "max_font_pt": 18.66,
+          "text": "部署 : 総務部部長",
+          "normalized_text": "部署 : 総務部部長"
+        },
+        {
+          "shape_index": 12,
+          "x": 0.3901,
+          "y": 0.862,
+          "w": 0.0891,
+          "h": 0.0269,
+          "max_font_pt": 18.66,
+          "text": "氏名 : 小林麻里子",
+          "normalized_text": "氏名 : 小林麻里子"
+        }
+      ]
+    },
+    {
+      "slide_index": 1,
+      "title": "タイトルを入力してください。",
+      "shape_count": 5,
+      "picture_count": 2,
+      "photo_like_picture_indices": [],
+      "table_shape_indices": [],
+      "chart_shape_indices": [],
+      "protected_text_indices": [],
+      "title_shape_index": 3,
+      "message_shape_index": 4,
+      "text_slots": [
+        {
+          "shape_index": 2,
+          "x": 0.4505,
+          "y": 0.3769,
+          "w": 0.0995,
+          "h": 0.1444,
+          "max_font_pt": 109.75,
+          "text": "01",
+          "normalized_text": "01"
+        },
+        {
+          "shape_index": 3,
+          "x": 0.2625,
+          "y": 0.5176,
+          "w": 0.4755,
+          "h": 0.0824,
+          "max_font_pt": 61.96,
+          "text": "タイトルを入力してください。",
+          "normalized_text": "タイトルを入力してください。"
+        },
+        {
+          "shape_index": 4,
+          "x": 0.2948,
+          "y": 0.6102,
+          "w": 0.4104,
+          "h": 0.0435,
+          "max_font_pt": 32.0,
+          "text": "ここにはタイトルを補足する内容を記入してください。",
+          "normalized_text": "ここにはタイトルを補足する内容を記入してください。"
+        }
+      ]
+    },
+    {
+      "slide_index": 2,
+      "title": "目次",
+      "shape_count": 29,
+      "picture_count": 6,
+      "photo_like_picture_indices": [],
+      "table_shape_indices": [],
+      "chart_shape_indices": [],
+      "protected_text_indices": [],
+      "title_shape_index": 26,
+      "message_shape_index": 12,
+      "text_slots": [
+        {
+          "shape_index": 2,
+          "x": 0.3958,
+          "y": 0.488,
+          "w": 0.4359,
+          "h": 0.0426,
+          "max_font_pt": 31.28,
+          "text": "主な内容を要約したタイトルを入力しましょう。",
+          "normalized_text": "主な内容を要約したタイトルを入力しましょう。"
+        },
+        {
+          "shape_index": 3,
+          "x": 0.3958,
+          "y": 0.5426,
+          "w": 0.4443,
+          "h": 0.0296,
+          "max_font_pt": 21.08,
+          "text": "キーワードを使って重要な内容を強調してみましょう。",
+          "normalized_text": "キーワードを使って重要な内容を強調してみましょう。"
+        },
+        {
+          "shape_index": 4,
+          "x": 0.3344,
+          "y": 0.4704,
+          "w": 0.0589,
+          "h": 0.0907,
+          "max_font_pt": 68.0,
+          "text": "03",
+          "normalized_text": "03"
+        },
+        {
+          "shape_index": 5,
+          "x": 0.8292,
+          "y": 0.4907,
+          "w": 0.05,
+          "h": 0.0426,
+          "max_font_pt": 31.28,
+          "text": "p 8",
+          "normalized_text": "p 8"
+        },
+        {
+          "shape_index": 7,
+          "x": 0.3958,
+          "y": 0.1935,
+          "w": 0.4359,
+          "h": 0.0426,
+          "max_font_pt": 31.28,
+          "text": "目次のタイトルを入力してください。",
+          "normalized_text": "目次のタイトルを入力してください。"
+        },
+        {
+          "shape_index": 8,
+          "x": 0.3958,
+          "y": 0.2472,
+          "w": 0.4443,
+          "h": 0.0296,
+          "max_font_pt": 21.08,
+          "text": "各セクションの主な内容を簡単に要約しましょう。",
+          "normalized_text": "各セクションの主な内容を簡単に要約しましょう。"
+        },
+        {
+          "shape_index": 9,
+          "x": 0.3344,
+          "y": 0.1759,
+          "w": 0.0589,
+          "h": 0.0907,
+          "max_font_pt": 68.0,
+          "text": "01",
+          "normalized_text": "01"
+        },
+        {
+          "shape_index": 10,
+          "x": 0.8292,
+          "y": 0.1954,
+          "w": 0.05,
+          "h": 0.0426,
+          "max_font_pt": 31.28,
+          "text": "p 3",
+          "normalized_text": "p 3"
+        },
+        {
+          "shape_index": 12,
+          "x": 0.3953,
+          "y": 0.7833,
+          "w": 0.4521,
+          "h": 0.0426,
+          "max_font_pt": 31.28,
+          "text": "タイトルだけでも内容を簡単に把握できるようにしてください。",
+          "normalized_text": "タイトルだけでも内容を簡単に把握できるようにしてください。"
+        },
+        {
+          "shape_index": 13,
+          "x": 0.3958,
+          "y": 0.837,
+          "w": 0.4443,
+          "h": 0.0296,
+          "max_font_pt": 21.08,
+          "text": "各サブテーマがメインタイトルと関連付くようにしてください。",
+          "normalized_text": "各サブテーマがメインタイトルと関連付くようにしてください。"
+        },
+        {
+          "shape_index": 14,
+          "x": 0.3344,
+          "y": 0.7657,
+          "w": 0.0589,
+          "h": 0.0907,
+          "max_font_pt": 68.0,
+          "text": "05",
+          "normalized_text": "05"
+        },
+        {
+          "shape_index": 15,
+          "x": 0.8292,
+          "y": 0.7852,
+          "w": 0.05,
+          "h": 0.0426,
+          "max_font_pt": 31.28,
+          "text": "p 15",
+          "normalized_text": "p 15"
+        },
+        {
+          "shape_index": 17,
+          "x": 0.3958,
+          "y": 0.6352,
+          "w": 0.4359,
+          "h": 0.0426,
+          "max_font_pt": 31.28,
+          "text": "目次を論理的な順序で構成しましょう。",
+          "normalized_text": "目次を論理的な順序で構成しましょう。"
+        },
+        {
+          "shape_index": 18,
+          "x": 0.3958,
+          "y": 0.6898,
+          "w": 0.4443,
+          "h": 0.0296,
+          "max_font_pt": 21.08,
+          "text": "サブタイトルを論理的な流れに合わせて配置してみましょう。",
+          "normalized_text": "サブタイトルを論理的な流れに合わせて配置してみましょう。"
+        },
+        {
+          "shape_index": 19,
+          "x": 0.3344,
+          "y": 0.6176,
+          "w": 0.0589,
+          "h": 0.0907,
+          "max_font_pt": 68.0,
+          "text": "04",
+          "normalized_text": "04"
+        },
+        {
+          "shape_index": 20,
+          "x": 0.8292,
+          "y": 0.638,
+          "w": 0.05,
+          "h": 0.0426,
+          "max_font_pt": 31.28,
+          "text": "p 12",
+          "normalized_text": "p 12"
+        },
+        {
+          "shape_index": 22,
+          "x": 0.3958,
+          "y": 0.3407,
+          "w": 0.4359,
+          "h": 0.0426,
+          "max_font_pt": 31.28,
+          "text": "テーマがわかるタイトルを入力しましょう。",
+          "normalized_text": "テーマがわかるタイトルを入力しましょう。"
+        },
+        {
+          "shape_index": 23,
+          "x": 0.3958,
+          "y": 0.3954,
+          "w": 0.4443,
+          "h": 0.0296,
+          "max_font_pt": 21.08,
+          "text": "主な内容を行頭文字を使って整理してみましょう。",
+          "normalized_text": "主な内容を行頭文字を使って整理してみましょう。"
+        },
+        {
+          "shape_index": 24,
+          "x": 0.3344,
+          "y": 0.3231,
+          "w": 0.0589,
+          "h": 0.0907,
+          "max_font_pt": 68.0,
+          "text": "02",
+          "normalized_text": "02"
+        },
+        {
+          "shape_index": 25,
+          "x": 0.8292,
+          "y": 0.3426,
+          "w": 0.05,
+          "h": 0.0426,
+          "max_font_pt": 31.28,
+          "text": "p 5",
+          "normalized_text": "p 5"
+        },
+        {
+          "shape_index": 26,
+          "x": 0.0552,
+          "y": 0.1713,
+          "w": 0.1297,
+          "h": 0.0972,
+          "max_font_pt": 73.36,
+          "text": "目次",
+          "normalized_text": "目次"
+        },
+        {
+          "shape_index": 27,
+          "x": 0.0552,
+          "y": 0.2593,
+          "w": 0.112,
+          "h": 0.0519,
+          "max_font_pt": 37.97,
+          "text": "CONTENT",
+          "normalized_text": "content"
+        },
+        {
+          "shape_index": 28,
+          "x": 0.0604,
+          "y": 0.7065,
+          "w": 0.1906,
+          "h": 0.162,
+          "max_font_pt": 20.0,
+          "text": "* このプレゼンテーションは\n一度に全体の色を変えて使用できます。 \nコンセプトに合わせて似合う色に変えて\n編集してみてください。\n\nこの内容を消して使ってみましょう。",
+          "normalized_text": "* このプレゼンテーションは 一度に全体の色を変えて使用できます。 コンセプトに合わせて似合う色に変えて 編集してみてください。 この内容を消して使ってみましょう。"
+        }
+      ]
+    },
+    {
+      "slide_index": 3,
+      "title": "長文テキスト",
+      "shape_count": 11,
+      "picture_count": 5,
+      "photo_like_picture_indices": [
+        2
+      ],
+      "table_shape_indices": [],
+      "chart_shape_indices": [],
+      "protected_text_indices": [
+        8
+      ],
+      "title_shape_index": 4,
+      "message_shape_index": 5,
+      "text_slots": [
+        {
+          "shape_index": 4,
+          "x": 0.1062,
+          "y": 0.0657,
+          "w": 0.5891,
+          "h": 0.0426,
+          "max_font_pt": 30.88,
+          "text": "長文テキスト",
+          "normalized_text": "長文テキスト"
+        },
+        {
+          "shape_index": 5,
+          "x": 0.1062,
+          "y": 0.1028,
+          "w": 0.5875,
+          "h": 0.0296,
+          "max_font_pt": 21.33,
+          "text": "分量の多いテキストを入力する際に便利なページです。",
+          "normalized_text": "分量の多いテキストを入力する際に便利なページです。"
+        },
+        {
+          "shape_index": 6,
+          "x": 0.0359,
+          "y": 0.0574,
+          "w": 0.0573,
+          "h": 0.0815,
+          "max_font_pt": 61.33,
+          "text": "01",
+          "normalized_text": "01"
+        },
+        {
+          "shape_index": 8,
+          "x": 0.8599,
+          "y": 0.0843,
+          "w": 0.112,
+          "h": 0.0352,
+          "max_font_pt": 25.71,
+          "text": "MIRI Company",
+          "normalized_text": "miri company"
+        },
+        {
+          "shape_index": 9,
+          "x": 0.5115,
+          "y": 0.3713,
+          "w": 0.4182,
+          "h": 0.487,
+          "max_font_pt": 23.56,
+          "text": "重要な内容や長文で意見を述べたい場合には当該ページをご活用ください。 \nプレゼンは読みやすさが命です。読みやすさの核心は内容を簡潔に\n伝えることです。 簡単に読めて且つ目立つことが重要です。\nプレゼンテーションの全体的なトーン＆マナーと合うフォントや色を\n活用してください。\n\nコメントの中で強調したい部分は太字にしたりサイズを\n大きくしてみてください。 具体的な例や数値などを活用すれば信頼度を\n高めることができます。もちろん形式や構成と関係なくテキストを\n自由に入力してもいいです。 テキストが多くても見る人が退屈しないように\n視覚的な効果を活用してみましょう。\n重要な内容や長文で意見を述べたい場合には当該ページをご活用ください。 \nプレゼンは読みやすさが命です。読みやすさの核心は内容を簡潔に\n伝えることです。 簡単に読めて且つ目立つことが重要です。",
+          "normalized_text": "重要な内容や長文で意見を述べたい場合には当該ページをご活用ください。 プレゼンは読みやすさが命です。読みやすさの核心は内容を簡潔に 伝えることです。 簡単に読めて且つ目立つことが重要です。 プレゼンテーションの全体的なトーン＆マナーと合うフォントや色を 活用してください。 コメントの中で強調したい部分は太字にしたりサイズを 大きくしてみてください。 具体的な例や数値などを活用すれば信頼度を 高めることができます。もちろん形式や構成と関係なくテキストを 自由に入力してもいいです。 テキストが多くても見る人が退屈しないように 視覚的な効果を活用してみましょう。 重要な内容や長文で意見を述べたい場合には当該ページをご活用ください。 プレゼンは読みやすさが命です。読みやすさの核心は内容を簡潔に 伝えることです。 簡単に読めて且つ目立つことが重要です。"
+        },
+        {
+          "shape_index": 10,
+          "x": 0.5115,
+          "y": 0.2889,
+          "w": 0.4198,
+          "h": 0.0537,
+          "max_font_pt": 39.71,
+          "text": "内容を要約して入力してください。",
+          "normalized_text": "内容を要約して入力してください。"
+        }
+      ]
+    },
+    {
+      "slide_index": 4,
+      "title": "活動内容",
+      "shape_count": 21,
+      "picture_count": 9,
+      "photo_like_picture_indices": [],
+      "table_shape_indices": [],
+      "chart_shape_indices": [],
+      "protected_text_indices": [
+        4
+      ],
+      "title_shape_index": 1,
+      "message_shape_index": 2,
+      "text_slots": [
+        {
+          "shape_index": 1,
+          "x": 0.1062,
+          "y": 0.0657,
+          "w": 0.5891,
+          "h": 0.0426,
+          "max_font_pt": 30.88,
+          "text": "活動内容",
+          "normalized_text": "活動内容"
+        },
+        {
+          "shape_index": 2,
+          "x": 0.1062,
+          "y": 0.1028,
+          "w": 0.5875,
+          "h": 0.0296,
+          "max_font_pt": 21.33,
+          "text": "グラフで色々な項目の数値を比較してみましょう。",
+          "normalized_text": "グラフで色々な項目の数値を比較してみましょう。"
+        },
+        {
+          "shape_index": 4,
+          "x": 0.8599,
+          "y": 0.0843,
+          "w": 0.112,
+          "h": 0.0352,
+          "max_font_pt": 25.71,
+          "text": "MIRI Company",
+          "normalized_text": "miri company"
+        },
+        {
+          "shape_index": 9,
+          "x": 0.2479,
+          "y": 0.4463,
+          "w": 0.1,
+          "h": 0.088,
+          "max_font_pt": 66.25,
+          "text": "70%",
+          "normalized_text": "70%"
+        },
+        {
+          "shape_index": 12,
+          "x": 0.7052,
+          "y": 0.3259,
+          "w": 0.0719,
+          "h": 0.0722,
+          "max_font_pt": 30.66,
+          "text": "急成長\nポイント",
+          "normalized_text": "急成長 ポイント"
+        },
+        {
+          "shape_index": 13,
+          "x": 0.3385,
+          "y": 0.3519,
+          "w": 0.0526,
+          "h": 0.0472,
+          "max_font_pt": 34.57,
+          "text": "20%",
+          "normalized_text": "20%"
+        },
+        {
+          "shape_index": 14,
+          "x": 0.3682,
+          "y": 0.4352,
+          "w": 0.0474,
+          "h": 0.0426,
+          "max_font_pt": 30.98,
+          "text": "10%",
+          "normalized_text": "10%"
+        },
+        {
+          "shape_index": 15,
+          "x": 0.1286,
+          "y": 0.7111,
+          "w": 0.3479,
+          "h": 0.0454,
+          "max_font_pt": 33.33,
+          "text": "製品別市場シェア",
+          "normalized_text": "製品別市場シェア"
+        },
+        {
+          "shape_index": 16,
+          "x": 0.1281,
+          "y": 0.7704,
+          "w": 0.349,
+          "h": 0.0898,
+          "max_font_pt": 22.06,
+          "text": "円グラフは項目の比重を直観的に分かりやすく表現します。\n全体のうち各項目が占める割合を示してみましょう。目標達成率や\n予算配分率を視覚的に表現するために使用してみましょう。",
+          "normalized_text": "円グラフは項目の比重を直観的に分かりやすく表現します。 全体のうち各項目が占める割合を示してみましょう。目標達成率や 予算配分率を視覚的に表現するために使用してみましょう。"
+        },
+        {
+          "shape_index": 18,
+          "x": 0.5401,
+          "y": 0.7111,
+          "w": 0.3479,
+          "h": 0.0454,
+          "max_font_pt": 33.33,
+          "text": "四半期別売上成績",
+          "normalized_text": "四半期別売上成績"
+        },
+        {
+          "shape_index": 19,
+          "x": 0.5401,
+          "y": 0.7713,
+          "w": 0.349,
+          "h": 0.0898,
+          "max_font_pt": 22.06,
+          "text": "エリアチャートは、数値の推移と構成比を同時に視覚化でき、\n四半期ごとの売上やコストの変化を把握するのに適しています。\n全体と項目別の変化を捉え、戦略判断に役立ちます。",
+          "normalized_text": "エリアチャートは、数値の推移と構成比を同時に視覚化でき、 四半期ごとの売上やコストの変化を把握するのに適しています。 全体と項目別の変化を捉え、戦略判断に役立ちます。"
+        },
+        {
+          "shape_index": 20,
+          "x": 0.0359,
+          "y": 0.0574,
+          "w": 0.0573,
+          "h": 0.0815,
+          "max_font_pt": 61.33,
+          "text": "02",
+          "normalized_text": "02"
+        }
+      ]
+    },
+    {
+      "slide_index": 5,
+      "title": "3項目のテキスト構成",
+      "shape_count": 27,
+      "picture_count": 14,
+      "photo_like_picture_indices": [],
+      "table_shape_indices": [],
+      "chart_shape_indices": [],
+      "protected_text_indices": [
+        4
+      ],
+      "title_shape_index": 1,
+      "message_shape_index": 2,
+      "text_slots": [
+        {
+          "shape_index": 1,
+          "x": 0.1062,
+          "y": 0.0657,
+          "w": 0.5891,
+          "h": 0.0426,
+          "max_font_pt": 30.88,
+          "text": "3項目のテキスト構成",
+          "normalized_text": "3項目のテキスト構成"
+        },
+        {
+          "shape_index": 2,
+          "x": 0.1062,
+          "y": 0.1028,
+          "w": 0.5875,
+          "h": 0.0296,
+          "max_font_pt": 21.33,
+          "text": "このページのレイアウトを活用し、様々な内容をわかりやすくまとめてみましょう。",
+          "normalized_text": "このページのレイアウトを活用し、様々な内容をわかりやすくまとめてみましょう。"
+        },
+        {
+          "shape_index": 4,
+          "x": 0.8599,
+          "y": 0.0843,
+          "w": 0.112,
+          "h": 0.0352,
+          "max_font_pt": 25.71,
+          "text": "MIRI Company",
+          "normalized_text": "miri company"
+        },
+        {
+          "shape_index": 10,
+          "x": 0.237,
+          "y": 0.7324,
+          "w": 0.15,
+          "h": 0.0463,
+          "max_font_pt": 34.07,
+          "text": "キーワード3",
+          "normalized_text": "キーワード3"
+        },
+        {
+          "shape_index": 11,
+          "x": 0.237,
+          "y": 0.7833,
+          "w": 0.3594,
+          "h": 0.0667,
+          "max_font_pt": 23.06,
+          "text": "この項目では、キーワード3の説明を書くことができます。\nキーワード１の主な特徴を紹介し、参加者の理解を促しましょう。",
+          "normalized_text": "この項目では、キーワード3の説明を書くことができます。 キーワード１の主な特徴を紹介し、参加者の理解を促しましょう。"
+        },
+        {
+          "shape_index": 13,
+          "x": 0.6339,
+          "y": 0.2972,
+          "w": 0.2062,
+          "h": 0.0815,
+          "max_font_pt": 29.33,
+          "text": "このページは、テーマを\n3つの項目に分けることで、",
+          "normalized_text": "このページは、テーマを 3つの項目に分けることで、"
+        },
+        {
+          "shape_index": 14,
+          "x": 0.6339,
+          "y": 0.5231,
+          "w": 0.2062,
+          "h": 0.0815,
+          "max_font_pt": 29.33,
+          "text": "より分かりやすく\n説明できるページです。",
+          "normalized_text": "より分かりやすく 説明できるページです。"
+        },
+        {
+          "shape_index": 15,
+          "x": 0.6339,
+          "y": 0.75,
+          "w": 0.2062,
+          "h": 0.0815,
+          "max_font_pt": 29.33,
+          "text": "レイアウトを活用し\nまとめてみましょう。",
+          "normalized_text": "レイアウトを活用し まとめてみましょう。"
+        },
+        {
+          "shape_index": 18,
+          "x": 0.237,
+          "y": 0.2815,
+          "w": 0.15,
+          "h": 0.0463,
+          "max_font_pt": 34.07,
+          "text": "キーワード1",
+          "normalized_text": "キーワード1"
+        },
+        {
+          "shape_index": 19,
+          "x": 0.237,
+          "y": 0.3315,
+          "w": 0.3594,
+          "h": 0.0667,
+          "max_font_pt": 23.06,
+          "text": "この項目では、キーワード3の説明を書くことができます。\nキーワード１の主な特徴を紹介し、参加者の理解を促しましょう。",
+          "normalized_text": "この項目では、キーワード3の説明を書くことができます。 キーワード１の主な特徴を紹介し、参加者の理解を促しましょう。"
+        },
+        {
+          "shape_index": 22,
+          "x": 0.237,
+          "y": 0.5083,
+          "w": 0.15,
+          "h": 0.0463,
+          "max_font_pt": 34.07,
+          "text": "キーワード2",
+          "normalized_text": "キーワード2"
+        },
+        {
+          "shape_index": 23,
+          "x": 0.237,
+          "y": 0.5583,
+          "w": 0.3594,
+          "h": 0.0667,
+          "max_font_pt": 23.06,
+          "text": "この項目では、キーワード3の説明を書くことができます。\nキーワード１の主な特徴を紹介し、参加者の理解を促しましょう。",
+          "normalized_text": "この項目では、キーワード3の説明を書くことができます。 キーワード１の主な特徴を紹介し、参加者の理解を促しましょう。"
+        },
+        {
+          "shape_index": 26,
+          "x": 0.0359,
+          "y": 0.0574,
+          "w": 0.0573,
+          "h": 0.0815,
+          "max_font_pt": 61.33,
+          "text": "03",
+          "normalized_text": "03"
+        }
+      ]
+    },
+    {
+      "slide_index": 6,
+      "title": "3段レイアウト",
+      "shape_count": 37,
+      "picture_count": 17,
+      "photo_like_picture_indices": [],
+      "table_shape_indices": [],
+      "chart_shape_indices": [],
+      "protected_text_indices": [
+        34
+      ],
+      "title_shape_index": 30,
+      "message_shape_index": 31,
+      "text_slots": [
+        {
+          "shape_index": 7,
+          "x": 0.4078,
+          "y": 0.3481,
+          "w": 0.1292,
+          "h": 0.0407,
+          "max_font_pt": 29.33,
+          "text": "タイトルを入力",
+          "normalized_text": "タイトルを入力"
+        },
+        {
+          "shape_index": 8,
+          "x": 0.4078,
+          "y": 0.2769,
+          "w": 0.0724,
+          "h": 0.0796,
+          "max_font_pt": 59.68,
+          "text": "02",
+          "normalized_text": "02"
+        },
+        {
+          "shape_index": 9,
+          "x": 0.4078,
+          "y": 0.4444,
+          "w": 0.1844,
+          "h": 0.062,
+          "max_font_pt": 22.66,
+          "text": "当該キーワードに関する説明を\n追加してください。",
+          "normalized_text": "当該キーワードに関する説明を 追加してください。"
+        },
+        {
+          "shape_index": 10,
+          "x": 0.4078,
+          "y": 0.537,
+          "w": 0.1844,
+          "h": 0.062,
+          "max_font_pt": 22.66,
+          "text": "ボタン型リストや番号を活用して\n内容を整理してみましょう。",
+          "normalized_text": "ボタン型リストや番号を活用して 内容を整理してみましょう。"
+        },
+        {
+          "shape_index": 11,
+          "x": 0.4078,
+          "y": 0.6287,
+          "w": 0.1844,
+          "h": 0.062,
+          "max_font_pt": 22.66,
+          "text": "短文で簡潔に分かりやすく\n入力してください。",
+          "normalized_text": "短文で簡潔に分かりやすく 入力してください。"
+        },
+        {
+          "shape_index": 15,
+          "x": 0.6943,
+          "y": 0.3481,
+          "w": 0.1292,
+          "h": 0.0407,
+          "max_font_pt": 29.33,
+          "text": "タイトルを入力",
+          "normalized_text": "タイトルを入力"
+        },
+        {
+          "shape_index": 16,
+          "x": 0.6937,
+          "y": 0.2769,
+          "w": 0.0724,
+          "h": 0.0796,
+          "max_font_pt": 59.68,
+          "text": "03",
+          "normalized_text": "03"
+        },
+        {
+          "shape_index": 17,
+          "x": 0.6937,
+          "y": 0.4444,
+          "w": 0.1844,
+          "h": 0.062,
+          "max_font_pt": 22.66,
+          "text": "当該キーワードに関する説明を\n追加してください。",
+          "normalized_text": "当該キーワードに関する説明を 追加してください。"
+        },
+        {
+          "shape_index": 18,
+          "x": 0.6937,
+          "y": 0.537,
+          "w": 0.1844,
+          "h": 0.062,
+          "max_font_pt": 22.66,
+          "text": "ボタン型リストや番号を活用して\n内容を整理してみましょう。",
+          "normalized_text": "ボタン型リストや番号を活用して 内容を整理してみましょう。"
+        },
+        {
+          "shape_index": 19,
+          "x": 0.6937,
+          "y": 0.6287,
+          "w": 0.1844,
+          "h": 0.062,
+          "max_font_pt": 22.66,
+          "text": "短文で簡潔に分かりやすく\n入力してください。",
+          "normalized_text": "短文で簡潔に分かりやすく 入力してください。"
+        },
+        {
+          "shape_index": 23,
+          "x": 0.1266,
+          "y": 0.3481,
+          "w": 0.1292,
+          "h": 0.0407,
+          "max_font_pt": 29.33,
+          "text": "タイトルを入力",
+          "normalized_text": "タイトルを入力"
+        },
+        {
+          "shape_index": 24,
+          "x": 0.126,
+          "y": 0.2769,
+          "w": 0.0724,
+          "h": 0.0796,
+          "max_font_pt": 59.68,
+          "text": "01",
+          "normalized_text": "01"
+        },
+        {
+          "shape_index": 25,
+          "x": 0.126,
+          "y": 0.4444,
+          "w": 0.1844,
+          "h": 0.062,
+          "max_font_pt": 22.66,
+          "text": "当該キーワードに関する説明を\n追加してください。",
+          "normalized_text": "当該キーワードに関する説明を 追加してください。"
+        },
+        {
+          "shape_index": 26,
+          "x": 0.126,
+          "y": 0.537,
+          "w": 0.1844,
+          "h": 0.062,
+          "max_font_pt": 22.66,
+          "text": "ボタン型リストや番号を活用して\n内容を整理してみましょう。",
+          "normalized_text": "ボタン型リストや番号を活用して 内容を整理してみましょう。"
+        },
+        {
+          "shape_index": 27,
+          "x": 0.126,
+          "y": 0.6287,
+          "w": 0.1844,
+          "h": 0.062,
+          "max_font_pt": 22.66,
+          "text": "短文で簡潔に分かりやすく\n入力してください。",
+          "normalized_text": "短文で簡潔に分かりやすく 入力してください。"
+        },
+        {
+          "shape_index": 30,
+          "x": 0.1062,
+          "y": 0.0657,
+          "w": 0.5891,
+          "h": 0.0426,
+          "max_font_pt": 30.88,
+          "text": "3段レイアウト",
+          "normalized_text": "3段レイアウト"
+        },
+        {
+          "shape_index": 31,
+          "x": 0.1062,
+          "y": 0.1028,
+          "w": 0.5875,
+          "h": 0.0296,
+          "max_font_pt": 21.33,
+          "text": "3つの情報を並べて整理するのに適した ページです。",
+          "normalized_text": "3つの情報を並べて整理するのに適した ページです。"
+        },
+        {
+          "shape_index": 32,
+          "x": 0.0359,
+          "y": 0.0574,
+          "w": 0.0573,
+          "h": 0.0815,
+          "max_font_pt": 61.33,
+          "text": "04",
+          "normalized_text": "04"
+        },
+        {
+          "shape_index": 34,
+          "x": 0.8599,
+          "y": 0.0843,
+          "w": 0.112,
+          "h": 0.0352,
+          "max_font_pt": 25.71,
+          "text": "MIRI Company",
+          "normalized_text": "miri company"
+        },
+        {
+          "shape_index": 36,
+          "x": 0.2229,
+          "y": 0.8157,
+          "w": 0.5536,
+          "h": 0.0648,
+          "max_font_pt": 23.63,
+          "text": "活動内容について説明してみましょう。長文よりも\n短文を使用することでページをよりスッキリと見せることができます。",
+          "normalized_text": "活動内容について説明してみましょう。長文よりも 短文を使用することでページをよりスッキリと見せることができます。"
+        }
+      ]
+    },
+    {
+      "slide_index": 7,
+      "title": "写真とテキストによる4段組み構成",
+      "shape_count": 30,
+      "picture_count": 14,
+      "photo_like_picture_indices": [
+        8,
+        14,
+        20,
+        26
+      ],
+      "table_shape_indices": [],
+      "chart_shape_indices": [],
+      "protected_text_indices": [
+        5
+      ],
+      "title_shape_index": 1,
+      "message_shape_index": 2,
+      "text_slots": [
+        {
+          "shape_index": 1,
+          "x": 0.1062,
+          "y": 0.0657,
+          "w": 0.5891,
+          "h": 0.0426,
+          "max_font_pt": 30.88,
+          "text": "写真とテキストによる4段組み構成",
+          "normalized_text": "写真とテキストによる4段組み構成"
+        },
+        {
+          "shape_index": 2,
+          "x": 0.1062,
+          "y": 0.1028,
+          "w": 0.5875,
+          "h": 0.0296,
+          "max_font_pt": 21.33,
+          "text": "写真とその説明を4つの項目に分けることで、より理解度を深めることができるページです。",
+          "normalized_text": "写真とその説明を4つの項目に分けることで、より理解度を深めることができるページです。"
+        },
+        {
+          "shape_index": 3,
+          "x": 0.0359,
+          "y": 0.0574,
+          "w": 0.0573,
+          "h": 0.0815,
+          "max_font_pt": 61.33,
+          "text": "05",
+          "normalized_text": "05"
+        },
+        {
+          "shape_index": 5,
+          "x": 0.8599,
+          "y": 0.0843,
+          "w": 0.112,
+          "h": 0.0352,
+          "max_font_pt": 25.71,
+          "text": "MIRI Company",
+          "normalized_text": "miri company"
+        },
+        {
+          "shape_index": 9,
+          "x": 0.2359,
+          "y": 0.2407,
+          "w": 0.1292,
+          "h": 0.0407,
+          "max_font_pt": 29.33,
+          "text": "タイトルを入力",
+          "normalized_text": "タイトルを入力"
+        },
+        {
+          "shape_index": 10,
+          "x": 0.1505,
+          "y": 0.2537,
+          "w": 0.0615,
+          "h": 0.063,
+          "max_font_pt": 46.66,
+          "text": "01",
+          "normalized_text": "01"
+        },
+        {
+          "shape_index": 11,
+          "x": 0.2359,
+          "y": 0.2833,
+          "w": 0.4333,
+          "h": 0.0574,
+          "max_font_pt": 19.86,
+          "text": "この文章はダミーです。写真とその説明を4つの項目に分けることで、より理解度を深めることが\nできるページです。他の項目との違いを記入することで、特徴を強調することもできます。",
+          "normalized_text": "この文章はダミーです。写真とその説明を4つの項目に分けることで、より理解度を深めることが できるページです。他の項目との違いを記入することで、特徴を強調することもできます。"
+        },
+        {
+          "shape_index": 15,
+          "x": 0.2359,
+          "y": 0.4278,
+          "w": 0.1292,
+          "h": 0.0407,
+          "max_font_pt": 29.33,
+          "text": "タイトルを入力",
+          "normalized_text": "タイトルを入力"
+        },
+        {
+          "shape_index": 16,
+          "x": 0.1505,
+          "y": 0.4398,
+          "w": 0.0615,
+          "h": 0.063,
+          "max_font_pt": 46.66,
+          "text": "02",
+          "normalized_text": "02"
+        },
+        {
+          "shape_index": 17,
+          "x": 0.2359,
+          "y": 0.4694,
+          "w": 0.4333,
+          "h": 0.0574,
+          "max_font_pt": 19.86,
+          "text": "この文章はダミーです。写真とその説明を4つの項目に分けることで、より理解度を深めることが\nできるページです。他の項目との違いを記入することで、特徴を強調することもできます。",
+          "normalized_text": "この文章はダミーです。写真とその説明を4つの項目に分けることで、より理解度を深めることが できるページです。他の項目との違いを記入することで、特徴を強調することもできます。"
+        },
+        {
+          "shape_index": 21,
+          "x": 0.2359,
+          "y": 0.6139,
+          "w": 0.1292,
+          "h": 0.0407,
+          "max_font_pt": 29.33,
+          "text": "タイトルを入力",
+          "normalized_text": "タイトルを入力"
+        },
+        {
+          "shape_index": 22,
+          "x": 0.1505,
+          "y": 0.6259,
+          "w": 0.0615,
+          "h": 0.063,
+          "max_font_pt": 46.66,
+          "text": "03",
+          "normalized_text": "03"
+        },
+        {
+          "shape_index": 23,
+          "x": 0.2359,
+          "y": 0.6565,
+          "w": 0.4333,
+          "h": 0.0574,
+          "max_font_pt": 19.86,
+          "text": "この文章はダミーです。写真とその説明を4つの項目に分けることで、より理解度を深めることが\nできるページです。他の項目との違いを記入することで、特徴を強調することもできます。",
+          "normalized_text": "この文章はダミーです。写真とその説明を4つの項目に分けることで、より理解度を深めることが できるページです。他の項目との違いを記入することで、特徴を強調することもできます。"
+        },
+        {
+          "shape_index": 27,
+          "x": 0.2359,
+          "y": 0.8,
+          "w": 0.1292,
+          "h": 0.0407,
+          "max_font_pt": 29.33,
+          "text": "タイトルを入力",
+          "normalized_text": "タイトルを入力"
+        },
+        {
+          "shape_index": 28,
+          "x": 0.1505,
+          "y": 0.813,
+          "w": 0.0615,
+          "h": 0.063,
+          "max_font_pt": 46.66,
+          "text": "04",
+          "normalized_text": "04"
+        },
+        {
+          "shape_index": 29,
+          "x": 0.2359,
+          "y": 0.8426,
+          "w": 0.4333,
+          "h": 0.0574,
+          "max_font_pt": 19.86,
+          "text": "この文章はダミーです。写真とその説明を4つの項目に分けることで、より理解度を深めることが\nできるページです。他の項目との違いを記入することで、特徴を強調することもできます。",
+          "normalized_text": "この文章はダミーです。写真とその説明を4つの項目に分けることで、より理解度を深めることが できるページです。他の項目との違いを記入することで、特徴を強調することもできます。"
+        }
+      ]
+    },
+    {
+      "slide_index": 8,
+      "title": "写真とテキストによる4段組み構成",
+      "shape_count": 18,
+      "picture_count": 6,
+      "photo_like_picture_indices": [],
+      "table_shape_indices": [],
+      "chart_shape_indices": [],
+      "protected_text_indices": [
+        5
+      ],
+      "title_shape_index": 1,
+      "message_shape_index": 2,
+      "text_slots": [
+        {
+          "shape_index": 1,
+          "x": 0.1062,
+          "y": 0.0657,
+          "w": 0.5891,
+          "h": 0.0426,
+          "max_font_pt": 30.88,
+          "text": "写真とテキストによる4段組み構成",
+          "normalized_text": "写真とテキストによる4段組み構成"
+        },
+        {
+          "shape_index": 2,
+          "x": 0.1062,
+          "y": 0.1028,
+          "w": 0.5875,
+          "h": 0.0296,
+          "max_font_pt": 21.33,
+          "text": "写真とその説明を4つの項目に分けることで、より理解度を深めることができるページです。",
+          "normalized_text": "写真とその説明を4つの項目に分けることで、より理解度を深めることができるページです。"
+        },
+        {
+          "shape_index": 3,
+          "x": 0.0359,
+          "y": 0.0574,
+          "w": 0.0573,
+          "h": 0.0815,
+          "max_font_pt": 61.33,
+          "text": "06",
+          "normalized_text": "06"
+        },
+        {
+          "shape_index": 5,
+          "x": 0.8599,
+          "y": 0.0843,
+          "w": 0.112,
+          "h": 0.0352,
+          "max_font_pt": 25.71,
+          "text": "MIRI Company",
+          "normalized_text": "miri company"
+        },
+        {
+          "shape_index": 7,
+          "x": 0.313,
+          "y": 0.5713,
+          "w": 0.1292,
+          "h": 0.0417,
+          "max_font_pt": 30.66,
+          "text": "タイトルを入力",
+          "normalized_text": "タイトルを入力"
+        },
+        {
+          "shape_index": 8,
+          "x": 0.313,
+          "y": 0.6296,
+          "w": 0.1682,
+          "h": 0.2204,
+          "max_font_pt": 18.66,
+          "text": "この文章はダミーです。写真とその\n説明を4つの項目に分けることで、\nより理解度を深めることができる\nページです。タイトル1の特徴と\nメリットを記入し、よりわかりやすい\n資料にしてみましょう。他の項目との\n違いを記入することで、\n特徴を強調することもできます。",
+          "normalized_text": "この文章はダミーです。写真とその 説明を4つの項目に分けることで、 より理解度を深めることができる ページです。タイトル1の特徴と メリットを記入し、よりわかりやすい 資料にしてみましょう。他の項目との 違いを記入することで、 特徴を強調することもできます。"
+        },
+        {
+          "shape_index": 10,
+          "x": 0.5318,
+          "y": 0.5713,
+          "w": 0.1292,
+          "h": 0.0417,
+          "max_font_pt": 30.66,
+          "text": "タイトルを入力",
+          "normalized_text": "タイトルを入力"
+        },
+        {
+          "shape_index": 11,
+          "x": 0.5318,
+          "y": 0.6296,
+          "w": 0.1682,
+          "h": 0.2204,
+          "max_font_pt": 18.66,
+          "text": "この文章はダミーです。写真とその\n説明を4つの項目に分けることで、\nより理解度を深めることができる\nページです。タイトル1の特徴と\nメリットを記入し、よりわかりやすい\n資料にしてみましょう。他の項目との\n違いを記入することで、\n特徴を強調することもできます。",
+          "normalized_text": "この文章はダミーです。写真とその 説明を4つの項目に分けることで、 より理解度を深めることができる ページです。タイトル1の特徴と メリットを記入し、よりわかりやすい 資料にしてみましょう。他の項目との 違いを記入することで、 特徴を強調することもできます。"
+        },
+        {
+          "shape_index": 13,
+          "x": 0.7505,
+          "y": 0.5713,
+          "w": 0.1292,
+          "h": 0.0417,
+          "max_font_pt": 30.66,
+          "text": "タイトルを入力",
+          "normalized_text": "タイトルを入力"
+        },
+        {
+          "shape_index": 14,
+          "x": 0.7505,
+          "y": 0.6296,
+          "w": 0.1682,
+          "h": 0.2204,
+          "max_font_pt": 18.66,
+          "text": "この文章はダミーです。写真とその\n説明を4つの項目に分けることで、\nより理解度を深めることができる\nページです。タイトル1の特徴と\nメリットを記入し、よりわかりやすい\n資料にしてみましょう。他の項目との\n違いを記入することで、\n特徴を強調することもできます。",
+          "normalized_text": "この文章はダミーです。写真とその 説明を4つの項目に分けることで、 より理解度を深めることができる ページです。タイトル1の特徴と メリットを記入し、よりわかりやすい 資料にしてみましょう。他の項目との 違いを記入することで、 特徴を強調することもできます。"
+        },
+        {
+          "shape_index": 16,
+          "x": 0.0948,
+          "y": 0.5713,
+          "w": 0.1292,
+          "h": 0.0417,
+          "max_font_pt": 30.66,
+          "text": "タイトルを入力",
+          "normalized_text": "タイトルを入力"
+        },
+        {
+          "shape_index": 17,
+          "x": 0.0948,
+          "y": 0.6296,
+          "w": 0.1682,
+          "h": 0.2204,
+          "max_font_pt": 18.66,
+          "text": "この文章はダミーです。写真とその\n説明を4つの項目に分けることで、\nより理解度を深めることができる\nページです。タイトル1の特徴と\nメリットを記入し、よりわかりやすい\n資料にしてみましょう。他の項目との\n違いを記入することで、\n特徴を強調することもできます。",
+          "normalized_text": "この文章はダミーです。写真とその 説明を4つの項目に分けることで、 より理解度を深めることができる ページです。タイトル1の特徴と メリットを記入し、よりわかりやすい 資料にしてみましょう。他の項目との 違いを記入することで、 特徴を強調することもできます。"
+        }
+      ]
+    },
+    {
+      "slide_index": 9,
+      "title": "組織図",
+      "shape_count": 68,
+      "picture_count": 34,
+      "photo_like_picture_indices": [],
+      "table_shape_indices": [],
+      "chart_shape_indices": [],
+      "protected_text_indices": [
+        5
+      ],
+      "title_shape_index": 1,
+      "message_shape_index": 2,
+      "text_slots": [
+        {
+          "shape_index": 1,
+          "x": 0.1062,
+          "y": 0.0657,
+          "w": 0.5891,
+          "h": 0.0426,
+          "max_font_pt": 30.88,
+          "text": "組織図",
+          "normalized_text": "組織図"
+        },
+        {
+          "shape_index": 2,
+          "x": 0.1062,
+          "y": 0.1028,
+          "w": 0.5875,
+          "h": 0.0296,
+          "max_font_pt": 21.33,
+          "text": "組織の配置が一目で分かるページです。",
+          "normalized_text": "組織の配置が一目で分かるページです。"
+        },
+        {
+          "shape_index": 3,
+          "x": 0.0359,
+          "y": 0.0574,
+          "w": 0.0573,
+          "h": 0.0815,
+          "max_font_pt": 61.33,
+          "text": "07",
+          "normalized_text": "07"
+        },
+        {
+          "shape_index": 5,
+          "x": 0.8599,
+          "y": 0.0843,
+          "w": 0.112,
+          "h": 0.0352,
+          "max_font_pt": 25.71,
+          "text": "MIRI Company",
+          "normalized_text": "miri company"
+        },
+        {
+          "shape_index": 10,
+          "x": 0.4896,
+          "y": 0.2731,
+          "w": 0.0922,
+          "h": 0.0259,
+          "max_font_pt": 18.46,
+          "text": "山本真人",
+          "normalized_text": "山本真人"
+        },
+        {
+          "shape_index": 11,
+          "x": 0.4896,
+          "y": 0.2352,
+          "w": 0.0938,
+          "h": 0.0407,
+          "max_font_pt": 29.84,
+          "text": "CEO",
+          "normalized_text": "ceo"
+        },
+        {
+          "shape_index": 14,
+          "x": 0.7984,
+          "y": 0.4824,
+          "w": 0.0922,
+          "h": 0.0259,
+          "max_font_pt": 18.46,
+          "text": "山本真人",
+          "normalized_text": "山本真人"
+        },
+        {
+          "shape_index": 15,
+          "x": 0.7984,
+          "y": 0.4509,
+          "w": 0.0995,
+          "h": 0.0324,
+          "max_font_pt": 22.92,
+          "text": "マーケティング部",
+          "normalized_text": "マーケティング部"
+        },
+        {
+          "shape_index": 17,
+          "x": 0.7854,
+          "y": 0.6148,
+          "w": 0.0745,
+          "h": 0.0259,
+          "max_font_pt": 18.0,
+          "text": "黒沢 恵",
+          "normalized_text": "黒沢 恵"
+        },
+        {
+          "shape_index": 19,
+          "x": 0.7854,
+          "y": 0.6833,
+          "w": 0.0745,
+          "h": 0.0259,
+          "max_font_pt": 18.0,
+          "text": "中村 大輔",
+          "normalized_text": "中村 大輔"
+        },
+        {
+          "shape_index": 21,
+          "x": 0.7854,
+          "y": 0.7519,
+          "w": 0.0745,
+          "h": 0.0259,
+          "max_font_pt": 18.0,
+          "text": "下村 彩香",
+          "normalized_text": "下村 彩香"
+        },
+        {
+          "shape_index": 23,
+          "x": 0.7854,
+          "y": 0.8204,
+          "w": 0.0745,
+          "h": 0.0259,
+          "max_font_pt": 18.0,
+          "text": "井上 千佳",
+          "normalized_text": "井上 千佳"
+        },
+        {
+          "shape_index": 25,
+          "x": 0.7854,
+          "y": 0.8889,
+          "w": 0.0745,
+          "h": 0.0259,
+          "max_font_pt": 18.0,
+          "text": "高橋 健太",
+          "normalized_text": "高橋 健太"
+        },
+        {
+          "shape_index": 28,
+          "x": 0.5932,
+          "y": 0.4815,
+          "w": 0.0922,
+          "h": 0.0259,
+          "max_font_pt": 18.46,
+          "text": "山本真人",
+          "normalized_text": "山本真人"
+        },
+        {
+          "shape_index": 29,
+          "x": 0.5938,
+          "y": 0.45,
+          "w": 0.0995,
+          "h": 0.0324,
+          "max_font_pt": 22.92,
+          "text": "情報システム部",
+          "normalized_text": "情報システム部"
+        },
+        {
+          "shape_index": 31,
+          "x": 0.5807,
+          "y": 0.613,
+          "w": 0.0745,
+          "h": 0.0259,
+          "max_font_pt": 18.0,
+          "text": "黒沢 恵",
+          "normalized_text": "黒沢 恵"
+        },
+        {
+          "shape_index": 33,
+          "x": 0.5807,
+          "y": 0.6815,
+          "w": 0.0745,
+          "h": 0.0259,
+          "max_font_pt": 18.0,
+          "text": "中村 大輔",
+          "normalized_text": "中村 大輔"
+        },
+        {
+          "shape_index": 35,
+          "x": 0.5807,
+          "y": 0.75,
+          "w": 0.0745,
+          "h": 0.0259,
+          "max_font_pt": 18.0,
+          "text": "下村 彩香",
+          "normalized_text": "下村 彩香"
+        },
+        {
+          "shape_index": 37,
+          "x": 0.5807,
+          "y": 0.8185,
+          "w": 0.0745,
+          "h": 0.0259,
+          "max_font_pt": 18.0,
+          "text": "井上 千佳",
+          "normalized_text": "井上 千佳"
+        },
+        {
+          "shape_index": 39,
+          "x": 0.5807,
+          "y": 0.887,
+          "w": 0.0745,
+          "h": 0.0259,
+          "max_font_pt": 18.0,
+          "text": "高橋 健太",
+          "normalized_text": "高橋 健太"
+        },
+        {
+          "shape_index": 42,
+          "x": 0.3885,
+          "y": 0.4815,
+          "w": 0.0922,
+          "h": 0.0259,
+          "max_font_pt": 18.46,
+          "text": "山本真人",
+          "normalized_text": "山本真人"
+        },
+        {
+          "shape_index": 43,
+          "x": 0.3885,
+          "y": 0.45,
+          "w": 0.0995,
+          "h": 0.0324,
+          "max_font_pt": 22.92,
+          "text": "デザイン部",
+          "normalized_text": "デザイン部"
+        },
+        {
+          "shape_index": 45,
+          "x": 0.3755,
+          "y": 0.613,
+          "w": 0.0745,
+          "h": 0.0259,
+          "max_font_pt": 18.0,
+          "text": "黒沢 恵",
+          "normalized_text": "黒沢 恵"
+        },
+        {
+          "shape_index": 47,
+          "x": 0.3755,
+          "y": 0.6815,
+          "w": 0.0745,
+          "h": 0.0259,
+          "max_font_pt": 18.0,
+          "text": "中村 大輔",
+          "normalized_text": "中村 大輔"
+        },
+        {
+          "shape_index": 49,
+          "x": 0.3755,
+          "y": 0.75,
+          "w": 0.0745,
+          "h": 0.0259,
+          "max_font_pt": 18.0,
+          "text": "下村 彩香",
+          "normalized_text": "下村 彩香"
+        },
+        {
+          "shape_index": 51,
+          "x": 0.3755,
+          "y": 0.8185,
+          "w": 0.0745,
+          "h": 0.0259,
+          "max_font_pt": 18.0,
+          "text": "井上 千佳",
+          "normalized_text": "井上 千佳"
+        },
+        {
+          "shape_index": 53,
+          "x": 0.3755,
+          "y": 0.887,
+          "w": 0.0745,
+          "h": 0.0259,
+          "max_font_pt": 18.0,
+          "text": "高橋 健太",
+          "normalized_text": "高橋 健太"
+        },
+        {
+          "shape_index": 56,
+          "x": 0.1839,
+          "y": 0.4815,
+          "w": 0.0922,
+          "h": 0.0259,
+          "max_font_pt": 18.46,
+          "text": "山本真人",
+          "normalized_text": "山本真人"
+        },
+        {
+          "shape_index": 57,
+          "x": 0.1839,
+          "y": 0.45,
+          "w": 0.0995,
+          "h": 0.0324,
+          "max_font_pt": 22.92,
+          "text": "総務部",
+          "normalized_text": "総務部"
+        },
+        {
+          "shape_index": 59,
+          "x": 0.1708,
+          "y": 0.613,
+          "w": 0.0745,
+          "h": 0.0259,
+          "max_font_pt": 18.0,
+          "text": "黒沢 恵",
+          "normalized_text": "黒沢 恵"
+        },
+        {
+          "shape_index": 61,
+          "x": 0.1708,
+          "y": 0.6815,
+          "w": 0.0745,
+          "h": 0.0259,
+          "max_font_pt": 18.0,
+          "text": "中村 大輔",
+          "normalized_text": "中村 大輔"
+        },
+        {
+          "shape_index": 63,
+          "x": 0.1708,
+          "y": 0.75,
+          "w": 0.0745,
+          "h": 0.0259,
+          "max_font_pt": 18.0,
+          "text": "下村 彩香",
+          "normalized_text": "下村 彩香"
+        },
+        {
+          "shape_index": 65,
+          "x": 0.1708,
+          "y": 0.8185,
+          "w": 0.0745,
+          "h": 0.0259,
+          "max_font_pt": 18.0,
+          "text": "井上 千佳",
+          "normalized_text": "井上 千佳"
+        },
+        {
+          "shape_index": 67,
+          "x": 0.1708,
+          "y": 0.887,
+          "w": 0.0745,
+          "h": 0.0259,
+          "max_font_pt": 18.0,
+          "text": "高橋 健太",
+          "normalized_text": "高橋 健太"
+        }
+      ]
+    },
+    {
+      "slide_index": 10,
+      "title": "会社概要",
+      "shape_count": 13,
+      "picture_count": 5,
+      "photo_like_picture_indices": [
+        2
+      ],
+      "table_shape_indices": [
+        8
+      ],
+      "chart_shape_indices": [],
+      "protected_text_indices": [
+        7,
+        12
+      ],
+      "title_shape_index": 3,
+      "message_shape_index": 4,
+      "text_slots": [
+        {
+          "shape_index": 3,
+          "x": 0.1062,
+          "y": 0.0657,
+          "w": 0.5891,
+          "h": 0.0426,
+          "max_font_pt": 30.88,
+          "text": "会社概要",
+          "normalized_text": "会社概要"
+        },
+        {
+          "shape_index": 4,
+          "x": 0.1062,
+          "y": 0.1028,
+          "w": 0.5875,
+          "h": 0.0296,
+          "max_font_pt": 21.33,
+          "text": "会社の主要な情報を紹介するのに適したページです。",
+          "normalized_text": "会社の主要な情報を紹介するのに適したページです。"
+        },
+        {
+          "shape_index": 5,
+          "x": 0.0359,
+          "y": 0.0574,
+          "w": 0.0573,
+          "h": 0.0815,
+          "max_font_pt": 61.33,
+          "text": "08",
+          "normalized_text": "08"
+        },
+        {
+          "shape_index": 7,
+          "x": 0.8599,
+          "y": 0.0843,
+          "w": 0.112,
+          "h": 0.0352,
+          "max_font_pt": 25.71,
+          "text": "MIRI Company",
+          "normalized_text": "miri company"
+        },
+        {
+          "shape_index": 9,
+          "x": 0.5,
+          "y": 0.3954,
+          "w": 0.251,
+          "h": 0.0694,
+          "max_font_pt": 25.33,
+          "text": "会社の哲学とビジョンを印象に残るように\n要約してみましょう。",
+          "normalized_text": "会社の哲学とビジョンを印象に残るように 要約してみましょう。"
+        },
+        {
+          "shape_index": 10,
+          "x": 0.5,
+          "y": 0.2481,
+          "w": 0.4354,
+          "h": 0.1306,
+          "max_font_pt": 53.37,
+          "text": "変化する時代の中で、\n新しい価値を生み出し続けます。",
+          "normalized_text": "変化する時代の中で、 新しい価値を生み出し続けます。"
+        },
+        {
+          "shape_index": 12,
+          "x": 0.3234,
+          "y": 0.4296,
+          "w": 0.0953,
+          "h": 0.0306,
+          "max_font_pt": 21.78,
+          "text": "MIRI Company",
+          "normalized_text": "miri company"
+        }
+      ]
+    },
+    {
+      "slide_index": 11,
+      "title": "業績ハイライト",
+      "shape_count": 31,
+      "picture_count": 8,
+      "photo_like_picture_indices": [],
+      "table_shape_indices": [],
+      "chart_shape_indices": [],
+      "protected_text_indices": [
+        5
+      ],
+      "title_shape_index": 1,
+      "message_shape_index": 2,
+      "text_slots": [
+        {
+          "shape_index": 1,
+          "x": 0.1062,
+          "y": 0.0657,
+          "w": 0.5891,
+          "h": 0.0426,
+          "max_font_pt": 30.88,
+          "text": "業績ハイライト",
+          "normalized_text": "業績ハイライト"
+        },
+        {
+          "shape_index": 2,
+          "x": 0.1062,
+          "y": 0.1028,
+          "w": 0.5875,
+          "h": 0.0296,
+          "max_font_pt": 21.33,
+          "text": "会社の最近の業績に関する主要数値を要約して入力してください。",
+          "normalized_text": "会社の最近の業績に関する主要数値を要約して入力してください。"
+        },
+        {
+          "shape_index": 3,
+          "x": 0.0359,
+          "y": 0.0574,
+          "w": 0.0573,
+          "h": 0.0815,
+          "max_font_pt": 61.33,
+          "text": "09",
+          "normalized_text": "09"
+        },
+        {
+          "shape_index": 5,
+          "x": 0.8599,
+          "y": 0.0843,
+          "w": 0.112,
+          "h": 0.0352,
+          "max_font_pt": 25.71,
+          "text": "MIRI Company",
+          "normalized_text": "miri company"
+        },
+        {
+          "shape_index": 8,
+          "x": 0.1531,
+          "y": 0.3028,
+          "w": 0.162,
+          "h": 0.0417,
+          "max_font_pt": 30.71,
+          "text": "売上額",
+          "normalized_text": "売上額"
+        },
+        {
+          "shape_index": 9,
+          "x": 0.1187,
+          "y": 0.3398,
+          "w": 0.224,
+          "h": 0.1019,
+          "max_font_pt": 77.01,
+          "text": "750億円",
+          "normalized_text": "750億円"
+        },
+        {
+          "shape_index": 10,
+          "x": 0.1536,
+          "y": 0.4426,
+          "w": 0.1615,
+          "h": 0.0352,
+          "max_font_pt": 25.27,
+          "text": "進捗率 55%",
+          "normalized_text": "進捗率 55%"
+        },
+        {
+          "shape_index": 11,
+          "x": 0.1531,
+          "y": 0.588,
+          "w": 0.162,
+          "h": 0.0417,
+          "max_font_pt": 30.71,
+          "text": "当期純利益",
+          "normalized_text": "当期純利益"
+        },
+        {
+          "shape_index": 12,
+          "x": 0.1187,
+          "y": 0.625,
+          "w": 0.224,
+          "h": 0.1019,
+          "max_font_pt": 77.01,
+          "text": "70億円",
+          "normalized_text": "70億円"
+        },
+        {
+          "shape_index": 13,
+          "x": 0.1531,
+          "y": 0.7278,
+          "w": 0.1615,
+          "h": 0.0361,
+          "max_font_pt": 26.32,
+          "text": "前年同期比 +25%",
+          "normalized_text": "前年同期比 +25%"
+        },
+        {
+          "shape_index": 16,
+          "x": 0.4188,
+          "y": 0.3028,
+          "w": 0.162,
+          "h": 0.0417,
+          "max_font_pt": 30.71,
+          "text": "営業利益",
+          "normalized_text": "営業利益"
+        },
+        {
+          "shape_index": 17,
+          "x": 0.388,
+          "y": 0.3398,
+          "w": 0.224,
+          "h": 0.1019,
+          "max_font_pt": 77.01,
+          "text": "100億円",
+          "normalized_text": "100億円"
+        },
+        {
+          "shape_index": 18,
+          "x": 0.4193,
+          "y": 0.4426,
+          "w": 0.1615,
+          "h": 0.0352,
+          "max_font_pt": 25.27,
+          "text": "進捗率 55%",
+          "normalized_text": "進捗率 55%"
+        },
+        {
+          "shape_index": 19,
+          "x": 0.4224,
+          "y": 0.5889,
+          "w": 0.162,
+          "h": 0.0417,
+          "max_font_pt": 30.71,
+          "text": "営業利益率",
+          "normalized_text": "営業利益率"
+        },
+        {
+          "shape_index": 20,
+          "x": 0.388,
+          "y": 0.625,
+          "w": 0.224,
+          "h": 0.1019,
+          "max_font_pt": 77.01,
+          "text": "11.3%",
+          "normalized_text": "11.3%"
+        },
+        {
+          "shape_index": 21,
+          "x": 0.4229,
+          "y": 0.7287,
+          "w": 0.1615,
+          "h": 0.0352,
+          "max_font_pt": 25.27,
+          "text": "進捗率 55%",
+          "normalized_text": "進捗率 55%"
+        },
+        {
+          "shape_index": 24,
+          "x": 0.6917,
+          "y": 0.3019,
+          "w": 0.162,
+          "h": 0.0417,
+          "max_font_pt": 30.71,
+          "text": "経常利益",
+          "normalized_text": "経常利益"
+        },
+        {
+          "shape_index": 25,
+          "x": 0.6573,
+          "y": 0.3389,
+          "w": 0.224,
+          "h": 0.1019,
+          "max_font_pt": 77.01,
+          "text": "110億円",
+          "normalized_text": "110億円"
+        },
+        {
+          "shape_index": 26,
+          "x": 0.6917,
+          "y": 0.4417,
+          "w": 0.1615,
+          "h": 0.0361,
+          "max_font_pt": 26.32,
+          "text": "前年同期比 +25%",
+          "normalized_text": "前年同期比 +25%"
+        },
+        {
+          "shape_index": 27,
+          "x": 0.6917,
+          "y": 0.5889,
+          "w": 0.162,
+          "h": 0.0417,
+          "max_font_pt": 30.71,
+          "text": "EBITDA",
+          "normalized_text": "ebitda"
+        },
+        {
+          "shape_index": 28,
+          "x": 0.6573,
+          "y": 0.625,
+          "w": 0.224,
+          "h": 0.1019,
+          "max_font_pt": 77.01,
+          "text": "250億円",
+          "normalized_text": "250億円"
+        },
+        {
+          "shape_index": 29,
+          "x": 0.6922,
+          "y": 0.7287,
+          "w": 0.1615,
+          "h": 0.0352,
+          "max_font_pt": 25.27,
+          "text": "進捗率55%",
+          "normalized_text": "進捗率55%"
+        },
+        {
+          "shape_index": 30,
+          "x": 0.1099,
+          "y": 0.8361,
+          "w": 0.3958,
+          "h": 0.0296,
+          "max_font_pt": 21.33,
+          "text": "※進捗率は通期業績予想に対する第2四半期終了時点",
+          "normalized_text": "※進捗率は通期業績予想に対する第2四半期終了時点"
+        }
+      ]
+    },
+    {
+      "slide_index": 12,
+      "title": "ベン図",
+      "shape_count": 21,
+      "picture_count": 10,
+      "photo_like_picture_indices": [],
+      "table_shape_indices": [],
+      "chart_shape_indices": [],
+      "protected_text_indices": [
+        7
+      ],
+      "title_shape_index": 3,
+      "message_shape_index": 4,
+      "text_slots": [
+        {
+          "shape_index": 3,
+          "x": 0.1062,
+          "y": 0.0657,
+          "w": 0.5891,
+          "h": 0.0426,
+          "max_font_pt": 30.88,
+          "text": "ベン図",
+          "normalized_text": "ベン図"
+        },
+        {
+          "shape_index": 4,
+          "x": 0.1062,
+          "y": 0.1028,
+          "w": 0.5875,
+          "h": 0.0296,
+          "max_font_pt": 21.33,
+          "text": "共通部分と差集合が一目で把握しやすいページです。",
+          "normalized_text": "共通部分と差集合が一目で把握しやすいページです。"
+        },
+        {
+          "shape_index": 5,
+          "x": 0.0359,
+          "y": 0.0574,
+          "w": 0.0573,
+          "h": 0.0815,
+          "max_font_pt": 61.33,
+          "text": "10",
+          "normalized_text": "10"
+        },
+        {
+          "shape_index": 7,
+          "x": 0.8599,
+          "y": 0.0843,
+          "w": 0.112,
+          "h": 0.0352,
+          "max_font_pt": 25.71,
+          "text": "MIRI Company",
+          "normalized_text": "miri company"
+        },
+        {
+          "shape_index": 10,
+          "x": 0.4089,
+          "y": 0.3759,
+          "w": 0.1938,
+          "h": 0.0676,
+          "max_font_pt": 24.66,
+          "text": "AとBのグループが共有する\n特性を並べてください。",
+          "normalized_text": "aとbのグループが共有する 特性を並べてください。"
+        },
+        {
+          "shape_index": 12,
+          "x": 0.4089,
+          "y": 0.5269,
+          "w": 0.1938,
+          "h": 0.0676,
+          "max_font_pt": 24.66,
+          "text": "グループ間の共通点と違いを\n要約してください。",
+          "normalized_text": "グループ間の共通点と違いを 要約してください。"
+        },
+        {
+          "shape_index": 14,
+          "x": 0.4089,
+          "y": 0.6787,
+          "w": 0.1938,
+          "h": 0.0676,
+          "max_font_pt": 24.66,
+          "text": "該当するバン図の内容を簡単に紹介してください。",
+          "normalized_text": "該当するバン図の内容を簡単に紹介してください。"
+        },
+        {
+          "shape_index": 16,
+          "x": 0.7297,
+          "y": 0.2907,
+          "w": 0.137,
+          "h": 0.0611,
+          "max_font_pt": 45.33,
+          "text": "Bの特性",
+          "normalized_text": "bの特性"
+        },
+        {
+          "shape_index": 17,
+          "x": 0.6964,
+          "y": 0.4315,
+          "w": 0.2036,
+          "h": 0.3269,
+          "max_font_pt": 22.06,
+          "text": "Bグループの固有の特徴を説明してください。\nBグループにのみ該当する属性を並べてください。\nBグループがAグループと違う点を強調してください。\nBグループの固有の特徴を\n説明してください。",
+          "normalized_text": "bグループの固有の特徴を説明してください。 bグループにのみ該当する属性を並べてください。 bグループがaグループと違う点を強調してください。 bグループの固有の特徴を 説明してください。"
+        },
+        {
+          "shape_index": 19,
+          "x": 0.1495,
+          "y": 0.2907,
+          "w": 0.137,
+          "h": 0.0611,
+          "max_font_pt": 45.33,
+          "text": "Aの特性",
+          "normalized_text": "aの特性"
+        },
+        {
+          "shape_index": 20,
+          "x": 0.1161,
+          "y": 0.4315,
+          "w": 0.2036,
+          "h": 0.3269,
+          "max_font_pt": 22.06,
+          "text": "Aグループの固有の特徴を説明してください。\nAグループにのみ該当する属性を並べてください。\nAグループがBグループと違う点を強調してください。\nAグループの固有の特徴を\n説明してください。",
+          "normalized_text": "aグループの固有の特徴を説明してください。 aグループにのみ該当する属性を並べてください。 aグループがbグループと違う点を強調してください。 aグループの固有の特徴を 説明してください。"
+        }
+      ]
+    },
+    {
+      "slide_index": 13,
+      "title": "時間の経過",
+      "shape_count": 40,
+      "picture_count": 20,
+      "photo_like_picture_indices": [
+        7,
+        15,
+        23,
+        31,
+        33
+      ],
+      "table_shape_indices": [],
+      "chart_shape_indices": [],
+      "protected_text_indices": [
+        6
+      ],
+      "title_shape_index": 2,
+      "message_shape_index": 3,
+      "text_slots": [
+        {
+          "shape_index": 2,
+          "x": 0.1062,
+          "y": 0.0657,
+          "w": 0.5891,
+          "h": 0.0426,
+          "max_font_pt": 30.88,
+          "text": "時間の経過",
+          "normalized_text": "時間の経過"
+        },
+        {
+          "shape_index": 3,
+          "x": 0.1062,
+          "y": 0.1028,
+          "w": 0.5875,
+          "h": 0.0296,
+          "max_font_pt": 21.33,
+          "text": "時間の経過に沿って起きた主な出来事と変化を示すページです。",
+          "normalized_text": "時間の経過に沿って起きた主な出来事と変化を示すページです。"
+        },
+        {
+          "shape_index": 4,
+          "x": 0.0359,
+          "y": 0.0574,
+          "w": 0.0573,
+          "h": 0.0815,
+          "max_font_pt": 61.33,
+          "text": "11",
+          "normalized_text": "11"
+        },
+        {
+          "shape_index": 6,
+          "x": 0.8599,
+          "y": 0.0843,
+          "w": 0.112,
+          "h": 0.0352,
+          "max_font_pt": 25.71,
+          "text": "MIRI Company",
+          "normalized_text": "miri company"
+        },
+        {
+          "shape_index": 10,
+          "x": 0.1156,
+          "y": 0.6167,
+          "w": 0.1547,
+          "h": 0.0537,
+          "max_font_pt": 19.36,
+          "text": "当該年度に発生した主な出来事を説明してください。",
+          "normalized_text": "当該年度に発生した主な出来事を説明してください。"
+        },
+        {
+          "shape_index": 11,
+          "x": 0.1156,
+          "y": 0.6889,
+          "w": 0.1542,
+          "h": 0.0537,
+          "max_font_pt": 19.36,
+          "text": "当該年度の主な出来事について記入してみましょう。",
+          "normalized_text": "当該年度の主な出来事について記入してみましょう。"
+        },
+        {
+          "shape_index": 12,
+          "x": 0.1156,
+          "y": 0.7611,
+          "w": 0.1547,
+          "h": 0.0796,
+          "max_font_pt": 19.36,
+          "text": "時間の経過を自然に 繋げてタイムラインを完成させてください。",
+          "normalized_text": "時間の経過を自然に 繋げてタイムラインを完成させてください。"
+        },
+        {
+          "shape_index": 13,
+          "x": 0.1234,
+          "y": 0.5185,
+          "w": 0.1203,
+          "h": 0.0648,
+          "max_font_pt": 48.0,
+          "text": "20XX",
+          "normalized_text": "20xx"
+        },
+        {
+          "shape_index": 18,
+          "x": 0.3271,
+          "y": 0.6167,
+          "w": 0.1547,
+          "h": 0.0537,
+          "max_font_pt": 19.36,
+          "text": "当該年度に発生した主な出来事を説明してください。",
+          "normalized_text": "当該年度に発生した主な出来事を説明してください。"
+        },
+        {
+          "shape_index": 19,
+          "x": 0.3271,
+          "y": 0.6889,
+          "w": 0.1542,
+          "h": 0.0537,
+          "max_font_pt": 19.36,
+          "text": "当該年度の主な出来事について記入してみましょう。",
+          "normalized_text": "当該年度の主な出来事について記入してみましょう。"
+        },
+        {
+          "shape_index": 20,
+          "x": 0.3271,
+          "y": 0.7611,
+          "w": 0.1547,
+          "h": 0.0796,
+          "max_font_pt": 19.36,
+          "text": "時間の経過を自然に 繋げてタイムラインを完成させてください。",
+          "normalized_text": "時間の経過を自然に 繋げてタイムラインを完成させてください。"
+        },
+        {
+          "shape_index": 21,
+          "x": 0.3344,
+          "y": 0.5185,
+          "w": 0.1203,
+          "h": 0.0648,
+          "max_font_pt": 48.0,
+          "text": "20XX",
+          "normalized_text": "20xx"
+        },
+        {
+          "shape_index": 26,
+          "x": 0.538,
+          "y": 0.6167,
+          "w": 0.1547,
+          "h": 0.0537,
+          "max_font_pt": 19.36,
+          "text": "当該年度に発生した主な出来事を説明してください。",
+          "normalized_text": "当該年度に発生した主な出来事を説明してください。"
+        },
+        {
+          "shape_index": 27,
+          "x": 0.538,
+          "y": 0.6889,
+          "w": 0.1542,
+          "h": 0.0537,
+          "max_font_pt": 19.36,
+          "text": "当該年度の主な出来事について記入してみましょう。",
+          "normalized_text": "当該年度の主な出来事について記入してみましょう。"
+        },
+        {
+          "shape_index": 28,
+          "x": 0.538,
+          "y": 0.7611,
+          "w": 0.1547,
+          "h": 0.0796,
+          "max_font_pt": 19.36,
+          "text": "時間の経過を自然に 繋げてタイムラインを完成させてください。",
+          "normalized_text": "時間の経過を自然に 繋げてタイムラインを完成させてください。"
+        },
+        {
+          "shape_index": 29,
+          "x": 0.5453,
+          "y": 0.5185,
+          "w": 0.1203,
+          "h": 0.0648,
+          "max_font_pt": 48.0,
+          "text": "20XX",
+          "normalized_text": "20xx"
+        },
+        {
+          "shape_index": 35,
+          "x": 0.749,
+          "y": 0.6167,
+          "w": 0.1547,
+          "h": 0.0537,
+          "max_font_pt": 19.36,
+          "text": "当該年度に発生した主な出来事を説明してください。",
+          "normalized_text": "当該年度に発生した主な出来事を説明してください。"
+        },
+        {
+          "shape_index": 36,
+          "x": 0.749,
+          "y": 0.6889,
+          "w": 0.1542,
+          "h": 0.0537,
+          "max_font_pt": 19.36,
+          "text": "当該年度の主な出来事について記入してみましょう。",
+          "normalized_text": "当該年度の主な出来事について記入してみましょう。"
+        },
+        {
+          "shape_index": 37,
+          "x": 0.749,
+          "y": 0.7611,
+          "w": 0.1547,
+          "h": 0.0796,
+          "max_font_pt": 19.36,
+          "text": "時間の経過を自然に 繋げてタイムラインを完成させてください。",
+          "normalized_text": "時間の経過を自然に 繋げてタイムラインを完成させてください。"
+        },
+        {
+          "shape_index": 38,
+          "x": 0.7562,
+          "y": 0.5185,
+          "w": 0.1203,
+          "h": 0.0648,
+          "max_font_pt": 48.0,
+          "text": "20XX",
+          "normalized_text": "20xx"
+        }
+      ]
+    },
+    {
+      "slide_index": 14,
+      "title": "4段レイアウト",
+      "shape_count": 32,
+      "picture_count": 16,
+      "photo_like_picture_indices": [
+        6,
+        7
+      ],
+      "table_shape_indices": [],
+      "chart_shape_indices": [],
+      "protected_text_indices": [
+        16
+      ],
+      "title_shape_index": 12,
+      "message_shape_index": 13,
+      "text_slots": [
+        {
+          "shape_index": 2,
+          "x": 0.7359,
+          "y": 0.4,
+          "w": 0.1609,
+          "h": 0.1102,
+          "max_font_pt": 18.72,
+          "text": "当該キーワードに関する説明を\n追加してください。\nボタン型リストや番号を\n活用して内容を整理してみましょう。",
+          "normalized_text": "当該キーワードに関する説明を 追加してください。 ボタン型リストや番号を 活用して内容を整理してみましょう。"
+        },
+        {
+          "shape_index": 4,
+          "x": 0.7734,
+          "y": 0.3519,
+          "w": 0.0859,
+          "h": 0.0352,
+          "max_font_pt": 25.38,
+          "text": "キーワード",
+          "normalized_text": "キーワード"
+        },
+        {
+          "shape_index": 5,
+          "x": 0.8068,
+          "y": 0.3213,
+          "w": 0.0193,
+          "h": 0.0278,
+          "max_font_pt": 20.0,
+          "text": "2",
+          "normalized_text": "2"
+        },
+        {
+          "shape_index": 12,
+          "x": 0.1062,
+          "y": 0.0657,
+          "w": 0.5891,
+          "h": 0.0426,
+          "max_font_pt": 30.88,
+          "text": "4段レイアウト",
+          "normalized_text": "4段レイアウト"
+        },
+        {
+          "shape_index": 13,
+          "x": 0.1062,
+          "y": 0.1028,
+          "w": 0.5875,
+          "h": 0.0296,
+          "max_font_pt": 21.33,
+          "text": "4つの情報を並べて整理するのに適した ページです。",
+          "normalized_text": "4つの情報を並べて整理するのに適した ページです。"
+        },
+        {
+          "shape_index": 14,
+          "x": 0.0359,
+          "y": 0.0574,
+          "w": 0.0573,
+          "h": 0.0815,
+          "max_font_pt": 61.33,
+          "text": "12",
+          "normalized_text": "12"
+        },
+        {
+          "shape_index": 16,
+          "x": 0.8599,
+          "y": 0.0843,
+          "w": 0.112,
+          "h": 0.0352,
+          "max_font_pt": 25.71,
+          "text": "MIRI Company",
+          "normalized_text": "miri company"
+        },
+        {
+          "shape_index": 18,
+          "x": 0.0984,
+          "y": 0.4,
+          "w": 0.1609,
+          "h": 0.1102,
+          "max_font_pt": 18.72,
+          "text": "当該キーワードに関する説明を\n追加してください。\nボタン型リストや番号を\n活用して内容を整理してみましょう。",
+          "normalized_text": "当該キーワードに関する説明を 追加してください。 ボタン型リストや番号を 活用して内容を整理してみましょう。"
+        },
+        {
+          "shape_index": 20,
+          "x": 0.1359,
+          "y": 0.3519,
+          "w": 0.0859,
+          "h": 0.0352,
+          "max_font_pt": 25.38,
+          "text": "キーワード",
+          "normalized_text": "キーワード"
+        },
+        {
+          "shape_index": 21,
+          "x": 0.1688,
+          "y": 0.3213,
+          "w": 0.0193,
+          "h": 0.0278,
+          "max_font_pt": 20.0,
+          "text": "1",
+          "normalized_text": "1"
+        },
+        {
+          "shape_index": 23,
+          "x": 0.0984,
+          "y": 0.6991,
+          "w": 0.1609,
+          "h": 0.1102,
+          "max_font_pt": 18.72,
+          "text": "当該キーワードに関する説明を\n追加してください。\nボタン型リストや番号を\n活用して内容を整理してみましょう。",
+          "normalized_text": "当該キーワードに関する説明を 追加してください。 ボタン型リストや番号を 活用して内容を整理してみましょう。"
+        },
+        {
+          "shape_index": 25,
+          "x": 0.1359,
+          "y": 0.6509,
+          "w": 0.0859,
+          "h": 0.0352,
+          "max_font_pt": 25.38,
+          "text": "キーワード",
+          "normalized_text": "キーワード"
+        },
+        {
+          "shape_index": 26,
+          "x": 0.1688,
+          "y": 0.6194,
+          "w": 0.0193,
+          "h": 0.0278,
+          "max_font_pt": 20.0,
+          "text": "3",
+          "normalized_text": "3"
+        },
+        {
+          "shape_index": 28,
+          "x": 0.7359,
+          "y": 0.6991,
+          "w": 0.1609,
+          "h": 0.1102,
+          "max_font_pt": 18.72,
+          "text": "当該キーワードに関する説明を\n追加してください。\nボタン型リストや番号を\n活用して内容を整理してみましょう。",
+          "normalized_text": "当該キーワードに関する説明を 追加してください。 ボタン型リストや番号を 活用して内容を整理してみましょう。"
+        },
+        {
+          "shape_index": 30,
+          "x": 0.7734,
+          "y": 0.6509,
+          "w": 0.0859,
+          "h": 0.0352,
+          "max_font_pt": 25.38,
+          "text": "キーワード",
+          "normalized_text": "キーワード"
+        },
+        {
+          "shape_index": 31,
+          "x": 0.8068,
+          "y": 0.6194,
+          "w": 0.0193,
+          "h": 0.0278,
+          "max_font_pt": 20.0,
+          "text": "4",
+          "normalized_text": "4"
+        }
+      ]
+    },
+    {
+      "slide_index": 15,
+      "title": "QnA",
+      "shape_count": 5,
+      "picture_count": 3,
+      "photo_like_picture_indices": [],
+      "table_shape_indices": [],
+      "chart_shape_indices": [],
+      "protected_text_indices": [],
+      "title_shape_index": 2,
+      "message_shape_index": 3,
+      "text_slots": [
+        {
+          "shape_index": 2,
+          "x": 0.2521,
+          "y": 0.3306,
+          "w": 0.449,
+          "h": 0.3259,
+          "max_font_pt": 249.93,
+          "text": "QnA",
+          "normalized_text": "qna"
+        },
+        {
+          "shape_index": 3,
+          "x": 0.2333,
+          "y": 0.6296,
+          "w": 0.4979,
+          "h": 0.087,
+          "max_font_pt": 32.0,
+          "text": "いままでけいしょうしてくださってありがとうございます。\n10分間自由に質問にお答えします。",
+          "normalized_text": "いままでけいしょうしてくださってありがとうございます。 10分間自由に質問にお答えします。"
+        }
+      ]
+    },
+    {
+      "slide_index": 16,
+      "title": "Thank you",
+      "shape_count": 14,
+      "picture_count": 6,
+      "photo_like_picture_indices": [],
+      "table_shape_indices": [],
+      "chart_shape_indices": [],
+      "protected_text_indices": [
+        4
+      ],
+      "title_shape_index": 0,
+      "message_shape_index": 2,
+      "text_slots": [
+        {
+          "shape_index": 0,
+          "x": 0.062,
+          "y": 0.2796,
+          "w": 0.425,
+          "h": 0.1231,
+          "max_font_pt": 93.33,
+          "text": "Thank you",
+          "normalized_text": "thank you"
+        },
+        {
+          "shape_index": 2,
+          "x": 0.0708,
+          "y": 0.825,
+          "w": 0.1198,
+          "h": 0.0269,
+          "max_font_pt": 18.66,
+          "text": "ミリカンパニーOO部部長",
+          "normalized_text": "ミリカンパニーoo部部長"
+        },
+        {
+          "shape_index": 4,
+          "x": 0.0932,
+          "y": 0.2287,
+          "w": 0.1276,
+          "h": 0.0398,
+          "max_font_pt": 29.27,
+          "text": "MIRI Company",
+          "normalized_text": "miri company"
+        },
+        {
+          "shape_index": 5,
+          "x": 0.0641,
+          "y": 0.8667,
+          "w": 0.1016,
+          "h": 0.0333,
+          "max_font_pt": 24.0,
+          "text": ": 小林麻里子",
+          "normalized_text": ": 小林麻里子"
+        },
+        {
+          "shape_index": 7,
+          "x": 0.2271,
+          "y": 0.825,
+          "w": 0.0609,
+          "h": 0.0269,
+          "max_font_pt": 18.66,
+          "text": "E-MAIL",
+          "normalized_text": "e-mail"
+        },
+        {
+          "shape_index": 8,
+          "x": 0.2208,
+          "y": 0.8667,
+          "w": 0.1307,
+          "h": 0.0333,
+          "max_font_pt": 24.0,
+          "text": ": miridih@miridih.com",
+          "normalized_text": ": miridih@miridih.com"
+        },
+        {
+          "shape_index": 12,
+          "x": 0.3823,
+          "y": 0.825,
+          "w": 0.1198,
+          "h": 0.0269,
+          "max_font_pt": 18.66,
+          "text": "TEL",
+          "normalized_text": "tel"
+        },
+        {
+          "shape_index": 13,
+          "x": 0.376,
+          "y": 0.8667,
+          "w": 0.1307,
+          "h": 0.0333,
+          "max_font_pt": 24.0,
+          "text": ": 000-0000-0000",
+          "normalized_text": ": 000-0000-0000"
+        }
+      ]
+    }
+  ]
+}

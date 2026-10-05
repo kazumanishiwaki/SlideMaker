@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PPT Slide Builder</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header class="app-header">
+    <div>
+      <div class="eyebrow">Codex App Server Prototype</div>
+      <h1>PPT Slide Builder</h1>
+    </div>
+    <div class="header-actions">
+      <select id="modelSelect" aria-label="model">
+        <option value="gpt-5.6-sol">GPT-5.6 Sol</option>
+      </select>
+      <select id="effortSelect" aria-label="reasoning effort">
+        <option value="high">high</option>
+        <option value="medium">medium</option>
+        <option value="low">low</option>
+      </select>
+      <button id="connectCodex" class="ghost">Codexに接続</button>
+      <span id="codexBadge" class="status muted">未接続</span>
+    </div>
+  </header>
+
+  <nav class="steps" aria-label="progress">
+    <button data-screen="input" class="step active"><span>1</span>入力</button>
+    <button data-screen="work" class="step" disabled><span>2</span>構成・制作</button>
+    <button data-screen="review" class="step" disabled><span>3</span>最終確認</button>
+  </nav>
+
+  <main>
+    <section id="screen-input" class="screen active">
+      <div class="hero-grid">
+        <div class="panel primary-panel">
+          <div class="panel-head">
+            <div>
+              <div class="eyebrow">INPUT</div>
+              <h2>元PPTと原稿を登録</h2>
+            </div>
+            <button id="loadDemo" class="ghost">テストケースを読み込む</button>
+          </div>
+          <label class="field">
+            <span>プロジェクト名</span>
+            <input id="projectName" value="slide-project" />
+          </label>
+          <div class="upload-grid">
+            <label class="upload-card required">
+              <strong>元PPTX</strong>
+              <small>デザイン文法とレイアウト資産を解析</small>
+              <input id="pptFile" type="file" accept=".pptx" />
+              <span class="file-name" data-for="pptFile">未選択</span>
+            </label>
+            <label class="upload-card required">
+              <strong>原稿</strong>
+              <small>DOCX / Markdown / Text</small>
+              <input id="manuscriptFile" type="file" accept=".docx,.md,.txt" />
+              <span class="file-name" data-for="manuscriptFile">未選択</span>
+            </label>
+            <label class="upload-card required">
+              <strong>design.md</strong>
+              <small>Hard / Soft Constraints</small>
+              <input id="designFile" type="file" accept=".md,.txt" />
+              <span class="file-name" data-for="designFile">未選択</span>
+            </label>
+            <label class="upload-card">
+              <strong>画像素材（任意）</strong>
+              <small>写真・スクリーンショットを複数登録</small>
+              <input id="assetFiles" type="file" accept="image/*" multiple />
+              <span class="file-name" data-for="assetFiles">未選択</span>
+            </label>
+          </div>
+          <details class="details-box">
+            <summary>詳細設定</summary>
+            <div class="settings-grid">
+              <label>確認モード<select id="reviewMode"><option value="detailed">詳細</option><option value="standard">標準</option><option value="automatic">自動</option></select></label>
+              <label>元PPTらしさ<select id="sourceContinuity"><option value="strong">強く残す</option><option value="balanced" selected>バランス</option><option value="content_first">内容を優先</option></select></label>
+              <label>推奨ページ数<input id="slideCount" type="number" placeholder="自動" min="1" max="60" /></label>
+            </div>
+          </details>
+          <div class="action-row">
+            <button id="createProject" class="primary">解析して構成を作る</button>
+            <span id="inputStatus" class="helper"></span>
+          </div>
+        </div>
+
+        <aside class="panel side-info">
+          <div class="eyebrow">FLOW</div>
+          <h3>ユーザーが見るのは3段階</h3>
+          <ol class="simple-flow">
+            <li><b>構成を決める</b><span>原稿とPPTを解析して話の流れを提案</span></li>
+            <li><b>スライドを作る</b><span>代表ページを確認後、全体へ展開</span></li>
+            <li><b>確認・修正する</b><span>問題ページだけ直し、他ページを保持</span></li>
+          </ol>
+          <p class="note">内部ではSource of Truth / Decision / STALE / QAを分離して管理します。</p>
+        </aside>
+      </div>
+    </section>
+
+    <section id="screen-work" class="screen">
+      <div class="workspace-shell">
+        <aside class="slide-rail">
+          <div class="rail-head">
+            <div>
+              <div class="eyebrow">SLIDES</div>
+              <b id="projectLabel">Project</b>
+            </div>
+            <span id="uiStateBadge" class="status">構成確認</span>
+          </div>
+          <div id="slideList" class="slide-list"></div>
+        </aside>
+
+        <section class="canvas-area">
+          <div class="canvas-toolbar">
+            <div>
+              <div class="eyebrow" id="slideRole">ROLE</div>
+              <h2 id="slideMessage">スライドを選択</h2>
+            </div>
+            <div class="toolbar-actions">
+              <button id="approveStructure" class="ghost">構成を承認</button>
+              <button id="askCodexStructure" class="primary">Codexで構成を精査</button>
+              <button id="planSamples" class="primary" hidden>代表3ページを設計</button>
+              <button id="composeSamples" class="ghost" hidden>試作PPTXを合成</button>
+              <button id="fixSampleQa" class="ghost danger-action" hidden>QA問題をCodexで修正</button>
+              <button id="planFullDeck" class="primary" hidden>このルールで残りを設計</button>
+            </div>
+          </div>
+          <div id="slidePreview" class="slide-preview empty">
+            <div class="preview-placeholder">構成案を選択するとプレビュー情報を表示します</div>
+          </div>
+          <div class="prompt-bar">
+            <textarea id="instruction" rows="2" placeholder="このページへの指示… 例：写真ではなく図解に / 文章を半分に"></textarea>
+            <button id="sendInstruction" class="primary">送信</button>
+          </div>
+          <div id="agentStream" class="agent-stream" hidden></div>
+        </section>
+
+        <aside class="inspector">
+          <div class="inspector-section">
+            <div class="eyebrow">MESSAGE</div>
+            <textarea id="messageEditor" rows="4" placeholder="メインメッセージ"></textarea>
+          </div>
+          <div class="inspector-section two-col">
+            <label>表現形式<input id="visualType" readonly /></label>
+            <label>元PPT<input id="sourceSlide" readonly /></label>
+          </div>
+          <div class="inspector-section">
+            <label class="policy-field">レイアウト方針
+              <select id="fillPolicy">
+                <option value="auto">自動判定</option>
+                <option value="preserve_source">元PPTの余白を維持</option>
+                <option value="intentional_whitespace">余白を活かす</option>
+                <option value="balanced">バランスよく配置</option>
+                <option value="content_filled">情報を大きく展開</option>
+                <option value="full_bleed">ビジュアルを全面活用</option>
+              </select>
+            </label>
+            <p id="fillPolicyNote" class="policy-note"></p>
+          </div>
+          <div id="imageSection" class="inspector-section image-section" hidden>
+            <div class="section-row"><b>画像</b><span id="imageStatus" class="status muted">未準備</span></div>
+            <p id="imageArtDirection" class="policy-note"></p>
+            <div id="imageRecipeList" class="image-recipe-list"></div>
+            <div class="image-recipe-editor">
+              <label>画像の内容<input id="imagePrompt" type="text" placeholder="この画像で伝える内容" /></label>
+              <label>文字用の余白<select id="imageNegativeSpace">
+                <option value="none">指定なし</option>
+                <option value="left">左側</option>
+                <option value="right">右側</option>
+                <option value="top">上側</option>
+                <option value="bottom">下側</option>
+              </select></label>
+              <button id="saveImageRecipe" class="ghost">画像方針を更新</button>
+            </div>
+            <label class="compact-upload">画像を指定
+              <input id="replacementImageFile" type="file" accept="image/*" />
+            </label>
+            <div class="mini-actions image-actions">
+              <button id="uploadReplacementImage" class="ghost">指定画像を適用</button>
+              <button id="autoSelectImage" class="primary">登録画像から自動選定</button>
+              <button id="generateImageOpenAI" class="ghost">別案をAI生成</button>
+            </div>
+            <p class="policy-note">元PPTの画像を参照し、対象枠へのクロップ、色温度・明度・彩度・コントラスト・細部密度の調整、既存写真枠の保持を行います。</p>
+          </div>
+          <div class="inspector-section">
+            <div class="section-row"><b>変更内容</b><button id="toggleChanges" class="text-button">見る</button></div>
+            <div id="changeSummary" class="change-summary"></div>
+          </div>
+          <details class="inspector-section">
+            <summary>判断理由</summary>
+            <div id="rationale" class="rationale"></div>
+          </details>
+          <div class="inspector-actions">
+            <button id="acceptSlide" class="primary">OK</button>
+            <button id="alternateSlide" class="ghost">別案</button>
+            <button id="lockSlide" class="ghost">このページを固定</button>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="screen-review" class="screen">
+      <div class="review-wrap">
+        <div class="panel-head">
+          <div><div class="eyebrow">FINAL REVIEW</div><h2>最終確認</h2></div>
+          <div class="toolbar-actions"><button id="exportSkeleton" class="ghost">構成スケルトンを書き出す</button><button id="exportPptx" class="primary" disabled>最終PPTXを書き出す</button></div>
+        </div>
+        <p class="note">問題のあるページだけ警告します。構成スケルトンは技術確認用です。最終PPTXは全ページのSlide PlanがCURRENTで、合成後のblocking QAが0件の場合だけ書き出せます。Deck Harmonyのwarningは確認情報として返します。</p>
+        <div id="reviewGrid" class="review-grid"></div>
+      </div>
+    </section>
+  </main>
+
+  <div id="approvalModal" class="modal" hidden>
+    <div class="modal-card">
+      <div class="eyebrow">CODEX APPROVAL</div>
+      <h3>Codexが操作の許可を求めています</h3>
+      <pre id="approvalDetail"></pre>
+      <div class="action-row">
+        <button id="approvalDecline" class="ghost">拒否</button>
+        <button id="approvalAccept" class="primary">許可</button>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="/app.js"></script>
+</body>
+</html>

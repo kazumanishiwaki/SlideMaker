@@ -1,0 +1,605 @@
+{
+  "schema_version": "0.1",
+  "generated_at": "2026-08-16T14:13:42.299623+00:00",
+  "kind": "layout_grid_poc",
+  "pptx": "/mnt/data/layout-intent-smoke/output/layout-grid-poc.pptx",
+  "status": "pass",
+  "blocking_count": 0,
+  "warning_count": 0,
+  "checks": [
+    {
+      "check_id": "SLIDE_COUNT_MAP",
+      "result": "pass",
+      "severity": "info",
+      "actual": 1
+    },
+    {
+      "check_id": "TEMPLATE_CHROME_GEOMETRY",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S001",
+      "source_object_id": "SRC-S015-O002"
+    },
+    {
+      "check_id": "TEMPLATE_CHROME_GEOMETRY",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S001",
+      "source_object_id": "SRC-S015-O017"
+    },
+    {
+      "check_id": "LAYOUT_FIT_TO_INTENT",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S001",
+      "family": "grid",
+      "score": 0.964,
+      "assessment": "適正",
+      "fill_policy": "content_filled",
+      "fill_policy_source": "system",
+      "intentional_whitespace": false,
+      "accidental_dead_space": false,
+      "reason_codes": [
+        "FIT_TO_INTENT"
+      ],
+      "content_extent_width_ratio": 1.0,
+      "content_extent_height_ratio": 0.941,
+      "occupied_area_ratio": 0.825,
+      "center_offset_x_ratio": 0.0,
+      "center_offset_y_ratio": 0.029,
+      "thresholds": {
+        "w": 0.88,
+        "h": 0.62,
+        "area": 0.389,
+        "max_edge_void": 0.3,
+        "max_center_x": 0.38,
+        "max_center_y": 0.38
+      }
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S001",
+      "shape_id": 19,
+      "role": "title"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S001",
+      "shape_id": 20,
+      "role": "subtitle"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S001",
+      "shape_id": 22,
+      "role": "number"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S001",
+      "shape_id": 23,
+      "role": "item_title"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S001",
+      "shape_id": 24,
+      "role": "item_body"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S001",
+      "shape_id": 27,
+      "role": "number"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S001",
+      "shape_id": 28,
+      "role": "item_title"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S001",
+      "shape_id": 29,
+      "role": "item_body"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S001",
+      "shape_id": 32,
+      "role": "number"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S001",
+      "shape_id": 33,
+      "role": "item_title"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S001",
+      "shape_id": 34,
+      "role": "item_body"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S001",
+      "shape_id": 37,
+      "role": "number"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S001",
+      "shape_id": 38,
+      "role": "item_title"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S001",
+      "shape_id": 39,
+      "role": "item_body"
+    },
+    {
+      "check_id": "LIBREOFFICE_RENDER",
+      "result": "pass",
+      "severity": "blocking",
+      "rendered_pages": 1
+    },
+    {
+      "check_id": "UNEXPECTED_PIXEL_DIFF",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S001",
+      "source_slide_id": "SRC-S015",
+      "changed_pixels": 0,
+      "checked_pixels": 872329,
+      "changed_ratio": 0.0,
+      "mean_max_channel_delta": 0.0,
+      "max_channel_delta": 0,
+      "threshold": 16,
+      "mask_padding_px": 12,
+      "debug": "/mnt/data/layout-intent-smoke/render/output_validation/layout-grid-poc/diff/OUT-S001.png"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S001",
+      "shape_id": 19,
+      "role": "title",
+      "expected": "管理画面から主要設定を変更"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S001",
+      "shape_id": 19,
+      "role": "title",
+      "rendered_bbox": [
+        86.4,
+        155.0,
+        489.17,
+        199.9
+      ],
+      "shape_bbox": [
+        86.4,
+        159.96,
+        1833.59,
+        234.03
+      ]
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S001",
+      "shape_id": 20,
+      "role": "subtitle",
+      "expected": "公開後も担当者が更新できます"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S001",
+      "shape_id": 20,
+      "role": "subtitle",
+      "rendered_bbox": [
+        86.4,
+        241.44,
+        338.4,
+        267.5
+      ],
+      "shape_bbox": [
+        86.4,
+        244.33,
+        1833.59,
+        283.55
+      ]
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S001",
+      "shape_id": 22,
+      "role": "number",
+      "expected": "01"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S001",
+      "shape_id": 22,
+      "role": "number",
+      "rendered_bbox": [
+        114.18,
+        375.68,
+        126.76,
+        390.66
+      ],
+      "shape_bbox": [
+        103.68,
+        366.23,
+        137.36,
+        399.91
+      ]
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S001",
+      "shape_id": 23,
+      "role": "item_title",
+      "expected": "キャンペーン"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S001",
+      "shape_id": 23,
+      "role": "item_title",
+      "rendered_bbox": [
+        103.69,
+        407.28,
+        216.98,
+        434.78
+      ],
+      "shape_bbox": [
+        103.68,
+        410.28,
+        933.36,
+        459.27
+      ]
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S001",
+      "shape_id": 24,
+      "role": "item_body",
+      "expected": "商品・店舗・応募方法\n期間・規約・問い合わせ先"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S001",
+      "shape_id": 24,
+      "role": "item_body",
+      "rendered_bbox": [
+        103.69,
+        464.27,
+        308.09,
+        509.55
+      ],
+      "shape_bbox": [
+        103.68,
+        467.05,
+        933.36,
+        637.85
+      ]
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S001",
+      "shape_id": 27,
+      "role": "number",
+      "expected": "02"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S001",
+      "shape_id": 27,
+      "role": "number",
+      "rendered_bbox": [
+        997.14,
+        375.68,
+        1009.72,
+        390.66
+      ],
+      "shape_bbox": [
+        986.64,
+        366.23,
+        1020.32,
+        399.91
+      ]
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S001",
+      "shape_id": 28,
+      "role": "item_title",
+      "expected": "フォーム"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S001",
+      "shape_id": 28,
+      "role": "item_title",
+      "rendered_bbox": [
+        986.65,
+        407.28,
+        1062.24,
+        434.78
+      ],
+      "shape_bbox": [
+        986.64,
+        410.28,
+        1816.31,
+        459.27
+      ]
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S001",
+      "shape_id": 29,
+      "role": "item_body",
+      "expected": "追加質問・回答形式\n必須設定・レシート枚数"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S001",
+      "shape_id": 29,
+      "role": "item_body",
+      "rendered_bbox": [
+        986.65,
+        464.27,
+        1174.03,
+        509.55
+      ],
+      "shape_bbox": [
+        986.64,
+        467.05,
+        1816.31,
+        637.85
+      ]
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S001",
+      "shape_id": 32,
+      "role": "number",
+      "expected": "03"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S001",
+      "shape_id": 32,
+      "role": "number",
+      "rendered_bbox": [
+        114.18,
+        700.59,
+        126.76,
+        715.57
+      ],
+      "shape_bbox": [
+        103.68,
+        691.13,
+        137.36,
+        724.81
+      ]
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S001",
+      "shape_id": 33,
+      "role": "item_title",
+      "expected": "ビジュアル"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S001",
+      "shape_id": 33,
+      "role": "item_title",
+      "rendered_bbox": [
+        103.69,
+        732.18,
+        197.04,
+        759.68
+      ],
+      "shape_bbox": [
+        103.68,
+        735.18,
+        933.36,
+        784.17
+      ]
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S001",
+      "shape_id": 34,
+      "role": "item_body",
+      "expected": "テンプレート・フォント・配色\n画像・OGP・favicon"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S001",
+      "shape_id": 34,
+      "role": "item_body",
+      "rendered_bbox": [
+        103.69,
+        789.18,
+        341.63,
+        834.54
+      ],
+      "shape_bbox": [
+        103.68,
+        791.95,
+        933.36,
+        962.75
+      ]
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S001",
+      "shape_id": 37,
+      "role": "number",
+      "expected": "04"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S001",
+      "shape_id": 37,
+      "role": "number",
+      "rendered_bbox": [
+        997.14,
+        700.59,
+        1009.72,
+        715.57
+      ],
+      "shape_bbox": [
+        986.64,
+        691.13,
+        1020.32,
+        724.81
+      ]
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S001",
+      "shape_id": 38,
+      "role": "item_title",
+      "expected": "メール・計測"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S001",
+      "shape_id": 38,
+      "role": "item_title",
+      "rendered_bbox": [
+        986.65,
+        732.18,
+        1100.89,
+        759.68
+      ],
+      "shape_bbox": [
+        986.64,
+        735.18,
+        1816.31,
+        784.17
+      ]
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S001",
+      "shape_id": 39,
+      "role": "item_body",
+      "expected": "自動返信メール・GA4\nGoogle Tag Manager"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S001",
+      "shape_id": 39,
+      "role": "item_body",
+      "rendered_bbox": [
+        986.65,
+        789.18,
+        1160.1,
+        834.54
+      ],
+      "shape_bbox": [
+        986.64,
+        791.95,
+        1816.31,
+        962.75
+      ]
+    }
+  ],
+  "rendered_pages": [
+    "/mnt/data/layout-intent-smoke/render/output_validation/layout-grid-poc/SRC-S001.png"
+  ],
+  "notes": [
+    "v0.5 QA covers package/render, template chrome geometry, mutation/layout-scoped pixel diff, source and layout-generated object bounds, fit-to-intent layout quality (intentional whitespace vs accidental dead space), rendered text presence/overflow/overlap, table/chart editability checks, and first-pass Japanese/Latin wrap heuristics. Semantic line-break quality still benefits from Sol review."
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "version": "0.10.0",
+  "release_type": "simplification",
+  "model_call_contract": {
+    "normal_generation_calls": 2,
+    "repair_call_limit_per_slide": 1
+  },
+  "pipeline": [
+    "input_analysis",
+    "deck_plan",
+    "slide_plan",
+    "compose",
+    "validate"
+  ],
+  "renderer_groups": [
+    "statement",
+    "grid",
+    "media",
+    "flow",
+    "data"
+  ],
+  "deck": "Aha! レシート Lite 全9ページ",
+  "pptx": "examples/aha-receipt-full-deck/aha-receipt-lite-golden-v0.10.0.pptx",
+  "montage": "examples/aha-receipt-full-deck/aha-receipt-lite-golden-v0.10.0-montage.png",
+  "blocking_count": 0,
+  "warning_count": 0,
+  "category_counts": {
+    "technical": {
+      "fail": 0,
+      "blocking": 0
+    },
+    "content": {
+      "fail": 0,
+      "blocking": 0
+    },
+    "design": {
+      "fail": 0,
+      "blocking": 0
+    }
+  },
+  "deck_harmony_warning_count": 0,
+  "image_blocking_count": 0,
+  "image_warning_count": 0,
+  "image_coherence_warning_count": 0,
+  "slides": [
+    {
+      "slide_id": "OUT-S001",
+      "message": "レシートキャンペーンを、公開準備から抽選までひとつに",
+      "semantic_relation": "statement",
+      "family": "full_bleed",
+      "renderer_group": "media",
+      "fit_score": 1.0,
+      "quality": "pass"
+    },
+    {
+      "slide_id": "OUT-S002",
+      "message": "必要な機能を標準化するから、導入しやすい",
+      "semantic_relation": "evidence",
+      "family": "photo_text",
+      "renderer_group": "media",
+      "fit_score": 0.983,
+      "quality": "pass"
+    },
+    {
+      "slide_id": "OUT-S003",
+      "message": "Googleフォーム・Lite・フル版の違い",
+      "semantic_relation": "comparison",
+      "family": "comparison_matrix",
+      "renderer_group": "grid",
+      "fit_score": 1.0,
+      "quality": "pass"
+    },
+    {
+      "slide_id": "OUT-S004",
+      "message": "20年間の知見を、導入しやすい標準機能へ",
+      "semantic_relation": "cause_effect",
+      "family": "process",
+      "renderer_group": "flow",
+      "fit_score": 0.835,
+      "quality": "pass"
+    },
+    {
+      "slide_id": "OUT-S005",
+      "message": "素材が揃えば、最短即日で公開可能",
+      "semantic_relation": "statement",
+      "family": "statement",
+      "renderer_group": "statement",
+      "fit_score": 0.907,
+      "quality": "pass"
+    },
+    {
+      "slide_id": "OUT-S006",
+      "message": "公開・受付・確認・抽選を、一つの管理画面で",
+      "semantic_relation": "sequence",
+      "family": "process",
+      "renderer_group": "flow",
+      "fit_score": 0.835,
+      "quality": "pass"
+    },
+    {
+      "slide_id": "OUT-S007",
+      "message": "公開後も、担当者が主要設定を変更できる",
+      "semantic_relation": "evidence",
+      "family": "photo_text",
+      "renderer_group": "media",
+      "fit_score": 0.983,
+      "quality": "pass"
+    },
+    {
+      "slide_id": "OUT-S008",
+      "message": "Liteから始め、必要な要件だけ拡張できる",
+      "semantic_relation": "containment",
+      "family": "process",
+      "renderer_group": "flow",
+      "fit_score": 0.852,
+      "quality": "pass"
+    },
+    {
+      "slide_id": "OUT-S009",
+      "message": "デモ・見積・導入相談へ",
+      "semantic_relation": "statement",
+      "family": "closing",
+      "renderer_group": "statement",
+      "fit_score": 0.916,
+      "quality": "pass"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DecisionTraceRecord",
+  "type": "object",
+  "required": ["decision_id", "timestamp", "phase", "target", "decision_type", "origin"],
+  "properties": {
+    "decision_id": {"type": "string"},
+    "timestamp": {"type": "string"},
+    "phase": {"type": "string"},
+    "target": {"type": "object"},
+    "decision_type": {"type": "string"},
+    "selected": {},
+    "alternatives": {"type": "array"},
+    "reason_codes": {"type": "array", "items": {"type": "string"}},
+    "reason_text": {"type": "string"},
+    "confidence": {"type": "number", "minimum": 0, "maximum": 1},
+    "origin": {"enum": ["ai", "user", "system"]},
+    "supersedes": {"type": ["string", "null"]},
+    "rerun_scope": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": true
+}

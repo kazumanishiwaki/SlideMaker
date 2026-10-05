@@ -1,0 +1,730 @@
+{
+  "schema_version": "0.1",
+  "generated_at": "2026-08-17T05:08:17.757367+00:00",
+  "assets": [
+    {
+      "asset_id": "GAST-IMG-OUT-S002-01-V001",
+      "recipe_id": "IMG-OUT-S002-01",
+      "slide_id": "OUT-S002",
+      "version": 1,
+      "provider": "manual",
+      "provider_meta": {
+        "source_path": "inputs/assets/mobile-experience.jpg",
+        "selection_rule": "user_selected_manual_asset"
+      },
+      "model": null,
+      "quality": "medium",
+      "prompt": "Create a photo for a professional presentation slide.\nCore idea: スマートフォンで見やすく、操作しやすい\nMatch this source-deck photographic character: high-key and bright, restrained color, soft contrast, neutral color temperature, quiet detail.\nVisual tone: brightness match_source; saturation restrained; contrast soft_to_medium.\nComposition: low-to-medium background complexity, medium subject scale, negative space on right when applicable.\nKeep the primary subject clearly readable after a presentation-slot crop.\nNo embedded words, labels, logos, watermarks, UI text, charts, or typography.\nThe image must feel editorial and specific rather than generic stock photography.\nAvoid: generic_stock_photo, busy_background, random_style_switch, image_with_embedded_text, filler_visual.",
+      "raw_path": "render/generated_assets/IMG-OUT-S002-01/v001/raw.png",
+      "processed_path": "render/generated_assets/IMG-OUT-S002-01/v001/processed.png",
+      "target": {
+        "source_slide_id": "SRC-S004",
+        "source_object_id": "SRC-S004-O004",
+        "source_asset_id": null,
+        "source_media_path": "analysis/source_media/dfc1440bca7fdd5ae726b167c473189fd1cc8b98a076d8dd7f9e977e317c3b49.png",
+        "source_visual_metrics": {
+          "width_px": 789,
+          "height_px": 643,
+          "aspect_ratio": 1.22706,
+          "brightness": 0.5703,
+          "saturation": 0.2987,
+          "contrast": 0.6867,
+          "edge_density": 0.2079,
+          "warmth": -0.1427,
+          "mean_rgb": [
+            0.4937,
+            0.5964,
+            0.6365
+          ],
+          "transparent_ratio": 0.0139,
+          "dominant_colors": [
+            {
+              "hex": "#2D3D2D",
+              "ratio": 0.2749
+            },
+            {
+              "hex": "#9CBED9",
+              "ratio": 0.2498
+            },
+            {
+              "hex": "#628693",
+              "ratio": 0.178
+            },
+            {
+              "hex": "#B6D1E8",
+              "ratio": 0.1713
+            },
+            {
+              "hex": "#DAE5EF",
+              "ratio": 0.1261
+            }
+          ],
+          "average_hash": "feffcfc7e7050000"
+        },
+        "source_display": {
+          "rotation": 0.0,
+          "crop_left": 0.0,
+          "crop_top": 0.0,
+          "crop_right": 0.0,
+          "crop_bottom": 0.0,
+          "slot_aspect_ratio": 1.098,
+          "original_bbox": {
+            "x": 1.8889,
+            "y": 4.1528,
+            "w": 10.9583,
+            "h": 8.9306
+          },
+          "layout_generated": true,
+          "shape_reuse_requested": true
+        },
+        "bbox": {
+          "x": 2.1707,
+          "y": 2.9479,
+          "w": 11.6946,
+          "h": 10.6509
+        },
+        "aspect_ratio": 1.098,
+        "frame_asset_ids": [],
+        "layout_slot_id": "OUT-S002:primary_visual"
+      },
+      "composition": {
+        "focal_point": "auto",
+        "negative_space": "right",
+        "background_complexity": "low_to_medium"
+      },
+      "lineage": {
+        "source_slide_id": "SRC-S004",
+        "source_object_id": "SRC-S004-O004",
+        "layout_slot_id": "OUT-S002:primary_visual",
+        "source_asset_id": null,
+        "source_media_path": "analysis/source_media/dfc1440bca7fdd5ae726b167c473189fd1cc8b98a076d8dd7f9e977e317c3b49.png",
+        "style_reference": {
+          "primary_source_asset_id": null,
+          "deck_reference_asset_ids": [
+            "AST-00001",
+            "AST-00008",
+            "AST-00174",
+            "AST-00181",
+            "AST-00028",
+            "AST-00038"
+          ],
+          "lineage": "source_picture_plus_layout_slot"
+        },
+        "treatment_preset": "match_source_slot_and_deck_art_direction"
+      },
+      "raw_metrics": {
+        "width_px": 3328,
+        "height_px": 2080,
+        "aspect_ratio": 1.6,
+        "brightness": 0.849,
+        "saturation": 0.0443,
+        "contrast": 0.5122,
+        "edge_density": 0.0758,
+        "warmth": 0.0151,
+        "mean_rgb": [
+          0.8474,
+          0.8518,
+          0.8322
+        ],
+        "transparent_ratio": 0.0,
+        "dominant_colors": [
+          {
+            "hex": "#E5EBE7",
+            "ratio": 0.6485
+          },
+          {
+            "hex": "#A59A92",
+            "ratio": 0.1313
+          },
+          {
+            "hex": "#E5EBE6",
+            "ratio": 0.1037
+          },
+          {
+            "hex": "#F9F9F5",
+            "ratio": 0.0991
+          },
+          {
+            "hex": "#EEEBE6",
+            "ratio": 0.0174
+          }
+        ],
+        "average_hash": "ff0f0f2f2f6f0f9f"
+      },
+      "process": {
+        "crop": {
+          "source_size": [
+            3328,
+            2080
+          ],
+          "source_aspect": 1.6,
+          "target_aspect": 1.098,
+          "focal_point": [
+            0.4471,
+            0.5016
+          ],
+          "crop_box": [
+            346,
+            0,
+            2630,
+            2080
+          ],
+          "negative_space": {
+            "requested": "right",
+            "strategy": "candidate_crop_search",
+            "requested_side_edge_density": 0.0252,
+            "opposite_side_edge_density": 0.1045,
+            "selection_score": 0.0079,
+            "base_focal_point": [
+              0.3471,
+              0.5016
+            ]
+          }
+        },
+        "target_size": [
+          1754,
+          1597
+        ],
+        "target_metrics": {
+          "brightness": 0.9453,
+          "saturation": 0.0306,
+          "contrast": 0.1912,
+          "edge_density": 0.043,
+          "warmth": 0.0096
+        },
+        "grading": {
+          "before": {
+            "width_px": 1754,
+            "height_px": 1597,
+            "aspect_ratio": 1.09831,
+            "brightness": 0.8371,
+            "saturation": 0.0525,
+            "contrast": 0.5559,
+            "edge_density": 0.0699,
+            "warmth": 0.0244,
+            "mean_rgb": [
+              0.8409,
+              0.8378,
+              0.8165
+            ],
+            "transparent_ratio": 0.0,
+            "dominant_colors": [
+              {
+                "hex": "#E5EBE7",
+                "ratio": 0.6196
+              },
+              {
+                "hex": "#FAFAF6",
+                "ratio": 0.1518
+              },
+              {
+                "hex": "#715548",
+                "ratio": 0.1388
+              },
+              {
+                "hex": "#D7D5D1",
+                "ratio": 0.0799
+              },
+              {
+                "hex": "#F2EBE2",
+                "ratio": 0.0098
+              }
+            ],
+            "average_hash": "ff0787e7e7e7070f"
+          },
+          "factors": {
+            "brightness": 1.1293,
+            "warmth_delta": -0.0148,
+            "saturation": 0.65,
+            "contrast": 0.72,
+            "detail_action": "none",
+            "detail_amount": 0.0
+          },
+          "after": {
+            "width_px": 1754,
+            "height_px": 1597,
+            "aspect_ratio": 1.09831,
+            "brightness": 0.9045,
+            "saturation": 0.0167,
+            "contrast": 0.4224,
+            "edge_density": 0.0613,
+            "warmth": 0.0131,
+            "mean_rgb": [
+              0.9108,
+              0.9026,
+              0.8977
+            ],
+            "transparent_ratio": 0.0,
+            "dominant_colors": [
+              {
+                "hex": "#F8F8F8",
+                "ratio": 0.642
+              },
+              {
+                "hex": "#C3BCB8",
+                "ratio": 0.1496
+              },
+              {
+                "hex": "#F7F8F8",
+                "ratio": 0.137
+              },
+              {
+                "hex": "#FCFCFC",
+                "ratio": 0.0631
+              },
+              {
+                "hex": "#FDF8F5",
+                "ratio": 0.0083
+              }
+            ],
+            "average_hash": "ff07072767e7071f"
+          }
+        },
+        "metrics": {
+          "width_px": 1754,
+          "height_px": 1597,
+          "aspect_ratio": 1.09831,
+          "brightness": 0.9045,
+          "saturation": 0.0167,
+          "contrast": 0.4224,
+          "edge_density": 0.0613,
+          "warmth": 0.0131,
+          "mean_rgb": [
+            0.9108,
+            0.9026,
+            0.8977
+          ],
+          "transparent_ratio": 0.0,
+          "dominant_colors": [
+            {
+              "hex": "#F8F8F8",
+              "ratio": 0.642
+            },
+            {
+              "hex": "#C3BCB8",
+              "ratio": 0.1496
+            },
+            {
+              "hex": "#F7F8F8",
+              "ratio": 0.137
+            },
+            {
+              "hex": "#FCFCFC",
+              "ratio": 0.0631
+            },
+            {
+              "hex": "#FDF8F5",
+              "ratio": 0.0083
+            }
+          ],
+          "average_hash": "ff07072767e7071f"
+        }
+      },
+      "metrics": {
+        "width_px": 1754,
+        "height_px": 1597,
+        "aspect_ratio": 1.09831,
+        "brightness": 0.9045,
+        "saturation": 0.0167,
+        "contrast": 0.4224,
+        "edge_density": 0.0613,
+        "warmth": 0.0131,
+        "mean_rgb": [
+          0.9108,
+          0.9026,
+          0.8977
+        ],
+        "transparent_ratio": 0.0,
+        "dominant_colors": [
+          {
+            "hex": "#F8F8F8",
+            "ratio": 0.642
+          },
+          {
+            "hex": "#C3BCB8",
+            "ratio": 0.1496
+          },
+          {
+            "hex": "#F7F8F8",
+            "ratio": 0.137
+          },
+          {
+            "hex": "#FCFCFC",
+            "ratio": 0.0631
+          },
+          {
+            "hex": "#FDF8F5",
+            "ratio": 0.0083
+          }
+        ],
+        "average_hash": "ff07072767e7071f"
+      },
+      "status": "READY",
+      "created_at": "2026-08-17T05:08:14.025925+00:00"
+    },
+    {
+      "asset_id": "GAST-IMG-OUT-S003-01-V001",
+      "recipe_id": "IMG-OUT-S003-01",
+      "slide_id": "OUT-S003",
+      "version": 1,
+      "provider": "manual",
+      "provider_meta": {
+        "source_path": "inputs/assets/integrated-management.jpg",
+        "selection_rule": "user_selected_manual_asset"
+      },
+      "model": null,
+      "quality": "medium",
+      "prompt": "Create a conceptual_image for a professional presentation slide.\nCore idea: 公開から抽選までを、ひとつの管理画面で\nMatch this source-deck photographic character: high-key and bright, restrained color, soft contrast, neutral color temperature, quiet detail.\nVisual tone: brightness match_source; saturation restrained; contrast soft_to_medium.\nComposition: low-to-medium background complexity, medium subject scale, negative space on left when applicable.\nKeep the primary subject clearly readable after a presentation-slot crop.\nNo embedded words, labels, logos, watermarks, UI text, charts, or typography.\nThe image must feel editorial and specific rather than generic stock photography.\nAvoid: generic_stock_photo, busy_background, random_style_switch, image_with_embedded_text, filler_visual.",
+      "raw_path": "render/generated_assets/IMG-OUT-S003-01/v001/raw.png",
+      "processed_path": "render/generated_assets/IMG-OUT-S003-01/v001/processed.png",
+      "target": {
+        "source_slide_id": "SRC-S004",
+        "source_object_id": "SRC-S004-O004",
+        "source_asset_id": null,
+        "source_media_path": "analysis/source_media/dfc1440bca7fdd5ae726b167c473189fd1cc8b98a076d8dd7f9e977e317c3b49.png",
+        "source_visual_metrics": {
+          "width_px": 789,
+          "height_px": 643,
+          "aspect_ratio": 1.22706,
+          "brightness": 0.5703,
+          "saturation": 0.2987,
+          "contrast": 0.6867,
+          "edge_density": 0.2079,
+          "warmth": -0.1427,
+          "mean_rgb": [
+            0.4937,
+            0.5964,
+            0.6365
+          ],
+          "transparent_ratio": 0.0139,
+          "dominant_colors": [
+            {
+              "hex": "#2D3D2D",
+              "ratio": 0.2749
+            },
+            {
+              "hex": "#9CBED9",
+              "ratio": 0.2498
+            },
+            {
+              "hex": "#628693",
+              "ratio": 0.178
+            },
+            {
+              "hex": "#B6D1E8",
+              "ratio": 0.1713
+            },
+            {
+              "hex": "#DAE5EF",
+              "ratio": 0.1261
+            }
+          ],
+          "average_hash": "feffcfc7e7050000"
+        },
+        "source_display": {
+          "rotation": 0.0,
+          "crop_left": 0.0,
+          "crop_top": 0.0,
+          "crop_right": 0.0,
+          "crop_bottom": 0.0,
+          "slot_aspect_ratio": 1.77778,
+          "original_bbox": {
+            "x": 1.8889,
+            "y": 4.1528,
+            "w": 10.9583,
+            "h": 8.9306
+          },
+          "layout_generated": true,
+          "shape_reuse_requested": true
+        },
+        "bbox": {
+          "x": 0.0,
+          "y": 0.0,
+          "w": 26.6667,
+          "h": 15.0
+        },
+        "aspect_ratio": 1.77778,
+        "frame_asset_ids": [],
+        "layout_slot_id": "OUT-S003:primary_visual"
+      },
+      "composition": {
+        "focal_point": "auto",
+        "negative_space": "left",
+        "background_complexity": "low_to_medium"
+      },
+      "lineage": {
+        "source_slide_id": "SRC-S004",
+        "source_object_id": "SRC-S004-O004",
+        "layout_slot_id": "OUT-S003:primary_visual",
+        "source_asset_id": null,
+        "source_media_path": "analysis/source_media/dfc1440bca7fdd5ae726b167c473189fd1cc8b98a076d8dd7f9e977e317c3b49.png",
+        "style_reference": {
+          "primary_source_asset_id": null,
+          "deck_reference_asset_ids": [
+            "AST-00001",
+            "AST-00008",
+            "AST-00174",
+            "AST-00181",
+            "AST-00028",
+            "AST-00038"
+          ],
+          "lineage": "source_picture_plus_layout_slot"
+        },
+        "treatment_preset": "match_source_slot_and_deck_art_direction"
+      },
+      "raw_metrics": {
+        "width_px": 3328,
+        "height_px": 2080,
+        "aspect_ratio": 1.6,
+        "brightness": 0.8488,
+        "saturation": 0.0892,
+        "contrast": 0.5114,
+        "edge_density": 0.0687,
+        "warmth": 0.0785,
+        "mean_rgb": [
+          0.8789,
+          0.8425,
+          0.8004
+        ],
+        "transparent_ratio": 0.0,
+        "dominant_colors": [
+          {
+            "hex": "#EFE8DE",
+            "ratio": 0.6837
+          },
+          {
+            "hex": "#A89484",
+            "ratio": 0.1444
+          },
+          {
+            "hex": "#F9F8F4",
+            "ratio": 0.1141
+          },
+          {
+            "hex": "#F3E8DB",
+            "ratio": 0.0397
+          },
+          {
+            "hex": "#E9E8E4",
+            "ratio": 0.0181
+          }
+        ],
+        "average_hash": "fff0f0f6f4f0f0f9"
+      },
+      "process": {
+        "crop": {
+          "source_size": [
+            3328,
+            2080
+          ],
+          "source_aspect": 1.6,
+          "target_aspect": 1.77778,
+          "focal_point": [
+            0.64,
+            0.5079
+          ],
+          "crop_box": [
+            0,
+            120,
+            3328,
+            1992
+          ],
+          "negative_space": {
+            "requested": "left",
+            "strategy": "candidate_crop_search",
+            "requested_side_edge_density": 0.0132,
+            "opposite_side_edge_density": 0.0767,
+            "selection_score": -0.0098,
+            "base_focal_point": [
+              0.64,
+              0.5079
+            ]
+          }
+        },
+        "target_size": [
+          3328,
+          1872
+        ],
+        "target_metrics": {
+          "brightness": 0.9453,
+          "saturation": 0.0306,
+          "contrast": 0.1912,
+          "edge_density": 0.043,
+          "warmth": 0.0096
+        },
+        "grading": {
+          "before": {
+            "width_px": 3328,
+            "height_px": 1872,
+            "aspect_ratio": 1.77778,
+            "brightness": 0.8414,
+            "saturation": 0.0915,
+            "contrast": 0.5346,
+            "edge_density": 0.0745,
+            "warmth": 0.0798,
+            "mean_rgb": [
+              0.8723,
+              0.8349,
+              0.7925
+            ],
+            "transparent_ratio": 0.0,
+            "dominant_colors": [
+              {
+                "hex": "#EFE8DE",
+                "ratio": 0.666
+              },
+              {
+                "hex": "#A69282",
+                "ratio": 0.1618
+              },
+              {
+                "hex": "#F9F8F3",
+                "ratio": 0.1252
+              },
+              {
+                "hex": "#F0E8DE",
+                "ratio": 0.0237
+              },
+              {
+                "hex": "#EBE8E2",
+                "ratio": 0.0233
+              }
+            ],
+            "average_hash": "f1f0f0f6f4f0f0f0"
+          },
+          "factors": {
+            "brightness": 1.1235,
+            "warmth_delta": -0.0702,
+            "saturation": 0.65,
+            "contrast": 0.72,
+            "detail_action": "none",
+            "detail_amount": 0.0
+          },
+          "after": {
+            "width_px": 3328,
+            "height_px": 1872,
+            "aspect_ratio": 1.77778,
+            "brightness": 0.9025,
+            "saturation": 0.0281,
+            "contrast": 0.4051,
+            "edge_density": 0.0701,
+            "warmth": 0.0038,
+            "mean_rgb": [
+              0.9016,
+              0.9043,
+              0.8978
+            ],
+            "transparent_ratio": 0.0,
+            "dominant_colors": [
+              {
+                "hex": "#F4F7F7",
+                "ratio": 0.6612
+              },
+              {
+                "hex": "#C0BAB4",
+                "ratio": 0.158
+              },
+              {
+                "hex": "#F4F7F6",
+                "ratio": 0.1265
+              },
+              {
+                "hex": "#F8FBFB",
+                "ratio": 0.0493
+              },
+              {
+                "hex": "#F3F7F7",
+                "ratio": 0.005
+              }
+            ],
+            "average_hash": "f1f0f0f6f4f0f0f1"
+          }
+        },
+        "metrics": {
+          "width_px": 3328,
+          "height_px": 1872,
+          "aspect_ratio": 1.77778,
+          "brightness": 0.9025,
+          "saturation": 0.0281,
+          "contrast": 0.4051,
+          "edge_density": 0.0701,
+          "warmth": 0.0038,
+          "mean_rgb": [
+            0.9016,
+            0.9043,
+            0.8978
+          ],
+          "transparent_ratio": 0.0,
+          "dominant_colors": [
+            {
+              "hex": "#F4F7F7",
+              "ratio": 0.6612
+            },
+            {
+              "hex": "#C0BAB4",
+              "ratio": 0.158
+            },
+            {
+              "hex": "#F4F7F6",
+              "ratio": 0.1265
+            },
+            {
+              "hex": "#F8FBFB",
+              "ratio": 0.0493
+            },
+            {
+              "hex": "#F3F7F7",
+              "ratio": 0.005
+            }
+          ],
+          "average_hash": "f1f0f0f6f4f0f0f1"
+        }
+      },
+      "metrics": {
+        "width_px": 3328,
+        "height_px": 1872,
+        "aspect_ratio": 1.77778,
+        "brightness": 0.9025,
+        "saturation": 0.0281,
+        "contrast": 0.4051,
+        "edge_density": 0.0701,
+        "warmth": 0.0038,
+        "mean_rgb": [
+          0.9016,
+          0.9043,
+          0.8978
+        ],
+        "transparent_ratio": 0.0,
+        "dominant_colors": [
+          {
+            "hex": "#F4F7F7",
+            "ratio": 0.6612
+          },
+          {
+            "hex": "#C0BAB4",
+            "ratio": 0.158
+          },
+          {
+            "hex": "#F4F7F6",
+            "ratio": 0.1265
+          },
+          {
+            "hex": "#F8FBFB",
+            "ratio": 0.0493
+          },
+          {
+            "hex": "#F3F7F7",
+            "ratio": 0.005
+          }
+        ],
+        "average_hash": "f1f0f0f6f4f0f0f1"
+      },
+      "status": "READY",
+      "created_at": "2026-08-17T05:08:17.756639+00:00"
+    }
+  ],
+  "selected_by_recipe": {
+    "IMG-OUT-S002-01": "GAST-IMG-OUT-S002-01-V001",
+    "IMG-OUT-S003-01": "GAST-IMG-OUT-S003-01-V001"
+  }
+}

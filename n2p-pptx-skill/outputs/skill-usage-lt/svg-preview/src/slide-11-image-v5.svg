@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1672" height="941" viewBox="0 0 1672 941" role="img" aria-label="Skill improvement loop diagram">
+  <defs>
+    <style>
+      .bg { fill: #FCFCFC; }
+      .s { fill: none; stroke: #111111; stroke-width: 12; stroke-linecap: round; stroke-linejoin: round; }
+      .sy { fill: none; stroke: #E8E800; stroke-width: 12; stroke-linecap: round; stroke-linejoin: round; }
+      .card { fill: #FCFCFC; stroke: #111111; stroke-width: 12; stroke-linecap: round; stroke-linejoin: round; }
+      .gray { fill: #E6EBED; }
+      .mid { fill: #D7DEE2; }
+    </style>
+  </defs>
+  <rect class="bg" width="1672" height="941"/>
+
+  <!-- circular flow: all arcs use the same radius -->
+  <path class="s" d="M1050 286 A300 300 0 0 1 1164 604"/>
+  <path class="s" d="M1128 572 L1164 606 L1172 558"/>
+  <path class="sy" d="M944 742 A300 300 0 0 1 540 656"/>
+  <path class="sy" d="M586 652 L538 654 L562 696"/>
+  <path class="s" d="M502 520 A300 300 0 0 1 710 222"/>
+  <path class="s" d="M672 218 L714 220 L692 256"/>
+
+  <!-- use/package icon -->
+  <path class="card mid" d="M720 122 H842 L884 168 H984 Q1014 168 1014 198 V340 Q1014 370 984 370 H688 Q658 370 658 340 V152 Q658 122 688 122 Z"/>
+  <path class="card" d="M658 216 H1014 V340 Q1014 370 984 370 H688 Q658 370 658 340 Z"/>
+
+  <!-- review icon: all internal parts stay inside document -->
+  <path class="card" d="M398 522 H536 L610 596 V746 H398 Z"/>
+  <path class="gray" d="M536 522 V596 H610 Z"/>
+  <path class="s" d="M536 522 V596 H610"/>
+  <line class="s" x1="452" y1="608" x2="514" y2="608"/>
+  <line class="s" x1="452" y1="654" x2="532" y2="654"/>
+  <line class="s" x1="452" y1="700" x2="500" y2="700"/>
+  <circle class="card" cx="590" cy="698" r="52"/>
+  <line class="s" x1="628" y1="736" x2="682" y2="790"/>
+
+  <!-- checklist icon -->
+  <rect class="card" x="1008" y="534" width="268" height="204" rx="28"/>
+  <path class="sy" d="M1064 602 L1096 634 L1152 576"/>
+  <circle class="gray" cx="1084" cy="674" r="18"/>
+  <circle class="gray" cx="1084" cy="720" r="18"/>
+  <line class="s" x1="1144" y1="626" x2="1224" y2="626"/>
+  <line class="s" x1="1144" y1="674" x2="1224" y2="674"/>
+  <line class="s" x1="1144" y1="720" x2="1224" y2="720"/>
+</svg>

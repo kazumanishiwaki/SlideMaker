@@ -1,0 +1,172 @@
+{
+  "schema_version": "0.11-mvp.4",
+  "status": "PASS",
+  "summary": {
+    "slide_count": 8,
+    "blocking_count": 0,
+    "finding_count": 0
+  },
+  "slides": [
+    {
+      "slide_id": "S001",
+      "recipe": "cover",
+      "meaningful_occupancy": 0.1403,
+      "largest_empty_rectangle": 0.5556,
+      "occupancy_policy": "source-slides",
+      "information_density": "medium",
+      "decorativeness": "medium",
+      "structured_visual_mode": "native",
+      "content_shape_count": 5,
+      "drop_shadow_count": 0,
+      "placeholder_match_count": 0,
+      "likely_text_overflow_count": 0,
+      "planned_text_missing_count": 0,
+      "editable": {
+        "charts": 0,
+        "tables": 0,
+        "process_shapes": 0
+      }
+    },
+    {
+      "slide_id": "S002",
+      "recipe": "statement",
+      "meaningful_occupancy": 0.0657,
+      "largest_empty_rectangle": 0.5111,
+      "occupancy_policy": "source-slides",
+      "information_density": "medium",
+      "decorativeness": "medium",
+      "structured_visual_mode": "native",
+      "content_shape_count": 2,
+      "drop_shadow_count": 0,
+      "placeholder_match_count": 0,
+      "likely_text_overflow_count": 0,
+      "planned_text_missing_count": 0,
+      "editable": {
+        "charts": 0,
+        "tables": 0,
+        "process_shapes": 0
+      }
+    },
+    {
+      "slide_id": "S003",
+      "recipe": "three_column",
+      "meaningful_occupancy": 0.4497,
+      "largest_empty_rectangle": 0.2333,
+      "occupancy_policy": "source-slides",
+      "information_density": "medium",
+      "decorativeness": "medium",
+      "structured_visual_mode": "native",
+      "content_shape_count": 21,
+      "drop_shadow_count": 0,
+      "placeholder_match_count": 0,
+      "likely_text_overflow_count": 0,
+      "planned_text_missing_count": 0,
+      "editable": {
+        "charts": 0,
+        "tables": 0,
+        "process_shapes": 0
+      }
+    },
+    {
+      "slide_id": "S004",
+      "recipe": "card_grid_2x2",
+      "meaningful_occupancy": 0.3628,
+      "largest_empty_rectangle": 0.1444,
+      "occupancy_policy": "source-slides",
+      "information_density": "medium",
+      "decorativeness": "medium",
+      "structured_visual_mode": "native",
+      "content_shape_count": 23,
+      "drop_shadow_count": 0,
+      "placeholder_match_count": 0,
+      "likely_text_overflow_count": 0,
+      "planned_text_missing_count": 0,
+      "editable": {
+        "charts": 0,
+        "tables": 0,
+        "process_shapes": 0
+      }
+    },
+    {
+      "slide_id": "S005",
+      "recipe": "process",
+      "meaningful_occupancy": 0.4061,
+      "largest_empty_rectangle": 0.2,
+      "occupancy_policy": "source-slides",
+      "information_density": "medium",
+      "decorativeness": "medium",
+      "structured_visual_mode": "native",
+      "content_shape_count": 19,
+      "drop_shadow_count": 0,
+      "placeholder_match_count": 0,
+      "likely_text_overflow_count": 0,
+      "planned_text_missing_count": 0,
+      "editable": {
+        "charts": 0,
+        "tables": 0,
+        "process_shapes": 11
+      }
+    },
+    {
+      "slide_id": "S006",
+      "recipe": "card_grid_2x2",
+      "meaningful_occupancy": 0.3628,
+      "largest_empty_rectangle": 0.1444,
+      "occupancy_policy": "source-slides",
+      "information_density": "medium",
+      "decorativeness": "medium",
+      "structured_visual_mode": "native",
+      "content_shape_count": 23,
+      "drop_shadow_count": 0,
+      "placeholder_match_count": 0,
+      "likely_text_overflow_count": 0,
+      "planned_text_missing_count": 0,
+      "editable": {
+        "charts": 0,
+        "tables": 0,
+        "process_shapes": 0
+      }
+    },
+    {
+      "slide_id": "S007",
+      "recipe": "table",
+      "meaningful_occupancy": 0.6716,
+      "largest_empty_rectangle": 0.1111,
+      "occupancy_policy": "source-slides",
+      "information_density": "medium",
+      "decorativeness": "medium",
+      "structured_visual_mode": "native",
+      "content_shape_count": 7,
+      "drop_shadow_count": 0,
+      "placeholder_match_count": 0,
+      "likely_text_overflow_count": 0,
+      "planned_text_missing_count": 0,
+      "editable": {
+        "charts": 0,
+        "tables": 1,
+        "process_shapes": 0
+      }
+    },
+    {
+      "slide_id": "S008",
+      "recipe": "closing_cta",
+      "meaningful_occupancy": 0.1157,
+      "largest_empty_rectangle": 0.41,
+      "occupancy_policy": "source-slides",
+      "information_density": "medium",
+      "decorativeness": "medium",
+      "structured_visual_mode": "native",
+      "content_shape_count": 6,
+      "drop_shadow_count": 0,
+      "placeholder_match_count": 0,
+      "likely_text_overflow_count": 0,
+      "planned_text_missing_count": 0,
+      "editable": {
+        "charts": 0,
+        "tables": 0,
+        "process_shapes": 0
+      }
+    }
+  ],
+  "findings": []
+}

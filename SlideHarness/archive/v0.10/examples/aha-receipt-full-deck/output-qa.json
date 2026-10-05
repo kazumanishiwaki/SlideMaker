@@ -1,0 +1,4913 @@
+{
+  "schema_version": "0.10",
+  "generated_at": "2026-08-17T21:38:25.541394+00:00",
+  "kind": "aha_receipt_v010_simplified",
+  "pptx": "/mnt/data/slideharness_v010/slideharness-v0.10.0/examples/aha-receipt-full-deck/.work/output/aha-receipt-lite-golden-v0.10.0.pptx",
+  "status": "pass",
+  "blocking_count": 0,
+  "warning_count": 0,
+  "checks": [
+    {
+      "check_id": "SLIDE_COUNT_MAP",
+      "result": "pass",
+      "severity": "info",
+      "actual": 9,
+      "category": "technical"
+    },
+    {
+      "check_id": "TEMPLATE_CHROME_GEOMETRY",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S001",
+      "source_object_id": "SRC-S001-O002",
+      "category": "technical"
+    },
+    {
+      "check_id": "LAYOUT_FIT_TO_INTENT",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S001",
+      "family": "full_bleed",
+      "score": 1.0,
+      "assessment": "適正",
+      "fill_policy": "full_bleed",
+      "fill_policy_source": "slide_plan",
+      "intentional_whitespace": false,
+      "accidental_dead_space": false,
+      "reason_codes": [
+        "FIT_TO_INTENT"
+      ],
+      "content_extent_width_ratio": 1.0,
+      "content_extent_height_ratio": 1.0,
+      "occupied_area_ratio": 1.0,
+      "center_offset_x_ratio": 0.0,
+      "center_offset_y_ratio": 0.0,
+      "thresholds": {
+        "w": 0.94,
+        "h": 0.78,
+        "area": 0.62,
+        "max_edge_void": 0.12,
+        "max_center_x": 0.18,
+        "max_center_y": 0.18
+      },
+      "category": "design"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S001",
+      "shape_id": 3,
+      "role": "background_visual",
+      "category": "technical"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S001",
+      "shape_id": 4,
+      "role": "overlay_panel",
+      "category": "technical"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S001",
+      "shape_id": 5,
+      "role": "title",
+      "category": "technical"
+    },
+    {
+      "check_id": "MINIMUM_PRESENTATION_FONT",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S001",
+      "shape_id": 5,
+      "role": "title",
+      "actual_pt": 49.8,
+      "minimum_pt": 28.0,
+      "category": "design"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S001",
+      "shape_id": 6,
+      "role": "body",
+      "category": "technical"
+    },
+    {
+      "check_id": "MINIMUM_PRESENTATION_FONT",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S001",
+      "shape_id": 6,
+      "role": "body",
+      "actual_pt": 22.0,
+      "minimum_pt": 15.0,
+      "category": "design"
+    },
+    {
+      "check_id": "PHOTO_LAYOUT_PRIMARY_VISUAL",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S001",
+      "family": "full_bleed",
+      "shape_id": 3,
+      "category": "technical"
+    },
+    {
+      "check_id": "PHOTO_LAYOUT_SLOT_GEOMETRY",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S001",
+      "family": "full_bleed",
+      "max_delta_in": 0.0,
+      "actual": {
+        "x": 0.0,
+        "y": 0.0,
+        "w": 26.666666666666668,
+        "h": 15.0
+      },
+      "expected": {
+        "x": 0.0,
+        "y": 0.0,
+        "w": 26.6667,
+        "h": 15.0
+      },
+      "category": "technical"
+    },
+    {
+      "check_id": "FULL_BLEED_COVERAGE",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S001",
+      "actual": {
+        "x": 0.0,
+        "y": 0.0,
+        "w": 26.666666666666668,
+        "h": 15.0
+      },
+      "slide": {
+        "w": 26.666666666666668,
+        "h": 15.0
+      },
+      "category": "technical"
+    },
+    {
+      "check_id": "FULL_BLEED_BEHIND_TEMPLATE_CHROME",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S001",
+      "picture_shape_id": 3,
+      "chrome_shape_ids": [
+        2
+      ],
+      "category": "technical"
+    },
+    {
+      "check_id": "TEMPLATE_CHROME_GEOMETRY",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S002",
+      "source_object_id": "SRC-S004-O002",
+      "category": "technical"
+    },
+    {
+      "check_id": "TEMPLATE_CHROME_GEOMETRY",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S002",
+      "source_object_id": "SRC-S004-O009",
+      "category": "technical"
+    },
+    {
+      "check_id": "LAYOUT_FIT_TO_INTENT",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S002",
+      "family": "photo_text",
+      "score": 0.983,
+      "assessment": "適正",
+      "fill_policy": "balanced",
+      "fill_policy_source": "slide_plan",
+      "intentional_whitespace": false,
+      "accidental_dead_space": false,
+      "reason_codes": [
+        "FIT_TO_INTENT"
+      ],
+      "content_extent_width_ratio": 0.92,
+      "content_extent_height_ratio": 0.88,
+      "occupied_area_ratio": 0.787,
+      "center_offset_x_ratio": 0.0,
+      "center_offset_y_ratio": 0.0,
+      "thresholds": {
+        "w": 0.7,
+        "h": 0.44,
+        "area": 0.238,
+        "max_edge_void": 0.43,
+        "max_center_x": 0.42,
+        "max_center_y": 0.42
+      },
+      "category": "design"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S002",
+      "shape_id": 4,
+      "role": "primary_visual",
+      "category": "technical"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S002",
+      "shape_id": 10,
+      "role": "title",
+      "category": "technical"
+    },
+    {
+      "check_id": "MINIMUM_PRESENTATION_FONT",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S002",
+      "shape_id": 10,
+      "role": "title",
+      "actual_pt": 48.0,
+      "minimum_pt": 28.0,
+      "category": "design"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S002",
+      "shape_id": 11,
+      "role": "subtitle",
+      "category": "technical"
+    },
+    {
+      "check_id": "MINIMUM_PRESENTATION_FONT",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S002",
+      "shape_id": 11,
+      "role": "subtitle",
+      "actual_pt": 21.0,
+      "minimum_pt": 16.0,
+      "category": "design"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S002",
+      "shape_id": 12,
+      "role": "body",
+      "category": "technical"
+    },
+    {
+      "check_id": "MINIMUM_PRESENTATION_FONT",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S002",
+      "shape_id": 12,
+      "role": "body",
+      "actual_pt": 21.0,
+      "minimum_pt": 15.0,
+      "category": "design"
+    },
+    {
+      "check_id": "PHOTO_LAYOUT_PRIMARY_VISUAL",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S002",
+      "family": "photo_text",
+      "shape_id": 4,
+      "category": "technical"
+    },
+    {
+      "check_id": "PHOTO_LAYOUT_SLOT_GEOMETRY",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S002",
+      "family": "photo_text",
+      "max_delta_in": 0.0001,
+      "actual": {
+        "x": 13.463349737532809,
+        "y": 2.9478969816272964,
+        "w": 11.032680446194226,
+        "h": 10.650903324584426
+      },
+      "expected": {
+        "x": 13.4634,
+        "y": 2.9479,
+        "w": 11.0327,
+        "h": 10.6509
+      },
+      "category": "technical"
+    },
+    {
+      "check_id": "PHOTO_LAYOUT_SOURCE_FRAME_REUSED",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S002",
+      "source_object_id": "SRC-S004-O004",
+      "output_shape_id": 4,
+      "category": "technical"
+    },
+    {
+      "check_id": "PHOTO_TEXT_NEGATIVE_SPACE_DIRECTION",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S002",
+      "resolved_text_side": "left",
+      "image_box": {
+        "x": 13.4634,
+        "y": 2.9479,
+        "w": 11.0327,
+        "h": 10.6509
+      },
+      "text_box": {
+        "x": 2.1707,
+        "y": 2.9479,
+        "w": 11.0327,
+        "h": 10.6509
+      },
+      "category": "technical"
+    },
+    {
+      "check_id": "TEMPLATE_CHROME_GEOMETRY",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S003",
+      "source_object_id": "SRC-S011-O002",
+      "category": "technical"
+    },
+    {
+      "check_id": "TEMPLATE_CHROME_GEOMETRY",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S003",
+      "source_object_id": "SRC-S011-O008",
+      "category": "technical"
+    },
+    {
+      "check_id": "LAYOUT_FIT_TO_INTENT",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S003",
+      "family": "comparison_matrix",
+      "score": 1.0,
+      "assessment": "適正",
+      "fill_policy": "content_filled",
+      "fill_policy_source": "slide_plan",
+      "intentional_whitespace": false,
+      "accidental_dead_space": false,
+      "reason_codes": [
+        "FIT_TO_INTENT"
+      ],
+      "content_extent_width_ratio": 1.0,
+      "content_extent_height_ratio": 1.0,
+      "occupied_area_ratio": 0.972,
+      "center_offset_x_ratio": 0.0,
+      "center_offset_y_ratio": 0.0,
+      "thresholds": {
+        "w": 0.88,
+        "h": 0.62,
+        "area": 0.389,
+        "max_edge_void": 0.3,
+        "max_center_x": 0.38,
+        "max_center_y": 0.38
+      },
+      "category": "design"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S003",
+      "shape_id": 9,
+      "role": "title",
+      "category": "technical"
+    },
+    {
+      "check_id": "MINIMUM_PRESENTATION_FONT",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S003",
+      "shape_id": 9,
+      "role": "title",
+      "actual_pt": 42.0,
+      "minimum_pt": 28.0,
+      "category": "design"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S003",
+      "shape_id": 10,
+      "role": "subtitle",
+      "category": "technical"
+    },
+    {
+      "check_id": "MINIMUM_PRESENTATION_FONT",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S003",
+      "shape_id": 10,
+      "role": "subtitle",
+      "actual_pt": 18.0,
+      "minimum_pt": 16.0,
+      "category": "design"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S003",
+      "shape_id": 11,
+      "role": "comparison_matrix",
+      "category": "technical"
+    },
+    {
+      "check_id": "EDITABLE_LAYOUT_COMPARISON_MATRIX",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S003",
+      "shape_id": 11,
+      "category": "technical"
+    },
+    {
+      "check_id": "TEMPLATE_CHROME_GEOMETRY",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S004",
+      "source_object_id": "SRC-S014-O002",
+      "category": "technical"
+    },
+    {
+      "check_id": "TEMPLATE_CHROME_GEOMETRY",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S004",
+      "source_object_id": "SRC-S014-O003",
+      "category": "technical"
+    },
+    {
+      "check_id": "TEMPLATE_CHROME_GEOMETRY",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S004",
+      "source_object_id": "SRC-S014-O010",
+      "category": "technical"
+    },
+    {
+      "check_id": "TEMPLATE_CHROME_GEOMETRY",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S004",
+      "source_object_id": "SRC-S014-O018",
+      "category": "technical"
+    },
+    {
+      "check_id": "TEMPLATE_CHROME_GEOMETRY",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S004",
+      "source_object_id": "SRC-S014-O026",
+      "category": "technical"
+    },
+    {
+      "check_id": "TEMPLATE_CHROME_GEOMETRY",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S004",
+      "source_object_id": "SRC-S014-O034",
+      "category": "technical"
+    },
+    {
+      "check_id": "TEMPLATE_CHROME_GEOMETRY",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S004",
+      "source_object_id": "SRC-S014-O016",
+      "category": "technical"
+    },
+    {
+      "check_id": "TEMPLATE_CHROME_GEOMETRY",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S004",
+      "source_object_id": "SRC-S014-O024",
+      "category": "technical"
+    },
+    {
+      "check_id": "TEMPLATE_CHROME_GEOMETRY",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S004",
+      "source_object_id": "SRC-S014-O032",
+      "category": "technical"
+    },
+    {
+      "check_id": "TEMPLATE_CHROME_GEOMETRY",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S004",
+      "source_object_id": "SRC-S014-O041",
+      "category": "technical"
+    },
+    {
+      "check_id": "LAYOUT_FIT_TO_INTENT",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S004",
+      "family": "process",
+      "score": 0.835,
+      "assessment": "適正",
+      "fill_policy": "content_filled",
+      "fill_policy_source": "slide_plan",
+      "intentional_whitespace": false,
+      "accidental_dead_space": false,
+      "reason_codes": [
+        "FIT_TO_INTENT"
+      ],
+      "content_extent_width_ratio": 1.0,
+      "content_extent_height_ratio": 0.731,
+      "occupied_area_ratio": 0.423,
+      "center_offset_x_ratio": 0.0,
+      "center_offset_y_ratio": 0.135,
+      "thresholds": {
+        "w": 0.88,
+        "h": 0.62,
+        "area": 0.389,
+        "max_edge_void": 0.3,
+        "max_center_x": 0.38,
+        "max_center_y": 0.38
+      },
+      "category": "design"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S004",
+      "shape_id": 42,
+      "role": "title",
+      "category": "technical"
+    },
+    {
+      "check_id": "MINIMUM_PRESENTATION_FONT",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S004",
+      "shape_id": 42,
+      "role": "title",
+      "actual_pt": 42.0,
+      "minimum_pt": 28.0,
+      "category": "design"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S004",
+      "shape_id": 43,
+      "role": "subtitle",
+      "category": "technical"
+    },
+    {
+      "check_id": "MINIMUM_PRESENTATION_FONT",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S004",
+      "shape_id": 43,
+      "role": "subtitle",
+      "actual_pt": 19.0,
+      "minimum_pt": 16.0,
+      "category": "design"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S004",
+      "shape_id": 45,
+      "role": "number",
+      "category": "technical"
+    },
+    {
+      "check_id": "MINIMUM_PRESENTATION_FONT",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S004",
+      "shape_id": 45,
+      "role": "number",
+      "actual_pt": 14.0,
+      "minimum_pt": 12.0,
+      "category": "design"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S004",
+      "shape_id": 46,
+      "role": "item_title",
+      "category": "technical"
+    },
+    {
+      "check_id": "MINIMUM_PRESENTATION_FONT",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S004",
+      "shape_id": 46,
+      "role": "item_title",
+      "actual_pt": 22.0,
+      "minimum_pt": 18.0,
+      "category": "design"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S004",
+      "shape_id": 47,
+      "role": "item_body",
+      "category": "technical"
+    },
+    {
+      "check_id": "MINIMUM_PRESENTATION_FONT",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S004",
+      "shape_id": 47,
+      "role": "item_body",
+      "actual_pt": 17.0,
+      "minimum_pt": 14.0,
+      "category": "design"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S004",
+      "shape_id": 50,
+      "role": "number",
+      "category": "technical"
+    },
+    {
+      "check_id": "MINIMUM_PRESENTATION_FONT",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S004",
+      "shape_id": 50,
+      "role": "number",
+      "actual_pt": 14.0,
+      "minimum_pt": 12.0,
+      "category": "design"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S004",
+      "shape_id": 51,
+      "role": "item_title",
+      "category": "technical"
+    },
+    {
+      "check_id": "MINIMUM_PRESENTATION_FONT",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S004",
+      "shape_id": 51,
+      "role": "item_title",
+      "actual_pt": 22.0,
+      "minimum_pt": 18.0,
+      "category": "design"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S004",
+      "shape_id": 52,
+      "role": "item_body",
+      "category": "technical"
+    },
+    {
+      "check_id": "MINIMUM_PRESENTATION_FONT",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S004",
+      "shape_id": 52,
+      "role": "item_body",
+      "actual_pt": 17.0,
+      "minimum_pt": 14.0,
+      "category": "design"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S004",
+      "shape_id": 55,
+      "role": "number",
+      "category": "technical"
+    },
+    {
+      "check_id": "MINIMUM_PRESENTATION_FONT",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S004",
+      "shape_id": 55,
+      "role": "number",
+      "actual_pt": 14.0,
+      "minimum_pt": 12.0,
+      "category": "design"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S004",
+      "shape_id": 56,
+      "role": "item_title",
+      "category": "technical"
+    },
+    {
+      "check_id": "MINIMUM_PRESENTATION_FONT",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S004",
+      "shape_id": 56,
+      "role": "item_title",
+      "actual_pt": 22.0,
+      "minimum_pt": 18.0,
+      "category": "design"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S004",
+      "shape_id": 57,
+      "role": "item_body",
+      "category": "technical"
+    },
+    {
+      "check_id": "MINIMUM_PRESENTATION_FONT",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S004",
+      "shape_id": 57,
+      "role": "item_body",
+      "actual_pt": 17.0,
+      "minimum_pt": 14.0,
+      "category": "design"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S004",
+      "shape_id": 60,
+      "role": "number",
+      "category": "technical"
+    },
+    {
+      "check_id": "MINIMUM_PRESENTATION_FONT",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S004",
+      "shape_id": 60,
+      "role": "number",
+      "actual_pt": 14.0,
+      "minimum_pt": 12.0,
+      "category": "design"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S004",
+      "shape_id": 61,
+      "role": "item_title",
+      "category": "technical"
+    },
+    {
+      "check_id": "MINIMUM_PRESENTATION_FONT",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S004",
+      "shape_id": 61,
+      "role": "item_title",
+      "actual_pt": 22.0,
+      "minimum_pt": 18.0,
+      "category": "design"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S004",
+      "shape_id": 62,
+      "role": "item_body",
+      "category": "technical"
+    },
+    {
+      "check_id": "MINIMUM_PRESENTATION_FONT",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S004",
+      "shape_id": 62,
+      "role": "item_body",
+      "actual_pt": 17.0,
+      "minimum_pt": 14.0,
+      "category": "design"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S004",
+      "shape_id": 64,
+      "role": "process_connector",
+      "category": "technical"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S004",
+      "shape_id": 65,
+      "role": "process_connector",
+      "category": "technical"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S004",
+      "shape_id": 66,
+      "role": "process_connector",
+      "category": "technical"
+    },
+    {
+      "check_id": "TEMPLATE_CHROME_GEOMETRY",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S005",
+      "source_object_id": "SRC-S002-O002",
+      "category": "technical"
+    },
+    {
+      "check_id": "LAYOUT_FIT_TO_INTENT",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S005",
+      "family": "statement",
+      "score": 0.907,
+      "assessment": "適正",
+      "fill_policy": "intentional_whitespace",
+      "fill_policy_source": "slide_plan",
+      "intentional_whitespace": true,
+      "accidental_dead_space": false,
+      "reason_codes": [
+        "FIT_TO_INTENT"
+      ],
+      "content_extent_width_ratio": 0.68,
+      "content_extent_height_ratio": 0.48,
+      "occupied_area_ratio": 0.291,
+      "center_offset_x_ratio": 0.16,
+      "center_offset_y_ratio": 0.0,
+      "thresholds": {
+        "w": 0.52,
+        "h": 0.2,
+        "area": 0.07,
+        "max_edge_void": 0.72,
+        "max_center_x": 0.38,
+        "max_center_y": 0.42
+      },
+      "category": "design"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S005",
+      "shape_id": 3,
+      "role": "title",
+      "category": "technical"
+    },
+    {
+      "check_id": "MINIMUM_PRESENTATION_FONT",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S005",
+      "shape_id": 3,
+      "role": "title",
+      "actual_pt": 49.73,
+      "minimum_pt": 28.0,
+      "category": "design"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S005",
+      "shape_id": 4,
+      "role": "subtitle",
+      "category": "technical"
+    },
+    {
+      "check_id": "MINIMUM_PRESENTATION_FONT",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S005",
+      "shape_id": 4,
+      "role": "subtitle",
+      "actual_pt": 22.0,
+      "minimum_pt": 16.0,
+      "category": "design"
+    },
+    {
+      "check_id": "TEMPLATE_CHROME_GEOMETRY",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S006",
+      "source_object_id": "SRC-S014-O002",
+      "category": "technical"
+    },
+    {
+      "check_id": "TEMPLATE_CHROME_GEOMETRY",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S006",
+      "source_object_id": "SRC-S014-O003",
+      "category": "technical"
+    },
+    {
+      "check_id": "TEMPLATE_CHROME_GEOMETRY",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S006",
+      "source_object_id": "SRC-S014-O010",
+      "category": "technical"
+    },
+    {
+      "check_id": "TEMPLATE_CHROME_GEOMETRY",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S006",
+      "source_object_id": "SRC-S014-O018",
+      "category": "technical"
+    },
+    {
+      "check_id": "TEMPLATE_CHROME_GEOMETRY",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S006",
+      "source_object_id": "SRC-S014-O026",
+      "category": "technical"
+    },
+    {
+      "check_id": "TEMPLATE_CHROME_GEOMETRY",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S006",
+      "source_object_id": "SRC-S014-O034",
+      "category": "technical"
+    },
+    {
+      "check_id": "TEMPLATE_CHROME_GEOMETRY",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S006",
+      "source_object_id": "SRC-S014-O016",
+      "category": "technical"
+    },
+    {
+      "check_id": "TEMPLATE_CHROME_GEOMETRY",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S006",
+      "source_object_id": "SRC-S014-O024",
+      "category": "technical"
+    },
+    {
+      "check_id": "TEMPLATE_CHROME_GEOMETRY",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S006",
+      "source_object_id": "SRC-S014-O032",
+      "category": "technical"
+    },
+    {
+      "check_id": "TEMPLATE_CHROME_GEOMETRY",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S006",
+      "source_object_id": "SRC-S014-O041",
+      "category": "technical"
+    },
+    {
+      "check_id": "LAYOUT_FIT_TO_INTENT",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S006",
+      "family": "process",
+      "score": 0.835,
+      "assessment": "適正",
+      "fill_policy": "content_filled",
+      "fill_policy_source": "slide_plan",
+      "intentional_whitespace": false,
+      "accidental_dead_space": false,
+      "reason_codes": [
+        "FIT_TO_INTENT"
+      ],
+      "content_extent_width_ratio": 1.0,
+      "content_extent_height_ratio": 0.731,
+      "occupied_area_ratio": 0.423,
+      "center_offset_x_ratio": 0.0,
+      "center_offset_y_ratio": 0.135,
+      "thresholds": {
+        "w": 0.88,
+        "h": 0.62,
+        "area": 0.389,
+        "max_edge_void": 0.3,
+        "max_center_x": 0.38,
+        "max_center_y": 0.38
+      },
+      "category": "design"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S006",
+      "shape_id": 42,
+      "role": "title",
+      "category": "technical"
+    },
+    {
+      "check_id": "MINIMUM_PRESENTATION_FONT",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S006",
+      "shape_id": 42,
+      "role": "title",
+      "actual_pt": 42.0,
+      "minimum_pt": 28.0,
+      "category": "design"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S006",
+      "shape_id": 43,
+      "role": "subtitle",
+      "category": "technical"
+    },
+    {
+      "check_id": "MINIMUM_PRESENTATION_FONT",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S006",
+      "shape_id": 43,
+      "role": "subtitle",
+      "actual_pt": 19.0,
+      "minimum_pt": 16.0,
+      "category": "design"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S006",
+      "shape_id": 45,
+      "role": "number",
+      "category": "technical"
+    },
+    {
+      "check_id": "MINIMUM_PRESENTATION_FONT",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S006",
+      "shape_id": 45,
+      "role": "number",
+      "actual_pt": 14.0,
+      "minimum_pt": 12.0,
+      "category": "design"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S006",
+      "shape_id": 46,
+      "role": "item_title",
+      "category": "technical"
+    },
+    {
+      "check_id": "MINIMUM_PRESENTATION_FONT",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S006",
+      "shape_id": 46,
+      "role": "item_title",
+      "actual_pt": 22.0,
+      "minimum_pt": 18.0,
+      "category": "design"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S006",
+      "shape_id": 47,
+      "role": "item_body",
+      "category": "technical"
+    },
+    {
+      "check_id": "MINIMUM_PRESENTATION_FONT",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S006",
+      "shape_id": 47,
+      "role": "item_body",
+      "actual_pt": 17.0,
+      "minimum_pt": 14.0,
+      "category": "design"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S006",
+      "shape_id": 50,
+      "role": "number",
+      "category": "technical"
+    },
+    {
+      "check_id": "MINIMUM_PRESENTATION_FONT",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S006",
+      "shape_id": 50,
+      "role": "number",
+      "actual_pt": 14.0,
+      "minimum_pt": 12.0,
+      "category": "design"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S006",
+      "shape_id": 51,
+      "role": "item_title",
+      "category": "technical"
+    },
+    {
+      "check_id": "MINIMUM_PRESENTATION_FONT",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S006",
+      "shape_id": 51,
+      "role": "item_title",
+      "actual_pt": 22.0,
+      "minimum_pt": 18.0,
+      "category": "design"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S006",
+      "shape_id": 52,
+      "role": "item_body",
+      "category": "technical"
+    },
+    {
+      "check_id": "MINIMUM_PRESENTATION_FONT",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S006",
+      "shape_id": 52,
+      "role": "item_body",
+      "actual_pt": 17.0,
+      "minimum_pt": 14.0,
+      "category": "design"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S006",
+      "shape_id": 55,
+      "role": "number",
+      "category": "technical"
+    },
+    {
+      "check_id": "MINIMUM_PRESENTATION_FONT",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S006",
+      "shape_id": 55,
+      "role": "number",
+      "actual_pt": 14.0,
+      "minimum_pt": 12.0,
+      "category": "design"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S006",
+      "shape_id": 56,
+      "role": "item_title",
+      "category": "technical"
+    },
+    {
+      "check_id": "MINIMUM_PRESENTATION_FONT",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S006",
+      "shape_id": 56,
+      "role": "item_title",
+      "actual_pt": 22.0,
+      "minimum_pt": 18.0,
+      "category": "design"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S006",
+      "shape_id": 57,
+      "role": "item_body",
+      "category": "technical"
+    },
+    {
+      "check_id": "MINIMUM_PRESENTATION_FONT",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S006",
+      "shape_id": 57,
+      "role": "item_body",
+      "actual_pt": 17.0,
+      "minimum_pt": 14.0,
+      "category": "design"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S006",
+      "shape_id": 60,
+      "role": "number",
+      "category": "technical"
+    },
+    {
+      "check_id": "MINIMUM_PRESENTATION_FONT",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S006",
+      "shape_id": 60,
+      "role": "number",
+      "actual_pt": 14.0,
+      "minimum_pt": 12.0,
+      "category": "design"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S006",
+      "shape_id": 61,
+      "role": "item_title",
+      "category": "technical"
+    },
+    {
+      "check_id": "MINIMUM_PRESENTATION_FONT",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S006",
+      "shape_id": 61,
+      "role": "item_title",
+      "actual_pt": 22.0,
+      "minimum_pt": 18.0,
+      "category": "design"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S006",
+      "shape_id": 62,
+      "role": "item_body",
+      "category": "technical"
+    },
+    {
+      "check_id": "MINIMUM_PRESENTATION_FONT",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S006",
+      "shape_id": 62,
+      "role": "item_body",
+      "actual_pt": 17.0,
+      "minimum_pt": 14.0,
+      "category": "design"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S006",
+      "shape_id": 64,
+      "role": "process_connector",
+      "category": "technical"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S006",
+      "shape_id": 65,
+      "role": "process_connector",
+      "category": "technical"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S006",
+      "shape_id": 66,
+      "role": "process_connector",
+      "category": "technical"
+    },
+    {
+      "check_id": "TEMPLATE_CHROME_GEOMETRY",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S007",
+      "source_object_id": "SRC-S015-O002",
+      "category": "technical"
+    },
+    {
+      "check_id": "TEMPLATE_CHROME_GEOMETRY",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S007",
+      "source_object_id": "SRC-S015-O017",
+      "category": "technical"
+    },
+    {
+      "check_id": "LAYOUT_FIT_TO_INTENT",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S007",
+      "family": "photo_text",
+      "score": 0.983,
+      "assessment": "適正",
+      "fill_policy": "balanced",
+      "fill_policy_source": "slide_plan",
+      "intentional_whitespace": false,
+      "accidental_dead_space": false,
+      "reason_codes": [
+        "FIT_TO_INTENT"
+      ],
+      "content_extent_width_ratio": 0.92,
+      "content_extent_height_ratio": 0.88,
+      "occupied_area_ratio": 0.786,
+      "center_offset_x_ratio": 0.0,
+      "center_offset_y_ratio": 0.0,
+      "thresholds": {
+        "w": 0.7,
+        "h": 0.44,
+        "area": 0.238,
+        "max_edge_void": 0.43,
+        "max_center_x": 0.42,
+        "max_center_y": 0.42
+      },
+      "category": "design"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S007",
+      "shape_id": 8,
+      "role": "primary_visual",
+      "category": "technical"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S007",
+      "shape_id": 18,
+      "role": "title",
+      "category": "technical"
+    },
+    {
+      "check_id": "MINIMUM_PRESENTATION_FONT",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S007",
+      "shape_id": 18,
+      "role": "title",
+      "actual_pt": 44.0,
+      "minimum_pt": 28.0,
+      "category": "design"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S007",
+      "shape_id": 19,
+      "role": "subtitle",
+      "category": "technical"
+    },
+    {
+      "check_id": "MINIMUM_PRESENTATION_FONT",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S007",
+      "shape_id": 19,
+      "role": "subtitle",
+      "actual_pt": 20.0,
+      "minimum_pt": 16.0,
+      "category": "design"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S007",
+      "shape_id": 20,
+      "role": "body",
+      "category": "technical"
+    },
+    {
+      "check_id": "MINIMUM_PRESENTATION_FONT",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S007",
+      "shape_id": 20,
+      "role": "body",
+      "actual_pt": 19.0,
+      "minimum_pt": 15.0,
+      "category": "design"
+    },
+    {
+      "check_id": "PHOTO_LAYOUT_PRIMARY_VISUAL",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S007",
+      "family": "photo_text",
+      "shape_id": 8,
+      "category": "technical"
+    },
+    {
+      "check_id": "PHOTO_LAYOUT_SLOT_GEOMETRY",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S007",
+      "family": "photo_text",
+      "max_delta_in": 0.0,
+      "actual": {
+        "x": 2.1706692913385828,
+        "y": 2.9478969816272964,
+        "w": 10.1500656167979,
+        "h": 10.650903324584426
+      },
+      "expected": {
+        "x": 2.1707,
+        "y": 2.9479,
+        "w": 10.1501,
+        "h": 10.6509
+      },
+      "category": "technical"
+    },
+    {
+      "check_id": "PHOTO_LAYOUT_SOURCE_FRAME_REUSED",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S007",
+      "source_object_id": "SRC-S015-O008",
+      "output_shape_id": 8,
+      "category": "technical"
+    },
+    {
+      "check_id": "PHOTO_TEXT_NEGATIVE_SPACE_DIRECTION",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S007",
+      "resolved_text_side": "right",
+      "image_box": {
+        "x": 2.1707,
+        "y": 2.9479,
+        "w": 10.1501,
+        "h": 10.6509
+      },
+      "text_box": {
+        "x": 12.5807,
+        "y": 2.9479,
+        "w": 11.9153,
+        "h": 10.6509
+      },
+      "category": "technical"
+    },
+    {
+      "check_id": "TEMPLATE_CHROME_GEOMETRY",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S008",
+      "source_object_id": "SRC-S013-O002",
+      "category": "technical"
+    },
+    {
+      "check_id": "TEMPLATE_CHROME_GEOMETRY",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S008",
+      "source_object_id": "SRC-S013-O008",
+      "category": "technical"
+    },
+    {
+      "check_id": "TEMPLATE_CHROME_GEOMETRY",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S008",
+      "source_object_id": "SRC-S013-O017",
+      "category": "technical"
+    },
+    {
+      "check_id": "TEMPLATE_CHROME_GEOMETRY",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S008",
+      "source_object_id": "SRC-S013-O020",
+      "category": "technical"
+    },
+    {
+      "check_id": "LAYOUT_FIT_TO_INTENT",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S008",
+      "family": "process",
+      "score": 0.852,
+      "assessment": "適正",
+      "fill_policy": "content_filled",
+      "fill_policy_source": "slide_plan",
+      "intentional_whitespace": false,
+      "accidental_dead_space": false,
+      "reason_codes": [
+        "FIT_TO_INTENT"
+      ],
+      "content_extent_width_ratio": 1.0,
+      "content_extent_height_ratio": 0.758,
+      "occupied_area_ratio": 0.485,
+      "center_offset_x_ratio": 0.0,
+      "center_offset_y_ratio": 0.121,
+      "thresholds": {
+        "w": 0.88,
+        "h": 0.62,
+        "area": 0.389,
+        "max_edge_void": 0.3,
+        "max_center_x": 0.38,
+        "max_center_y": 0.38
+      },
+      "category": "design"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S008",
+      "shape_id": 21,
+      "role": "title",
+      "category": "technical"
+    },
+    {
+      "check_id": "MINIMUM_PRESENTATION_FONT",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S008",
+      "shape_id": 21,
+      "role": "title",
+      "actual_pt": 42.0,
+      "minimum_pt": 28.0,
+      "category": "design"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S008",
+      "shape_id": 22,
+      "role": "subtitle",
+      "category": "technical"
+    },
+    {
+      "check_id": "MINIMUM_PRESENTATION_FONT",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S008",
+      "shape_id": 22,
+      "role": "subtitle",
+      "actual_pt": 19.0,
+      "minimum_pt": 16.0,
+      "category": "design"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S008",
+      "shape_id": 24,
+      "role": "number",
+      "category": "technical"
+    },
+    {
+      "check_id": "MINIMUM_PRESENTATION_FONT",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S008",
+      "shape_id": 24,
+      "role": "number",
+      "actual_pt": 14.0,
+      "minimum_pt": 12.0,
+      "category": "design"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S008",
+      "shape_id": 25,
+      "role": "item_title",
+      "category": "technical"
+    },
+    {
+      "check_id": "MINIMUM_PRESENTATION_FONT",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S008",
+      "shape_id": 25,
+      "role": "item_title",
+      "actual_pt": 22.0,
+      "minimum_pt": 18.0,
+      "category": "design"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S008",
+      "shape_id": 26,
+      "role": "item_body",
+      "category": "technical"
+    },
+    {
+      "check_id": "MINIMUM_PRESENTATION_FONT",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S008",
+      "shape_id": 26,
+      "role": "item_body",
+      "actual_pt": 17.0,
+      "minimum_pt": 14.0,
+      "category": "design"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S008",
+      "shape_id": 29,
+      "role": "number",
+      "category": "technical"
+    },
+    {
+      "check_id": "MINIMUM_PRESENTATION_FONT",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S008",
+      "shape_id": 29,
+      "role": "number",
+      "actual_pt": 14.0,
+      "minimum_pt": 12.0,
+      "category": "design"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S008",
+      "shape_id": 30,
+      "role": "item_title",
+      "category": "technical"
+    },
+    {
+      "check_id": "MINIMUM_PRESENTATION_FONT",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S008",
+      "shape_id": 30,
+      "role": "item_title",
+      "actual_pt": 22.0,
+      "minimum_pt": 18.0,
+      "category": "design"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S008",
+      "shape_id": 31,
+      "role": "item_body",
+      "category": "technical"
+    },
+    {
+      "check_id": "MINIMUM_PRESENTATION_FONT",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S008",
+      "shape_id": 31,
+      "role": "item_body",
+      "actual_pt": 17.0,
+      "minimum_pt": 14.0,
+      "category": "design"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S008",
+      "shape_id": 33,
+      "role": "process_connector",
+      "category": "technical"
+    },
+    {
+      "check_id": "LAYOUT_FIT_TO_INTENT",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S009",
+      "family": "closing",
+      "score": 0.916,
+      "assessment": "適正",
+      "fill_policy": "intentional_whitespace",
+      "fill_policy_source": "slide_plan",
+      "intentional_whitespace": true,
+      "accidental_dead_space": false,
+      "reason_codes": [
+        "FIT_TO_INTENT"
+      ],
+      "content_extent_width_ratio": 1.0,
+      "content_extent_height_ratio": 0.678,
+      "occupied_area_ratio": 0.287,
+      "center_offset_x_ratio": 0.0,
+      "center_offset_y_ratio": 0.161,
+      "thresholds": {
+        "w": 0.52,
+        "h": 0.2,
+        "area": 0.07,
+        "max_edge_void": 0.72,
+        "max_center_x": 0.38,
+        "max_center_y": 0.42
+      },
+      "category": "design"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S009",
+      "shape_id": 2,
+      "role": "title",
+      "category": "technical"
+    },
+    {
+      "check_id": "MINIMUM_PRESENTATION_FONT",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S009",
+      "shape_id": 2,
+      "role": "title",
+      "actual_pt": 52.0,
+      "minimum_pt": 28.0,
+      "category": "design"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S009",
+      "shape_id": 3,
+      "role": "subtitle",
+      "category": "technical"
+    },
+    {
+      "check_id": "MINIMUM_PRESENTATION_FONT",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S009",
+      "shape_id": 3,
+      "role": "subtitle",
+      "actual_pt": 21.0,
+      "minimum_pt": 16.0,
+      "category": "design"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S009",
+      "shape_id": 4,
+      "role": "body",
+      "category": "technical"
+    },
+    {
+      "check_id": "MINIMUM_PRESENTATION_FONT",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S009",
+      "shape_id": 4,
+      "role": "body",
+      "actual_pt": 17.0,
+      "minimum_pt": 15.0,
+      "category": "design"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S009",
+      "shape_id": 6,
+      "role": "closing_item",
+      "category": "technical"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S009",
+      "shape_id": 7,
+      "role": "closing_item",
+      "category": "technical"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S009",
+      "shape_id": 10,
+      "role": "closing_item",
+      "category": "technical"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S009",
+      "shape_id": 11,
+      "role": "closing_item",
+      "category": "technical"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S009",
+      "shape_id": 14,
+      "role": "closing_item",
+      "category": "technical"
+    },
+    {
+      "check_id": "LAYOUT_GENERATED_OBJECT_BOUNDS",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S009",
+      "shape_id": 15,
+      "role": "closing_item",
+      "category": "technical"
+    },
+    {
+      "check_id": "LIBREOFFICE_RENDER",
+      "result": "pass",
+      "severity": "blocking",
+      "rendered_pages": 9,
+      "category": "technical"
+    },
+    {
+      "check_id": "UNEXPECTED_PIXEL_DIFF",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S001",
+      "source_slide_id": "SRC-S001",
+      "changed_pixels": 0,
+      "checked_pixels": 0,
+      "changed_ratio": 0.0,
+      "mean_max_channel_delta": 0.0,
+      "max_channel_delta": 0,
+      "threshold": 16,
+      "mask_padding_px": 12,
+      "meaningful_area": false,
+      "coherent_delta": false,
+      "coherent_delta_thresholds": {
+        "mean_max_channel_delta": 0.2,
+        "max_channel_delta": 48
+      },
+      "debug": "/mnt/data/slideharness_v010/slideharness-v0.10.0/examples/aha-receipt-full-deck/.work/render/output_validation/aha-receipt-lite-golden-v0.10.0/diff/OUT-S001.png",
+      "category": "technical"
+    },
+    {
+      "check_id": "UNEXPECTED_PIXEL_DIFF",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S002",
+      "source_slide_id": "SRC-S004",
+      "changed_pixels": 0,
+      "checked_pixels": 795483,
+      "changed_ratio": 0.0,
+      "mean_max_channel_delta": 0.7073,
+      "max_channel_delta": 9,
+      "threshold": 16,
+      "mask_padding_px": 12,
+      "meaningful_area": false,
+      "coherent_delta": true,
+      "coherent_delta_thresholds": {
+        "mean_max_channel_delta": 0.2,
+        "max_channel_delta": 48
+      },
+      "debug": "/mnt/data/slideharness_v010/slideharness-v0.10.0/examples/aha-receipt-full-deck/.work/render/output_validation/aha-receipt-lite-golden-v0.10.0/diff/OUT-S002.png",
+      "category": "technical"
+    },
+    {
+      "check_id": "UNEXPECTED_PIXEL_DIFF",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S003",
+      "source_slide_id": "SRC-S011",
+      "changed_pixels": 0,
+      "checked_pixels": 602211,
+      "changed_ratio": 0.0,
+      "mean_max_channel_delta": 0.0,
+      "max_channel_delta": 0,
+      "threshold": 16,
+      "mask_padding_px": 12,
+      "meaningful_area": false,
+      "coherent_delta": false,
+      "coherent_delta_thresholds": {
+        "mean_max_channel_delta": 0.2,
+        "max_channel_delta": 48
+      },
+      "debug": "/mnt/data/slideharness_v010/slideharness-v0.10.0/examples/aha-receipt-full-deck/.work/render/output_validation/aha-receipt-lite-golden-v0.10.0/diff/OUT-S003.png",
+      "category": "technical"
+    },
+    {
+      "check_id": "UNEXPECTED_PIXEL_DIFF",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S004",
+      "source_slide_id": "SRC-S014",
+      "changed_pixels": 0,
+      "checked_pixels": 896263,
+      "changed_ratio": 0.0,
+      "mean_max_channel_delta": 0.075,
+      "max_channel_delta": 5,
+      "threshold": 16,
+      "mask_padding_px": 12,
+      "meaningful_area": false,
+      "coherent_delta": false,
+      "coherent_delta_thresholds": {
+        "mean_max_channel_delta": 0.2,
+        "max_channel_delta": 48
+      },
+      "debug": "/mnt/data/slideharness_v010/slideharness-v0.10.0/examples/aha-receipt-full-deck/.work/render/output_validation/aha-receipt-lite-golden-v0.10.0/diff/OUT-S004.png",
+      "category": "technical"
+    },
+    {
+      "check_id": "UNEXPECTED_PIXEL_DIFF",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S005",
+      "source_slide_id": "SRC-S002",
+      "changed_pixels": 0,
+      "checked_pixels": 2981015,
+      "changed_ratio": 0.0,
+      "mean_max_channel_delta": 0.0,
+      "max_channel_delta": 0,
+      "threshold": 16,
+      "mask_padding_px": 12,
+      "meaningful_area": false,
+      "coherent_delta": false,
+      "coherent_delta_thresholds": {
+        "mean_max_channel_delta": 0.2,
+        "max_channel_delta": 48
+      },
+      "debug": "/mnt/data/slideharness_v010/slideharness-v0.10.0/examples/aha-receipt-full-deck/.work/render/output_validation/aha-receipt-lite-golden-v0.10.0/diff/OUT-S005.png",
+      "category": "technical"
+    },
+    {
+      "check_id": "UNEXPECTED_PIXEL_DIFF",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S006",
+      "source_slide_id": "SRC-S014",
+      "changed_pixels": 0,
+      "checked_pixels": 896263,
+      "changed_ratio": 0.0,
+      "mean_max_channel_delta": 0.075,
+      "max_channel_delta": 5,
+      "threshold": 16,
+      "mask_padding_px": 12,
+      "meaningful_area": false,
+      "coherent_delta": false,
+      "coherent_delta_thresholds": {
+        "mean_max_channel_delta": 0.2,
+        "max_channel_delta": 48
+      },
+      "debug": "/mnt/data/slideharness_v010/slideharness-v0.10.0/examples/aha-receipt-full-deck/.work/render/output_validation/aha-receipt-lite-golden-v0.10.0/diff/OUT-S006.png",
+      "category": "technical"
+    },
+    {
+      "check_id": "UNEXPECTED_PIXEL_DIFF",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S007",
+      "source_slide_id": "SRC-S015",
+      "changed_pixels": 0,
+      "checked_pixels": 1082141,
+      "changed_ratio": 0.0,
+      "mean_max_channel_delta": 0.0225,
+      "max_channel_delta": 5,
+      "threshold": 16,
+      "mask_padding_px": 12,
+      "meaningful_area": false,
+      "coherent_delta": false,
+      "coherent_delta_thresholds": {
+        "mean_max_channel_delta": 0.2,
+        "max_channel_delta": 48
+      },
+      "debug": "/mnt/data/slideharness_v010/slideharness-v0.10.0/examples/aha-receipt-full-deck/.work/render/output_validation/aha-receipt-lite-golden-v0.10.0/diff/OUT-S007.png",
+      "category": "technical"
+    },
+    {
+      "check_id": "UNEXPECTED_PIXEL_DIFF",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S008",
+      "source_slide_id": "SRC-S013",
+      "changed_pixels": 0,
+      "checked_pixels": 1052657,
+      "changed_ratio": 0.0,
+      "mean_max_channel_delta": 0.2188,
+      "max_channel_delta": 10,
+      "threshold": 16,
+      "mask_padding_px": 12,
+      "meaningful_area": false,
+      "coherent_delta": true,
+      "coherent_delta_thresholds": {
+        "mean_max_channel_delta": 0.2,
+        "max_channel_delta": 48
+      },
+      "debug": "/mnt/data/slideharness_v010/slideharness-v0.10.0/examples/aha-receipt-full-deck/.work/render/output_validation/aha-receipt-lite-golden-v0.10.0/diff/OUT-S008.png",
+      "category": "technical"
+    },
+    {
+      "check_id": "UNEXPECTED_PIXEL_DIFF",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S009",
+      "source_slide_id": "SRC-S017",
+      "changed_pixels": 0,
+      "checked_pixels": 1095727,
+      "changed_ratio": 0.0,
+      "mean_max_channel_delta": 0.0,
+      "max_channel_delta": 0,
+      "threshold": 16,
+      "mask_padding_px": 12,
+      "meaningful_area": false,
+      "coherent_delta": false,
+      "coherent_delta_thresholds": {
+        "mean_max_channel_delta": 0.2,
+        "max_channel_delta": 48
+      },
+      "debug": "/mnt/data/slideharness_v010/slideharness-v0.10.0/examples/aha-receipt-full-deck/.work/render/output_validation/aha-receipt-lite-golden-v0.10.0/diff/OUT-S009.png",
+      "category": "technical"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S001",
+      "shape_id": 5,
+      "role": "title",
+      "expected": "レシートキャンペーンを、\n公開準備から抽選までひとつに",
+      "category": "content"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S001",
+      "shape_id": 5,
+      "role": "title",
+      "rendered_bbox": [
+        122.97,
+        287.34,
+        816.75,
+        419.22
+      ],
+      "shape_bbox": [
+        122.96,
+        295.33,
+        1098.15,
+        407.88
+      ],
+      "category": "technical"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S001",
+      "shape_id": 6,
+      "role": "body",
+      "expected": "Aha! レシート Lite\n必要十分な機能を、導入しやすい価格で。",
+      "category": "content"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S001",
+      "shape_id": 6,
+      "role": "body",
+      "rendered_bbox": [
+        122.97,
+        415.55,
+        539.13,
+        473.8
+      ],
+      "shape_bbox": [
+        122.96,
+        419.11,
+        1098.15,
+        784.67
+      ],
+      "category": "technical"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S002",
+      "shape_id": 10,
+      "role": "title",
+      "expected": "必要な機能を標準化するから、\n導入しやすい",
+      "category": "content"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S002",
+      "shape_id": 10,
+      "role": "title",
+      "rendered_bbox": [
+        156.3,
+        204.55,
+        828.18,
+        331.64
+      ],
+      "shape_bbox": [
+        156.29,
+        212.25,
+        950.64,
+        388.63
+      ],
+      "category": "technical"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S002",
+      "shape_id": 11,
+      "role": "subtitle",
+      "expected": "キャンペーン運用に必要な機能を、使いやすい形で標準搭載。",
+      "category": "content"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S002",
+      "shape_id": 11,
+      "role": "subtitle",
+      "rendered_bbox": [
+        156.3,
+        396.49,
+        743.29,
+        426.91
+      ],
+      "shape_bbox": [
+        156.29,
+        399.86,
+        950.64,
+        480.38
+      ],
+      "category": "technical"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S002",
+      "shape_id": 12,
+      "role": "body",
+      "expected": "過剰な個別開発を抑え、\n導入コストと開始までの時間を減らします。",
+      "category": "content"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S002",
+      "shape_id": 12,
+      "role": "body",
+      "rendered_bbox": [
+        156.3,
+        491.06,
+        574.22,
+        546.67
+      ],
+      "shape_bbox": [
+        156.29,
+        494.42,
+        950.64,
+        979.11
+      ],
+      "category": "technical"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S003",
+      "shape_id": 9,
+      "role": "title",
+      "expected": "Googleフォーム・Lite・フル版の違い",
+      "category": "content"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S003",
+      "shape_id": 9,
+      "role": "title",
+      "rendered_bbox": [
+        86.4,
+        153.24,
+        845.6,
+        214.28
+      ],
+      "shape_bbox": [
+        86.4,
+        159.96,
+        1833.59,
+        234.03
+      ],
+      "category": "technical"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S003",
+      "shape_id": 10,
+      "role": "subtitle",
+      "expected": "○：標準対応　△：別作業が必要　×：標準では非対応",
+      "category": "content"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S003",
+      "shape_id": 10,
+      "role": "subtitle",
+      "rendered_bbox": [
+        86.4,
+        241.44,
+        537.31,
+        267.59
+      ],
+      "shape_bbox": [
+        86.4,
+        244.33,
+        1833.59,
+        283.55
+      ],
+      "category": "technical"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S004",
+      "shape_id": 42,
+      "role": "title",
+      "expected": "20年間の知見を、導入しやすい標準機能へ",
+      "category": "content"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S004",
+      "shape_id": 42,
+      "role": "title",
+      "rendered_bbox": [
+        86.4,
+        153.24,
+        900.21,
+        214.28
+      ],
+      "shape_bbox": [
+        86.4,
+        159.96,
+        1833.59,
+        234.03
+      ],
+      "category": "technical"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S004",
+      "shape_id": 43,
+      "role": "subtitle",
+      "expected": "毎回ゼロから開発せず、よく使う運用をLiteに集約します。",
+      "category": "content"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S004",
+      "shape_id": 43,
+      "role": "subtitle",
+      "rendered_bbox": [
+        86.4,
+        241.28,
+        598.6,
+        268.87
+      ],
+      "shape_bbox": [
+        86.4,
+        244.33,
+        1833.59,
+        283.55
+      ],
+      "category": "technical"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S004",
+      "shape_id": 45,
+      "role": "number",
+      "expected": "01",
+      "category": "content"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S004",
+      "shape_id": 45,
+      "role": "number",
+      "rendered_bbox": [
+        110.18,
+        554.85,
+        126.2,
+        573.92
+      ],
+      "shape_bbox": [
+        103.68,
+        549.69,
+        132.74,
+        578.75
+      ],
+      "category": "technical"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S004",
+      "shape_id": 46,
+      "role": "item_title",
+      "expected": "20年の知見",
+      "category": "content"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S004",
+      "shape_id": 46,
+      "role": "item_title",
+      "rendered_bbox": [
+        103.69,
+        585.6,
+        221.96,
+        617.57
+      ],
+      "shape_bbox": [
+        103.68,
+        589.11,
+        491.88,
+        631.38
+      ],
+      "category": "technical"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S004",
+      "shape_id": 47,
+      "role": "item_body",
+      "expected": "実例を蓄積",
+      "category": "content"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S004",
+      "shape_id": 47,
+      "role": "item_body",
+      "rendered_bbox": [
+        103.69,
+        636.41,
+        188.8,
+        661.03
+      ],
+      "shape_bbox": [
+        103.68,
+        639.16,
+        491.88,
+        779.3
+      ],
+      "category": "technical"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S004",
+      "shape_id": 50,
+      "role": "number",
+      "expected": "02",
+      "category": "content"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S004",
+      "shape_id": 50,
+      "role": "number",
+      "rendered_bbox": [
+        551.65,
+        554.85,
+        567.67,
+        573.92
+      ],
+      "shape_bbox": [
+        545.16,
+        549.69,
+        574.22,
+        578.75
+      ],
+      "category": "technical"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S004",
+      "shape_id": 51,
+      "role": "item_title",
+      "expected": "機能を抽出",
+      "category": "content"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S004",
+      "shape_id": 51,
+      "role": "item_title",
+      "rendered_bbox": [
+        545.16,
+        585.6,
+        654.97,
+        617.46
+      ],
+      "shape_bbox": [
+        545.16,
+        589.11,
+        933.36,
+        631.38
+      ],
+      "category": "technical"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S004",
+      "shape_id": 52,
+      "role": "item_body",
+      "expected": "要件を整理",
+      "category": "content"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S004",
+      "shape_id": 52,
+      "role": "item_body",
+      "rendered_bbox": [
+        545.16,
+        636.41,
+        630.27,
+        661.03
+      ],
+      "shape_bbox": [
+        545.16,
+        639.16,
+        933.36,
+        779.3
+      ],
+      "category": "technical"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S004",
+      "shape_id": 55,
+      "role": "number",
+      "expected": "03",
+      "category": "content"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S004",
+      "shape_id": 55,
+      "role": "number",
+      "rendered_bbox": [
+        993.15,
+        554.85,
+        1009.17,
+        573.92
+      ],
+      "shape_bbox": [
+        986.64,
+        549.69,
+        1015.7,
+        578.75
+      ],
+      "category": "technical"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S004",
+      "shape_id": 56,
+      "role": "item_title",
+      "expected": "Liteに標準化",
+      "category": "content"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S004",
+      "shape_id": 56,
+      "role": "item_title",
+      "rendered_bbox": [
+        986.65,
+        585.6,
+        1121.42,
+        617.57
+      ],
+      "shape_bbox": [
+        986.64,
+        589.11,
+        1374.83,
+        631.38
+      ],
+      "category": "technical"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S004",
+      "shape_id": 57,
+      "role": "item_body",
+      "expected": "標準機能に集約",
+      "category": "content"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S004",
+      "shape_id": 57,
+      "role": "item_body",
+      "rendered_bbox": [
+        986.65,
+        636.41,
+        1105.81,
+        661.03
+      ],
+      "shape_bbox": [
+        986.64,
+        639.16,
+        1374.83,
+        779.3
+      ],
+      "category": "technical"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S004",
+      "shape_id": 60,
+      "role": "number",
+      "expected": "04",
+      "category": "content"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S004",
+      "shape_id": 60,
+      "role": "number",
+      "rendered_bbox": [
+        1434.61,
+        554.85,
+        1450.63,
+        573.92
+      ],
+      "shape_bbox": [
+        1428.11,
+        549.69,
+        1457.17,
+        578.75
+      ],
+      "category": "technical"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S004",
+      "shape_id": 61,
+      "role": "item_title",
+      "expected": "導入しやすく",
+      "category": "content"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S004",
+      "shape_id": 61,
+      "role": "item_title",
+      "rendered_bbox": [
+        1428.12,
+        585.6,
+        1559.67,
+        617.46
+      ],
+      "shape_bbox": [
+        1428.11,
+        589.11,
+        1816.31,
+        631.38
+      ],
+      "category": "technical"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S004",
+      "shape_id": 62,
+      "role": "item_body",
+      "expected": "価格と時間を抑える",
+      "category": "content"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S004",
+      "shape_id": 62,
+      "role": "item_body",
+      "rendered_bbox": [
+        1428.12,
+        636.41,
+        1580.87,
+        661.03
+      ],
+      "shape_bbox": [
+        1428.11,
+        639.16,
+        1816.31,
+        779.3
+      ],
+      "category": "technical"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S005",
+      "shape_id": 3,
+      "role": "title",
+      "expected": "素材が揃えば、\n最短即日で公開可能",
+      "category": "content"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S005",
+      "shape_id": 3,
+      "role": "title",
+      "rendered_bbox": [
+        86.37,
+        696.09,
+        533.99,
+        827.74
+      ],
+      "shape_bbox": [
+        86.4,
+        703.99,
+        652.32,
+        820.8
+      ],
+      "category": "technical"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S005",
+      "shape_id": 4,
+      "role": "subtitle",
+      "expected": "素材・規約・実施条件の確定が前提。\n開始日は確認状況により異なります。",
+      "category": "content"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S005",
+      "shape_id": 4,
+      "role": "subtitle",
+      "rendered_bbox": [
+        86.4,
+        830.21,
+        459.78,
+        888.45
+      ],
+      "shape_bbox": [
+        86.4,
+        833.76,
+        584.41,
+        916.37
+      ],
+      "category": "technical"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S006",
+      "shape_id": 42,
+      "role": "title",
+      "expected": "公開・受付・確認・抽選を、一つの管理画面で",
+      "category": "content"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S006",
+      "shape_id": 42,
+      "role": "title",
+      "rendered_bbox": [
+        86.4,
+        153.24,
+        968.59,
+        214.07
+      ],
+      "shape_bbox": [
+        86.4,
+        159.96,
+        1833.59,
+        234.03
+      ],
+      "category": "technical"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S006",
+      "shape_id": 43,
+      "role": "subtitle",
+      "expected": "準備から終了後まで、同じ流れの中で進められます。",
+      "category": "content"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S006",
+      "shape_id": 43,
+      "role": "subtitle",
+      "rendered_bbox": [
+        86.4,
+        241.28,
+        538.62,
+        268.78
+      ],
+      "shape_bbox": [
+        86.4,
+        244.33,
+        1833.59,
+        283.55
+      ],
+      "category": "technical"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S006",
+      "shape_id": 45,
+      "role": "number",
+      "expected": "01",
+      "category": "content"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S006",
+      "shape_id": 45,
+      "role": "number",
+      "rendered_bbox": [
+        110.18,
+        554.85,
+        126.2,
+        573.92
+      ],
+      "shape_bbox": [
+        103.68,
+        549.69,
+        132.74,
+        578.75
+      ],
+      "category": "technical"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S006",
+      "shape_id": 46,
+      "role": "item_title",
+      "expected": "公開する",
+      "category": "content"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S006",
+      "shape_id": 46,
+      "role": "item_title",
+      "rendered_bbox": [
+        103.69,
+        585.6,
+        191.57,
+        617.46
+      ],
+      "shape_bbox": [
+        103.68,
+        589.11,
+        491.88,
+        631.38
+      ],
+      "category": "technical"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S006",
+      "shape_id": 47,
+      "role": "item_body",
+      "expected": "LP・期間・規約を設定",
+      "category": "content"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S006",
+      "shape_id": 47,
+      "role": "item_body",
+      "rendered_bbox": [
+        103.69,
+        636.41,
+        280.26,
+        661.12
+      ],
+      "shape_bbox": [
+        103.68,
+        639.16,
+        491.88,
+        779.3
+      ],
+      "category": "technical"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S006",
+      "shape_id": 50,
+      "role": "number",
+      "expected": "02",
+      "category": "content"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S006",
+      "shape_id": 50,
+      "role": "number",
+      "rendered_bbox": [
+        551.65,
+        554.85,
+        567.67,
+        573.92
+      ],
+      "shape_bbox": [
+        545.16,
+        549.69,
+        574.22,
+        578.75
+      ],
+      "category": "technical"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S006",
+      "shape_id": 51,
+      "role": "item_title",
+      "expected": "受け付ける",
+      "category": "content"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S006",
+      "shape_id": 51,
+      "role": "item_title",
+      "rendered_bbox": [
+        545.16,
+        585.6,
+        654.97,
+        617.46
+      ],
+      "shape_bbox": [
+        545.16,
+        589.11,
+        933.36,
+        631.38
+      ],
+      "category": "technical"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S006",
+      "shape_id": 52,
+      "role": "item_body",
+      "expected": "フォームと画像を受付",
+      "category": "content"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S006",
+      "shape_id": 52,
+      "role": "item_body",
+      "rendered_bbox": [
+        545.16,
+        636.41,
+        714.93,
+        661.03
+      ],
+      "shape_bbox": [
+        545.16,
+        639.16,
+        933.36,
+        779.3
+      ],
+      "category": "technical"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S006",
+      "shape_id": 55,
+      "role": "number",
+      "expected": "03",
+      "category": "content"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S006",
+      "shape_id": 55,
+      "role": "number",
+      "rendered_bbox": [
+        993.15,
+        554.85,
+        1009.17,
+        573.92
+      ],
+      "shape_bbox": [
+        986.64,
+        549.69,
+        1015.7,
+        578.75
+      ],
+      "category": "technical"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S006",
+      "shape_id": 56,
+      "role": "item_title",
+      "expected": "確認する",
+      "category": "content"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S006",
+      "shape_id": 56,
+      "role": "item_title",
+      "rendered_bbox": [
+        986.65,
+        585.6,
+        1074.53,
+        617.46
+      ],
+      "shape_bbox": [
+        986.64,
+        589.11,
+        1374.83,
+        631.38
+      ],
+      "category": "technical"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S006",
+      "shape_id": 57,
+      "role": "item_body",
+      "expected": "応募状況と重複を確認",
+      "category": "content"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S006",
+      "shape_id": 57,
+      "role": "item_body",
+      "rendered_bbox": [
+        986.65,
+        636.41,
+        1156.92,
+        661.03
+      ],
+      "shape_bbox": [
+        986.64,
+        639.16,
+        1374.83,
+        779.3
+      ],
+      "category": "technical"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S006",
+      "shape_id": 60,
+      "role": "number",
+      "expected": "04",
+      "category": "content"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S006",
+      "shape_id": 60,
+      "role": "number",
+      "rendered_bbox": [
+        1434.61,
+        554.85,
+        1450.63,
+        573.92
+      ],
+      "shape_bbox": [
+        1428.11,
+        549.69,
+        1457.17,
+        578.75
+      ],
+      "category": "technical"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S006",
+      "shape_id": 61,
+      "role": "item_title",
+      "expected": "抽選する",
+      "category": "content"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S006",
+      "shape_id": 61,
+      "role": "item_title",
+      "rendered_bbox": [
+        1428.12,
+        585.6,
+        1516.0,
+        617.46
+      ],
+      "shape_bbox": [
+        1428.11,
+        589.11,
+        1816.31,
+        631.38
+      ],
+      "category": "technical"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S006",
+      "shape_id": 62,
+      "role": "item_body",
+      "expected": "CSV出力と簡易抽選",
+      "category": "content"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S006",
+      "shape_id": 62,
+      "role": "item_body",
+      "rendered_bbox": [
+        1428.12,
+        636.41,
+        1581.72,
+        661.12
+      ],
+      "shape_bbox": [
+        1428.11,
+        639.16,
+        1816.31,
+        779.3
+      ],
+      "category": "technical"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S007",
+      "shape_id": 18,
+      "role": "title",
+      "expected": "公開後も、担当者が\n主要設定を変更できる",
+      "category": "content"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S007",
+      "shape_id": 18,
+      "role": "title",
+      "rendered_bbox": [
+        905.81,
+        205.19,
+        1344.92,
+        321.68
+      ],
+      "shape_bbox": [
+        905.81,
+        212.25,
+        1763.71,
+        388.63
+      ],
+      "category": "technical"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S007",
+      "shape_id": 19,
+      "role": "subtitle",
+      "expected": "管理画面から、運用に必要な4領域を更新。",
+      "category": "content"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S007",
+      "shape_id": 19,
+      "role": "subtitle",
+      "rendered_bbox": [
+        905.81,
+        396.65,
+        1307.53,
+        425.73
+      ],
+      "shape_bbox": [
+        905.81,
+        399.86,
+        1763.71,
+        480.38
+      ],
+      "category": "technical"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S007",
+      "shape_id": 20,
+      "role": "body",
+      "expected": "キャンペーン　商品・期間・規約\nフォーム　　　質問・必須設定\nビジュアル　　配色・画像・OGP\nメール・計測　自動返信・GA4・GTM",
+      "category": "content"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S007",
+      "shape_id": 20,
+      "role": "body",
+      "rendered_bbox": [
+        905.81,
+        491.38,
+        1244.19,
+        587.35
+      ],
+      "shape_bbox": [
+        905.81,
+        494.42,
+        1763.71,
+        979.11
+      ],
+      "category": "technical"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S008",
+      "shape_id": 21,
+      "role": "title",
+      "expected": "Liteから始め、\n必要な要件だけ拡張できる",
+      "category": "content"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S008",
+      "shape_id": 21,
+      "role": "title",
+      "rendered_bbox": [
+        86.4,
+        153.21,
+        589.67,
+        264.44
+      ],
+      "shape_bbox": [
+        86.4,
+        159.96,
+        1833.59,
+        308.11
+      ],
+      "category": "technical"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S008",
+      "shape_id": 22,
+      "role": "subtitle",
+      "expected": "基本運用はLite。OCRや複雑な条件はフル版・個別対応へ。",
+      "category": "content"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S008",
+      "shape_id": 22,
+      "role": "subtitle",
+      "rendered_bbox": [
+        86.4,
+        315.38,
+        611.45,
+        342.97
+      ],
+      "shape_bbox": [
+        86.4,
+        318.4,
+        1833.59,
+        357.62
+      ],
+      "category": "technical"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S008",
+      "shape_id": 24,
+      "role": "number",
+      "expected": "01",
+      "category": "content"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S008",
+      "shape_id": 24,
+      "role": "number",
+      "rendered_bbox": [
+        109.33,
+        604.37,
+        125.35,
+        623.44
+      ],
+      "shape_bbox": [
+        103.68,
+        600.06,
+        131.04,
+        627.42
+      ],
+      "category": "technical"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S008",
+      "shape_id": 25,
+      "role": "item_title",
+      "expected": "Lite 標準範囲",
+      "category": "content"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S008",
+      "shape_id": 25,
+      "role": "item_title",
+      "rendered_bbox": [
+        103.69,
+        634.28,
+        244.15,
+        666.24
+      ],
+      "shape_bbox": [
+        103.68,
+        637.78,
+        933.36,
+        675.78
+      ],
+      "category": "technical"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S008",
+      "shape_id": 26,
+      "role": "item_body",
+      "expected": "フォーム・画像受付\n検索・CSV・簡易抽選",
+      "category": "content"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S008",
+      "shape_id": 26,
+      "role": "item_body",
+      "rendered_bbox": [
+        103.69,
+        680.8,
+        278.43,
+        725.92
+      ],
+      "shape_bbox": [
+        103.68,
+        683.56,
+        933.36,
+        803.0
+      ],
+      "category": "technical"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S008",
+      "shape_id": 29,
+      "role": "number",
+      "expected": "02",
+      "category": "content"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S008",
+      "shape_id": 29,
+      "role": "number",
+      "rendered_bbox": [
+        992.3,
+        604.37,
+        1008.32,
+        623.44
+      ],
+      "shape_bbox": [
+        986.64,
+        600.06,
+        1014.0,
+        627.42
+      ],
+      "category": "technical"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S008",
+      "shape_id": 30,
+      "role": "item_title",
+      "expected": "必要に応じて拡張",
+      "category": "content"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S008",
+      "shape_id": 30,
+      "role": "item_title",
+      "rendered_bbox": [
+        986.65,
+        634.28,
+        1162.35,
+        666.13
+      ],
+      "shape_bbox": [
+        986.64,
+        637.78,
+        1816.31,
+        675.78
+      ],
+      "category": "technical"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S008",
+      "shape_id": 31,
+      "role": "item_body",
+      "expected": "OCR・高度な条件\n外部連携・運用支援",
+      "category": "content"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S008",
+      "shape_id": 31,
+      "role": "item_body",
+      "rendered_bbox": [
+        986.65,
+        680.8,
+        1139.9,
+        725.83
+      ],
+      "shape_bbox": [
+        986.64,
+        683.56,
+        1816.31,
+        803.0
+      ],
+      "category": "technical"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S009",
+      "shape_id": 2,
+      "role": "title",
+      "expected": "デモ・見積・導入相談へ",
+      "category": "content"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S009",
+      "shape_id": 2,
+      "role": "title",
+      "rendered_bbox": [
+        86.4,
+        40.3,
+        657.74,
+        115.57
+      ],
+      "shape_bbox": [
+        86.4,
+        48.6,
+        1833.59,
+        132.14
+      ],
+      "category": "technical"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S009",
+      "shape_id": 3,
+      "role": "subtitle",
+      "expected": "キャンペーン内容と開始希望日をお知らせください。",
+      "category": "content"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S009",
+      "shape_id": 3,
+      "role": "subtitle",
+      "rendered_bbox": [
+        86.4,
+        140.27,
+        588.97,
+        170.69
+      ],
+      "shape_bbox": [
+        86.4,
+        143.66,
+        1833.59,
+        187.88
+      ],
+      "category": "technical"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S009",
+      "shape_id": 4,
+      "role": "body",
+      "expected": "必要な準備と標準範囲を整理し、開始までの流れをご案内します。",
+      "category": "content"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S009",
+      "shape_id": 4,
+      "role": "body",
+      "rendered_bbox": [
+        86.4,
+        202.42,
+        595.55,
+        227.05
+      ],
+      "shape_bbox": [
+        86.4,
+        205.16,
+        1519.1,
+        269.96
+      ],
+      "category": "technical"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S009",
+      "shape_id": 6,
+      "role": "closing_item",
+      "expected": "30分デモ",
+      "category": "content"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S009",
+      "shape_id": 6,
+      "role": "closing_item",
+      "rendered_bbox": [
+        106.53,
+        627.33,
+        202.82,
+        659.29
+      ],
+      "shape_bbox": [
+        106.56,
+        630.88,
+        632.32,
+        664.0
+      ],
+      "category": "technical"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S009",
+      "shape_id": 7,
+      "role": "closing_item",
+      "expected": "実際の画面と流れを確認",
+      "category": "content"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S009",
+      "shape_id": 7,
+      "role": "closing_item",
+      "rendered_bbox": [
+        106.53,
+        670.34,
+        293.82,
+        694.96
+      ],
+      "shape_bbox": [
+        106.56,
+        673.07,
+        632.32,
+        694.96
+      ],
+      "category": "technical"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S009",
+      "shape_id": 10,
+      "role": "closing_item",
+      "expected": "見積依頼",
+      "category": "content"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S009",
+      "shape_id": 10,
+      "role": "closing_item",
+      "rendered_bbox": [
+        697.1,
+        627.33,
+        784.97,
+        659.18
+      ],
+      "shape_bbox": [
+        697.12,
+        630.88,
+        1222.88,
+        664.0
+      ],
+      "category": "technical"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S009",
+      "shape_id": 11,
+      "role": "closing_item",
+      "expected": "条件に合わせて費用を整理",
+      "category": "content"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S009",
+      "shape_id": 11,
+      "role": "closing_item",
+      "rendered_bbox": [
+        697.1,
+        670.34,
+        901.41,
+        694.96
+      ],
+      "shape_bbox": [
+        697.12,
+        673.07,
+        1222.88,
+        694.96
+      ],
+      "category": "technical"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S009",
+      "shape_id": 14,
+      "role": "closing_item",
+      "expected": "導入相談",
+      "category": "content"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S009",
+      "shape_id": 14,
+      "role": "closing_item",
+      "rendered_bbox": [
+        1287.67,
+        627.33,
+        1375.54,
+        659.18
+      ],
+      "shape_bbox": [
+        1287.68,
+        630.88,
+        1813.43,
+        664.0
+      ],
+      "category": "technical"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_PRESENT",
+      "result": "pass",
+      "severity": "blocking",
+      "slide_id": "OUT-S009",
+      "shape_id": 15,
+      "role": "closing_item",
+      "expected": "Lite／フル版を一緒に選定",
+      "category": "content"
+    },
+    {
+      "check_id": "RENDER_LAYOUT_TEXT_OVERFLOW",
+      "result": "pass",
+      "severity": "info",
+      "slide_id": "OUT-S009",
+      "shape_id": 15,
+      "role": "closing_item",
+      "rendered_bbox": [
+        1287.67,
+        670.34,
+        1491.1,
+        695.05
+      ],
+      "shape_bbox": [
+        1287.68,
+        673.07,
+        1813.43,
+        694.96
+      ],
+      "category": "technical"
+    },
+    {
+      "check_id": "IMAGE_ASSET_READY",
+      "result": "pass",
+      "severity": "info",
+      "recipe_id": "IMG-OUT-S001-01",
+      "slide_id": "OUT-S001",
+      "asset_id": "GAST-IMG-OUT-S001-01-V001",
+      "category": "technical"
+    },
+    {
+      "check_id": "IMAGE_SOURCE_LINEAGE",
+      "result": "pass",
+      "severity": "info",
+      "recipe_id": "IMG-OUT-S001-01",
+      "slide_id": "OUT-S001",
+      "source_slide_id": "SRC-S001",
+      "source_object_id": null,
+      "source_asset_id": null,
+      "layout_slot_id": "OUT-S001:primary_visual",
+      "lineage_mode": "layout_slot",
+      "category": "technical"
+    },
+    {
+      "check_id": "IMAGE_TREATMENT_APPLIED",
+      "result": "pass",
+      "severity": "info",
+      "recipe_id": "IMG-OUT-S001-01",
+      "slide_id": "OUT-S001",
+      "preset": "match_source_slot_and_deck_art_direction",
+      "grading": {
+        "brightness": 1.0294,
+        "warmth_delta": 0.22,
+        "saturation": 1.72,
+        "contrast": 0.62,
+        "detail_action": "none",
+        "detail_amount": 0.0,
+        "palette_treatment": {
+          "mode": "metric_grade_only"
+        }
+      },
+      "category": "technical"
+    },
+    {
+      "check_id": "IMAGE_SLOT_ASPECT",
+      "result": "pass",
+      "severity": "info",
+      "recipe_id": "IMG-OUT-S001-01",
+      "slide_id": "OUT-S001",
+      "expected": 1.77778,
+      "actual": 1.77778,
+      "relative_difference": 0.0,
+      "category": "technical"
+    },
+    {
+      "check_id": "IMAGE_EFFECTIVE_RESOLUTION",
+      "result": "pass",
+      "severity": "info",
+      "recipe_id": "IMG-OUT-S001-01",
+      "slide_id": "OUT-S001",
+      "effective_ppi": 124.8,
+      "minimum_ppi": 120.0,
+      "category": "technical"
+    },
+    {
+      "check_id": "IMAGE_TEMPLATE_HARMONY",
+      "result": "pass",
+      "severity": "info",
+      "recipe_id": "IMG-OUT-S001-01",
+      "slide_id": "OUT-S001",
+      "score": 0.8212,
+      "metrics": {
+        "width_px": 3328,
+        "height_px": 1872,
+        "aspect_ratio": 1.77778,
+        "brightness": 0.8675,
+        "saturation": 0.1222,
+        "contrast": 0.3648,
+        "edge_density": 0.0716,
+        "warmth": 0.1158,
+        "mean_rgb": [
+          0.899,
+          0.8688,
+          0.7831
+        ],
+        "transparent_ratio": 0.0,
+        "dominant_colors": [
+          {
+            "hex": "#F2ECD5",
+            "ratio": 0.6009
+          },
+          {
+            "hex": "#C6B8A4",
+            "ratio": 0.1545
+          },
+          {
+            "hex": "#F4F3DD",
+            "ratio": 0.1265
+          },
+          {
+            "hex": "#EFECD6",
+            "ratio": 0.0911
+          },
+          {
+            "hex": "#F6ECD4",
+            "ratio": 0.0269
+          }
+        ],
+        "average_hash": "f0f0f0f6f6f4f0f0"
+      },
+      "target_metrics": {
+        "brightness": 0.8751,
+        "saturation": 0.2902,
+        "contrast": 0.3324,
+        "edge_density": 0.0512,
+        "warmth": 0.2874
+      },
+      "distances": {
+        "brightness": 0.0076,
+        "saturation": 0.168,
+        "contrast": 0.0324,
+        "edge_density": 0.0204,
+        "warmth": 0.1716
+      },
+      "components": {
+        "brightness": 0.981,
+        "saturation": 0.65,
+        "contrast": 0.9264,
+        "edge_density": 0.9363,
+        "warmth": 0.5233
+      },
+      "category": "technical"
+    },
+    {
+      "check_id": "IMAGE_NEGATIVE_SPACE",
+      "result": "pass",
+      "severity": "info",
+      "recipe_id": "IMG-OUT-S001-01",
+      "slide_id": "OUT-S001",
+      "requested_side": "left",
+      "side_edge_density": 0.0132,
+      "opposite_edge_density": 0.0752,
+      "category": "technical"
+    },
+    {
+      "check_id": "IMAGE_FRAME_APPLICATION",
+      "result": "pass",
+      "severity": "info",
+      "recipe_id": "IMG-OUT-S001-01",
+      "slide_id": "OUT-S001",
+      "source_object_id": null,
+      "layout_slot_id": "OUT-S001:primary_visual",
+      "frame_asset_ids": [],
+      "application_mode": "layout_generated_slot",
+      "category": "technical"
+    },
+    {
+      "check_id": "IMAGE_ASSET_READY",
+      "result": "pass",
+      "severity": "info",
+      "recipe_id": "IMG-OUT-S002-01",
+      "slide_id": "OUT-S002",
+      "asset_id": "GAST-IMG-OUT-S002-01-V001",
+      "category": "technical"
+    },
+    {
+      "check_id": "IMAGE_SOURCE_LINEAGE",
+      "result": "pass",
+      "severity": "info",
+      "recipe_id": "IMG-OUT-S002-01",
+      "slide_id": "OUT-S002",
+      "source_slide_id": "SRC-S004",
+      "source_object_id": "SRC-S004-O004",
+      "source_asset_id": null,
+      "layout_slot_id": "OUT-S002:primary_visual",
+      "lineage_mode": "source_object",
+      "category": "technical"
+    },
+    {
+      "check_id": "IMAGE_TREATMENT_APPLIED",
+      "result": "pass",
+      "severity": "info",
+      "recipe_id": "IMG-OUT-S002-01",
+      "slide_id": "OUT-S002",
+      "preset": "match_source_slot_and_deck_art_direction",
+      "grading": {
+        "brightness": 1.1739,
+        "warmth_delta": 0.0083,
+        "saturation": 0.5533,
+        "contrast": 0.62,
+        "detail_action": "none",
+        "detail_amount": 0.0,
+        "palette_treatment": {
+          "mode": "restrained_monochrome",
+          "source_color_share": 0.05
+        }
+      },
+      "category": "technical"
+    },
+    {
+      "check_id": "IMAGE_SLOT_ASPECT",
+      "result": "pass",
+      "severity": "info",
+      "recipe_id": "IMG-OUT-S002-01",
+      "slide_id": "OUT-S002",
+      "expected": 1.03584,
+      "actual": 1.03567,
+      "relative_difference": 0.00016,
+      "category": "technical"
+    },
+    {
+      "check_id": "IMAGE_EFFECTIVE_RESOLUTION",
+      "result": "pass",
+      "severity": "info",
+      "recipe_id": "IMG-OUT-S002-01",
+      "slide_id": "OUT-S002",
+      "effective_ppi": 150.0,
+      "minimum_ppi": 120.0,
+      "category": "technical"
+    },
+    {
+      "check_id": "IMAGE_TEMPLATE_HARMONY",
+      "result": "pass",
+      "severity": "info",
+      "recipe_id": "IMG-OUT-S002-01",
+      "slide_id": "OUT-S002",
+      "score": 0.8328,
+      "metrics": {
+        "width_px": 1655,
+        "height_px": 1598,
+        "aspect_ratio": 1.03567,
+        "brightness": 0.9099,
+        "saturation": 0.001,
+        "contrast": 0.3391,
+        "edge_density": 0.0461,
+        "warmth": 0.0009,
+        "mean_rgb": [
+          0.9104,
+          0.9097,
+          0.9095
+        ],
+        "transparent_ratio": 0.0,
+        "dominant_colors": [
+          {
+            "hex": "#F6F6F6",
+            "ratio": 0.6641
+          },
+          {
+            "hex": "#C3C3C2",
+            "ratio": 0.1769
+          },
+          {
+            "hex": "#F5F6F6",
+            "ratio": 0.0982
+          },
+          {
+            "hex": "#FAFAFA",
+            "ratio": 0.0318
+          },
+          {
+            "hex": "#F7F6F6",
+            "ratio": 0.029
+          }
+        ],
+        "average_hash": "f0e0e7e7e7e5e0f0"
+      },
+      "target_metrics": {
+        "brightness": 0.9922,
+        "saturation": 0.0166,
+        "contrast": 0.1073,
+        "edge_density": 0.0427,
+        "warmth": 0.0139
+      },
+      "distances": {
+        "brightness": 0.0823,
+        "saturation": 0.0156,
+        "contrast": 0.2318,
+        "edge_density": 0.0034,
+        "warmth": 0.013
+      },
+      "components": {
+        "brightness": 0.7943,
+        "saturation": 0.9675,
+        "contrast": 0.4732,
+        "edge_density": 0.9894,
+        "warmth": 0.9639
+      },
+      "category": "technical"
+    },
+    {
+      "check_id": "IMAGE_NEGATIVE_SPACE",
+      "result": "pass",
+      "severity": "info",
+      "recipe_id": "IMG-OUT-S002-01",
+      "slide_id": "OUT-S002",
+      "requested_side": "left",
+      "side_edge_density": 0.0277,
+      "opposite_edge_density": 0.0718,
+      "category": "technical"
+    },
+    {
+      "check_id": "IMAGE_FRAME_APPLICATION",
+      "result": "pass",
+      "severity": "info",
+      "recipe_id": "IMG-OUT-S002-01",
+      "slide_id": "OUT-S002",
+      "source_object_id": "SRC-S004-O004",
+      "layout_slot_id": "OUT-S002:primary_visual",
+      "frame_asset_ids": [],
+      "application_mode": "layout_generated_slot",
+      "category": "technical"
+    },
+    {
+      "check_id": "IMAGE_ASSET_READY",
+      "result": "pass",
+      "severity": "info",
+      "recipe_id": "IMG-OUT-S007-01",
+      "slide_id": "OUT-S007",
+      "asset_id": "GAST-IMG-OUT-S007-01-V001",
+      "category": "technical"
+    },
+    {
+      "check_id": "IMAGE_SOURCE_LINEAGE",
+      "result": "pass",
+      "severity": "info",
+      "recipe_id": "IMG-OUT-S007-01",
+      "slide_id": "OUT-S007",
+      "source_slide_id": "SRC-S015",
+      "source_object_id": "SRC-S015-O008",
+      "source_asset_id": null,
+      "layout_slot_id": "OUT-S007:primary_visual",
+      "lineage_mode": "source_object",
+      "category": "technical"
+    },
+    {
+      "check_id": "IMAGE_TREATMENT_APPLIED",
+      "result": "pass",
+      "severity": "info",
+      "recipe_id": "IMG-OUT-S007-01",
+      "slide_id": "OUT-S007",
+      "preset": "match_source_slot_and_deck_art_direction",
+      "grading": {
+        "brightness": 1.1307,
+        "warmth_delta": 0.0169,
+        "saturation": 0.7767,
+        "contrast": 0.62,
+        "detail_action": "none",
+        "detail_amount": 0.0,
+        "palette_treatment": {
+          "mode": "restrained_monochrome",
+          "source_color_share": 0.05
+        }
+      },
+      "category": "technical"
+    },
+    {
+      "check_id": "IMAGE_SLOT_ASPECT",
+      "result": "pass",
+      "severity": "info",
+      "recipe_id": "IMG-OUT-S007-01",
+      "slide_id": "OUT-S007",
+      "expected": 0.95298,
+      "actual": 0.95307,
+      "relative_difference": 9e-05,
+      "category": "technical"
+    },
+    {
+      "check_id": "IMAGE_EFFECTIVE_RESOLUTION",
+      "result": "pass",
+      "severity": "info",
+      "recipe_id": "IMG-OUT-S007-01",
+      "slide_id": "OUT-S007",
+      "effective_ppi": 150.0,
+      "minimum_ppi": 120.0,
+      "category": "technical"
+    },
+    {
+      "check_id": "IMAGE_TEMPLATE_HARMONY",
+      "result": "pass",
+      "severity": "info",
+      "recipe_id": "IMG-OUT-S007-01",
+      "slide_id": "OUT-S007",
+      "score": 0.8411,
+      "metrics": {
+        "width_px": 1523,
+        "height_px": 1598,
+        "aspect_ratio": 0.95307,
+        "brightness": 0.9187,
+        "saturation": 0.0043,
+        "contrast": 0.3603,
+        "edge_density": 0.0351,
+        "warmth": 0.0041,
+        "mean_rgb": [
+          0.919,
+          0.9187,
+          0.9149
+        ],
+        "transparent_ratio": 0.0,
+        "dominant_colors": [
+          {
+            "hex": "#F7F7F6",
+            "ratio": 0.7179
+          },
+          {
+            "hex": "#C2C1C0",
+            "ratio": 0.128
+          },
+          {
+            "hex": "#F6F7F6",
+            "ratio": 0.1108
+          },
+          {
+            "hex": "#F9FAF9",
+            "ratio": 0.0287
+          },
+          {
+            "hex": "#F8F7F7",
+            "ratio": 0.0146
+          }
+        ],
+        "average_hash": "0f07e7e7e7e7070f"
+      },
+      "target_metrics": {
+        "brightness": 0.9894,
+        "saturation": 0.0233,
+        "contrast": 0.1355,
+        "edge_density": 0.0364,
+        "warmth": 0.0206
+      },
+      "distances": {
+        "brightness": 0.0707,
+        "saturation": 0.019,
+        "contrast": 0.2248,
+        "edge_density": 0.0013,
+        "warmth": 0.0165
+      },
+      "components": {
+        "brightness": 0.8233,
+        "saturation": 0.9604,
+        "contrast": 0.4891,
+        "edge_density": 0.9959,
+        "warmth": 0.9542
+      },
+      "category": "technical"
+    },
+    {
+      "check_id": "IMAGE_NEGATIVE_SPACE",
+      "result": "pass",
+      "severity": "info",
+      "recipe_id": "IMG-OUT-S007-01",
+      "slide_id": "OUT-S007",
+      "requested_side": "right",
+      "side_edge_density": 0.0253,
+      "opposite_edge_density": 0.0567,
+      "category": "technical"
+    },
+    {
+      "check_id": "IMAGE_FRAME_APPLICATION",
+      "result": "pass",
+      "severity": "info",
+      "recipe_id": "IMG-OUT-S007-01",
+      "slide_id": "OUT-S007",
+      "source_object_id": "SRC-S015-O008",
+      "layout_slot_id": "OUT-S007:primary_visual",
+      "frame_asset_ids": [],
+      "application_mode": "layout_generated_slot",
+      "category": "technical"
+    },
+    {
+      "check_id": "IMAGE_RENDERED_IN_TARGET_SLOT",
+      "result": "pass",
+      "severity": "info",
+      "recipe_id": "IMG-OUT-S001-01",
+      "slide_id": "OUT-S001",
+      "changed_ratio": 0.58922,
+      "source_object_id": null,
+      "category": "technical"
+    },
+    {
+      "check_id": "IMAGE_RENDERED_IN_TARGET_SLOT",
+      "result": "pass",
+      "severity": "info",
+      "recipe_id": "IMG-OUT-S002-01",
+      "slide_id": "OUT-S002",
+      "changed_ratio": 0.29652,
+      "source_object_id": "SRC-S004-O004",
+      "category": "technical"
+    },
+    {
+      "check_id": "IMAGE_RENDERED_IN_TARGET_SLOT",
+      "result": "pass",
+      "severity": "info",
+      "recipe_id": "IMG-OUT-S007-01",
+      "slide_id": "OUT-S007",
+      "changed_ratio": 0.34441,
+      "source_object_id": "SRC-S015-O008",
+      "category": "technical"
+    }
+  ],
+  "category_counts": {
+    "technical": {
+      "fail": 0,
+      "blocking": 0
+    },
+    "content": {
+      "fail": 0,
+      "blocking": 0
+    },
+    "design": {
+      "fail": 0,
+      "blocking": 0
+    }
+  },
+  "rendered_pages": [
+    "/mnt/data/slideharness_v010/slideharness-v0.10.0/examples/aha-receipt-full-deck/.work/render/output_validation/aha-receipt-lite-golden-v0.10.0/SRC-S001.png",
+    "/mnt/data/slideharness_v010/slideharness-v0.10.0/examples/aha-receipt-full-deck/.work/render/output_validation/aha-receipt-lite-golden-v0.10.0/SRC-S002.png",
+    "/mnt/data/slideharness_v010/slideharness-v0.10.0/examples/aha-receipt-full-deck/.work/render/output_validation/aha-receipt-lite-golden-v0.10.0/SRC-S003.png",
+    "/mnt/data/slideharness_v010/slideharness-v0.10.0/examples/aha-receipt-full-deck/.work/render/output_validation/aha-receipt-lite-golden-v0.10.0/SRC-S004.png",
+    "/mnt/data/slideharness_v010/slideharness-v0.10.0/examples/aha-receipt-full-deck/.work/render/output_validation/aha-receipt-lite-golden-v0.10.0/SRC-S005.png",
+    "/mnt/data/slideharness_v010/slideharness-v0.10.0/examples/aha-receipt-full-deck/.work/render/output_validation/aha-receipt-lite-golden-v0.10.0/SRC-S006.png",
+    "/mnt/data/slideharness_v010/slideharness-v0.10.0/examples/aha-receipt-full-deck/.work/render/output_validation/aha-receipt-lite-golden-v0.10.0/SRC-S007.png",
+    "/mnt/data/slideharness_v010/slideharness-v0.10.0/examples/aha-receipt-full-deck/.work/render/output_validation/aha-receipt-lite-golden-v0.10.0/SRC-S008.png",
+    "/mnt/data/slideharness_v010/slideharness-v0.10.0/examples/aha-receipt-full-deck/.work/render/output_validation/aha-receipt-lite-golden-v0.10.0/SRC-S009.png"
+  ],
+  "image_harmony": {
+    "schema_version": "0.1",
+    "generated_at": "2026-08-17T21:38:25.537853+00:00",
+    "status": "pass",
+    "blocking_count": 0,
+    "warning_count": 0,
+    "checks": [
+      {
+        "check_id": "IMAGE_ASSET_READY",
+        "result": "pass",
+        "severity": "info",
+        "recipe_id": "IMG-OUT-S001-01",
+        "slide_id": "OUT-S001",
+        "asset_id": "GAST-IMG-OUT-S001-01-V001",
+        "category": "technical"
+      },
+      {
+        "check_id": "IMAGE_SOURCE_LINEAGE",
+        "result": "pass",
+        "severity": "info",
+        "recipe_id": "IMG-OUT-S001-01",
+        "slide_id": "OUT-S001",
+        "source_slide_id": "SRC-S001",
+        "source_object_id": null,
+        "source_asset_id": null,
+        "layout_slot_id": "OUT-S001:primary_visual",
+        "lineage_mode": "layout_slot",
+        "category": "technical"
+      },
+      {
+        "check_id": "IMAGE_TREATMENT_APPLIED",
+        "result": "pass",
+        "severity": "info",
+        "recipe_id": "IMG-OUT-S001-01",
+        "slide_id": "OUT-S001",
+        "preset": "match_source_slot_and_deck_art_direction",
+        "grading": {
+          "brightness": 1.0294,
+          "warmth_delta": 0.22,
+          "saturation": 1.72,
+          "contrast": 0.62,
+          "detail_action": "none",
+          "detail_amount": 0.0,
+          "palette_treatment": {
+            "mode": "metric_grade_only"
+          }
+        },
+        "category": "technical"
+      },
+      {
+        "check_id": "IMAGE_SLOT_ASPECT",
+        "result": "pass",
+        "severity": "info",
+        "recipe_id": "IMG-OUT-S001-01",
+        "slide_id": "OUT-S001",
+        "expected": 1.77778,
+        "actual": 1.77778,
+        "relative_difference": 0.0,
+        "category": "technical"
+      },
+      {
+        "check_id": "IMAGE_EFFECTIVE_RESOLUTION",
+        "result": "pass",
+        "severity": "info",
+        "recipe_id": "IMG-OUT-S001-01",
+        "slide_id": "OUT-S001",
+        "effective_ppi": 124.8,
+        "minimum_ppi": 120.0,
+        "category": "technical"
+      },
+      {
+        "check_id": "IMAGE_TEMPLATE_HARMONY",
+        "result": "pass",
+        "severity": "info",
+        "recipe_id": "IMG-OUT-S001-01",
+        "slide_id": "OUT-S001",
+        "score": 0.8212,
+        "metrics": {
+          "width_px": 3328,
+          "height_px": 1872,
+          "aspect_ratio": 1.77778,
+          "brightness": 0.8675,
+          "saturation": 0.1222,
+          "contrast": 0.3648,
+          "edge_density": 0.0716,
+          "warmth": 0.1158,
+          "mean_rgb": [
+            0.899,
+            0.8688,
+            0.7831
+          ],
+          "transparent_ratio": 0.0,
+          "dominant_colors": [
+            {
+              "hex": "#F2ECD5",
+              "ratio": 0.6009
+            },
+            {
+              "hex": "#C6B8A4",
+              "ratio": 0.1545
+            },
+            {
+              "hex": "#F4F3DD",
+              "ratio": 0.1265
+            },
+            {
+              "hex": "#EFECD6",
+              "ratio": 0.0911
+            },
+            {
+              "hex": "#F6ECD4",
+              "ratio": 0.0269
+            }
+          ],
+          "average_hash": "f0f0f0f6f6f4f0f0"
+        },
+        "target_metrics": {
+          "brightness": 0.8751,
+          "saturation": 0.2902,
+          "contrast": 0.3324,
+          "edge_density": 0.0512,
+          "warmth": 0.2874
+        },
+        "distances": {
+          "brightness": 0.0076,
+          "saturation": 0.168,
+          "contrast": 0.0324,
+          "edge_density": 0.0204,
+          "warmth": 0.1716
+        },
+        "components": {
+          "brightness": 0.981,
+          "saturation": 0.65,
+          "contrast": 0.9264,
+          "edge_density": 0.9363,
+          "warmth": 0.5233
+        },
+        "category": "technical"
+      },
+      {
+        "check_id": "IMAGE_NEGATIVE_SPACE",
+        "result": "pass",
+        "severity": "info",
+        "recipe_id": "IMG-OUT-S001-01",
+        "slide_id": "OUT-S001",
+        "requested_side": "left",
+        "side_edge_density": 0.0132,
+        "opposite_edge_density": 0.0752,
+        "category": "technical"
+      },
+      {
+        "check_id": "IMAGE_FRAME_APPLICATION",
+        "result": "pass",
+        "severity": "info",
+        "recipe_id": "IMG-OUT-S001-01",
+        "slide_id": "OUT-S001",
+        "source_object_id": null,
+        "layout_slot_id": "OUT-S001:primary_visual",
+        "frame_asset_ids": [],
+        "application_mode": "layout_generated_slot",
+        "category": "technical"
+      },
+      {
+        "check_id": "IMAGE_ASSET_READY",
+        "result": "pass",
+        "severity": "info",
+        "recipe_id": "IMG-OUT-S002-01",
+        "slide_id": "OUT-S002",
+        "asset_id": "GAST-IMG-OUT-S002-01-V001",
+        "category": "technical"
+      },
+      {
+        "check_id": "IMAGE_SOURCE_LINEAGE",
+        "result": "pass",
+        "severity": "info",
+        "recipe_id": "IMG-OUT-S002-01",
+        "slide_id": "OUT-S002",
+        "source_slide_id": "SRC-S004",
+        "source_object_id": "SRC-S004-O004",
+        "source_asset_id": null,
+        "layout_slot_id": "OUT-S002:primary_visual",
+        "lineage_mode": "source_object",
+        "category": "technical"
+      },
+      {
+        "check_id": "IMAGE_TREATMENT_APPLIED",
+        "result": "pass",
+        "severity": "info",
+        "recipe_id": "IMG-OUT-S002-01",
+        "slide_id": "OUT-S002",
+        "preset": "match_source_slot_and_deck_art_direction",
+        "grading": {
+          "brightness": 1.1739,
+          "warmth_delta": 0.0083,
+          "saturation": 0.5533,
+          "contrast": 0.62,
+          "detail_action": "none",
+          "detail_amount": 0.0,
+          "palette_treatment": {
+            "mode": "restrained_monochrome",
+            "source_color_share": 0.05
+          }
+        },
+        "category": "technical"
+      },
+      {
+        "check_id": "IMAGE_SLOT_ASPECT",
+        "result": "pass",
+        "severity": "info",
+        "recipe_id": "IMG-OUT-S002-01",
+        "slide_id": "OUT-S002",
+        "expected": 1.03584,
+        "actual": 1.03567,
+        "relative_difference": 0.00016,
+        "category": "technical"
+      },
+      {
+        "check_id": "IMAGE_EFFECTIVE_RESOLUTION",
+        "result": "pass",
+        "severity": "info",
+        "recipe_id": "IMG-OUT-S002-01",
+        "slide_id": "OUT-S002",
+        "effective_ppi": 150.0,
+        "minimum_ppi": 120.0,
+        "category": "technical"
+      },
+      {
+        "check_id": "IMAGE_TEMPLATE_HARMONY",
+        "result": "pass",
+        "severity": "info",
+        "recipe_id": "IMG-OUT-S002-01",
+        "slide_id": "OUT-S002",
+        "score": 0.8328,
+        "metrics": {
+          "width_px": 1655,
+          "height_px": 1598,
+          "aspect_ratio": 1.03567,
+          "brightness": 0.9099,
+          "saturation": 0.001,
+          "contrast": 0.3391,
+          "edge_density": 0.0461,
+          "warmth": 0.0009,
+          "mean_rgb": [
+            0.9104,
+            0.9097,
+            0.9095
+          ],
+          "transparent_ratio": 0.0,
+          "dominant_colors": [
+            {
+              "hex": "#F6F6F6",
+              "ratio": 0.6641
+            },
+            {
+              "hex": "#C3C3C2",
+              "ratio": 0.1769
+            },
+            {
+              "hex": "#F5F6F6",
+              "ratio": 0.0982
+            },
+            {
+              "hex": "#FAFAFA",
+              "ratio": 0.0318
+            },
+            {
+              "hex": "#F7F6F6",
+              "ratio": 0.029
+            }
+          ],
+          "average_hash": "f0e0e7e7e7e5e0f0"
+        },
+        "target_metrics": {
+          "brightness": 0.9922,
+          "saturation": 0.0166,
+          "contrast": 0.1073,
+          "edge_density": 0.0427,
+          "warmth": 0.0139
+        },
+        "distances": {
+          "brightness": 0.0823,
+          "saturation": 0.0156,
+          "contrast": 0.2318,
+          "edge_density": 0.0034,
+          "warmth": 0.013
+        },
+        "components": {
+          "brightness": 0.7943,
+          "saturation": 0.9675,
+          "contrast": 0.4732,
+          "edge_density": 0.9894,
+          "warmth": 0.9639
+        },
+        "category": "technical"
+      },
+      {
+        "check_id": "IMAGE_NEGATIVE_SPACE",
+        "result": "pass",
+        "severity": "info",
+        "recipe_id": "IMG-OUT-S002-01",
+        "slide_id": "OUT-S002",
+        "requested_side": "left",
+        "side_edge_density": 0.0277,
+        "opposite_edge_density": 0.0718,
+        "category": "technical"
+      },
+      {
+        "check_id": "IMAGE_FRAME_APPLICATION",
+        "result": "pass",
+        "severity": "info",
+        "recipe_id": "IMG-OUT-S002-01",
+        "slide_id": "OUT-S002",
+        "source_object_id": "SRC-S004-O004",
+        "layout_slot_id": "OUT-S002:primary_visual",
+        "frame_asset_ids": [],
+        "application_mode": "layout_generated_slot",
+        "category": "technical"
+      },
+      {
+        "check_id": "IMAGE_ASSET_READY",
+        "result": "pass",
+        "severity": "info",
+        "recipe_id": "IMG-OUT-S007-01",
+        "slide_id": "OUT-S007",
+        "asset_id": "GAST-IMG-OUT-S007-01-V001",
+        "category": "technical"
+      },
+      {
+        "check_id": "IMAGE_SOURCE_LINEAGE",
+        "result": "pass",
+        "severity": "info",
+        "recipe_id": "IMG-OUT-S007-01",
+        "slide_id": "OUT-S007",
+        "source_slide_id": "SRC-S015",
+        "source_object_id": "SRC-S015-O008",
+        "source_asset_id": null,
+        "layout_slot_id": "OUT-S007:primary_visual",
+        "lineage_mode": "source_object",
+        "category": "technical"
+      },
+      {
+        "check_id": "IMAGE_TREATMENT_APPLIED",
+        "result": "pass",
+        "severity": "info",
+        "recipe_id": "IMG-OUT-S007-01",
+        "slide_id": "OUT-S007",
+        "preset": "match_source_slot_and_deck_art_direction",
+        "grading": {
+          "brightness": 1.1307,
+          "warmth_delta": 0.0169,
+          "saturation": 0.7767,
+          "contrast": 0.62,
+          "detail_action": "none",
+          "detail_amount": 0.0,
+          "palette_treatment": {
+            "mode": "restrained_monochrome",
+            "source_color_share": 0.05
+          }
+        },
+        "category": "technical"
+      },
+      {
+        "check_id": "IMAGE_SLOT_ASPECT",
+        "result": "pass",
+        "severity": "info",
+        "recipe_id": "IMG-OUT-S007-01",
+        "slide_id": "OUT-S007",
+        "expected": 0.95298,
+        "actual": 0.95307,
+        "relative_difference": 9e-05,
+        "category": "technical"
+      },
+      {
+        "check_id": "IMAGE_EFFECTIVE_RESOLUTION",
+        "result": "pass",
+        "severity": "info",
+        "recipe_id": "IMG-OUT-S007-01",
+        "slide_id": "OUT-S007",
+        "effective_ppi": 150.0,
+        "minimum_ppi": 120.0,
+        "category": "technical"
+      },
+      {
+        "check_id": "IMAGE_TEMPLATE_HARMONY",
+        "result": "pass",
+        "severity": "info",
+        "recipe_id": "IMG-OUT-S007-01",
+        "slide_id": "OUT-S007",
+        "score": 0.8411,
+        "metrics": {
+          "width_px": 1523,
+          "height_px": 1598,
+          "aspect_ratio": 0.95307,
+          "brightness": 0.9187,
+          "saturation": 0.0043,
+          "contrast": 0.3603,
+          "edge_density": 0.0351,
+          "warmth": 0.0041,
+          "mean_rgb": [
+            0.919,
+            0.9187,
+            0.9149
+          ],
+          "transparent_ratio": 0.0,
+          "dominant_colors": [
+            {
+              "hex": "#F7F7F6",
+              "ratio": 0.7179
+            },
+            {
+              "hex": "#C2C1C0",
+              "ratio": 0.128
+            },
+            {
+              "hex": "#F6F7F6",
+              "ratio": 0.1108
+            },
+            {
+              "hex": "#F9FAF9",
+              "ratio": 0.0287
+            },
+            {
+              "hex": "#F8F7F7",
+              "ratio": 0.0146
+            }
+          ],
+          "average_hash": "0f07e7e7e7e7070f"
+        },
+        "target_metrics": {
+          "brightness": 0.9894,
+          "saturation": 0.0233,
+          "contrast": 0.1355,
+          "edge_density": 0.0364,
+          "warmth": 0.0206
+        },
+        "distances": {
+          "brightness": 0.0707,
+          "saturation": 0.019,
+          "contrast": 0.2248,
+          "edge_density": 0.0013,
+          "warmth": 0.0165
+        },
+        "components": {
+          "brightness": 0.8233,
+          "saturation": 0.9604,
+          "contrast": 0.4891,
+          "edge_density": 0.9959,
+          "warmth": 0.9542
+        },
+        "category": "technical"
+      },
+      {
+        "check_id": "IMAGE_NEGATIVE_SPACE",
+        "result": "pass",
+        "severity": "info",
+        "recipe_id": "IMG-OUT-S007-01",
+        "slide_id": "OUT-S007",
+        "requested_side": "right",
+        "side_edge_density": 0.0253,
+        "opposite_edge_density": 0.0567,
+        "category": "technical"
+      },
+      {
+        "check_id": "IMAGE_FRAME_APPLICATION",
+        "result": "pass",
+        "severity": "info",
+        "recipe_id": "IMG-OUT-S007-01",
+        "slide_id": "OUT-S007",
+        "source_object_id": "SRC-S015-O008",
+        "layout_slot_id": "OUT-S007:primary_visual",
+        "frame_asset_ids": [],
+        "application_mode": "layout_generated_slot",
+        "category": "technical"
+      },
+      {
+        "check_id": "IMAGE_RENDERED_IN_TARGET_SLOT",
+        "result": "pass",
+        "severity": "info",
+        "recipe_id": "IMG-OUT-S001-01",
+        "slide_id": "OUT-S001",
+        "changed_ratio": 0.58922,
+        "source_object_id": null,
+        "category": "technical"
+      },
+      {
+        "check_id": "IMAGE_RENDERED_IN_TARGET_SLOT",
+        "result": "pass",
+        "severity": "info",
+        "recipe_id": "IMG-OUT-S002-01",
+        "slide_id": "OUT-S002",
+        "changed_ratio": 0.29652,
+        "source_object_id": "SRC-S004-O004",
+        "category": "technical"
+      },
+      {
+        "check_id": "IMAGE_RENDERED_IN_TARGET_SLOT",
+        "result": "pass",
+        "severity": "info",
+        "recipe_id": "IMG-OUT-S007-01",
+        "slide_id": "OUT-S007",
+        "changed_ratio": 0.34441,
+        "source_object_id": "SRC-S015-O008",
+        "category": "technical"
+      }
+    ]
+  },
+  "notes": [
+    "v0.10 QA is grouped into Technical / Content / Design. Design review never triggers unlimited automatic repair. v0.6 QA covers package/render, template chrome geometry, mutation/layout-scoped pixel diff, source and layout-generated object bounds, fit-to-intent layout quality, photo-aware slot geometry and negative-space direction, full-bleed coverage/z-order, native comparison/relationship editability, rendered text presence/overflow/overlap, table/chart editability, image harmony, and first-pass Japanese/Latin wrap heuristics. Semantic line-break quality still benefits from Sol review."
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "version": "0.9.0",
+  "generated_at": "2026-08-17T12:39:02.333012+00:00",
+  "architecture": "complete-rewrite-core",
+  "gates": {
+    "python_unit_tests": {
+      "passed": 11,
+      "failed": 0
+    },
+    "app_server_fake_protocol": {
+      "passed": 1,
+      "failed": 0
+    },
+    "aha_full_deck": {
+      "slides": 9,
+      "blocking": 0,
+      "warning": 0,
+      "image_blocking": 0,
+      "image_warning": 0,
+      "deck_harmony_warning": 0
+    },
+    "layout_family_poc": {
+      "slides": 6,
+      "blocking": 0,
+      "warning": 0
+    },
+    "external_real_ppt_diversity": {
+      "templates": 5,
+      "total_source_slides": 90,
+      "generated_slides": 25,
+      "passed": 5,
+      "failed": 0
+    },
+    "asset_classification": {
+      "picture_assets": 182,
+      "template_chrome": 48,
+      "content_visual": 92,
+      "unknown": 42,
+      "unknown_rate": 0.2308,
+      "threshold": 0.3,
+      "passed": true
+    }
+  },
+  "artifacts": [
+    {
+      "path": "examples/aha-receipt-full-deck/aha-receipt-lite-full-deck-v0.9.0.pptx",
+      "bytes": 15615923,
+      "sha256": "556406e188259e6ee39052fa31b7552d9d5a4651702903cd6494f36bf2280bce"
+    },
+    {
+      "path": "examples/aha-receipt-full-deck/aha-receipt-lite-full-deck-v0.9.0-montage.png",
+      "bytes": 197213,
+      "sha256": "dd084c2b1f979488b00714cc1d634391658fac02b76c53969a0880d8c11ea539"
+    },
+    {
+      "path": "examples/layout-family-v090/layout-family-v0.9.0.pptx",
+      "bytes": 15592486,
+      "sha256": "aeeb971444de03ab098623037ddcda4f57ee513bd433d8411854634456730724"
+    },
+    {
+      "path": "examples/layout-family-v090/layout-family-v0.9.0-montage.png",
+      "bytes": 103347,
+      "sha256": "446795d167851fce51bbb90a54f6ee5adebe7182efd3dc53e5403873e5a6e49d"
+    },
+    {
+      "path": "examples/external-template-diversity/external-diversity-montage.png",
+      "bytes": 489017,
+      "sha256": "db4d217d0a12d98f60d1825e9de211f39107ad8597b864cd3e84799d5df2ce35"
+    },
+    {
+      "path": "examples/external-template-diversity/summary.json",
+      "bytes": 4103,
+      "sha256": "46610f48a68c6996cfc17ccadb88961461ebae4f07b02bb8b4334317f058fb20"
+    },
+    {
+      "path": "examples/asset-classification-benchmark/summary.json",
+      "bytes": 1443,
+      "sha256": "4648f4499e460db683ca72f4c23b4a629ff1ccee77533863844c857e02942441"
+    }
+  ],
+  "deferred": [
+    "live Codex App Server + Sol E2E",
+    "live OpenAI image-generation request",
+    "physical move from engine/ into packages/*"
+  ]
+}

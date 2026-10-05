@@ -1,0 +1,17 @@
+.DS_Store
+node_modules/
+nextgen/workspace/
+review/
+__pycache__/
+*.pyc
+*.log
+
+nextgen/examples/representative/output/
+nextgen/examples/source-pipeline/output/*
+!nextgen/examples/source-pipeline/output/deck_spec.json
+nextgen/examples/source-pipeline/output-reconstruct/
+nextgen/examples/source-pipeline/output-source-slides/
+nextgen/examples/source-slide-fidelity/source-render/
+
+**/.work/
+examples/external-template-diversity/inputs/

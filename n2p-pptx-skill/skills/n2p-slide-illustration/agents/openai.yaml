@@ -1,0 +1,4 @@
+interface:
+  display_name: "n2p Slide Illustration"
+  short_description: "Generate n2p-style slide illustrations"
+  default_prompt: "Use $n2p-slide-illustration to add consistent n2p-style illustrations to this PPTX deck."

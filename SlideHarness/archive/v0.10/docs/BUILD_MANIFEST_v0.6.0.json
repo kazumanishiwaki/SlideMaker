@@ -1,0 +1,97 @@
+{
+  "version": "0.6.0",
+  "built_at": "2026-08-17T05:10:56.958921+00:00",
+  "live_codex_e2e": "deferred_by_user",
+  "live_openai_image_e2e": "deferred_by_user",
+  "automated_tests": {
+    "groups_passed": 11,
+    "groups_total": 11,
+    "layout_engine_tests_passed": 16
+  },
+  "golden_sample": {
+    "version": "0.6.0",
+    "families": [
+      "two_column",
+      "photo_text",
+      "full_bleed",
+      "comparison_matrix",
+      "relationship"
+    ],
+    "pptx": "examples/photo-layout-poc/photo-layout-poc.pptx",
+    "blocking_count": 0,
+    "warning_count": 0,
+    "image_blocking_count": 0,
+    "image_warning_count": 0,
+    "deck_image_blocking_count": 0,
+    "deck_image_warning_count": 0,
+    "slides": [
+      {
+        "slide_id": "OUT-S001",
+        "family": "two_column",
+        "fill_policy": "content_filled",
+        "fit_score": 0.892,
+        "quality": "pass",
+        "image_lineage": null
+      },
+      {
+        "slide_id": "OUT-S002",
+        "family": "photo_text",
+        "fill_policy": "balanced",
+        "fit_score": 0.983,
+        "quality": "pass",
+        "image_lineage": {
+          "recipe_id": "IMG-OUT-S002-01",
+          "asset_id": "GAST-IMG-OUT-S002-01-V001",
+          "source_object_id": "SRC-S004-O004",
+          "negative_space": "right",
+          "resolved_text_side": "right",
+          "source_frame_reused": true
+        }
+      },
+      {
+        "slide_id": "OUT-S003",
+        "family": "full_bleed",
+        "fill_policy": "full_bleed",
+        "fit_score": 1.0,
+        "quality": "pass",
+        "image_lineage": {
+          "recipe_id": "IMG-OUT-S003-01",
+          "asset_id": "GAST-IMG-OUT-S003-01-V001",
+          "source_object_id": "SRC-S004-O004",
+          "negative_space": "left",
+          "resolved_text_side": "left",
+          "source_frame_reused": true
+        }
+      },
+      {
+        "slide_id": "OUT-S004",
+        "family": "comparison_matrix",
+        "fill_policy": "content_filled",
+        "fit_score": 1.0,
+        "quality": "pass",
+        "image_lineage": null
+      },
+      {
+        "slide_id": "OUT-S005",
+        "family": "relationship",
+        "fill_policy": "content_filled",
+        "fit_score": 1.0,
+        "quality": "pass",
+        "image_lineage": null
+      }
+    ]
+  },
+  "checksums": {
+    "golden_sample_pptx": "9b1e1d032138cc030fcea2f2e286669374e6940dcac347cd8f3d0ab42b222928",
+    "golden_sample_montage": "c71686787c25c523338e5807e72830c455bf38fbd4e897d3e7762dff27fe8a47",
+    "spec": "307c6eb34cc724ffaca34ff0ff66a78f203665539f883c283bae756beb569919"
+  },
+  "key_artifacts": [
+    "examples/photo-layout-poc/photo-layout-poc.pptx",
+    "examples/photo-layout-poc/photo-layout-poc-montage.png",
+    "examples/photo-layout-poc/output-qa.json",
+    "docs/SPEC.md",
+    "docs/RELEASE_v0.6.0.md",
+    "docs/VALIDATION_v0.6.0.md"
+  ]
+}

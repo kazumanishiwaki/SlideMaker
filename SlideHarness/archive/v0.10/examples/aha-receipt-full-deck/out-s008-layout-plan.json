@@ -1,0 +1,281 @@
+{
+  "schema_version": "0.3",
+  "generated_at": "2026-08-17T21:38:11.886970+00:00",
+  "slide_id": "OUT-S008",
+  "source_slide_id": "SRC-S013",
+  "family": "process",
+  "renderer_group": "flow",
+  "semantic_relation": "containment",
+  "semantic_layout_issues": [],
+  "density": "medium_low",
+  "fill_policy": {
+    "mode": "content_filled",
+    "source": "slide_plan",
+    "reason": [],
+    "preserve_empty_zones": false,
+    "role": "containment",
+    "forbid_filler_content": true
+  },
+  "planned_only": false,
+  "content_canvas": {
+    "x": 1.2,
+    "y": 2.2217,
+    "w": 24.2667,
+    "h": 12.1033
+  },
+  "removed_source_object_ids": [
+    "SRC-S013-O003",
+    "SRC-S013-O004",
+    "SRC-S013-O005",
+    "SRC-S013-O006",
+    "SRC-S013-O007",
+    "SRC-S013-O009",
+    "SRC-S013-O010",
+    "SRC-S013-O011",
+    "SRC-S013-O012",
+    "SRC-S013-O013",
+    "SRC-S013-O014",
+    "SRC-S013-O015",
+    "SRC-S013-O016",
+    "SRC-S013-O018",
+    "SRC-S013-O019",
+    "SRC-S013-O021",
+    "SRC-S013-O022"
+  ],
+  "allowed_regions": [
+    {
+      "x": 1.2,
+      "y": 2.2217,
+      "w": 24.2667,
+      "h": 9.1711
+    }
+  ],
+  "generated_objects": [
+    {
+      "role": "title",
+      "output_shape_id": 21,
+      "bbox": {
+        "x": 1.2,
+        "y": 2.2217,
+        "w": 24.2667,
+        "h": 2.0576
+      },
+      "render_text": "Liteから始め、\n必要な要件だけ拡張できる"
+    },
+    {
+      "role": "subtitle",
+      "output_shape_id": 22,
+      "bbox": {
+        "x": 1.2,
+        "y": 4.4223,
+        "w": 24.2667,
+        "h": 0.5446
+      },
+      "render_text": "基本運用はLite。OCRや複雑な条件はフル版・個別対応へ。"
+    },
+    {
+      "role": "number",
+      "item_index": 0,
+      "output_shape_id": 24,
+      "bbox": {
+        "x": 1.44,
+        "y": 8.3341,
+        "w": 0.38,
+        "h": 0.38
+      },
+      "render_text": "01"
+    },
+    {
+      "role": "item_title",
+      "item_index": 0,
+      "output_shape_id": 25,
+      "bbox": {
+        "x": 1.44,
+        "y": 8.8581,
+        "w": 11.5233,
+        "h": 0.5278
+      },
+      "render_text": "Lite 標準範囲"
+    },
+    {
+      "role": "item_body",
+      "item_index": 0,
+      "output_shape_id": 26,
+      "bbox": {
+        "x": 1.44,
+        "y": 9.4939,
+        "w": 11.5233,
+        "h": 1.6589
+      },
+      "render_text": "フォーム・画像受付\n検索・CSV・簡易抽選"
+    },
+    {
+      "role": "number",
+      "item_index": 1,
+      "output_shape_id": 29,
+      "bbox": {
+        "x": 13.7033,
+        "y": 8.3341,
+        "w": 0.38,
+        "h": 0.38
+      },
+      "render_text": "02"
+    },
+    {
+      "role": "item_title",
+      "item_index": 1,
+      "output_shape_id": 30,
+      "bbox": {
+        "x": 13.7033,
+        "y": 8.8581,
+        "w": 11.5233,
+        "h": 0.5278
+      },
+      "render_text": "必要に応じて拡張"
+    },
+    {
+      "role": "item_body",
+      "item_index": 1,
+      "output_shape_id": 31,
+      "bbox": {
+        "x": 13.7033,
+        "y": 9.4939,
+        "w": 11.5233,
+        "h": 1.6589
+      },
+      "render_text": "OCR・高度な条件\n外部連携・運用支援"
+    },
+    {
+      "role": "process_connector",
+      "output_shape_id": 33,
+      "bbox": {
+        "x": 13.2534,
+        "y": 9.7435,
+        "w": 0.16,
+        "h": 0.0
+      }
+    }
+  ],
+  "image_slots": [],
+  "image_lineage": null,
+  "layout_intent": {
+    "family": "process",
+    "fill_policy": "content_filled",
+    "resolved_text_side": null,
+    "image_position": null,
+    "overlay_position": null
+  },
+  "quality": {
+    "check": "LAYOUT_FIT_TO_INTENT",
+    "status": "pass",
+    "assessment": "適正",
+    "score": 0.852,
+    "fill_policy": {
+      "mode": "content_filled",
+      "source": "slide_plan",
+      "reason": [],
+      "preserve_empty_zones": false,
+      "role": "containment",
+      "forbid_filler_content": true
+    },
+    "intentional_whitespace": false,
+    "preserve_source_whitespace": false,
+    "accidental_dead_space": false,
+    "content_extent_width_ratio": 1.0,
+    "content_extent_height_ratio": 0.758,
+    "occupied_area_ratio": 0.485,
+    "left_void_ratio": 0.0,
+    "right_void_ratio": 0.0,
+    "top_void_ratio": 0.0,
+    "bottom_void_ratio": 0.242,
+    "center_offset_x_ratio": 0.0,
+    "center_offset_y_ratio": 0.121,
+    "expected_item_count": 2,
+    "rendered_item_count": 2,
+    "expected_image_count": 0,
+    "rendered_image_count": 0,
+    "image_area_ratio": 0.0,
+    "thresholds": {
+      "w": 0.88,
+      "h": 0.62,
+      "area": 0.389,
+      "max_edge_void": 0.3,
+      "max_center_x": 0.38,
+      "max_center_y": 0.38
+    },
+    "content_bbox": {
+      "x": 1.2,
+      "y": 2.2217,
+      "w": 24.2667,
+      "h": 9.1711
+    },
+    "reason_codes": [
+      "FIT_TO_INTENT"
+    ]
+  },
+  "geometry": {
+    "title_box": {
+      "x": 1.2,
+      "y": 2.2217,
+      "w": 24.2667,
+      "h": 2.0576
+    },
+    "subtitle_box": {
+      "x": 1.2,
+      "y": 4.4223,
+      "w": 24.2667,
+      "h": 0.5446
+    },
+    "body_box": null,
+    "body": {
+      "x": 1.2,
+      "y": 5.1619,
+      "w": 24.2667,
+      "h": 9.1631
+    },
+    "text_box": null,
+    "image_box": null,
+    "overlay_box": null,
+    "matrix_box": null,
+    "relationship_box": null,
+    "timeline_box": null,
+    "timeline_line_box": null,
+    "kpi_box": null,
+    "chart_box": null,
+    "note_box": null,
+    "kicker_box": null,
+    "item_boxes": [
+      {
+        "x": 1.2,
+        "y": 8.0941,
+        "w": 12.0033,
+        "h": 3.2987
+      },
+      {
+        "x": 13.4633,
+        "y": 8.0941,
+        "w": 12.0033,
+        "h": 3.2987
+      }
+    ],
+    "node_boxes": {},
+    "columns": 2,
+    "rows": 1,
+    "divider_x": null,
+    "image_position": null,
+    "resolved_text_side": null,
+    "overlay_position": null,
+    "hub_id": null,
+    "card_mode": null,
+    "orientation": null,
+    "timeline_markers": [],
+    "note_text": null,
+    "kicker_text": null
+  },
+  "notes": [
+    "Layout geometry is deterministic. The model selects family, hierarchy, and priorities; coordinates are engine-generated.",
+    "Photo-aware families plan image slots before image selection so crop, resolution, and negative-space QA use the actual target geometry.",
+    "Existing picture relationships and source frames are reused when available; template chrome remains outside the mutation mask.",
+    "LAYOUT_FIT_TO_INTENT distinguishes deliberate whitespace from accidental dead space. Filler content is never added merely to raise occupancy."
+  ]
+}

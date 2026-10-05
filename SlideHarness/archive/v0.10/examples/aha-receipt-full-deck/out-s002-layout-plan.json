@@ -1,0 +1,255 @@
+{
+  "schema_version": "0.3",
+  "generated_at": "2026-08-17T21:38:11.701767+00:00",
+  "slide_id": "OUT-S002",
+  "source_slide_id": "SRC-S004",
+  "family": "photo_text",
+  "renderer_group": "media",
+  "semantic_relation": "evidence",
+  "semantic_layout_issues": [],
+  "density": "medium_low",
+  "fill_policy": {
+    "mode": "balanced",
+    "source": "slide_plan",
+    "reason": [],
+    "preserve_empty_zones": false,
+    "role": "evidence",
+    "forbid_filler_content": true
+  },
+  "planned_only": false,
+  "content_canvas": {
+    "x": 1.2,
+    "y": 2.2217,
+    "w": 24.2667,
+    "h": 12.1033
+  },
+  "removed_source_object_ids": [
+    "SRC-S004-O003",
+    "SRC-S004-O005",
+    "SRC-S004-O006",
+    "SRC-S004-O007",
+    "SRC-S004-O008",
+    "SRC-S004-O010",
+    "SRC-S004-O011",
+    "SRC-S004-O012"
+  ],
+  "allowed_regions": [
+    {
+      "x": 2.1707,
+      "y": 2.9479,
+      "w": 22.3254,
+      "h": 10.6509
+    },
+    {
+      "x": 13.4634,
+      "y": 2.9479,
+      "w": 11.0327,
+      "h": 10.6509
+    },
+    {
+      "x": 1.8889,
+      "y": 4.1528,
+      "w": 10.9583,
+      "h": 8.9306
+    }
+  ],
+  "generated_objects": [
+    {
+      "role": "primary_visual",
+      "recipe_id": "IMG-OUT-S002-01",
+      "asset_id": "GAST-IMG-OUT-S002-01-V001",
+      "source_object_id": "SRC-S004-O004",
+      "output_shape_id": 4,
+      "bbox": {
+        "x": 13.4634,
+        "y": 2.9479,
+        "w": 11.0327,
+        "h": 10.6509
+      },
+      "source_picture_reused": true,
+      "fit_mode": "cover",
+      "resolved_text_side": "left"
+    },
+    {
+      "role": "title",
+      "output_shape_id": 10,
+      "bbox": {
+        "x": 2.1707,
+        "y": 2.9479,
+        "w": 11.0327,
+        "h": 2.4497
+      },
+      "render_text": "必要な機能を標準化するから、\n導入しやすい"
+    },
+    {
+      "role": "subtitle",
+      "output_shape_id": 11,
+      "bbox": {
+        "x": 2.1707,
+        "y": 5.5536,
+        "w": 11.0327,
+        "h": 1.1183
+      },
+      "render_text": "キャンペーン運用に必要な機能を、使いやすい形で標準搭載。"
+    },
+    {
+      "role": "body",
+      "output_shape_id": 12,
+      "bbox": {
+        "x": 2.1707,
+        "y": 6.867,
+        "w": 11.0327,
+        "h": 6.7319
+      },
+      "render_text": "過剰な個別開発を抑え、\n導入コストと開始までの時間を減らします。"
+    }
+  ],
+  "image_slots": [
+    {
+      "slot_id": "OUT-S002:primary_visual",
+      "recipe_id": "IMG-OUT-S002-01",
+      "bbox": {
+        "x": 13.4634,
+        "y": 2.9479,
+        "w": 11.0327,
+        "h": 10.6509
+      },
+      "aspect_ratio": 1.03584,
+      "role": "primary_visual",
+      "position": "right",
+      "resolved_text_side": "left",
+      "source_object_id": "SRC-S004-O004",
+      "reuse_source_image_frame": true
+    }
+  ],
+  "image_lineage": {
+    "recipe_id": "IMG-OUT-S002-01",
+    "asset_id": "GAST-IMG-OUT-S002-01-V001",
+    "source_object_id": "SRC-S004-O004",
+    "negative_space": "left",
+    "resolved_text_side": "left",
+    "source_frame_reused": true
+  },
+  "layout_intent": {
+    "family": "photo_text",
+    "fill_policy": "balanced",
+    "resolved_text_side": "left",
+    "image_position": "right",
+    "overlay_position": null
+  },
+  "quality": {
+    "check": "LAYOUT_FIT_TO_INTENT",
+    "status": "pass",
+    "assessment": "適正",
+    "score": 0.983,
+    "fill_policy": {
+      "mode": "balanced",
+      "source": "slide_plan",
+      "reason": [],
+      "preserve_empty_zones": false,
+      "role": "evidence",
+      "forbid_filler_content": true
+    },
+    "intentional_whitespace": false,
+    "preserve_source_whitespace": false,
+    "accidental_dead_space": false,
+    "content_extent_width_ratio": 0.92,
+    "content_extent_height_ratio": 0.88,
+    "occupied_area_ratio": 0.787,
+    "left_void_ratio": 0.04,
+    "right_void_ratio": 0.04,
+    "top_void_ratio": 0.06,
+    "bottom_void_ratio": 0.06,
+    "center_offset_x_ratio": 0.0,
+    "center_offset_y_ratio": 0.0,
+    "expected_item_count": 0,
+    "rendered_item_count": 0,
+    "expected_image_count": 1,
+    "rendered_image_count": 1,
+    "image_area_ratio": 0.4,
+    "thresholds": {
+      "w": 0.7,
+      "h": 0.44,
+      "area": 0.238,
+      "max_edge_void": 0.43,
+      "max_center_x": 0.42,
+      "max_center_y": 0.42
+    },
+    "content_bbox": {
+      "x": 2.1707,
+      "y": 2.9479,
+      "w": 22.3254,
+      "h": 10.6509
+    },
+    "reason_codes": [
+      "FIT_TO_INTENT"
+    ]
+  },
+  "geometry": {
+    "title_box": {
+      "x": 2.1707,
+      "y": 2.9479,
+      "w": 11.0327,
+      "h": 2.4497
+    },
+    "subtitle_box": {
+      "x": 2.1707,
+      "y": 5.5536,
+      "w": 11.0327,
+      "h": 1.1183
+    },
+    "body_box": {
+      "x": 2.1707,
+      "y": 6.867,
+      "w": 11.0327,
+      "h": 6.7319
+    },
+    "body": {
+      "x": 2.1707,
+      "y": 2.9479,
+      "w": 11.0327,
+      "h": 10.6509
+    },
+    "text_box": {
+      "x": 2.1707,
+      "y": 2.9479,
+      "w": 11.0327,
+      "h": 10.6509
+    },
+    "image_box": {
+      "x": 13.4634,
+      "y": 2.9479,
+      "w": 11.0327,
+      "h": 10.6509
+    },
+    "overlay_box": null,
+    "matrix_box": null,
+    "relationship_box": null,
+    "timeline_box": null,
+    "timeline_line_box": null,
+    "kpi_box": null,
+    "chart_box": null,
+    "note_box": null,
+    "kicker_box": null,
+    "item_boxes": [],
+    "node_boxes": {},
+    "columns": null,
+    "rows": null,
+    "divider_x": null,
+    "image_position": "right",
+    "resolved_text_side": "left",
+    "overlay_position": null,
+    "hub_id": null,
+    "card_mode": null,
+    "orientation": null,
+    "timeline_markers": [],
+    "note_text": null,
+    "kicker_text": null
+  },
+  "notes": [
+    "Layout geometry is deterministic. The model selects family, hierarchy, and priorities; coordinates are engine-generated.",
+    "Photo-aware families plan image slots before image selection so crop, resolution, and negative-space QA use the actual target geometry.",
+    "Existing picture relationships and source frames are reused when available; template chrome remains outside the mutation mask.",
+    "LAYOUT_FIT_TO_INTENT distinguishes deliberate whitespace from accidental dead space. Filler content is never added merely to raise occupancy."
+  ]
+}

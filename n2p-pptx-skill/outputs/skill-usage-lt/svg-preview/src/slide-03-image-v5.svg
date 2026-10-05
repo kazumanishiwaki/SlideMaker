@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1672" height="941" viewBox="0 0 1672 941" role="img" aria-label="AI retry loop diagram">
+  <defs>
+    <style>
+      .bg { fill: #FCFCFC; }
+      .s { fill: none; stroke: #111111; stroke-width: 12; stroke-linecap: round; stroke-linejoin: round; }
+      .card { fill: #FCFCFC; stroke: #111111; stroke-width: 12; stroke-linecap: round; stroke-linejoin: round; }
+      .gray { fill: #E6EBED; }
+      .yellow { fill: #F4F400; }
+    </style>
+  </defs>
+  <rect class="bg" width="1672" height="941"/>
+
+  <!-- request -->
+  <path class="card" d="M122 332 H420 Q456 332 456 368 V492 Q456 528 420 528 H256 L170 606 V528 H122 Q86 528 86 492 V368 Q86 332 122 332 Z"/>
+  <circle class="gray" cx="224" cy="430" r="22"/>
+  <circle class="gray" cx="286" cy="430" r="22"/>
+  <circle class="gray" cx="348" cy="430" r="22"/>
+
+  <!-- flow arrow -->
+  <line class="s" x1="528" y1="470" x2="636" y2="470"/>
+  <path class="s" d="M608 440 L638 470 L608 500"/>
+
+  <!-- retry loop: true circle -->
+  <circle class="s" cx="836" cy="470" r="184"/>
+  <path class="card" d="M780 350 H878 L936 408 V590 H780 Z"/>
+  <path class="gray" d="M878 350 V408 H936 Z"/>
+  <path class="s" d="M936 408 H878 V350"/>
+  <path class="s" d="M968 306 L1010 318 L996 360"/>
+  <path class="s" d="M704 636 L662 622 L676 580"/>
+
+  <!-- flow arrow -->
+  <line class="s" x1="1068" y1="470" x2="1190" y2="470"/>
+  <path class="s" d="M1162 440 L1192 470 L1162 500"/>
+
+  <!-- token bar -->
+  <rect class="card" x="1268" y="406" width="304" height="92" rx="28"/>
+  <rect class="gray" x="1298" y="430" width="70" height="44" rx="6"/>
+  <rect class="gray" x="1382" y="430" width="70" height="44" rx="6"/>
+  <rect class="yellow" x="1466" y="430" width="70" height="44" rx="6"/>
+  <line class="s" x1="1374" y1="414" x2="1374" y2="490"/>
+  <line class="s" x1="1458" y1="414" x2="1458" y2="490"/>
+</svg>

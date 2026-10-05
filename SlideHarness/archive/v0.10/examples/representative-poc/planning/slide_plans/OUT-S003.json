@@ -1,0 +1,151 @@
+{
+  "schema_version": "0.1",
+  "slide_id": "OUT-S003",
+  "source_slide_id": "SRC-S015",
+  "adaptation_mode": "ADAPT",
+  "composer_support": "supported",
+  "content_units": [
+    "CU-008"
+  ],
+  "content_blocks": [
+    {
+      "id": "CB-01",
+      "role": "title",
+      "source_text": "4段レイアウト",
+      "semantic_text": "管理画面から主要設定を変更",
+      "render_text": "管理画面から主要設定を変更",
+      "priority": 1
+    }
+  ],
+  "source_object_mutations": [
+    {
+      "source_object_id": "SRC-S015-O014",
+      "action": "replace_text",
+      "content_block_id": null,
+      "render_text": "管理画面から主要設定を変更",
+      "reason": "title"
+    },
+    {
+      "source_object_id": "SRC-S015-O015",
+      "action": "replace_text",
+      "content_block_id": null,
+      "render_text": "公開後も担当者が更新できます",
+      "reason": "subtitle"
+    },
+    {
+      "source_object_id": "SRC-S015-O022",
+      "action": "replace_text",
+      "content_block_id": null,
+      "render_text": "キャンペーン",
+      "reason": "item title"
+    },
+    {
+      "source_object_id": "SRC-S015-O020",
+      "action": "replace_text",
+      "content_block_id": null,
+      "render_text": "商品・店舗・応募方法\n期間・規約・問い合わせ先",
+      "reason": "item desc; intentional line break for Japanese/Latin wrap QA"
+    },
+    {
+      "source_object_id": "SRC-S015-O023",
+      "action": "replace_text",
+      "content_block_id": null,
+      "render_text": "01",
+      "reason": "item no"
+    },
+    {
+      "source_object_id": "SRC-S015-O006",
+      "action": "replace_text",
+      "content_block_id": null,
+      "render_text": "フォーム",
+      "reason": "item title"
+    },
+    {
+      "source_object_id": "SRC-S015-O004",
+      "action": "replace_text",
+      "content_block_id": null,
+      "render_text": "追加質問・回答形式\n必須設定・レシート枚数",
+      "reason": "item desc; intentional line break for Japanese/Latin wrap QA"
+    },
+    {
+      "source_object_id": "SRC-S015-O007",
+      "action": "replace_text",
+      "content_block_id": null,
+      "render_text": "02",
+      "reason": "item no"
+    },
+    {
+      "source_object_id": "SRC-S015-O027",
+      "action": "replace_text",
+      "content_block_id": null,
+      "render_text": "ビジュアル",
+      "reason": "item title"
+    },
+    {
+      "source_object_id": "SRC-S015-O025",
+      "action": "replace_text",
+      "content_block_id": null,
+      "render_text": "テンプレート・フォント・配色\n画像・OGP・favicon",
+      "reason": "item desc; intentional line break for Japanese/Latin wrap QA"
+    },
+    {
+      "source_object_id": "SRC-S015-O028",
+      "action": "replace_text",
+      "content_block_id": null,
+      "render_text": "03",
+      "reason": "item no"
+    },
+    {
+      "source_object_id": "SRC-S015-O032",
+      "action": "replace_text",
+      "content_block_id": null,
+      "render_text": "メール・計測",
+      "reason": "item title"
+    },
+    {
+      "source_object_id": "SRC-S015-O030",
+      "action": "replace_text",
+      "content_block_id": null,
+      "render_text": "自動返信メール・GA4\nGoogle Tag Manager",
+      "reason": "item desc; intentional line break for Japanese/Latin wrap QA"
+    },
+    {
+      "source_object_id": "SRC-S015-O033",
+      "action": "replace_text",
+      "content_block_id": null,
+      "render_text": "04",
+      "reason": "item no"
+    },
+    {
+      "source_object_id": "SRC-S015-O008",
+      "action": "remove",
+      "reason": "old content visual"
+    },
+    {
+      "source_object_id": "SRC-S015-O009",
+      "action": "remove",
+      "reason": "old content visual"
+    },
+    {
+      "source_object_id": "SRC-S015-O010",
+      "action": "remove",
+      "reason": "old content visual"
+    },
+    {
+      "source_object_id": "SRC-S015-O011",
+      "action": "remove",
+      "reason": "old content visual"
+    },
+    {
+      "source_object_id": "SRC-S015-O012",
+      "action": "remove",
+      "reason": "old content visual"
+    },
+    {
+      "source_object_id": "SRC-S015-O013",
+      "action": "remove",
+      "reason": "old content visual"
+    }
+  ],
+  "status": "APPROVED"
+}

@@ -1,0 +1,290 @@
+{
+  "schema_version": "0.3",
+  "generated_at": "2026-08-17T21:38:11.909284+00:00",
+  "slide_id": "OUT-S009",
+  "source_slide_id": "SRC-S017",
+  "family": "closing",
+  "renderer_group": "statement",
+  "semantic_relation": "statement",
+  "semantic_layout_issues": [],
+  "density": "airy",
+  "fill_policy": {
+    "mode": "intentional_whitespace",
+    "source": "slide_plan",
+    "reason": [],
+    "preserve_empty_zones": true,
+    "role": "closing",
+    "forbid_filler_content": true
+  },
+  "planned_only": false,
+  "content_canvas": {
+    "x": 1.2,
+    "y": 0.675,
+    "w": 24.2667,
+    "h": 13.65
+  },
+  "removed_source_object_ids": [
+    "SRC-S017-O002",
+    "SRC-S017-O003",
+    "SRC-S017-O004",
+    "SRC-S017-O005",
+    "SRC-S017-O006",
+    "SRC-S017-O007",
+    "SRC-S017-O008",
+    "SRC-S017-O009",
+    "SRC-S017-O010",
+    "SRC-S017-O011",
+    "SRC-S017-O012",
+    "SRC-S017-O013",
+    "SRC-S017-O014",
+    "SRC-S017-O015"
+  ],
+  "allowed_regions": [
+    {
+      "x": 1.2,
+      "y": 0.675,
+      "w": 24.2667,
+      "h": 9.2572
+    }
+  ],
+  "generated_objects": [
+    {
+      "role": "title",
+      "output_shape_id": 2,
+      "bbox": {
+        "x": 1.2,
+        "y": 0.675,
+        "w": 24.2667,
+        "h": 1.1603
+      },
+      "render_text": "デモ・見積・導入相談へ"
+    },
+    {
+      "role": "subtitle",
+      "output_shape_id": 3,
+      "bbox": {
+        "x": 1.2,
+        "y": 1.9952,
+        "w": 24.2667,
+        "h": 0.6142
+      },
+      "render_text": "キャンペーン内容と開始希望日をお知らせください。"
+    },
+    {
+      "role": "body",
+      "output_shape_id": 4,
+      "bbox": {
+        "x": 1.2,
+        "y": 2.8495,
+        "w": 19.8987,
+        "h": 0.9
+      },
+      "render_text": "必要な準備と標準範囲を整理し、開始までの流れをご案内します。"
+    },
+    {
+      "role": "closing_item",
+      "item_index": 0,
+      "output_shape_id": 6,
+      "bbox": {
+        "x": 1.48,
+        "y": 8.7622,
+        "w": 7.3022,
+        "h": 0.46
+      },
+      "render_text": "30分デモ"
+    },
+    {
+      "role": "closing_item",
+      "item_index": 0,
+      "output_shape_id": 7,
+      "bbox": {
+        "x": 1.48,
+        "y": 9.3483,
+        "w": 7.3022,
+        "h": 0.304
+      },
+      "render_text": "実際の画面と流れを確認"
+    },
+    {
+      "role": "closing_item",
+      "item_index": 1,
+      "output_shape_id": 10,
+      "bbox": {
+        "x": 9.6822,
+        "y": 8.7622,
+        "w": 7.3022,
+        "h": 0.46
+      },
+      "render_text": "見積依頼"
+    },
+    {
+      "role": "closing_item",
+      "item_index": 1,
+      "output_shape_id": 11,
+      "bbox": {
+        "x": 9.6822,
+        "y": 9.3483,
+        "w": 7.3022,
+        "h": 0.304
+      },
+      "render_text": "条件に合わせて費用を整理"
+    },
+    {
+      "role": "closing_item",
+      "item_index": 2,
+      "output_shape_id": 14,
+      "bbox": {
+        "x": 17.8845,
+        "y": 8.7622,
+        "w": 7.3022,
+        "h": 0.46
+      },
+      "render_text": "導入相談"
+    },
+    {
+      "role": "closing_item",
+      "item_index": 2,
+      "output_shape_id": 15,
+      "bbox": {
+        "x": 17.8845,
+        "y": 9.3483,
+        "w": 7.3022,
+        "h": 0.304
+      },
+      "render_text": "Lite／フル版を一緒に選定"
+    }
+  ],
+  "image_slots": [],
+  "image_lineage": null,
+  "layout_intent": {
+    "family": "closing",
+    "fill_policy": "intentional_whitespace",
+    "resolved_text_side": null,
+    "image_position": null,
+    "overlay_position": null
+  },
+  "quality": {
+    "check": "LAYOUT_FIT_TO_INTENT",
+    "status": "pass",
+    "assessment": "適正",
+    "score": 0.916,
+    "fill_policy": {
+      "mode": "intentional_whitespace",
+      "source": "slide_plan",
+      "reason": [],
+      "preserve_empty_zones": true,
+      "role": "closing",
+      "forbid_filler_content": true
+    },
+    "intentional_whitespace": true,
+    "preserve_source_whitespace": false,
+    "accidental_dead_space": false,
+    "content_extent_width_ratio": 1.0,
+    "content_extent_height_ratio": 0.678,
+    "occupied_area_ratio": 0.287,
+    "left_void_ratio": 0.0,
+    "right_void_ratio": 0.0,
+    "top_void_ratio": 0.0,
+    "bottom_void_ratio": 0.322,
+    "center_offset_x_ratio": 0.0,
+    "center_offset_y_ratio": 0.161,
+    "expected_item_count": 3,
+    "rendered_item_count": 3,
+    "expected_image_count": 0,
+    "rendered_image_count": 0,
+    "image_area_ratio": 0.0,
+    "thresholds": {
+      "w": 0.52,
+      "h": 0.2,
+      "area": 0.07,
+      "max_edge_void": 0.72,
+      "max_center_x": 0.38,
+      "max_center_y": 0.42
+    },
+    "content_bbox": {
+      "x": 1.2,
+      "y": 0.675,
+      "w": 24.2667,
+      "h": 9.2572
+    },
+    "reason_codes": [
+      "FIT_TO_INTENT"
+    ]
+  },
+  "geometry": {
+    "title_box": {
+      "x": 1.2,
+      "y": 0.675,
+      "w": 24.2667,
+      "h": 1.1603
+    },
+    "subtitle_box": {
+      "x": 1.2,
+      "y": 1.9952,
+      "w": 24.2667,
+      "h": 0.6142
+    },
+    "body_box": {
+      "x": 1.2,
+      "y": 2.8495,
+      "w": 19.8987,
+      "h": 0.9
+    },
+    "body": {
+      "x": 1.2,
+      "y": 2.8495,
+      "w": 24.2667,
+      "h": 11.4755
+    },
+    "text_box": null,
+    "image_box": null,
+    "overlay_box": null,
+    "matrix_box": null,
+    "relationship_box": null,
+    "timeline_box": null,
+    "timeline_line_box": null,
+    "kpi_box": null,
+    "chart_box": null,
+    "note_box": null,
+    "kicker_box": null,
+    "item_boxes": [
+      {
+        "x": 1.2,
+        "y": 8.4823,
+        "w": 7.8622,
+        "h": 1.45
+      },
+      {
+        "x": 9.4022,
+        "y": 8.4823,
+        "w": 7.8622,
+        "h": 1.45
+      },
+      {
+        "x": 17.6045,
+        "y": 8.4823,
+        "w": 7.8622,
+        "h": 1.45
+      }
+    ],
+    "node_boxes": {},
+    "columns": null,
+    "rows": null,
+    "divider_x": null,
+    "image_position": null,
+    "resolved_text_side": null,
+    "overlay_position": null,
+    "hub_id": null,
+    "card_mode": null,
+    "orientation": null,
+    "timeline_markers": [],
+    "note_text": null,
+    "kicker_text": null
+  },
+  "notes": [
+    "Layout geometry is deterministic. The model selects family, hierarchy, and priorities; coordinates are engine-generated.",
+    "Photo-aware families plan image slots before image selection so crop, resolution, and negative-space QA use the actual target geometry.",
+    "Existing picture relationships and source frames are reused when available; template chrome remains outside the mutation mask.",
+    "LAYOUT_FIT_TO_INTENT distinguishes deliberate whitespace from accidental dead space. Filler content is never added merely to raise occupancy."
+  ]
+}

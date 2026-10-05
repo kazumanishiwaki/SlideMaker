@@ -1,0 +1,130 @@
+{
+  "schema_version": "0.10",
+  "generated_at": "2026-08-17T21:38:25.544930+00:00",
+  "status": "pass",
+  "blocking_count": 0,
+  "warning_count": 0,
+  "checks": [
+    {
+      "check_id": "DECK_HAS_SLIDES",
+      "result": "pass",
+      "severity": "info",
+      "category": "technical",
+      "actual": 9
+    },
+    {
+      "check_id": "DECK_VISUAL_EVIDENCE_COVERAGE",
+      "result": "pass",
+      "severity": "info",
+      "category": "design",
+      "actual": 3,
+      "recommended_minimum": 3,
+      "note": "Meaningful screenshots/photos/illustrations; filler images are not counted."
+    },
+    {
+      "check_id": "DECK_IMAGE_COHERENCE",
+      "result": "pass",
+      "severity": "info",
+      "image_count": 3,
+      "score": 0.8792,
+      "metric_ranges": {
+        "brightness": 0.0512,
+        "saturation": 0.1212,
+        "contrast": 0.0257,
+        "edge_density": 0.0365,
+        "warmth": 0.1149
+      },
+      "category": "design"
+    }
+  ],
+  "category_counts": {
+    "technical": {
+      "fail": 0,
+      "blocking": 0
+    },
+    "content": {
+      "fail": 0,
+      "blocking": 0
+    },
+    "design": {
+      "fail": 0,
+      "blocking": 0
+    }
+  },
+  "image_coherence": {
+    "schema_version": "0.1",
+    "generated_at": "2026-08-17T21:38:25.544785+00:00",
+    "status": "pass",
+    "blocking_count": 0,
+    "warning_count": 0,
+    "checks": [
+      {
+        "check_id": "DECK_IMAGE_COHERENCE",
+        "result": "pass",
+        "severity": "info",
+        "image_count": 3,
+        "score": 0.8792,
+        "metric_ranges": {
+          "brightness": 0.0512,
+          "saturation": 0.1212,
+          "contrast": 0.0257,
+          "edge_density": 0.0365,
+          "warmth": 0.1149
+        },
+        "category": "design"
+      }
+    ],
+    "notes": [
+      "Deck image coherence is diagnostic; it never regenerates the deck automatically."
+    ]
+  },
+  "sequences": {
+    "visual_types": [
+      "conceptual_image",
+      "screenshot",
+      "table",
+      "flow",
+      "no_visual",
+      "flow",
+      "screenshot",
+      "flow",
+      "no_visual"
+    ],
+    "layout_families": [
+      "full_bleed",
+      "photo_text",
+      "comparison_matrix",
+      "process",
+      "statement",
+      "process",
+      "photo_text",
+      "process",
+      "closing"
+    ],
+    "renderer_groups": [
+      "media",
+      "media",
+      "grid",
+      "flow",
+      "statement",
+      "flow",
+      "media",
+      "flow",
+      "statement"
+    ],
+    "density": [
+      "medium_low",
+      "medium_low",
+      "medium_low",
+      "medium_low",
+      "airy",
+      "medium_low",
+      "medium_low",
+      "medium_low",
+      "airy"
+    ]
+  },
+  "notes": [
+    "Deck review is diagnostic. Design findings trigger at most one re-plan or user review; they never cause an unbounded automatic rewrite loop."
+  ]
+}

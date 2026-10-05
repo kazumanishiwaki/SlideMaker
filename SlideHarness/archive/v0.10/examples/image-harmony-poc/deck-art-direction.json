@@ -1,0 +1,77 @@
+{
+  "schema_version": "0.3",
+  "generated_at": "2026-08-17T03:46:22.245250+00:00",
+  "primary_medium": "editorial_photo_or_native_ppt_diagram",
+  "tone": {
+    "brightness": "match_source",
+    "saturation": "restrained",
+    "contrast": "soft_to_medium"
+  },
+  "composition": {
+    "background_complexity": "low_to_medium",
+    "negative_space": "layout_driven",
+    "subject_scale": "medium"
+  },
+  "palette": {
+    "source": "design_fingerprint",
+    "accent_rule": "reuse template accent roles"
+  },
+  "target_metrics": {
+    "brightness": 0.8372,
+    "saturation": 0.0761,
+    "contrast": 0.4163,
+    "edge_density": 0.0751,
+    "warmth": 0.0103
+  },
+  "reference_asset_ids": [
+    "AST-00001",
+    "AST-00008",
+    "AST-00174",
+    "AST-00181",
+    "AST-00028",
+    "AST-00038"
+  ],
+  "harmony_tolerance": {
+    "brightness": 0.2,
+    "saturation": 0.24,
+    "contrast": 0.22,
+    "edge_density": 0.16,
+    "warmth": 0.18
+  },
+  "native_visuals": [
+    "table",
+    "chart",
+    "flow",
+    "timeline",
+    "relationship_diagram",
+    "infographic"
+  ],
+  "image_postprocess": [
+    "crop_to_recipe",
+    "align_focal_point",
+    "match_brightness",
+    "match_color_temperature",
+    "match_saturation",
+    "match_contrast",
+    "match_detail_density",
+    "apply_frame_geometry"
+  ],
+  "avoid": [
+    "generic_stock_photo",
+    "busy_background",
+    "random_style_switch",
+    "image_with_embedded_text",
+    "filler_visual"
+  ],
+  "candidate_selection": {
+    "minimum_auto_score": 0.44,
+    "weights": {
+      "slot_aspect": 0.3,
+      "effective_resolution": 0.16,
+      "source_harmony": 0.27,
+      "filename_semantics": 0.12,
+      "requested_negative_space": 0.15
+    },
+    "low_confidence_action": "review_required"
+  }
+}

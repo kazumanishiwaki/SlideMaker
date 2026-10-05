@@ -1,0 +1,99 @@
+{
+  "title": "SlideHarness Next",
+  "metadata": {
+    "planner": "deterministic_fallback",
+    "source_count": 1
+  },
+  "slides": [
+    {
+      "slide_id": "S001",
+      "title": "SlideHarness Next",
+      "message": "",
+      "recipe": "cover",
+      "source_unit_ids": [
+        "U-01-0001"
+      ]
+    },
+    {
+      "slide_id": "S002",
+      "title": "概要",
+      "message": "任意のPowerPointテンプレートと原稿から、まとまりのある編集可能な提案資料を生成します。",
+      "recipe": "statement",
+      "source_unit_ids": [
+        "U-01-0002"
+      ]
+    },
+    {
+      "slide_id": "S003",
+      "title": "現状の課題",
+      "message": "テンプレートを使っても、完成スライド上の装飾が失われることがあります。",
+      "recipe": "three_column",
+      "source_unit_ids": [
+        "U-01-0003",
+        "U-01-0004",
+        "U-01-0005",
+        "U-01-0006"
+      ]
+    },
+    {
+      "slide_id": "S004",
+      "title": "提案する仕組み",
+      "message": "テンプレートをTokens、Chrome、Components、Pattern Evidenceへ分解します。",
+      "recipe": "card_grid_2x2",
+      "source_unit_ids": [
+        "U-01-0007",
+        "U-01-0008",
+        "U-01-0009",
+        "U-01-0010",
+        "U-01-0011"
+      ]
+    },
+    {
+      "slide_id": "S005",
+      "title": "生成フロー",
+      "message": "原稿とテンプレートを解析します。",
+      "recipe": "process",
+      "source_unit_ids": [
+        "U-01-0012",
+        "U-01-0013",
+        "U-01-0014",
+        "U-01-0015",
+        "U-01-0016"
+      ]
+    },
+    {
+      "slide_id": "S006",
+      "title": "品質条件",
+      "message": "標準ページの意味ある占有率は55〜85%とします。",
+      "recipe": "card_grid_2x2",
+      "source_unit_ids": [
+        "U-01-0017",
+        "U-01-0018",
+        "U-01-0019",
+        "U-01-0020",
+        "U-01-0021"
+      ]
+    },
+    {
+      "slide_id": "S007",
+      "title": "対応する入力形式",
+      "message": "",
+      "recipe": "table",
+      "source_unit_ids": [
+        "U-01-0022",
+        "U-01-0023"
+      ]
+    },
+    {
+      "slide_id": "S008",
+      "title": "次のステップ",
+      "message": "実案件の原稿とテンプレートで代表3ページを確認します。",
+      "recipe": "closing_cta",
+      "source_unit_ids": [
+        "U-01-0024",
+        "U-01-0025",
+        "U-01-0026"
+      ]
+    }
+  ]
+}

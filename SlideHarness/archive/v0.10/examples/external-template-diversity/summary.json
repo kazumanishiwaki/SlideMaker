@@ -1,0 +1,120 @@
+{
+  "version": "0.9.0",
+  "purpose": "independent_real_ppt_full_generation",
+  "process_isolation": true,
+  "template_count": 5,
+  "pass_count": 5,
+  "fail_count": 0,
+  "results": [
+    {
+      "name": "miri",
+      "template_filename": "タイトルを入力してください。.pptx",
+      "template_sha256": "16aee00ecdfa3c2a821a496b8b225fd9bb6e3a8c9dcb8ddb3c2cbfb24010a385",
+      "source_slide_count": 17,
+      "generated_slide_count": 5,
+      "render_count": 5,
+      "blocking": 0,
+      "warning": 0,
+      "asset_classes": {
+        "template_chrome": 48,
+        "content_visual": 92,
+        "unknown": 42
+      },
+      "content_roles": {
+        "background_visual": 4,
+        "decorative_visual": 36,
+        "unknown": 44,
+        "icon": 42,
+        "screenshot": 13,
+        "photo": 43
+      },
+      "title_axis_x_in": 2.833,
+      "template_chrome_count": 48,
+      "output": "examples/external-template-diversity/outputs/miri.pptx",
+      "montage": "examples/external-template-diversity/outputs/miri-montage.png"
+    },
+    {
+      "name": "chorakukan",
+      "template_filename": "260427長楽館台割.pptx",
+      "template_sha256": "b591c254fa71bd73185aa59cc2871ed2a94e47edcde27ffb27aac3fce52228df",
+      "source_slide_count": 50,
+      "generated_slide_count": 5,
+      "render_count": 5,
+      "blocking": 0,
+      "warning": 0,
+      "asset_classes": {
+        "content_visual": 141,
+        "unknown": 17
+      },
+      "content_roles": {
+        "unknown": 62,
+        "screenshot": 23,
+        "photo": 55,
+        "icon": 18
+      },
+      "title_axis_x_in": 0.762,
+      "template_chrome_count": 0,
+      "output": "examples/external-template-diversity/outputs/chorakukan.pptx",
+      "montage": "examples/external-template-diversity/outputs/chorakukan-montage.png"
+    },
+    {
+      "name": "utokyo",
+      "template_filename": "UTokyoリーフレット_原稿整理(1).pptx",
+      "template_sha256": "943525070c888da39a78aef729a6dee607d340b921646078d678ebbcf91d6490",
+      "source_slide_count": 3,
+      "generated_slide_count": 5,
+      "render_count": 5,
+      "blocking": 0,
+      "warning": 0,
+      "asset_classes": {},
+      "content_roles": {},
+      "title_axis_x_in": 0.5,
+      "template_chrome_count": 0,
+      "output": "examples/external-template-diversity/outputs/utokyo.pptx",
+      "montage": "examples/external-template-diversity/outputs/utokyo-montage.png"
+    },
+    {
+      "name": "sample",
+      "template_filename": "sample_template.pptx",
+      "template_sha256": "72bbba51d7db991a5cb3d7eee9646c7775e6e6b75dc9d61b36a408d2f77e610a",
+      "source_slide_count": 6,
+      "generated_slide_count": 5,
+      "render_count": 5,
+      "blocking": 0,
+      "warning": 0,
+      "asset_classes": {},
+      "content_roles": {},
+      "title_axis_x_in": 0.6,
+      "template_chrome_count": 0,
+      "output": "examples/external-template-diversity/outputs/sample.pptx",
+      "montage": "examples/external-template-diversity/outputs/sample-montage.png"
+    },
+    {
+      "name": "agent",
+      "template_filename": "agent-skills-promotion.pptx",
+      "template_sha256": "0e3847ee3e5efb775fa9ff5adbef2af9c2bc2c336cf729bdea89b9f8fd91ad09",
+      "source_slide_count": 14,
+      "generated_slide_count": 5,
+      "render_count": 5,
+      "blocking": 0,
+      "warning": 0,
+      "asset_classes": {
+        "content_visual": 5,
+        "template_chrome": 12
+      },
+      "content_roles": {
+        "photo": 4,
+        "decorative_visual": 12,
+        "icon": 1
+      },
+      "title_axis_x_in": 0.55,
+      "template_chrome_count": 12,
+      "output": "examples/external-template-diversity/outputs/agent.pptx",
+      "montage": "examples/external-template-diversity/outputs/agent-montage.png"
+    }
+  ],
+  "execution_note": "Each independent template is analyzed, recomposed, rendered, and validated in an isolated child process. Source PPT bytes are runtime inputs and are not bundled.",
+  "total_source_slides": 90,
+  "total_generated_slides": 25,
+  "combined_montage": "examples/external-template-diversity/external-diversity-montage.png"
+}

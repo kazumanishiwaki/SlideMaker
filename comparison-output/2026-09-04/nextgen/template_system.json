@@ -1,0 +1,169 @@
+{
+  "schema_version": "0.11-mvp.2",
+  "template_path": "/Users/kazuma/Documents/SlideMaker/.codex-worktrees/slideharness-main-fix/nextgen/examples/test-case/inputs/source.pptx",
+  "template_sha256": "16aee00ecdfa3c2a821a496b8b225fd9bb6e3a8c9dcb8ddb3c2cbfb24010a385",
+  "slide_width_in": 26.6667,
+  "slide_height_in": 15.0,
+  "slide_count": 17,
+  "tokens": {
+    "primary": "4F81BD",
+    "secondary": "C0504D",
+    "accent": "9BBB59",
+    "background": "FFFFFF",
+    "surface": "EEECE1",
+    "text": "000000",
+    "muted_text": "1F497D",
+    "heading_font": "Pretendard JP Bold",
+    "body_font": "Pretendard JP Medium"
+  },
+  "chrome": [
+    {
+      "source_slide_index": 3,
+      "source_shape_index": 0,
+      "kind": "picture",
+      "x": 0.02,
+      "y": 0.04,
+      "w": 0.98,
+      "h": 0.1,
+      "occurrence_ratio": 0.706
+    },
+    {
+      "source_slide_index": 3,
+      "source_shape_index": 8,
+      "kind": "text",
+      "x": 0.86,
+      "y": 0.08,
+      "w": 0.11,
+      "h": 0.04,
+      "occurrence_ratio": 0.706
+    }
+  ],
+  "layouts": [
+    {
+      "index": 0,
+      "name": "Title Slide",
+      "shape_count": 5,
+      "placeholder_count": 5,
+      "title_slots": 1,
+      "body_slots": 1,
+      "score_as_canvas": 0.4
+    },
+    {
+      "index": 1,
+      "name": "Title and Content",
+      "shape_count": 5,
+      "placeholder_count": 5,
+      "title_slots": 1,
+      "body_slots": 1,
+      "score_as_canvas": 0.4
+    },
+    {
+      "index": 2,
+      "name": "Section Header",
+      "shape_count": 5,
+      "placeholder_count": 5,
+      "title_slots": 1,
+      "body_slots": 1,
+      "score_as_canvas": 0.4
+    },
+    {
+      "index": 3,
+      "name": "Two Content",
+      "shape_count": 6,
+      "placeholder_count": 6,
+      "title_slots": 1,
+      "body_slots": 2,
+      "score_as_canvas": 0.333
+    },
+    {
+      "index": 4,
+      "name": "Comparison",
+      "shape_count": 8,
+      "placeholder_count": 8,
+      "title_slots": 1,
+      "body_slots": 4,
+      "score_as_canvas": 0.25
+    },
+    {
+      "index": 5,
+      "name": "Title Only",
+      "shape_count": 4,
+      "placeholder_count": 4,
+      "title_slots": 1,
+      "body_slots": 0,
+      "score_as_canvas": 0.5
+    },
+    {
+      "index": 6,
+      "name": "Blank",
+      "shape_count": 3,
+      "placeholder_count": 3,
+      "title_slots": 0,
+      "body_slots": 0,
+      "score_as_canvas": 0.667
+    },
+    {
+      "index": 7,
+      "name": "Content with Caption",
+      "shape_count": 6,
+      "placeholder_count": 6,
+      "title_slots": 1,
+      "body_slots": 2,
+      "score_as_canvas": 0.333
+    },
+    {
+      "index": 8,
+      "name": "Picture with Caption",
+      "shape_count": 6,
+      "placeholder_count": 6,
+      "title_slots": 1,
+      "body_slots": 1,
+      "score_as_canvas": 0.333
+    },
+    {
+      "index": 9,
+      "name": "Title and Vertical Text",
+      "shape_count": 5,
+      "placeholder_count": 5,
+      "title_slots": 1,
+      "body_slots": 1,
+      "score_as_canvas": 0.4
+    },
+    {
+      "index": 10,
+      "name": "Vertical Title and Text",
+      "shape_count": 5,
+      "placeholder_count": 5,
+      "title_slots": 1,
+      "body_slots": 1,
+      "score_as_canvas": 0.4
+    }
+  ],
+  "pattern_evidence": {
+    "slide_count": 17,
+    "image_slide_ratio": 1.0,
+    "table_slide_ratio": 0.059,
+    "dense_text_slide_ratio": 0.882,
+    "mean_shape_area_sum": 0.785,
+    "mean_slide_local_shape_count": 24.41,
+    "mean_slide_local_picture_count": 10.71,
+    "supported_recipes": [
+      "cover",
+      "section",
+      "statement",
+      "title_body",
+      "title_body_callout",
+      "two_column_equal",
+      "three_column",
+      "card_grid_2x2",
+      "comparison",
+      "kpi_grid",
+      "native_bar_chart",
+      "table",
+      "process",
+      "image_text",
+      "generated_visual",
+      "closing_cta"
+    ]
+  }
+}

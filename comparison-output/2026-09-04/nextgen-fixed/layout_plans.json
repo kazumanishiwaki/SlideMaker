@@ -1,0 +1,620 @@
+[
+  {
+    "slide_id": "S001",
+    "recipe": "cover",
+    "source_unit_ids": [
+      "U-01-0001"
+    ],
+    "elements": [
+      {
+        "element_id": "S001-panel",
+        "kind": "cover_panel",
+        "x": 0.69,
+        "y": 0.18,
+        "w": 0.235,
+        "h": 0.62,
+        "role": "visual",
+        "data": {}
+      },
+      {
+        "element_id": "S001-title",
+        "kind": "text",
+        "x": 0.075,
+        "y": 0.29,
+        "w": 0.62,
+        "h": 0.2,
+        "role": "cover_title",
+        "data": {
+          "text": "SlideHarness Next"
+        }
+      },
+      {
+        "element_id": "S001-subtitle",
+        "kind": "text",
+        "x": 0.08,
+        "y": 0.52,
+        "w": 0.55,
+        "h": 0.11,
+        "role": "cover_subtitle",
+        "data": {
+          "text": ""
+        }
+      }
+    ],
+    "expected_item_count": 1,
+    "asset_requests": []
+  },
+  {
+    "slide_id": "S002",
+    "recipe": "statement",
+    "source_unit_ids": [
+      "U-01-0002"
+    ],
+    "elements": [
+      {
+        "element_id": "S002-panel",
+        "kind": "statement_panel",
+        "x": 0.105,
+        "y": 0.245,
+        "w": 0.79,
+        "h": 0.49,
+        "role": "visual",
+        "data": {}
+      },
+      {
+        "element_id": "S002-statement",
+        "kind": "text",
+        "x": 0.16,
+        "y": 0.335,
+        "w": 0.68,
+        "h": 0.25,
+        "role": "statement",
+        "data": {
+          "text": "任意のPowerPointテンプレートと原稿から、まとまりのある編集可能な提案資料を生成します。"
+        }
+      },
+      {
+        "element_id": "S002-label",
+        "kind": "text",
+        "x": 0.18,
+        "y": 0.61,
+        "w": 0.64,
+        "h": 0.055,
+        "role": "statement_label",
+        "data": {
+          "text": "概要"
+        }
+      }
+    ],
+    "expected_item_count": 1,
+    "asset_requests": []
+  },
+  {
+    "slide_id": "S003",
+    "recipe": "three_column",
+    "source_unit_ids": [
+      "U-01-0003",
+      "U-01-0004",
+      "U-01-0005",
+      "U-01-0006"
+    ],
+    "elements": [
+      {
+        "element_id": "S003-title",
+        "kind": "text",
+        "x": 0.055,
+        "y": 0.065,
+        "w": 0.89,
+        "h": 0.09,
+        "role": "title",
+        "data": {
+          "text": "現状の課題"
+        }
+      },
+      {
+        "element_id": "S003-message",
+        "kind": "text",
+        "x": 0.055,
+        "y": 0.155,
+        "w": 0.89,
+        "h": 0.045,
+        "role": "message",
+        "data": {
+          "text": "テンプレートを使っても、完成スライド上の装飾が失われることがあります。"
+        }
+      },
+      {
+        "element_id": "S003-column-1",
+        "kind": "column_box",
+        "x": 0.055,
+        "y": 0.255,
+        "w": 0.282,
+        "h": 0.57,
+        "role": "support",
+        "data": {
+          "heading": "テンプレートを使っても",
+          "body": "テンプレートを使っても、完成スライド上の装飾が失われることがあります。",
+          "items": [
+            "テンプレートを使っても、完成スライド上の装飾が失われることがあります。"
+          ]
+        }
+      },
+      {
+        "element_id": "S003-column-2",
+        "kind": "column_box",
+        "x": 0.359,
+        "y": 0.255,
+        "w": 0.282,
+        "h": 0.57,
+        "role": "support",
+        "data": {
+          "heading": "1ページの情報量",
+          "body": "1ページの情報量が少なすぎると、意味のない空白や巨大なカードが残ります。",
+          "items": [
+            "1ページの情報量が少なすぎると、意味のない空白や巨大なカードが残ります。"
+          ]
+        }
+      },
+      {
+        "element_id": "S003-column-3",
+        "kind": "column_box",
+        "x": 0.663,
+        "y": 0.255,
+        "w": 0.282,
+        "h": 0.57,
+        "role": "support",
+        "data": {
+          "heading": "グラフやフロー図を画像化すると",
+          "body": "グラフやフロー図を画像化すると、PowerPoint上で数値やラベルを修正できません。",
+          "items": [
+            "グラフやフロー図を画像化すると、PowerPoint上で数値やラベルを修正できません。"
+          ]
+        }
+      }
+    ],
+    "expected_item_count": 3,
+    "asset_requests": []
+  },
+  {
+    "slide_id": "S004",
+    "recipe": "card_grid_2x2",
+    "source_unit_ids": [
+      "U-01-0007",
+      "U-01-0008",
+      "U-01-0009",
+      "U-01-0010",
+      "U-01-0011"
+    ],
+    "elements": [
+      {
+        "element_id": "S004-title",
+        "kind": "text",
+        "x": 0.055,
+        "y": 0.065,
+        "w": 0.89,
+        "h": 0.09,
+        "role": "title",
+        "data": {
+          "text": "提案する仕組み"
+        }
+      },
+      {
+        "element_id": "S004-message",
+        "kind": "text",
+        "x": 0.055,
+        "y": 0.155,
+        "w": 0.89,
+        "h": 0.045,
+        "role": "message",
+        "data": {
+          "text": "テンプレートをTokens、Chrome、Components、Pattern Evidenceへ分解します。"
+        }
+      },
+      {
+        "element_id": "S004-card-1",
+        "kind": "card",
+        "x": 0.055,
+        "y": 0.255,
+        "w": 0.4325,
+        "h": 0.265,
+        "role": "support",
+        "data": {
+          "heading": "テンプレートをTokens",
+          "body": "テンプレートをTokens、Chrome、Components、Pattern Evidenceへ分解します。"
+        }
+      },
+      {
+        "element_id": "S004-card-2",
+        "kind": "card",
+        "x": 0.5125000000000001,
+        "y": 0.255,
+        "w": 0.4325,
+        "h": 0.265,
+        "role": "support",
+        "data": {
+          "heading": "原稿を主張",
+          "body": "原稿を主張、根拠、数値、条件、注意事項へ分類します。"
+        }
+      },
+      {
+        "element_id": "S004-card-3",
+        "kind": "card",
+        "x": 0.055,
+        "y": 0.555,
+        "w": 0.4325,
+        "h": 0.265,
+        "role": "support",
+        "data": {
+          "heading": "Slide Recipeを選択",
+          "body": "内容量に合う具体的なSlide Recipeを選択します。"
+        }
+      },
+      {
+        "element_id": "S004-card-4",
+        "kind": "card",
+        "x": 0.5125000000000001,
+        "y": 0.555,
+        "w": 0.4325,
+        "h": 0.265,
+        "role": "support",
+        "data": {
+          "heading": "画像生成",
+          "body": "画像生成はスロットと役割を決めてから実行します。"
+        }
+      }
+    ],
+    "expected_item_count": 4,
+    "asset_requests": []
+  },
+  {
+    "slide_id": "S005",
+    "recipe": "process",
+    "source_unit_ids": [
+      "U-01-0012",
+      "U-01-0013",
+      "U-01-0014",
+      "U-01-0015",
+      "U-01-0016"
+    ],
+    "elements": [
+      {
+        "element_id": "S005-title",
+        "kind": "text",
+        "x": 0.055,
+        "y": 0.065,
+        "w": 0.89,
+        "h": 0.09,
+        "role": "title",
+        "data": {
+          "text": "生成フロー"
+        }
+      },
+      {
+        "element_id": "S005-message",
+        "kind": "text",
+        "x": 0.055,
+        "y": 0.155,
+        "w": 0.89,
+        "h": 0.045,
+        "role": "message",
+        "data": {
+          "text": "原稿とテンプレートを解析します。"
+        }
+      },
+      {
+        "element_id": "S005-step-1",
+        "kind": "process_step",
+        "x": 0.055,
+        "y": 0.285,
+        "w": 0.20900000000000002,
+        "h": 0.5,
+        "role": "flow",
+        "data": {
+          "number": 1,
+          "heading": "原稿とテンプレートを解析します",
+          "body": "原稿とテンプレートを解析します。"
+        }
+      },
+      {
+        "element_id": "S005-arrow-1",
+        "kind": "process_arrow",
+        "x": 0.264,
+        "y": 0.49,
+        "w": 0.018,
+        "h": 0.08,
+        "role": "connector",
+        "data": {}
+      },
+      {
+        "element_id": "S005-step-2",
+        "kind": "process_step",
+        "x": 0.28200000000000003,
+        "y": 0.285,
+        "w": 0.20900000000000002,
+        "h": 0.5,
+        "role": "flow",
+        "data": {
+          "number": 2,
+          "heading": "全情報単位の採用先をCover…",
+          "body": "全情報単位の採用先をCoverage Mapで決めます。"
+        }
+      },
+      {
+        "element_id": "S005-arrow-2",
+        "kind": "process_arrow",
+        "x": 0.49100000000000005,
+        "y": 0.49,
+        "w": 0.018,
+        "h": 0.08,
+        "role": "connector",
+        "data": {}
+      },
+      {
+        "element_id": "S005-step-3",
+        "kind": "process_step",
+        "x": 0.509,
+        "y": 0.285,
+        "w": 0.20900000000000002,
+        "h": 0.5,
+        "role": "flow",
+        "data": {
+          "number": 3,
+          "heading": "代表3ページを生成し",
+          "body": "代表3ページを生成し、テンプレートらしさと密度を確認します。"
+        }
+      },
+      {
+        "element_id": "S005-arrow-3",
+        "kind": "process_arrow",
+        "x": 0.7180000000000001,
+        "y": 0.49,
+        "w": 0.018,
+        "h": 0.08,
+        "role": "connector",
+        "data": {}
+      },
+      {
+        "element_id": "S005-step-4",
+        "kind": "process_step",
+        "x": 0.7360000000000001,
+        "y": 0.285,
+        "w": 0.20900000000000002,
+        "h": 0.5,
+        "role": "flow",
+        "data": {
+          "number": 4,
+          "heading": "承認後に全ページを生成し",
+          "body": "承認後に全ページを生成し、実レンダリングQAを行います。"
+        }
+      }
+    ],
+    "expected_item_count": 4,
+    "asset_requests": []
+  },
+  {
+    "slide_id": "S006",
+    "recipe": "card_grid_2x2",
+    "source_unit_ids": [
+      "U-01-0017",
+      "U-01-0018",
+      "U-01-0019",
+      "U-01-0020",
+      "U-01-0021"
+    ],
+    "elements": [
+      {
+        "element_id": "S006-title",
+        "kind": "text",
+        "x": 0.055,
+        "y": 0.065,
+        "w": 0.89,
+        "h": 0.09,
+        "role": "title",
+        "data": {
+          "text": "品質条件"
+        }
+      },
+      {
+        "element_id": "S006-message",
+        "kind": "text",
+        "x": 0.055,
+        "y": 0.155,
+        "w": 0.89,
+        "h": 0.045,
+        "role": "message",
+        "data": {
+          "text": "標準ページの意味ある占有率は55〜85%とします。"
+        }
+      },
+      {
+        "element_id": "S006-card-1",
+        "kind": "card",
+        "x": 0.055,
+        "y": 0.255,
+        "w": 0.4325,
+        "h": 0.265,
+        "role": "support",
+        "data": {
+          "heading": "意味ある占有率",
+          "body": "標準ページの意味ある占有率は55〜85%とします。"
+        }
+      },
+      {
+        "element_id": "S006-card-2",
+        "kind": "card",
+        "x": 0.5125000000000001,
+        "y": 0.255,
+        "w": 0.4325,
+        "h": 0.265,
+        "role": "support",
+        "data": {
+          "heading": "連続空白",
+          "body": "説明できない連続空白が35%を超えるページは出力を停止します。"
+        }
+      },
+      {
+        "element_id": "S006-card-3",
+        "kind": "card",
+        "x": 0.055,
+        "y": 0.555,
+        "w": 0.4325,
+        "h": 0.265,
+        "role": "support",
+        "data": {
+          "heading": "本文文字の下限",
+          "body": "本文文字の下限は9.5ptとし、縮小前にページ分割を検討します。"
+        }
+      },
+      {
+        "element_id": "S006-card-4",
+        "kind": "card",
+        "x": 0.5125000000000001,
+        "y": 0.555,
+        "w": 0.4325,
+        "h": 0.265,
+        "role": "support",
+        "data": {
+          "heading": "未解決画像",
+          "body": "未解決画像がある状態を完成として扱うことは禁止します。"
+        }
+      }
+    ],
+    "expected_item_count": 4,
+    "asset_requests": []
+  },
+  {
+    "slide_id": "S007",
+    "recipe": "table",
+    "source_unit_ids": [
+      "U-01-0022",
+      "U-01-0023"
+    ],
+    "elements": [
+      {
+        "element_id": "S007-title",
+        "kind": "text",
+        "x": 0.055,
+        "y": 0.065,
+        "w": 0.89,
+        "h": 0.09,
+        "role": "title",
+        "data": {
+          "text": "対応する入力形式"
+        }
+      },
+      {
+        "element_id": "S007-message",
+        "kind": "text",
+        "x": 0.055,
+        "y": 0.155,
+        "w": 0.89,
+        "h": 0.045,
+        "role": "message",
+        "data": {
+          "text": ""
+        }
+      },
+      {
+        "element_id": "S007-table",
+        "kind": "table",
+        "x": 0.055,
+        "y": 0.205,
+        "w": 0.89,
+        "h": 0.68,
+        "role": "data",
+        "data": {
+          "columns": [
+            "種別",
+            "MVP対応",
+            "用途"
+          ],
+          "rows": [
+            [
+              "Markdown / TXT",
+              "対応",
+              "構造化された原稿"
+            ],
+            [
+              "DOCX",
+              "対応",
+              "社内文書・提案書原稿"
+            ],
+            [
+              "PDF",
+              "対応",
+              "テキスト抽出可能な参考資料"
+            ],
+            [
+              "PPTX",
+              "対応",
+              "既存資料の再構成"
+            ]
+          ]
+        }
+      }
+    ],
+    "expected_item_count": 4,
+    "asset_requests": []
+  },
+  {
+    "slide_id": "S008",
+    "recipe": "closing_cta",
+    "source_unit_ids": [
+      "U-01-0024",
+      "U-01-0025",
+      "U-01-0026"
+    ],
+    "elements": [
+      {
+        "element_id": "S008-panel",
+        "kind": "closing_panel",
+        "x": 0.09,
+        "y": 0.22,
+        "w": 0.82,
+        "h": 0.56,
+        "role": "visual",
+        "data": {}
+      },
+      {
+        "element_id": "S008-title",
+        "kind": "text",
+        "x": 0.16,
+        "y": 0.31,
+        "w": 0.68,
+        "h": 0.13,
+        "role": "closing_title",
+        "data": {
+          "text": "次のステップ"
+        }
+      },
+      {
+        "element_id": "S008-body",
+        "kind": "text",
+        "x": 0.19,
+        "y": 0.46,
+        "w": 0.62,
+        "h": 0.08,
+        "role": "closing_body",
+        "data": {
+          "text": "実案件の原稿とテンプレートで代表3ページを確認します。"
+        }
+      },
+      {
+        "element_id": "S008-actions",
+        "kind": "action_list",
+        "x": 0.22,
+        "y": 0.57,
+        "w": 0.56,
+        "h": 0.11,
+        "role": "support",
+        "data": {
+          "items": [
+            "承認されたレシピとテンプレート解釈だけを全ページへ展開します。"
+          ]
+        }
+      }
+    ],
+    "expected_item_count": 1,
+    "asset_requests": []
+  }
+]

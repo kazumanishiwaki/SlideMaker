@@ -1,0 +1,258 @@
+{
+  "schema_version": "0.11-mvp.2",
+  "all_unit_ids": [
+    "U-01-0001",
+    "U-01-0002",
+    "U-01-0003",
+    "U-01-0004",
+    "U-01-0005",
+    "U-01-0006",
+    "U-01-0007",
+    "U-01-0008",
+    "U-01-0009",
+    "U-01-0010",
+    "U-01-0011",
+    "U-01-0012",
+    "U-01-0013",
+    "U-01-0014",
+    "U-01-0015",
+    "U-01-0016",
+    "U-01-0017",
+    "U-01-0018",
+    "U-01-0019",
+    "U-01-0020",
+    "U-01-0021",
+    "U-01-0022",
+    "U-01-0023",
+    "U-01-0024",
+    "U-01-0025",
+    "U-01-0026"
+  ],
+  "required_unit_ids": [
+    "U-01-0005",
+    "U-01-0009",
+    "U-01-0015",
+    "U-01-0017",
+    "U-01-0018",
+    "U-01-0019",
+    "U-01-0020",
+    "U-01-0021",
+    "U-01-0025"
+  ],
+  "covered_unit_ids": [
+    "U-01-0001",
+    "U-01-0002",
+    "U-01-0003",
+    "U-01-0004",
+    "U-01-0005",
+    "U-01-0006",
+    "U-01-0007",
+    "U-01-0008",
+    "U-01-0009",
+    "U-01-0010",
+    "U-01-0011",
+    "U-01-0012",
+    "U-01-0013",
+    "U-01-0014",
+    "U-01-0015",
+    "U-01-0016",
+    "U-01-0017",
+    "U-01-0018",
+    "U-01-0019",
+    "U-01-0020",
+    "U-01-0021",
+    "U-01-0022",
+    "U-01-0023",
+    "U-01-0024",
+    "U-01-0025",
+    "U-01-0026"
+  ],
+  "missing_unit_ids": [],
+  "missing_required_unit_ids": [],
+  "all_unit_coverage": 1.0,
+  "required_unit_coverage": 1.0,
+  "dispositions": [
+    {
+      "unit_id": "U-01-0001",
+      "disposition": "adopted",
+      "slide_ids": [
+        "S001"
+      ]
+    },
+    {
+      "unit_id": "U-01-0002",
+      "disposition": "adopted",
+      "slide_ids": [
+        "S002"
+      ]
+    },
+    {
+      "unit_id": "U-01-0003",
+      "disposition": "adopted",
+      "slide_ids": [
+        "S003"
+      ]
+    },
+    {
+      "unit_id": "U-01-0004",
+      "disposition": "adopted",
+      "slide_ids": [
+        "S003"
+      ]
+    },
+    {
+      "unit_id": "U-01-0005",
+      "disposition": "adopted",
+      "slide_ids": [
+        "S003"
+      ]
+    },
+    {
+      "unit_id": "U-01-0006",
+      "disposition": "adopted",
+      "slide_ids": [
+        "S003"
+      ]
+    },
+    {
+      "unit_id": "U-01-0007",
+      "disposition": "adopted",
+      "slide_ids": [
+        "S004"
+      ]
+    },
+    {
+      "unit_id": "U-01-0008",
+      "disposition": "adopted",
+      "slide_ids": [
+        "S004"
+      ]
+    },
+    {
+      "unit_id": "U-01-0009",
+      "disposition": "adopted",
+      "slide_ids": [
+        "S004"
+      ]
+    },
+    {
+      "unit_id": "U-01-0010",
+      "disposition": "adopted",
+      "slide_ids": [
+        "S004"
+      ]
+    },
+    {
+      "unit_id": "U-01-0011",
+      "disposition": "adopted",
+      "slide_ids": [
+        "S004"
+      ]
+    },
+    {
+      "unit_id": "U-01-0012",
+      "disposition": "adopted",
+      "slide_ids": [
+        "S005"
+      ]
+    },
+    {
+      "unit_id": "U-01-0013",
+      "disposition": "adopted",
+      "slide_ids": [
+        "S005"
+      ]
+    },
+    {
+      "unit_id": "U-01-0014",
+      "disposition": "adopted",
+      "slide_ids": [
+        "S005"
+      ]
+    },
+    {
+      "unit_id": "U-01-0015",
+      "disposition": "adopted",
+      "slide_ids": [
+        "S005"
+      ]
+    },
+    {
+      "unit_id": "U-01-0016",
+      "disposition": "adopted",
+      "slide_ids": [
+        "S005"
+      ]
+    },
+    {
+      "unit_id": "U-01-0017",
+      "disposition": "adopted",
+      "slide_ids": [
+        "S006"
+      ]
+    },
+    {
+      "unit_id": "U-01-0018",
+      "disposition": "adopted",
+      "slide_ids": [
+        "S006"
+      ]
+    },
+    {
+      "unit_id": "U-01-0019",
+      "disposition": "adopted",
+      "slide_ids": [
+        "S006"
+      ]
+    },
+    {
+      "unit_id": "U-01-0020",
+      "disposition": "adopted",
+      "slide_ids": [
+        "S006"
+      ]
+    },
+    {
+      "unit_id": "U-01-0021",
+      "disposition": "adopted",
+      "slide_ids": [
+        "S006"
+      ]
+    },
+    {
+      "unit_id": "U-01-0022",
+      "disposition": "adopted",
+      "slide_ids": [
+        "S007"
+      ]
+    },
+    {
+      "unit_id": "U-01-0023",
+      "disposition": "adopted",
+      "slide_ids": [
+        "S007"
+      ]
+    },
+    {
+      "unit_id": "U-01-0024",
+      "disposition": "adopted",
+      "slide_ids": [
+        "S008"
+      ]
+    },
+    {
+      "unit_id": "U-01-0025",
+      "disposition": "adopted",
+      "slide_ids": [
+        "S008"
+      ]
+    },
+    {
+      "unit_id": "U-01-0026",
+      "disposition": "adopted",
+      "slide_ids": [
+        "S008"
+      ]
+    }
+  ]
+}

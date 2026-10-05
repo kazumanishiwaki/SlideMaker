@@ -1,0 +1,226 @@
+{
+  "title": "SlideHarness Next",
+  "slides": [
+    {
+      "slide_id": "S001",
+      "title": "SlideHarness Next",
+      "message": "",
+      "recipe": "cover",
+      "source_unit_ids": [
+        "U-01-0001"
+      ],
+      "content": {
+        "subtitle": "",
+        "meta": ""
+      }
+    },
+    {
+      "slide_id": "S002",
+      "title": "概要",
+      "message": "任意のPowerPointテンプレートと原稿から、まとまりのある編集可能な提案資料を生成します。",
+      "recipe": "statement",
+      "source_unit_ids": [
+        "U-01-0002"
+      ],
+      "content": {
+        "statement": "任意のPowerPointテンプレートと原稿から、まとまりのある編集可能な提案資料を生成します。"
+      }
+    },
+    {
+      "slide_id": "S003",
+      "title": "現状の課題",
+      "message": "テンプレートを使っても、完成スライド上の装飾が失われることがあります。",
+      "recipe": "three_column",
+      "source_unit_ids": [
+        "U-01-0003",
+        "U-01-0004",
+        "U-01-0005",
+        "U-01-0006"
+      ],
+      "content": {
+        "columns": [
+          {
+            "heading": "テンプレートを使っても",
+            "body": "テンプレートを使っても、完成スライド上の装飾が失われることがあります。",
+            "items": [
+              "テンプレートを使っても、完成スライド上の装飾が失われることがあります。"
+            ]
+          },
+          {
+            "heading": "1ページの情報量",
+            "body": "1ページの情報量が少なすぎると、意味のない空白や巨大なカードが残ります。",
+            "items": [
+              "1ページの情報量が少なすぎると、意味のない空白や巨大なカードが残ります。"
+            ]
+          },
+          {
+            "heading": "グラフやフロー図を画像化すると",
+            "body": "グラフやフロー図を画像化すると、PowerPoint上で数値やラベルを修正できません。",
+            "items": [
+              "グラフやフロー図を画像化すると、PowerPoint上で数値やラベルを修正できません。"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "slide_id": "S004",
+      "title": "提案する仕組み",
+      "message": "テンプレートをTokens、Chrome、Components、Pattern Evidenceへ分解します。",
+      "recipe": "card_grid_2x2",
+      "source_unit_ids": [
+        "U-01-0007",
+        "U-01-0008",
+        "U-01-0009",
+        "U-01-0010",
+        "U-01-0011"
+      ],
+      "content": {
+        "cards": [
+          {
+            "heading": "テンプレートをTokens",
+            "body": "テンプレートをTokens、Chrome、Components、Pattern Evidenceへ分解します。"
+          },
+          {
+            "heading": "原稿を主張",
+            "body": "原稿を主張、根拠、数値、条件、注意事項へ分類します。"
+          },
+          {
+            "heading": "Slide Recipeを選択",
+            "body": "内容量に合う具体的なSlide Recipeを選択します。"
+          },
+          {
+            "heading": "画像生成",
+            "body": "画像生成はスロットと役割を決めてから実行します。"
+          }
+        ]
+      }
+    },
+    {
+      "slide_id": "S005",
+      "title": "生成フロー",
+      "message": "原稿とテンプレートを解析します。",
+      "recipe": "process",
+      "source_unit_ids": [
+        "U-01-0012",
+        "U-01-0013",
+        "U-01-0014",
+        "U-01-0015",
+        "U-01-0016"
+      ],
+      "content": {
+        "steps": [
+          {
+            "heading": "原稿とテンプレートを解析します",
+            "body": "原稿とテンプレートを解析します。"
+          },
+          {
+            "heading": "全情報単位の採用先をCover…",
+            "body": "全情報単位の採用先をCoverage Mapで決めます。"
+          },
+          {
+            "heading": "代表3ページを生成し",
+            "body": "代表3ページを生成し、テンプレートらしさと密度を確認します。"
+          },
+          {
+            "heading": "承認後に全ページを生成し",
+            "body": "承認後に全ページを生成し、実レンダリングQAを行います。"
+          }
+        ]
+      }
+    },
+    {
+      "slide_id": "S006",
+      "title": "品質条件",
+      "message": "標準ページの意味ある占有率は55〜85%とします。",
+      "recipe": "card_grid_2x2",
+      "source_unit_ids": [
+        "U-01-0017",
+        "U-01-0018",
+        "U-01-0019",
+        "U-01-0020",
+        "U-01-0021"
+      ],
+      "content": {
+        "cards": [
+          {
+            "heading": "意味ある占有率",
+            "body": "標準ページの意味ある占有率は55〜85%とします。"
+          },
+          {
+            "heading": "連続空白",
+            "body": "説明できない連続空白が35%を超えるページは出力を停止します。"
+          },
+          {
+            "heading": "本文文字の下限",
+            "body": "本文文字の下限は9.5ptとし、縮小前にページ分割を検討します。"
+          },
+          {
+            "heading": "未解決画像",
+            "body": "未解決画像がある状態を完成として扱うことは禁止します。"
+          }
+        ]
+      }
+    },
+    {
+      "slide_id": "S007",
+      "title": "対応する入力形式",
+      "message": "",
+      "recipe": "table",
+      "source_unit_ids": [
+        "U-01-0022",
+        "U-01-0023"
+      ],
+      "content": {
+        "columns": [
+          "種別",
+          "MVP対応",
+          "用途"
+        ],
+        "rows": [
+          [
+            "Markdown / TXT",
+            "対応",
+            "構造化された原稿"
+          ],
+          [
+            "DOCX",
+            "対応",
+            "社内文書・提案書原稿"
+          ],
+          [
+            "PDF",
+            "対応",
+            "テキスト抽出可能な参考資料"
+          ],
+          [
+            "PPTX",
+            "対応",
+            "既存資料の再構成"
+          ]
+        ]
+      }
+    },
+    {
+      "slide_id": "S008",
+      "title": "次のステップ",
+      "message": "実案件の原稿とテンプレートで代表3ページを確認します。",
+      "recipe": "closing_cta",
+      "source_unit_ids": [
+        "U-01-0024",
+        "U-01-0025",
+        "U-01-0026"
+      ],
+      "content": {
+        "body": "実案件の原稿とテンプレートで代表3ページを確認します。",
+        "actions": [
+          "承認されたレシピとテンプレート解釈だけを全ページへ展開します。"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "planner": "deterministic_fallback",
+    "source_count": 1
+  }
+}

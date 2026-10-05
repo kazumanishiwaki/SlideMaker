@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.1",
+  "generated_at": "2026-08-17T03:46:24.671689+00:00",
+  "status": "pass",
+  "blocking_count": 0,
+  "warning_count": 0,
+  "checks": [
+    {
+      "check_id": "DECK_IMAGE_SHARED_SERIES_STYLE",
+      "result": "pass",
+      "severity": "info",
+      "pairs": [
+        {
+          "slide_ids": [
+            "OUT-S001",
+            "OUT-S001"
+          ],
+          "recipe_ids": [
+            "IMG-OUT-S001-01",
+            "IMG-OUT-S001-02"
+          ],
+          "asset_ids": [
+            "GAST-IMG-OUT-S001-01-V001",
+            "GAST-IMG-OUT-S001-02-V001"
+          ],
+          "hash_distance": 2
+        }
+      ],
+      "reason": "Images on the same slide share a coherent composition without being exact duplicates."
+    },
+    {
+      "check_id": "DECK_IMAGE_COHERENCE",
+      "result": "pass",
+      "severity": "info",
+      "image_count": 4,
+      "score": 0.8479,
+      "metric_ranges": {
+        "brightness": 0.0422,
+        "saturation": 0.091,
+        "contrast": 0.1618,
+        "edge_density": 0.0079,
+        "warmth": 0.1484
+      }
+    }
+  ],
+  "notes": [
+    "Deck image coherence is diagnostic; it never regenerates the deck automatically."
+  ]
+}

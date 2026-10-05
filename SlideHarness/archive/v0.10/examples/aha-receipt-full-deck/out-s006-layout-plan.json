@@ -1,0 +1,398 @@
+{
+  "schema_version": "0.3",
+  "generated_at": "2026-08-17T21:38:11.819859+00:00",
+  "slide_id": "OUT-S006",
+  "source_slide_id": "SRC-S014",
+  "family": "process",
+  "renderer_group": "flow",
+  "semantic_relation": "sequence",
+  "semantic_layout_issues": [],
+  "density": "medium_low",
+  "fill_policy": {
+    "mode": "content_filled",
+    "source": "slide_plan",
+    "reason": [],
+    "preserve_empty_zones": false,
+    "role": "sequence",
+    "forbid_filler_content": true
+  },
+  "planned_only": false,
+  "content_canvas": {
+    "x": 1.2,
+    "y": 2.2217,
+    "w": 24.2667,
+    "h": 12.1033
+  },
+  "removed_source_object_ids": [
+    "SRC-S014-O004",
+    "SRC-S014-O005",
+    "SRC-S014-O006",
+    "SRC-S014-O007",
+    "SRC-S014-O008",
+    "SRC-S014-O009",
+    "SRC-S014-O011",
+    "SRC-S014-O012",
+    "SRC-S014-O013",
+    "SRC-S014-O014",
+    "SRC-S014-O015",
+    "SRC-S014-O017",
+    "SRC-S014-O019",
+    "SRC-S014-O020",
+    "SRC-S014-O021",
+    "SRC-S014-O022",
+    "SRC-S014-O023",
+    "SRC-S014-O025",
+    "SRC-S014-O027",
+    "SRC-S014-O028",
+    "SRC-S014-O029",
+    "SRC-S014-O030",
+    "SRC-S014-O031",
+    "SRC-S014-O033",
+    "SRC-S014-O035",
+    "SRC-S014-O036",
+    "SRC-S014-O037",
+    "SRC-S014-O038",
+    "SRC-S014-O039",
+    "SRC-S014-O040"
+  ],
+  "allowed_regions": [
+    {
+      "x": 1.2,
+      "y": 2.2217,
+      "w": 24.2667,
+      "h": 8.8419
+    }
+  ],
+  "generated_objects": [
+    {
+      "role": "title",
+      "output_shape_id": 42,
+      "bbox": {
+        "x": 1.2,
+        "y": 2.2217,
+        "w": 24.2667,
+        "h": 1.0288
+      },
+      "render_text": "公開・受付・確認・抽選を、一つの管理画面で"
+    },
+    {
+      "role": "subtitle",
+      "output_shape_id": 43,
+      "bbox": {
+        "x": 1.2,
+        "y": 3.3935,
+        "w": 24.2667,
+        "h": 0.5446
+      },
+      "render_text": "準備から終了後まで、同じ流れの中で進められます。"
+    },
+    {
+      "role": "number",
+      "item_index": 0,
+      "output_shape_id": 45,
+      "bbox": {
+        "x": 1.44,
+        "y": 7.6345,
+        "w": 0.4036,
+        "h": 0.4036
+      },
+      "render_text": "01"
+    },
+    {
+      "role": "item_title",
+      "item_index": 0,
+      "output_shape_id": 46,
+      "bbox": {
+        "x": 1.44,
+        "y": 8.1821,
+        "w": 5.3917,
+        "h": 0.5871
+      },
+      "render_text": "公開する"
+    },
+    {
+      "role": "item_body",
+      "item_index": 0,
+      "output_shape_id": 47,
+      "bbox": {
+        "x": 1.44,
+        "y": 8.8772,
+        "w": 5.3917,
+        "h": 1.9464
+      },
+      "render_text": "LP・期間・規約を設定"
+    },
+    {
+      "role": "number",
+      "item_index": 1,
+      "output_shape_id": 50,
+      "bbox": {
+        "x": 7.5717,
+        "y": 7.6345,
+        "w": 0.4036,
+        "h": 0.4036
+      },
+      "render_text": "02"
+    },
+    {
+      "role": "item_title",
+      "item_index": 1,
+      "output_shape_id": 51,
+      "bbox": {
+        "x": 7.5717,
+        "y": 8.1821,
+        "w": 5.3917,
+        "h": 0.5871
+      },
+      "render_text": "受け付ける"
+    },
+    {
+      "role": "item_body",
+      "item_index": 1,
+      "output_shape_id": 52,
+      "bbox": {
+        "x": 7.5717,
+        "y": 8.8772,
+        "w": 5.3917,
+        "h": 1.9464
+      },
+      "render_text": "フォームと画像を受付"
+    },
+    {
+      "role": "number",
+      "item_index": 2,
+      "output_shape_id": 55,
+      "bbox": {
+        "x": 13.7033,
+        "y": 7.6345,
+        "w": 0.4036,
+        "h": 0.4036
+      },
+      "render_text": "03"
+    },
+    {
+      "role": "item_title",
+      "item_index": 2,
+      "output_shape_id": 56,
+      "bbox": {
+        "x": 13.7033,
+        "y": 8.1821,
+        "w": 5.3917,
+        "h": 0.5871
+      },
+      "render_text": "確認する"
+    },
+    {
+      "role": "item_body",
+      "item_index": 2,
+      "output_shape_id": 57,
+      "bbox": {
+        "x": 13.7033,
+        "y": 8.8772,
+        "w": 5.3917,
+        "h": 1.9464
+      },
+      "render_text": "応募状況と重複を確認"
+    },
+    {
+      "role": "number",
+      "item_index": 3,
+      "output_shape_id": 60,
+      "bbox": {
+        "x": 19.835,
+        "y": 7.6345,
+        "w": 0.4036,
+        "h": 0.4036
+      },
+      "render_text": "04"
+    },
+    {
+      "role": "item_title",
+      "item_index": 3,
+      "output_shape_id": 61,
+      "bbox": {
+        "x": 19.835,
+        "y": 8.1821,
+        "w": 5.3917,
+        "h": 0.5871
+      },
+      "render_text": "抽選する"
+    },
+    {
+      "role": "item_body",
+      "item_index": 3,
+      "output_shape_id": 62,
+      "bbox": {
+        "x": 19.835,
+        "y": 8.8772,
+        "w": 5.3917,
+        "h": 1.9464
+      },
+      "render_text": "CSV出力と簡易抽選"
+    },
+    {
+      "role": "process_connector",
+      "output_shape_id": 64,
+      "bbox": {
+        "x": 7.1217,
+        "y": 9.2291,
+        "w": 0.16,
+        "h": 0.0
+      }
+    },
+    {
+      "role": "process_connector",
+      "output_shape_id": 65,
+      "bbox": {
+        "x": 13.2534,
+        "y": 9.2291,
+        "w": 0.16,
+        "h": 0.0
+      }
+    },
+    {
+      "role": "process_connector",
+      "output_shape_id": 66,
+      "bbox": {
+        "x": 19.385,
+        "y": 9.2291,
+        "w": 0.16,
+        "h": 0.0
+      }
+    }
+  ],
+  "image_slots": [],
+  "image_lineage": null,
+  "layout_intent": {
+    "family": "process",
+    "fill_policy": "content_filled",
+    "resolved_text_side": null,
+    "image_position": null,
+    "overlay_position": null
+  },
+  "quality": {
+    "check": "LAYOUT_FIT_TO_INTENT",
+    "status": "pass",
+    "assessment": "適正",
+    "score": 0.835,
+    "fill_policy": {
+      "mode": "content_filled",
+      "source": "slide_plan",
+      "reason": [],
+      "preserve_empty_zones": false,
+      "role": "sequence",
+      "forbid_filler_content": true
+    },
+    "intentional_whitespace": false,
+    "preserve_source_whitespace": false,
+    "accidental_dead_space": false,
+    "content_extent_width_ratio": 1.0,
+    "content_extent_height_ratio": 0.731,
+    "occupied_area_ratio": 0.423,
+    "left_void_ratio": 0.0,
+    "right_void_ratio": 0.0,
+    "top_void_ratio": 0.0,
+    "bottom_void_ratio": 0.269,
+    "center_offset_x_ratio": 0.0,
+    "center_offset_y_ratio": 0.135,
+    "expected_item_count": 4,
+    "rendered_item_count": 4,
+    "expected_image_count": 0,
+    "rendered_image_count": 0,
+    "image_area_ratio": 0.0,
+    "thresholds": {
+      "w": 0.88,
+      "h": 0.62,
+      "area": 0.389,
+      "max_edge_void": 0.3,
+      "max_center_x": 0.38,
+      "max_center_y": 0.38
+    },
+    "content_bbox": {
+      "x": 1.2,
+      "y": 2.2217,
+      "w": 24.2667,
+      "h": 8.8419
+    },
+    "reason_codes": [
+      "FIT_TO_INTENT"
+    ]
+  },
+  "geometry": {
+    "title_box": {
+      "x": 1.2,
+      "y": 2.2217,
+      "w": 24.2667,
+      "h": 1.0288
+    },
+    "subtitle_box": {
+      "x": 1.2,
+      "y": 3.3935,
+      "w": 24.2667,
+      "h": 0.5446
+    },
+    "body_box": null,
+    "body": {
+      "x": 1.2,
+      "y": 4.1331,
+      "w": 24.2667,
+      "h": 10.1919
+    },
+    "text_box": null,
+    "image_box": null,
+    "overlay_box": null,
+    "matrix_box": null,
+    "relationship_box": null,
+    "timeline_box": null,
+    "timeline_line_box": null,
+    "kpi_box": null,
+    "chart_box": null,
+    "note_box": null,
+    "kicker_box": null,
+    "item_boxes": [
+      {
+        "x": 1.2,
+        "y": 7.3945,
+        "w": 5.8717,
+        "h": 3.6691
+      },
+      {
+        "x": 7.3317,
+        "y": 7.3945,
+        "w": 5.8717,
+        "h": 3.6691
+      },
+      {
+        "x": 13.4633,
+        "y": 7.3945,
+        "w": 5.8717,
+        "h": 3.6691
+      },
+      {
+        "x": 19.595,
+        "y": 7.3945,
+        "w": 5.8717,
+        "h": 3.6691
+      }
+    ],
+    "node_boxes": {},
+    "columns": 4,
+    "rows": 1,
+    "divider_x": null,
+    "image_position": null,
+    "resolved_text_side": null,
+    "overlay_position": null,
+    "hub_id": null,
+    "card_mode": null,
+    "orientation": null,
+    "timeline_markers": [],
+    "note_text": null,
+    "kicker_text": null
+  },
+  "notes": [
+    "Layout geometry is deterministic. The model selects family, hierarchy, and priorities; coordinates are engine-generated.",
+    "Photo-aware families plan image slots before image selection so crop, resolution, and negative-space QA use the actual target geometry.",
+    "Existing picture relationships and source frames are reused when available; template chrome remains outside the mutation mask.",
+    "LAYOUT_FIT_TO_INTENT distinguishes deliberate whitespace from accidental dead space. Filler content is never added merely to raise occupancy."
+  ]
+}
